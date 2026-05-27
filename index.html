@@ -1124,16 +1124,147 @@
       text-decoration: none; box-shadow: 0 4px 16px var(--cyan-glow);
     }
 
-    /* ── HERO MOBILE TEXT IMPROVEMENTS ── */
-    @media (max-width: 639px) {
-      .hero h1 { font-size: clamp(44px, 12vw, 64px); }
-      .hero-badge { font-size: 13px; padding: 6px 18px; }
-      .zf-tag { color: #fff; border-color: rgba(8,145,178,.55); font-size: 13px; }
-      .hero-stat-n { font-size: 26px; }
-      .hero-stat-l { color: rgba(255,255,255,.85); font-size: 12px; }
-      .hero-stats { gap: 20px; }
-      .cta-nudge { font-size: 14px; }
-      .hero h1 em { -webkit-text-fill-color: var(--cyan-ultra); }
+    /* ══ HERO v2 — Voluum-style: white bg, 2-col ══ */
+    .hero {
+      background: #fff;
+      border-bottom: 1px solid #e2e8f0;
+      min-height: auto;
+      overflow: visible;
+      display: block;
+    }
+    .hero::after { display: none; }
+    .hero-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 72px 40px 80px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 56px;
+      align-items: center;
+    }
+    .hero-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: #fff0f3; color: #e11d48;
+      border: 1px solid #fecdd3;
+      border-radius: 20px; padding: 5px 14px;
+      font-size: 12px; font-weight: 700; letter-spacing: .05em;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(36px, 5vw, 62px);
+      font-weight: 900; line-height: 1.05;
+      color: #0f172a; text-transform: uppercase;
+      letter-spacing: -.01em; margin-bottom: 16px;
+    }
+    .hero h1 em {
+      font-style: normal;
+      color: var(--cyan);
+      background: none;
+      -webkit-text-fill-color: var(--cyan);
+    }
+    .hero-desc {
+      font-size: 16px; color: #475569; line-height: 1.75;
+      margin-bottom: 28px; max-width: 440px;
+    }
+    .hero-desc strong { color: #0f172a; font-weight: 700; }
+    .hero-btns {
+      display: flex; align-items: center; gap: 14px;
+      flex-wrap: wrap; margin-bottom: 32px;
+    }
+    .btn-hero-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--cyan); color: #fff;
+      font-size: 16px; font-weight: 800;
+      padding: 16px 28px; border-radius: 10px;
+      text-decoration: none; cursor: pointer;
+      border: none; font-family: inherit;
+      box-shadow: 0 4px 16px rgba(8,145,178,.35);
+      transition: transform .15s, box-shadow .15s, background .15s;
+      white-space: nowrap;
+    }
+    .btn-hero-primary:hover { background: var(--cyan-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(8,145,178,.45); }
+    .btn-hero-ghost {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent; color: #475569;
+      font-size: 15px; font-weight: 700;
+      padding: 15px 22px; border-radius: 10px;
+      text-decoration: none; cursor: pointer;
+      border: 1.5px solid #cbd5e1; font-family: inherit;
+      transition: border-color .15s, color .15s;
+      white-space: nowrap;
+    }
+    .btn-hero-ghost:hover { border-color: var(--cyan); color: var(--cyan); }
+    .hero-mini-stats {
+      display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+    }
+    .hero-mini-stat strong {
+      display: block; font-size: 22px; font-weight: 900;
+      color: #0f172a; font-family: 'Barlow Condensed', sans-serif; line-height: 1.1;
+    }
+    .hero-mini-stat span { font-size: 11px; color: #64748b; }
+    .hero-mini-divider { width: 1px; height: 32px; background: #e2e8f0; flex-shrink: 0; }
+
+    /* Mockup right panel */
+    .hero-mockup {
+      position: relative; height: 420px; width: 100%; max-width: 460px;
+    }
+    .hm-main-card {
+      position: absolute; top: 16px; right: 0;
+      width: 265px;
+      background: #fff; border: 1px solid #e2e8f0;
+      border-radius: 20px; padding: 22px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.10), 0 4px 16px rgba(0,0,0,.06);
+      z-index: 2;
+    }
+    .hm-eyebrow {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 9.5px; font-weight: 700; letter-spacing: .1em;
+      text-transform: uppercase; color: #94a3b8; margin-bottom: 8px;
+    }
+    .hm-eyebrow::before { content: ''; display: inline-block; width: 6px; height: 6px; background: #22c55e; border-radius: 50%; flex-shrink: 0; }
+    .hm-score-row { display: flex; align-items: baseline; gap: 5px; margin-bottom: 2px; }
+    .hm-score-big { font-family: 'Barlow Condensed', sans-serif; font-size: 48px; font-weight: 900; color: #0f172a; line-height: 1; }
+    .hm-score-max { font-size: 14px; color: #94a3b8; font-weight: 600; align-self: flex-end; padding-bottom: 5px; }
+    .hm-stars { color: #f59e0b; font-size: 13px; letter-spacing: 2px; margin-bottom: 14px; }
+    .hm-bar-item { margin-bottom: 9px; }
+    .hm-bar-label { display: flex; justify-content: space-between; font-size: 10.5px; font-weight: 600; color: #475569; margin-bottom: 4px; }
+    .hm-bar-track { height: 4px; background: #f1f5f9; border-radius: 2px; overflow: hidden; }
+    .hm-bar-fill { height: 100%; background: linear-gradient(90deg, var(--cyan) 0%, var(--cyan-light) 100%); border-radius: 2px; }
+    .hm-divider { border: none; border-top: 1px solid #f1f5f9; margin: 12px 0; }
+    .hm-chips { display: flex; gap: 5px; flex-wrap: wrap; }
+    .hm-chip { display: inline-flex; align-items: center; gap: 3px; background: #f0f9ff; color: var(--cyan-dark); border: 1px solid #bae6fd; border-radius: 6px; padding: 3px 8px; font-size: 10px; font-weight: 700; }
+
+    /* Floating cards */
+    .hm-float {
+      position: absolute; background: #fff;
+      border: 1px solid #e2e8f0; border-radius: 12px;
+      padding: 10px 14px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.09); z-index: 3;
+    }
+    .hm-float-1 { top: 0; left: 0; }
+    .hm-float-2 { bottom: 80px; left: 10px; }
+    .hm-float-3 { bottom: 0; right: 0; }
+    .hm-float-eyebrow { display: block; font-size: 9px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #94a3b8; margin-bottom: 3px; }
+    .hm-float-val { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 900; color: #0f172a; line-height: 1.15; }
+    .hm-float-sub { display: block; font-size: 9.5px; color: #64748b; margin-top: 2px; }
+    .hm-live-dot { display: inline-block; width: 6px; height: 6px; background: #22c55e; border-radius: 50%; margin-right: 3px; vertical-align: middle; animation: livePulse 1.4s ease-in-out infinite; }
+
+    @media (max-width: 860px) {
+      .hero-inner { grid-template-columns: 1fr; padding: 48px 24px 56px; gap: 40px; text-align: center; }
+      .hero-desc { max-width: 100%; }
+      .hero-btns { justify-content: center; }
+      .hero-mini-stats { justify-content: center; }
+      .hero-right { display: flex; justify-content: center; }
+      .hero-mockup { height: 300px; max-width: 360px; }
+      .hm-main-card { width: 215px; padding: 16px; }
+      .hm-score-big { font-size: 38px; }
+    }
+    @media (max-width: 480px) {
+      .hero-inner { padding: 36px 20px 44px; }
+      .hero-mockup { height: 260px; max-width: 320px; }
+      .hm-main-card { width: 190px; }
+      .hm-float-2 { display: none; }
     }
   </style>
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -1188,61 +1319,104 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- ═══ HERO ═══ -->
 <section id="hero" class="hero" aria-label="新會員好禮英雄區">
+  <div class="hero-inner">
 
-  <div class="hero-content">
+    <!-- Left: Text Column -->
+    <div class="hero-left">
+      <div class="hero-pill">🔥 新會員限時專屬好禮</div>
 
-    <div class="hero-badge">⚡ 港澳首選 · 新會員限額開放</div>
+      <h1>BDUK 全港澳<br>娛樂平台<em>評測指南</em></h1>
 
-    <h1>
-      BDUK · 盡享頂級娛樂<br>
-      <em>新會員專屬好禮</em>
-      <span id="bonus-display" class="bonus-line"></span>
-    </h1>
+      <p class="hero-desc">正規評測 · 客觀分析 · 即時更新 — 協助港澳用戶<strong>揀啱最著數、最安心</strong>嘅娛樂平台，獨家領取新會員好禮</p>
 
-    <div class="zf-row">
-      <span class="zf-tag"><span class="ck">✓</span> 免費登記</span>
-      <span class="zf-tag"><span class="ck">✓</span> 唔需要下載</span>
-      <span class="zf-tag"><span class="ck">✓</span> 好禮即時生效</span>
-      <span class="zf-tag"><span class="ck">✓</span> 港澳正規平台</span>
-    </div>
-
-    <div class="hero-stats-cd-row">
-      <div class="hero-stats">
-        <div class="hero-stat">
-          <span class="hero-stat-n">200萬+</span>
-          <span class="hero-stat-l">會員信任</span>
-        </div>
-        <div class="hero-stat">
-          <span class="hero-stat-n">4.9★</span>
-          <span class="hero-stat-l">好評如潮</span>
-        </div>
-        <div class="hero-stat">
-          <span class="hero-stat-n">24/7</span>
-          <span class="hero-stat-l">客戶服務</span>
-        </div>
+      <div class="hero-btns">
+        <a href="#" class="btn-hero-primary" id="cta-hero" onclick="handleCTA(event,'hero')">🎁 立即領取新會員好禮</a>
+        <a href="#features" class="btn-hero-ghost">📋 查看評測標準</a>
       </div>
-      <div class="countdown-wrap">
-        <span class="cd-label">⏰ 今日好禮截止倒計時</span>
-        <div class="cd-row">
-          <div class="cd-unit"><span id="cd-h">--</span><small>時</small></div>
-          <div class="cd-sep">:</div>
-          <div class="cd-unit"><span id="cd-m">--</span><small>分</small></div>
-          <div class="cd-sep">:</div>
-          <div class="cd-unit"><span id="cd-s">--</span><small>秒</small></div>
+
+      <div class="hero-mini-stats">
+        <div class="hero-mini-stat">
+          <strong>200萬+</strong>
+          <span>港澳用戶信任</span>
+        </div>
+        <div class="hero-mini-divider"></div>
+        <div class="hero-mini-stat">
+          <strong>4.9★</strong>
+          <span>會員好評評分</span>
+        </div>
+        <div class="hero-mini-divider"></div>
+        <div class="hero-mini-stat">
+          <strong>6項</strong>
+          <span>獨立評測標準</span>
         </div>
       </div>
     </div>
 
-    <div class="cta-box">
-      <p class="cta-nudge">👇 即刻點呢度，領取好禮</p>
-      <a href="#" class="btn" id="cta-hero" onclick="handleCTA(event,'hero')">
-        🎁&nbsp;立即領取新會員好禮
-      </a>
-      <div class="claimed-row">
-        <span class="claimed-dot"></span>
-        今日已有&nbsp;<strong id="claimed-count">387</strong>&nbsp;名新會員成功加入
+    <!-- Right: Dashboard Mockup -->
+    <div class="hero-right">
+      <div class="hero-mockup">
+
+        <!-- Main Review Card -->
+        <div class="hm-main-card">
+          <div class="hm-eyebrow">
+            <span></span><!-- green dot via ::before -->
+            BDUK 平台評測報告
+          </div>
+          <div class="hm-score-row">
+            <span class="hm-score-big">9.6</span>
+            <span class="hm-score-max">/ 10</span>
+          </div>
+          <div class="hm-stars">★★★★★</div>
+
+          <div class="hm-bars">
+            <div class="hm-bar-item">
+              <div class="hm-bar-label"><span>牌照合規</span><span>98%</span></div>
+              <div class="hm-bar-track"><div class="hm-bar-fill" style="width:98%"></div></div>
+            </div>
+            <div class="hm-bar-item">
+              <div class="hm-bar-label"><span>好禮條款</span><span>97%</span></div>
+              <div class="hm-bar-track"><div class="hm-bar-fill" style="width:97%"></div></div>
+            </div>
+            <div class="hm-bar-item">
+              <div class="hm-bar-label"><span>入出款速度</span><span>95%</span></div>
+              <div class="hm-bar-track"><div class="hm-bar-fill" style="width:95%"></div></div>
+            </div>
+            <div class="hm-bar-item">
+              <div class="hm-bar-label"><span>用戶體驗</span><span>94%</span></div>
+              <div class="hm-bar-track"><div class="hm-bar-fill" style="width:94%"></div></div>
+            </div>
+          </div>
+
+          <hr class="hm-divider">
+
+          <div class="hm-chips">
+            <span class="hm-chip">✓ 正規持牌</span>
+            <span class="hm-chip">⚡ PayMe / FPS</span>
+            <span class="hm-chip">🔒 銀行加密</span>
+          </div>
+        </div>
+
+        <!-- Float 1: Today's members -->
+        <div class="hm-float hm-float-1">
+          <span class="hm-float-eyebrow">今日新會員</span>
+          <span class="hm-float-val"><strong id="claimed-count">387</strong></span>
+          <span class="hm-float-sub"><span class="hm-live-dot"></span>正在加入</span>
+        </div>
+
+        <!-- Float 2: Countdown -->
+        <div class="hm-float hm-float-2">
+          <span class="hm-float-eyebrow">好禮截止倒計時</span>
+          <span class="hm-float-val"><span id="cd-h">--</span>:<span id="cd-m">--</span>:<span id="cd-s">--</span></span>
+        </div>
+
+        <!-- Float 3: Payout speed -->
+        <div class="hm-float hm-float-3">
+          <span class="hm-float-eyebrow">好禮到帳</span>
+          <span class="hm-float-val">30<small style="font-size:13px;font-weight:700;color:#475569">秒</small></span>
+          <span class="hm-float-sub">平均到帳時間</span>
+        </div>
+
       </div>
-      <p class="cta-note">✓ 30秒完成登記 &nbsp;·&nbsp; ✓ 好禮即時生效 &nbsp;·&nbsp; ✓ 港澳放心體驗</p>
     </div>
 
   </div>
