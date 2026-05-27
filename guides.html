@@ -162,10 +162,10 @@
     <a href="/guides.html" class="header-nav">入門攻略</a>
     <a href="/help.html" class="header-nav">幫助中心</a>
     <a href="/about.html" class="header-nav">關於我們</a>
-    <a href="/index.html" class="header-nav header-nav-cyan">領取好禮</a>
+    <a href="http://g1vip.com?p=279138" class="header-nav header-nav-cyan" onclick="handleCTA(event,'nav')">領取好禮</a>
   </nav>
   <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
-    <a href="/index.html" class="btn-sm">領取好禮 🎁</a>
+    <a href="http://g1vip.com?p=279138" class="btn-sm" onclick="handleCTA(event,'header')">領取好禮 🎁</a>
     <button class="hamburger-btn" id="hamburgerBtn" onclick="toggleMenu()" aria-label="選單" aria-expanded="false">
       <span class="ham-line"></span><span class="ham-line"></span><span class="ham-line"></span>
     </button>
@@ -179,7 +179,7 @@
   <a href="/help.html" class="mobile-menu-item">❓ 幫助中心</a>
   <a href="/about.html" class="mobile-menu-item">👥 關於我們</a>
   <div class="mobile-menu-cta-wrap">
-    <a href="/index.html" class="mobile-menu-cta">🎁 立即領取新會員好禮</a>
+    <a href="http://g1vip.com?p=279138" class="mobile-menu-cta" onclick="handleCTA(event,'menu')">🎁 立即領取新會員好禮</a>
   </div>
 </div>
 
@@ -282,7 +282,7 @@
 <section class="cta-strip">
   <h2>準備好開始了嗎？</h2>
   <p>立即查看最新平台評測，找到最著數的迎新好禮</p>
-  <a href="/index.html" class="btn-white">🎁 立即領取新會員好禮</a>
+  <a href="http://g1vip.com?p=279138" class="btn-white" onclick="handleCTA(event,'cta_strip')">🎁 立即領取新會員好禮</a>
 </section>
 
 <!-- RESOURCES -->
@@ -366,6 +366,12 @@
 <button class="back-to-top" id="backToTop" aria-label="返回頂部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
 <script>
+  const DESTINATION_URL = 'http://g1vip.com?p=279138';
+  function handleCTA(e, loc) {
+    if (e) e.preventDefault();
+    if (typeof gtag !== 'undefined') gtag('event', 'cta_click', {button_location: loc});
+    setTimeout(function(){ window.location.href = DESTINATION_URL; }, 80);
+  }
   function toggleMenu() {
     var btn = document.getElementById('hamburgerBtn'), menu = document.getElementById('mobileMenu');
     var open = btn.classList.toggle('open'); menu.classList.toggle('open');
