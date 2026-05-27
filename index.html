@@ -287,8 +287,8 @@
       width: 100%; max-width: 640px; margin: 14px auto 14px;
     }
     .hero-stats-cd-row .hero-stats { flex: 1; justify-content: center; border-top: none; padding-top: 0; margin-top: 0; }
-    .hero-stats-cd-row .countdown-wrap { flex-shrink: 0; width: 200px; margin: 0; }
-    .hero .cta-box { max-width: 480px; margin: 0 auto; }
+    .hero-stats-cd-row .countdown-wrap { flex-shrink: 0; width: 200px; margin: 0; background: none; border: none; padding: 0; }
+    .hero .cta-box { max-width: 620px; margin: 0 auto; width: 100%; }
     @media (max-width: 580px) {
       .hero-stats-cd-row { flex-direction: column; }
       .hero-stats-cd-row .countdown-wrap { width: 100%; }
@@ -413,7 +413,13 @@
     .cd-sep { font-size: 24px; font-weight: 800; color: rgba(8,145,178,.5); padding-bottom: 8px; }
 
     .hero-stats { display: flex; justify-content: center; gap: 28px; margin-top: 24px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.1); }
-    .hero-stat { text-align: center; }
+    .hero-stat {
+      text-align: center;
+      background: rgba(8,145,178,.18);
+      border-radius: 8px;
+      padding: 8px 18px;
+      min-width: 64px;
+    }
     .hero-stat-n {
       display: block; font-size: 22px; font-weight: 800; color: var(--cyan-ultra);
       font-family: 'Barlow Condensed', sans-serif;
