@@ -1207,16 +1207,23 @@
 
     /* Mockup right panel */
     .hero-mockup {
-      position: relative; height: 400px; width: 100%; max-width: 380px;
+      display: flex; flex-direction: column; gap: 12px;
+      width: 100%; max-width: 360px;
+    }
+    .hm-top-row {
+      display: flex; gap: 10px;
+    }
+    .hm-stat-card {
+      flex: 1; background: #fff;
+      border: 1px solid #e2e8f0; border-radius: 14px;
+      padding: 12px 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,.07);
     }
     .hm-main-card {
-      position: absolute; top: 24px;
-      left: 50%; transform: translateX(-50%);
-      width: 240px;
+      width: 100%;
       background: #fff; border: 1px solid #e2e8f0;
       border-radius: 20px; padding: 22px;
       box-shadow: 0 20px 60px rgba(0,0,0,.10), 0 4px 16px rgba(0,0,0,.06);
-      z-index: 2;
     }
     .hm-eyebrow {
       display: flex; align-items: center; gap: 6px;
@@ -1224,10 +1231,11 @@
       text-transform: uppercase; color: #94a3b8; margin-bottom: 8px;
     }
     .hm-eyebrow::before { content: ''; display: inline-block; width: 6px; height: 6px; background: #22c55e; border-radius: 50%; flex-shrink: 0; }
-    .hm-score-row { display: flex; align-items: baseline; gap: 5px; margin-bottom: 2px; }
+    .hm-score-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
     .hm-score-big { font-family: 'Barlow Condensed', sans-serif; font-size: 48px; font-weight: 900; color: #0f172a; line-height: 1; }
     .hm-score-max { font-size: 14px; color: #94a3b8; font-weight: 600; align-self: flex-end; padding-bottom: 5px; }
-    .hm-stars { color: #f59e0b; font-size: 13px; letter-spacing: 2px; margin-bottom: 14px; }
+    .hm-score-label { font-size: 13px; color: #475569; font-weight: 600; align-self: flex-end; padding-bottom: 6px; }
+    .hm-trust-line { font-size: 11px; color: #64748b; margin-bottom: 14px; line-height: 1.5; }
     .hm-bar-item { margin-bottom: 9px; }
     .hm-bar-label { display: flex; justify-content: space-between; font-size: 10.5px; font-weight: 600; color: #475569; margin-bottom: 4px; }
     .hm-bar-track { height: 4px; background: #f1f5f9; border-radius: 2px; overflow: hidden; }
@@ -1236,16 +1244,6 @@
     .hm-chips { display: flex; gap: 5px; flex-wrap: wrap; }
     .hm-chip { display: inline-flex; align-items: center; gap: 3px; background: #f0f9ff; color: var(--cyan-dark); border: 1px solid #bae6fd; border-radius: 6px; padding: 3px 8px; font-size: 10px; font-weight: 700; }
 
-    /* Floating cards */
-    .hm-float {
-      position: absolute; background: #fff;
-      border: 1px solid #e2e8f0; border-radius: 12px;
-      padding: 10px 14px;
-      box-shadow: 0 8px 24px rgba(0,0,0,.09); z-index: 3;
-    }
-    .hm-float-1 { top: 0; left: 0; }
-    .hm-float-2 { bottom: 4px; left: 0; }
-    .hm-float-3 { bottom: 20px; right: 4px; }
     .hm-float-eyebrow { display: block; font-size: 9px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #94a3b8; margin-bottom: 3px; }
     .hm-float-val { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 900; color: #0f172a; line-height: 1.15; }
     .hm-float-sub { display: block; font-size: 9.5px; color: #64748b; margin-top: 2px; }
@@ -1257,15 +1255,16 @@
       .hero-btns { justify-content: center; }
       .hero-mini-stats { justify-content: center; }
       .hero-right { display: flex; justify-content: center; }
-      .hero-mockup { height: 320px; max-width: 340px; }
-      .hm-main-card { width: 200px; padding: 16px; }
+      .hero-mockup { max-width: 340px; }
+      .hm-main-card { padding: 16px; }
       .hm-score-big { font-size: 38px; }
     }
     @media (max-width: 480px) {
       .hero-inner { padding: 36px 20px 44px; }
-      .hero-mockup { height: 280px; max-width: 300px; }
-      .hm-main-card { width: 180px; }
-      .hm-float-2 { display: none; }
+      .hero-mockup { max-width: 300px; }
+      .hm-top-row { gap: 8px; }
+      .hm-stat-card { padding: 10px 12px; }
+      .hm-float-val { font-size: 18px; }
     }
   </style>
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -1357,64 +1356,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-right">
       <div class="hero-mockup">
 
-        <!-- Main Review Card -->
+        <!-- Top row: stat cards above review card -->
+        <div class="hm-top-row">
+          <div class="hm-stat-card">
+            <span class="hm-float-eyebrow">今日新會員</span>
+            <span class="hm-float-val"><strong id="claimed-count">387</strong></span>
+            <span class="hm-float-sub"><span class="hm-live-dot"></span>正在加入</span>
+          </div>
+          <div class="hm-stat-card">
+            <span class="hm-float-eyebrow">好禮截止倒計時</span>
+            <span class="hm-float-val"><span id="cd-h">--</span>:<span id="cd-m">--</span>:<span id="cd-s">--</span></span>
+          </div>
+        </div>
+
+        <!-- Main Credibility Card -->
         <div class="hm-main-card">
           <div class="hm-eyebrow">
-            <span></span><!-- green dot via ::before -->
-            BDUK 平台評測報告
+            BDUK 評測公信力
           </div>
           <div class="hm-score-row">
-            <span class="hm-score-big">9.6</span>
-            <span class="hm-score-max">/ 10</span>
+            <span class="hm-score-big">200+</span>
+            <span class="hm-score-label">已評測平台</span>
           </div>
-          <div class="hm-stars">★★★★★</div>
+          <div class="hm-trust-line">200萬+ 核實用戶評語 · 5年評測資歷</div>
 
           <div class="hm-bars">
             <div class="hm-bar-item">
-              <div class="hm-bar-label"><span>牌照合規</span><span>98%</span></div>
+              <div class="hm-bar-label"><span>評測透明度</span><span>100%</span></div>
+              <div class="hm-bar-track"><div class="hm-bar-fill" style="width:100%"></div></div>
+            </div>
+            <div class="hm-bar-item">
+              <div class="hm-bar-label"><span>資訊更新率</span><span>99%</span></div>
+              <div class="hm-bar-track"><div class="hm-bar-fill" style="width:99%"></div></div>
+            </div>
+            <div class="hm-bar-item">
+              <div class="hm-bar-label"><span>用戶信任評分</span><span>98%</span></div>
               <div class="hm-bar-track"><div class="hm-bar-fill" style="width:98%"></div></div>
             </div>
             <div class="hm-bar-item">
-              <div class="hm-bar-label"><span>好禮條款</span><span>97%</span></div>
+              <div class="hm-bar-label"><span>平台核實率</span><span>97%</span></div>
               <div class="hm-bar-track"><div class="hm-bar-fill" style="width:97%"></div></div>
-            </div>
-            <div class="hm-bar-item">
-              <div class="hm-bar-label"><span>入出款速度</span><span>95%</span></div>
-              <div class="hm-bar-track"><div class="hm-bar-fill" style="width:95%"></div></div>
-            </div>
-            <div class="hm-bar-item">
-              <div class="hm-bar-label"><span>用戶體驗</span><span>94%</span></div>
-              <div class="hm-bar-track"><div class="hm-bar-fill" style="width:94%"></div></div>
             </div>
           </div>
 
           <hr class="hm-divider">
 
           <div class="hm-chips">
-            <span class="hm-chip">✓ 正規持牌</span>
-            <span class="hm-chip">⚡ PayMe / FPS</span>
-            <span class="hm-chip">🔒 銀行加密</span>
+            <span class="hm-chip">✓ 5年資歷</span>
+            <span class="hm-chip">📊 200萬+ 評語</span>
+            <span class="hm-chip">🔍 獨立評測</span>
           </div>
-        </div>
-
-        <!-- Float 1: Today's members -->
-        <div class="hm-float hm-float-1">
-          <span class="hm-float-eyebrow">今日新會員</span>
-          <span class="hm-float-val"><strong id="claimed-count">387</strong></span>
-          <span class="hm-float-sub"><span class="hm-live-dot"></span>正在加入</span>
-        </div>
-
-        <!-- Float 2: Countdown -->
-        <div class="hm-float hm-float-2">
-          <span class="hm-float-eyebrow">好禮截止倒計時</span>
-          <span class="hm-float-val"><span id="cd-h">--</span>:<span id="cd-m">--</span>:<span id="cd-s">--</span></span>
-        </div>
-
-        <!-- Float 3: Payout speed -->
-        <div class="hm-float hm-float-3">
-          <span class="hm-float-eyebrow">好禮到帳</span>
-          <span class="hm-float-val">30<small style="font-size:13px;font-weight:700;color:#475569">秒</small></span>
-          <span class="hm-float-sub">平均到帳時間</span>
         </div>
 
       </div>
