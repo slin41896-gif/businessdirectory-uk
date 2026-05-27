@@ -249,7 +249,7 @@
     /* ── HERO (solid dark gradient — no image) ── */
     .hero {
       position: relative;
-      min-height: 680px;
+      min-height: 460px;
       overflow: hidden;
       display: flex;
       flex-direction: column;
@@ -271,7 +271,7 @@
     .hero-content {
       position: relative;
       z-index: 2;
-      padding: 52px 20px 56px;
+      padding: 32px 20px 36px;
       text-align: center;
       color: #fff;
       max-width: 820px;
@@ -282,15 +282,16 @@
       flex-direction: column;
       align-items: center;
     }
-    .hero-cta-cd-row {
-      display: flex; align-items: flex-start; gap: 16px;
-      width: 100%; max-width: 660px; margin: 4px auto 0;
+    .hero-stats-cd-row {
+      display: flex; align-items: center; gap: 20px;
+      width: 100%; max-width: 640px; margin: 14px auto 14px;
     }
-    .hero-cta-cd-row .cta-box { flex: 1; min-width: 0; margin: 0; max-width: none; }
-    .hero-cta-cd-row .countdown-wrap { flex-shrink: 0; width: 196px; margin: 0; }
+    .hero-stats-cd-row .hero-stats { flex: 1; justify-content: center; border-top: none; padding-top: 0; margin-top: 0; }
+    .hero-stats-cd-row .countdown-wrap { flex-shrink: 0; width: 200px; margin: 0; }
+    .hero .cta-box { max-width: 480px; margin: 0 auto; }
     @media (max-width: 580px) {
-      .hero-cta-cd-row { flex-direction: column; }
-      .hero-cta-cd-row .countdown-wrap { width: 100%; }
+      .hero-stats-cd-row { flex-direction: column; }
+      .hero-stats-cd-row .countdown-wrap { width: 100%; }
     }
 
     .live-dot {
@@ -1197,34 +1198,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <span class="zf-tag"><span class="ck">✓</span> 港澳正規平台</span>
     </div>
 
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <span class="hero-stat-n">200萬+</span>
-        <span class="hero-stat-l">會員信任</span>
-      </div>
-      <div class="hero-stat">
-        <span class="hero-stat-n">4.9★</span>
-        <span class="hero-stat-l">好評如潮</span>
-      </div>
-      <div class="hero-stat">
-        <span class="hero-stat-n">24/7</span>
-        <span class="hero-stat-l">客戶服務</span>
-      </div>
-    </div>
-
-    <div class="hero-cta-cd-row">
-      <div class="cta-box">
-        <p class="cta-nudge">👇 即刻點呢度，領取好禮</p>
-        <a href="#" class="btn" id="cta-hero" onclick="handleCTA(event,'hero')">
-          🎁&nbsp;立即領取新會員好禮
-        </a>
-        <div class="claimed-row">
-          <span class="claimed-dot"></span>
-          今日已有&nbsp;<strong id="claimed-count">387</strong>&nbsp;名新會員成功加入
+    <div class="hero-stats-cd-row">
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-n">200萬+</span>
+          <span class="hero-stat-l">會員信任</span>
         </div>
-        <p class="cta-note">✓ 30秒完成登記 &nbsp;·&nbsp; ✓ 好禮即時生效 &nbsp;·&nbsp; ✓ 港澳放心體驗</p>
+        <div class="hero-stat">
+          <span class="hero-stat-n">4.9★</span>
+          <span class="hero-stat-l">好評如潮</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-n">24/7</span>
+          <span class="hero-stat-l">客戶服務</span>
+        </div>
       </div>
-
       <div class="countdown-wrap">
         <span class="cd-label">⏰ 今日好禮截止倒計時</span>
         <div class="cd-row">
@@ -1237,6 +1225,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
 
+    <div class="cta-box">
+      <p class="cta-nudge">👇 即刻點呢度，領取好禮</p>
+      <a href="#" class="btn" id="cta-hero" onclick="handleCTA(event,'hero')">
+        🎁&nbsp;立即領取新會員好禮
+      </a>
+      <div class="claimed-row">
+        <span class="claimed-dot"></span>
+        今日已有&nbsp;<strong id="claimed-count">387</strong>&nbsp;名新會員成功加入
+      </div>
+      <p class="cta-note">✓ 30秒完成登記 &nbsp;·&nbsp; ✓ 好禮即時生效 &nbsp;·&nbsp; ✓ 港澳放心體驗</p>
+    </div>
+
   </div>
 </section>
 
@@ -1245,88 +1245,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p><strong>Business Directory</strong> 係一個為香港及澳門用戶提供娛樂平台資訊、會員優惠及獎勵指南嘅平台，致力協助用戶尋找正規持牌娛樂服務及最新迎新禮遇。平台提供詳盡攻略分析、秒速入出款指引及 24/7 客服支援，助港澳用戶安心暢享頂級娛樂體驗。</p>
 </div>
 
-<!-- ═══ STATS BAR ═══ -->
-<div class="stats-bar">
-  <div class="stats-bar-inner">
-    <div class="stats-bar-item">
-      <span class="stats-bar-num">200萬<sup>+</sup></span>
-      <span class="stats-bar-label">活躍會員</span>
-    </div>
-    <div class="stats-bar-item">
-      <span class="stats-bar-num">4.9<sup>★</sup></span>
-      <span class="stats-bar-label">會員好評</span>
-    </div>
-    <div class="stats-bar-item">
-      <span class="stats-bar-num">30<sup>秒</sup></span>
-      <span class="stats-bar-label">完成登記</span>
-    </div>
-    <div class="stats-bar-item">
-      <span class="stats-bar-num">24<sup>/7</sup></span>
-      <span class="stats-bar-label">客戶服務</span>
-    </div>
-  </div>
-</div>
-
-<!-- ═══ PAYMENT STRIP ═══ -->
-<div class="pay-strip">
-  <p class="pay-label">支援付款方式</p>
-  <div class="pay-icons">
-    <span class="pay-pill">💳 PayMe</span>
-    <span class="pay-pill">⚡ FPS 轉數快</span>
-    <span class="pay-pill">₮ USDT</span>
-    <span class="pay-pill">🏦 銀行轉帳</span>
-    <span class="pay-pill">VISA</span>
-    <span class="pay-pill">Mastercard</span>
-  </div>
-</div>
-
-<!-- ═══ FEATURES ═══ -->
-<section id="features" class="features" aria-label="平台六大優勢">
+<!-- ═══ FEATURES / REVIEW METHODOLOGY ═══ -->
+<section id="features" class="features" aria-label="BDUK 評測方法論">
   <div class="features-header">
-    <span class="features-label">OUR FEATURES</span>
+    <span class="features-label">REVIEW METHODOLOGY</span>
     <div>
-      <div class="features-title">點解咁多人首選我哋？</div>
+      <div class="features-title">BDUK 評測六大標準</div>
     </div>
   </div>
   <p class="features-sub" style="max-width:900px;margin:0 auto 44px;padding-left:0;text-align:center;">
-    正規平台 · 多元娛樂 · 全程安心，六大優勢等緊你
+    Business Directory 採用六項獨立評測標準，為香港及澳門用戶提供客觀、數據主導嘅娛樂平台分析與評比，幫助用戶作出更明智嘅選擇
   </p>
   <div class="feat-cards">
 
     <div class="feat-card">
-      <div class="feat-card-top"><div class="feat-num">01</div><div class="feat-icon">🎁</div></div>
-      <div class="feat-title">豐厚迎新好禮</div>
-      <div class="feat-desc">新會員登記即享專屬好禮，唔使等，即時到帳，著數到你唔信。</div>
+      <div class="feat-card-top"><div class="feat-num">01</div><div class="feat-icon">🔍</div></div>
+      <div class="feat-title">牌照合規核查</div>
+      <div class="feat-desc">核實平台監管機構、牌照有效性及合規記錄。只有通過正規審查嘅平台先納入推薦名單，保障用戶資金安全。</div>
     </div>
 
     <div class="feat-card">
       <div class="feat-card-top"><div class="feat-num">02</div><div class="feat-icon">⚡</div></div>
-      <div class="feat-title">秒速入出款</div>
-      <div class="feat-desc">支援 PayMe、FPS 轉數快、USDT 等多種方式，存款提款快到飛起，唔使等。</div>
+      <div class="feat-title">入出款速度測試</div>
+      <div class="feat-desc">實測存款、提款到帳速度同成功率，覆蓋 PayMe、FPS 轉數快、USDT、銀行轉帳等主流方式，數據真實可查。</div>
     </div>
 
     <div class="feat-card">
-      <div class="feat-card-top"><div class="feat-num">03</div><div class="feat-icon">🔒</div></div>
-      <div class="feat-title">安全有保障</div>
-      <div class="feat-desc">正規持牌平台，銀行級別加密技術，港澳用戶資金同個人資料全程保護。</div>
+      <div class="feat-card-top"><div class="feat-num">03</div><div class="feat-icon">🎁</div></div>
+      <div class="feat-title">好禮條款深度分析</div>
+      <div class="feat-desc">拆解迎新好禮流水要求、使用期限及實際可用比例，唔係單純睇好禮金額，而係分析真正著數程度同隱藏條件。</div>
     </div>
 
     <div class="feat-card">
-      <div class="feat-card-top"><div class="feat-num">04</div><div class="feat-icon">🎮</div></div>
-      <div class="feat-title">豐富娛樂選擇</div>
-      <div class="feat-desc">多種娛樂類別，隨時隨地暢玩，精彩唔間斷，每日都有新驚喜。</div>
+      <div class="feat-card-top"><div class="feat-num">04</div><div class="feat-icon">📱</div></div>
+      <div class="feat-title">用戶體驗評分</div>
+      <div class="feat-desc">測試手機兼容性、介面設計合理性同頁面載入速度，涵蓋 iOS、Android 及桌面端多平台，模擬真實使用情境。</div>
     </div>
 
     <div class="feat-card">
       <div class="feat-card-top"><div class="feat-num">05</div><div class="feat-icon">💬</div></div>
-      <div class="feat-title">24/7 專業客服</div>
-      <div class="feat-desc">全天候客服支援，有問題即時解決，服務時間 09:00–24:00，唔孤單。</div>
+      <div class="feat-title">客服壓力測試</div>
+      <div class="feat-desc">模擬真實問題測試客服回應時間、問題解決率及服務穩定性，夜間及公眾假期同樣納入評核，確保全天候可靠。</div>
     </div>
 
     <div class="feat-card">
-      <div class="feat-card-top"><div class="feat-num">06</div><div class="feat-icon">📱</div></div>
-      <div class="feat-title">唔需要下載</div>
-      <div class="feat-desc">直接網頁進入，無需安裝任何 App，手機電腦皆可，隨開即玩。</div>
+      <div class="feat-card-top"><div class="feat-num">06</div><div class="feat-icon">👥</div></div>
+      <div class="feat-title">真實用戶口碑調查</div>
+      <div class="feat-desc">匯整港澳真實用戶意見、長期使用滿意度及投訴處理記錄，提供獨立評分，數據定期更新以反映最新用戶體驗。</div>
     </div>
 
   </div>
@@ -1363,161 +1328,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="cat-tile-name">益智挑戰</div>
       <div class="cat-tile-sub">真人荷官 · 即玩即贏</div>
     </a>
-  </div>
-</section>
-
-<!-- ═══ STATS SHOWCASE ═══ -->
-<section id="stats" class="stats-showcase" aria-label="平台數據">
-  <p class="section-eyebrow">平台數據</p>
-  <h2 class="section-title">全港澳<em style="color:var(--cyan)">最受歡迎</em>娛樂平台</h2>
-  <div class="showcase-grid">
-    <div class="showcase-stat">
-      <span class="ss-icon">👥</span>
-      <span class="ss-num">200萬+</span>
-      <span class="ss-label">活躍會員</span>
-    </div>
-    <div class="showcase-stat">
-      <span class="ss-icon">⭐</span>
-      <span class="ss-num">4.9</span>
-      <span class="ss-label">會員好評<br>（5分滿分）</span>
-    </div>
-    <div class="showcase-stat">
-      <span class="ss-icon">⏱️</span>
-      <span class="ss-num">30秒</span>
-      <span class="ss-label">完成登記<br>即享好禮</span>
-    </div>
-    <div class="showcase-stat">
-      <span class="ss-icon">💬</span>
-      <span class="ss-num">24/7</span>
-      <span class="ss-label">全天候<br>客戶服務</span>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ HOW IT WORKS ═══ -->
-<section id="how-to-start" class="steps" aria-label="三步驟加入教學">
-  <p class="section-eyebrow">HOW TO START</p>
-  <h2 class="section-title">三個步驟，唔使5分鐘</h2>
-  <p class="steps-sub">簡單到爆，即刻開始領取好禮</p>
-  <div class="steps-grid">
-    <div class="step-item">
-      <div class="step-num">1</div>
-      <div class="step-label">點擊<br>下方按鈕</div>
-    </div>
-    <div class="step-item">
-      <div class="step-num">2</div>
-      <div class="step-label">完成<br>帳號登記</div>
-    </div>
-    <div class="step-item">
-      <div class="step-num">3</div>
-      <div class="step-label">好禮<br>即時到帳</div>
-    </div>
-  </div>
-  <a href="#" class="btn" id="cta-steps" onclick="handleCTA(event,'steps')">
-    👉&nbsp;立即開始，免費登記
-  </a>
-</section>
-
-<!-- ═══ TESTIMONIALS ═══ -->
-<section id="reviews" class="testimonials" aria-label="會員真實評價">
-  <h2 class="section-title">會員真實評價</h2>
-  <div class="car-outer">
-    <div class="car-track">
-
-      <div class="car-slide">
-        <div class="car-card">
-          <div class="car-avatar">V</div>
-          <div class="car-stars">★★★★★</div>
-          <p class="car-quote">「Business Directory 攻略分析好精準，跟住分析投注三個月都係穩穩陣陣有著數，比其他平台好用好多！」</p>
-          <div class="car-author">Vincent L.</div>
-          <span class="car-tag">香港會員</span>
-        </div>
-      </div>
-      <div class="car-slide">
-        <div class="car-card">
-          <div class="car-avatar">S</div>
-          <div class="car-stars">★★★★★</div>
-          <p class="car-quote">「提款真係超級快，PayMe 入帳唔使五分鐘！而家每次玩都用 Business Directory 搵資訊，靠得住㗎！」</p>
-          <div class="car-author">Stella C.</div>
-          <span class="car-tag">長期會員</span>
-        </div>
-      </div>
-      <div class="car-slide">
-        <div class="car-card">
-          <div class="car-avatar">R</div>
-          <div class="car-stars">★★★★★</div>
-          <p class="car-quote">「新會員好禮真係到帳，唔係吹水嘅。客服仲即時解答我問題，服務一流，強烈推介！」</p>
-          <div class="car-author">Ryan H.</div>
-          <span class="car-tag">已驗證會員</span>
-        </div>
-      </div>
-      <div class="car-slide">
-        <div class="car-card">
-          <div class="car-avatar">W</div>
-          <div class="car-stars">★★★★★</div>
-          <p class="car-quote">「手機網頁好流暢，唔使下載 App 直接開，介面設計簡潔易用。嚟到就知係正規平台，安心！」</p>
-          <div class="car-author">Wendy K.</div>
-          <span class="car-tag">新會員</span>
-        </div>
-      </div>
-      <div class="car-slide">
-        <div class="car-card">
-          <div class="car-avatar">D</div>
-          <div class="car-stars">★★★★★</div>
-          <p class="car-quote">「用咗半年，一直係用 Business Directory 揀平台，分析準確，連朋友都推薦用，大家都話好！」</p>
-          <div class="car-author">Derek T.</div>
-          <span class="car-tag">香港會員</span>
-        </div>
-      </div>
-      <div class="car-slide">
-        <div class="car-card">
-          <div class="car-avatar">G</div>
-          <div class="car-stars">★★★★☆</div>
-          <p class="car-quote">「優惠資訊更新勤力，每次都有新好禮，PayMe 存款秒到帳，體驗真係好！會繼續用！」</p>
-          <div class="car-author">Grace M.</div>
-          <span class="car-tag">已驗證會員</span>
-        </div>
-      </div>
-      <!-- 複製 6 張（無縫循環）-->
-      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">V</div><div class="car-stars">★★★★★</div><p class="car-quote">「Business Directory 攻略分析好精準，跟住分析投注三個月都係穩穩陣陣有著數，比其他平台好用好多！」</p><div class="car-author">Vincent L.</div><span class="car-tag">香港會員</span></div></div>
-      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">S</div><div class="car-stars">★★★★★</div><p class="car-quote">「提款真係超級快，PayMe 入帳唔使五分鐘！而家每次玩都用 Business Directory 搵資訊，靠得住㗎！」</p><div class="car-author">Stella C.</div><span class="car-tag">長期會員</span></div></div>
-      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">R</div><div class="car-stars">★★★★★</div><p class="car-quote">「新會員好禮真係到帳，唔係吹水嘅。客服仲即時解答我問題，服務一流，強烈推介！」</p><div class="car-author">Ryan H.</div><span class="car-tag">已驗證會員</span></div></div>
-      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">W</div><div class="car-stars">★★★★★</div><p class="car-quote">「手機網頁好流暢，唔使下載 App 直接開，介面設計簡潔易用。嚟到就知係正規平台，安心！」</p><div class="car-author">Wendy K.</div><span class="car-tag">新會員</span></div></div>
-      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">D</div><div class="car-stars">★★★★★</div><p class="car-quote">「用咗半年，一直係用 Business Directory 揀平台，分析準確，連朋友都推薦用，大家都話好！」</p><div class="car-author">Derek T.</div><span class="car-tag">香港會員</span></div></div>
-      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">G</div><div class="car-stars">★★★★☆</div><p class="car-quote">「優惠資訊更新勤力，每次都有新好禮，PayMe 存款秒到帳，體驗真係好！會繼續用！」</p><div class="car-author">Grace M.</div><span class="car-tag">已驗證會員</span></div></div>
-    </div>
-  </div>
-  <p class="car-total-count">已有超過 <strong>200 萬</strong> 位會員選擇信任</p>
-</section>
-
-<!-- ═══ MID-PAGE CTA ═══ -->
-<div class="mid-cta">
-  <h2 class="mid-cta-headline">好禮係有時限，<br><em>唔好再猶豫！</em></h2>
-  <p class="mid-cta-label">已有超過 200 萬會員信任 · 今日已有 <strong id="claimed-count-mid">387</strong> 名新會員成功加入</p>
-  <a href="#" class="btn" id="cta-mid" onclick="handleCTA(event,'mid')">
-    🎁&nbsp;立即領取新會員好禮
-  </a>
-</div>
-
-<!-- ═══ TRUST ROW ═══ -->
-<section class="trust-row">
-  <div class="trust-grid">
-    <div class="trust-item">
-      <div class="trust-icon">🏆</div>
-      <div class="trust-text"><strong>正規牌照</strong><span>港澳受監管平台</span></div>
-    </div>
-    <div class="trust-item">
-      <div class="trust-icon">⚡</div>
-      <div class="trust-text"><strong>秒速到帳</strong><span>存提款不等待</span></div>
-    </div>
-    <div class="trust-item">
-      <div class="trust-icon">🛡️</div>
-      <div class="trust-text"><strong>資金安全</strong><span>銀行級別加密</span></div>
-    </div>
-    <div class="trust-item">
-      <div class="trust-icon">💬</div>
-      <div class="trust-text"><strong>24/7 客服</strong><span>全天候支援</span></div>
-    </div>
   </div>
 </section>
 
@@ -1595,6 +1405,78 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
+<!-- ═══ TESTIMONIALS ═══ -->
+<section id="reviews" class="testimonials" aria-label="會員真實評價">
+  <h2 class="section-title">會員真實評價</h2>
+  <div class="car-outer">
+    <div class="car-track">
+
+      <div class="car-slide">
+        <div class="car-card">
+          <div class="car-avatar">V</div>
+          <div class="car-stars">★★★★★</div>
+          <p class="car-quote">「Business Directory 攻略分析好精準，跟住分析投注三個月都係穩穩陣陣有著數，比其他平台好用好多！」</p>
+          <div class="car-author">Vincent L.</div>
+          <span class="car-tag">香港會員</span>
+        </div>
+      </div>
+      <div class="car-slide">
+        <div class="car-card">
+          <div class="car-avatar">S</div>
+          <div class="car-stars">★★★★★</div>
+          <p class="car-quote">「提款真係超級快，PayMe 入帳唔使五分鐘！而家每次玩都用 Business Directory 搵資訊，靠得住㗎！」</p>
+          <div class="car-author">Stella C.</div>
+          <span class="car-tag">長期會員</span>
+        </div>
+      </div>
+      <div class="car-slide">
+        <div class="car-card">
+          <div class="car-avatar">R</div>
+          <div class="car-stars">★★★★★</div>
+          <p class="car-quote">「新會員好禮真係到帳，唔係吹水嘅。客服仲即時解答我問題，服務一流，強烈推介！」</p>
+          <div class="car-author">Ryan H.</div>
+          <span class="car-tag">已驗證會員</span>
+        </div>
+      </div>
+      <div class="car-slide">
+        <div class="car-card">
+          <div class="car-avatar">W</div>
+          <div class="car-stars">★★★★★</div>
+          <p class="car-quote">「手機網頁好流暢，唔使下載 App 直接開，介面設計簡潔易用。嚟到就知係正規平台，安心！」</p>
+          <div class="car-author">Wendy K.</div>
+          <span class="car-tag">新會員</span>
+        </div>
+      </div>
+      <div class="car-slide">
+        <div class="car-card">
+          <div class="car-avatar">D</div>
+          <div class="car-stars">★★★★★</div>
+          <p class="car-quote">「用咗半年，一直係用 Business Directory 揀平台，分析準確，連朋友都推薦用，大家都話好！」</p>
+          <div class="car-author">Derek T.</div>
+          <span class="car-tag">香港會員</span>
+        </div>
+      </div>
+      <div class="car-slide">
+        <div class="car-card">
+          <div class="car-avatar">G</div>
+          <div class="car-stars">★★★★☆</div>
+          <p class="car-quote">「優惠資訊更新勤力，每次都有新好禮，PayMe 存款秒到帳，體驗真係好！會繼續用！」</p>
+          <div class="car-author">Grace M.</div>
+          <span class="car-tag">已驗證會員</span>
+        </div>
+      </div>
+      <!-- 複製 6 張（無縫循環）-->
+      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">V</div><div class="car-stars">★★★★★</div><p class="car-quote">「Business Directory 攻略分析好精準，跟住分析投注三個月都係穩穩陣陣有著數，比其他平台好用好多！」</p><div class="car-author">Vincent L.</div><span class="car-tag">香港會員</span></div></div>
+      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">S</div><div class="car-stars">★★★★★</div><p class="car-quote">「提款真係超級快，PayMe 入帳唔使五分鐘！而家每次玩都用 Business Directory 搵資訊，靠得住㗎！」</p><div class="car-author">Stella C.</div><span class="car-tag">長期會員</span></div></div>
+      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">R</div><div class="car-stars">★★★★★</div><p class="car-quote">「新會員好禮真係到帳，唔係吹水嘅。客服仲即時解答我問題，服務一流，強烈推介！」</p><div class="car-author">Ryan H.</div><span class="car-tag">已驗證會員</span></div></div>
+      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">W</div><div class="car-stars">★★★★★</div><p class="car-quote">「手機網頁好流暢，唔使下載 App 直接開，介面設計簡潔易用。嚟到就知係正規平台，安心！」</p><div class="car-author">Wendy K.</div><span class="car-tag">新會員</span></div></div>
+      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">D</div><div class="car-stars">★★★★★</div><p class="car-quote">「用咗半年，一直係用 Business Directory 揀平台，分析準確，連朋友都推薦用，大家都話好！」</p><div class="car-author">Derek T.</div><span class="car-tag">香港會員</span></div></div>
+      <div class="car-slide" aria-hidden="true"><div class="car-card"><div class="car-avatar">G</div><div class="car-stars">★★★★☆</div><p class="car-quote">「優惠資訊更新勤力，每次都有新好禮，PayMe 存款秒到帳，體驗真係好！會繼續用！」</p><div class="car-author">Grace M.</div><span class="car-tag">已驗證會員</span></div></div>
+    </div>
+  </div>
+  <p class="car-total-count">已有超過 <strong>200 萬</strong> 位會員選擇信任</p>
+</section>
+
 <!-- ═══ FAQ ═══ -->
 <section id="faq" class="faq-section" aria-label="常見問題">
   <p class="section-eyebrow">FAQ</p>
@@ -1646,6 +1528,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     🎁&nbsp;立即領取新會員好禮
   </a>
 </section>
+
+<!-- ═══ PAYMENT STRIP ═══ -->
+<div class="pay-strip">
+  <p class="pay-label">支援付款方式</p>
+  <div class="pay-icons">
+    <span class="pay-pill">💳 PayMe</span>
+    <span class="pay-pill">⚡ FPS 轉數快</span>
+    <span class="pay-pill">₮ USDT</span>
+    <span class="pay-pill">🏦 銀行轉帳</span>
+    <span class="pay-pill">VISA</span>
+    <span class="pay-pill">Mastercard</span>
+  </div>
+</div>
 
 </main>
 
