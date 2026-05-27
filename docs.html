@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=%%GA4_ID%%"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','%%GA4_ID%%');</script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','%%GTM_ID%%');</script>
+  <title>評測標準 | Business Directory</title>
+  <meta name="description" content="Business Directory 平台評測方法論 — 六大評測標準、客觀評分系統，透明公開每個評測過程。">
+  <link rel="canonical" href="https://businessdirectory-uk.com/docs">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; background: #ffffff; color: #0f172a; line-height: 1.6; }
+    :root {
+      --cyan: #0891b2; --cyan-dark: #0e7490; --cyan-light: #22d3ee; --cyan-ultra: #67e8f9;
+      --cyan-glow: rgba(8,145,178,.28);
+      --bg: #ffffff; --bg-alt: #f0f9ff; --bg-dark: #0c1a2e; --bg-dark2: #0f2744;
+      --text: #0f172a; --text-muted: #64748b; --text-light: #475569; --border: #bae6fd;
+      --shadow: 0 1px 4px rgba(8,145,178,.08), 0 1px 2px rgba(0,0,0,.04);
+      --shadow-md: 0 4px 12px rgba(8,145,178,.12), 0 2px 4px rgba(0,0,0,.05);
+    }
+
+    /* HEADER */
+    .site-header { background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); border-bottom: 2px solid var(--cyan); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 10px; position: sticky; top: 0; z-index: 200; }
+    .header-nav { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; font-weight: 700; color: rgba(255,255,255,.75); text-decoration: none; padding: 7px 14px; border-radius: 20px; border: 1px solid rgba(255,255,255,.2); white-space: nowrap; transition: color .2s, border-color .2s; }
+    .header-nav:hover { color: var(--cyan-ultra); border-color: var(--cyan-light); }
+    .header-nav-cyan { background: rgba(8,145,178,.18); border-color: rgba(8,145,178,.45); color: var(--cyan-ultra); }
+    .header-nav-group { flex: 1; min-width: 0; display: flex; gap: 6px; align-items: center; overflow-x: auto; scrollbar-width: none; padding: 0 4px; }
+    .header-nav-group::-webkit-scrollbar { display: none; }
+    .btn-sm { background: var(--cyan); color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px; text-decoration: none; white-space: nowrap; flex-shrink: 0; border: 2px solid rgba(255,255,255,.2); cursor: pointer; font-family: inherit; box-shadow: 0 4px 16px var(--cyan-glow); letter-spacing: .02em; transition: box-shadow .2s, transform .15s; }
+    .btn-sm:hover { box-shadow: 0 6px 24px var(--cyan-glow); transform: scale(1.03); }
+    .hamburger-btn { display: none; flex-direction: column; justify-content: center; align-items: center; gap: 5px; width: 40px; height: 40px; background: none; border: none; cursor: pointer; padding: 9px 8px; flex-shrink: 0; }
+    .ham-line { display: block; width: 22px; height: 2px; background: rgba(255,255,255,.85); border-radius: 2px; transition: transform .22s ease, opacity .15s ease; transform-origin: center; }
+    .hamburger-btn.open .ham-line:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger-btn.open .ham-line:nth-child(2) { opacity: 0; }
+    .hamburger-btn.open .ham-line:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    @media (max-width: 639px) { .hamburger-btn { display: flex; } .header-nav-group { display: none !important; } }
+    .mobile-menu { position: fixed; top: 63px; left: 0; right: 0; background: var(--bg-dark2); border-bottom: 2px solid var(--cyan); z-index: 198; padding: 6px 0 18px; transform: translateY(-10px); opacity: 0; pointer-events: none; transition: transform .22s ease, opacity .18s ease; max-height: calc(100vh - 63px); overflow-y: auto; }
+    .mobile-menu.open { transform: translateY(0); opacity: 1; pointer-events: all; }
+    .mobile-menu-item { display: block; padding: 14px 24px; font-size: 15px; font-weight: 600; color: rgba(255,255,255,.8); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.06); transition: color .15s, background .15s; }
+    .mobile-menu-item:hover { color: var(--cyan-ultra); background: rgba(8,145,178,.1); }
+    .mobile-menu-cta-wrap { padding: 14px 20px 0; }
+    .mobile-menu-cta { display: block; background: var(--cyan); color: #fff; text-align: center; padding: 15px; border-radius: 12px; font-weight: 800; font-size: 17px; text-decoration: none; box-shadow: 0 4px 16px var(--cyan-glow); }
+
+    /* FOOTER */
+    .footer-main { background: linear-gradient(155deg, #071525 0%, var(--bg-dark) 100%); overflow: hidden; }
+    .footer-top { max-width: 1100px; margin: 0 auto; padding: 56px 24px 40px; display: grid; grid-template-columns: 1fr; gap: 32px; }
+    @media (min-width: 480px) { .footer-top { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 640px) { .footer-top { grid-template-columns: 200px 1fr 1fr 1fr; gap: 40px; } }
+    .footer-big-links { display: flex; flex-direction: column; gap: 4px; }
+    .footer-big-links a { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(26px, 4vw, 42px); font-weight: 900; color: rgba(255,255,255,.8); text-decoration: none; text-transform: uppercase; line-height: 1.1; transition: color .2s; }
+    .footer-big-links a:hover { color: var(--cyan-ultra); }
+    .footer-col-title { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan-ultra); margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; }
+    .footer-col-arrow { display: none; font-size: 14px; font-style: normal; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-links li a { font-size: 13px; color: rgba(255,255,255,.4); text-decoration: none; transition: color .2s; }
+    .footer-links li a:hover { color: var(--cyan-ultra); }
+    @media (max-width: 479px) { .footer-top { grid-template-columns: 1fr; gap: 0; padding: 32px 20px 16px; } .footer-big-links { display: none; } .footer-col { border-bottom: 1px solid rgba(255,255,255,.07); } .footer-col-title { cursor: pointer; padding: 14px 0; margin-bottom: 0; user-select: none; } .footer-col-arrow { display: inline; } .footer-links { max-height: 0; overflow: hidden; transition: max-height .28s ease; padding-bottom: 0; gap: 0; } .footer-col.open .footer-links { max-height: 280px; padding-bottom: 14px; gap: 10px; } }
+    .footer-subscribe-row { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; }
+    .footer-subscribe-box { background: rgba(8,145,178,.1); border: 1px solid rgba(8,145,178,.2); border-radius: 20px; padding: 24px 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; }
+    .footer-subscribe-box p { font-size: 15px; font-weight: 700; color: #fff; }
+    .footer-subscribe-form { display: flex; flex: 1; min-width: 220px; max-width: 380px; }
+    .footer-subscribe-input { flex: 1; padding: 12px 16px; background: rgba(255,255,255,.08); border: 1px solid rgba(8,145,178,.3); border-right: none; border-radius: 10px 0 0 10px; font-size: 13px; color: #fff; font-family: inherit; outline: none; }
+    .footer-subscribe-input::placeholder { color: rgba(255,255,255,.3); }
+    .footer-subscribe-btn { padding: 12px 20px; background: var(--cyan); border: none; border-radius: 0 10px 10px 0; color: #fff; font-size: 18px; cursor: pointer; transition: background .2s; }
+    .footer-subscribe-btn:hover { background: var(--cyan-light); }
+    .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,.07); max-width: 1100px; margin: 0 auto 20px; }
+    .footer-bottom { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; font-size: 11px; color: rgba(255,255,255,.3); }
+    .footer-bottom a { color: rgba(255,255,255,.3); text-decoration: none; margin: 0 6px; }
+    .footer-bottom a:hover { color: rgba(255,255,255,.6); }
+    .back-to-top { position: fixed; right: 20px; bottom: 28px; z-index: 200; width: 42px; height: 42px; background: var(--cyan); border: none; border-radius: 50%; color: #fff; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(8,145,178,.45); opacity: 0; transform: translateY(12px); transition: opacity .25s, transform .25s, background .2s; pointer-events: none; }
+    .back-to-top.visible { opacity: 1; transform: translateY(0); pointer-events: all; }
+    .back-to-top:hover { background: var(--cyan-light); }
+
+    /* PAGE HERO */
+    .page-hero { background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-dark2) 60%, #0a2240 100%); padding: 72px 24px 60px; text-align: center; position: relative; overflow: hidden; }
+    .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(8,145,178,.18) 0%, transparent 70%); pointer-events: none; }
+    .breadcrumb { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 12px; color: rgba(255,255,255,.45); margin-bottom: 24px; position: relative; }
+    .breadcrumb a { color: rgba(255,255,255,.45); text-decoration: none; transition: color .2s; }
+    .breadcrumb a:hover { color: var(--cyan-ultra); }
+    .breadcrumb-sep { color: rgba(255,255,255,.25); }
+    .page-hero-label { display: inline-flex; align-items: center; gap: 6px; background: rgba(8,145,178,.2); border: 1px solid rgba(8,145,178,.4); border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 700; color: var(--cyan-ultra); letter-spacing: .06em; margin-bottom: 20px; position: relative; }
+    .page-hero h1 { font-size: clamp(30px, 5vw, 52px); font-weight: 900; color: #fff; line-height: 1.15; margin-bottom: 16px; position: relative; }
+    .page-hero-sub { font-size: clamp(14px, 2vw, 17px); color: rgba(255,255,255,.6); position: relative; }
+
+    /* METHODOLOGY SECTION */
+    .section { padding: 64px 24px; }
+    .section-inner { max-width: 900px; margin: 0 auto; }
+    .section-label { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); margin-bottom: 10px; }
+    .section-title { font-size: clamp(22px, 3.5vw, 34px); font-weight: 900; color: var(--text); margin-bottom: 16px; line-height: 1.25; }
+    .section-desc { font-size: 16px; color: var(--text-muted); line-height: 1.75; margin-bottom: 40px; max-width: 700px; }
+
+    /* PRINCIPLES */
+    .principles-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 48px; }
+    .principle-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 50px; padding: 10px 20px; font-size: 14px; font-weight: 700; color: var(--text); }
+    .principle-badge span { font-size: 18px; }
+
+    /* CRITERIA GRID */
+    .criteria-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; margin-bottom: 16px; }
+    .criteria-card { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 28px 24px; box-shadow: var(--shadow); transition: box-shadow .2s, transform .2s; position: relative; overflow: hidden; }
+    .criteria-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--cyan) 0%, var(--cyan-light) 100%); border-radius: 16px 16px 0 0; }
+    .criteria-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .criteria-icon { font-size: 32px; margin-bottom: 14px; display: block; }
+    .criteria-title { font-size: 17px; font-weight: 800; color: var(--text); margin-bottom: 8px; }
+    .criteria-desc { font-size: 14px; color: var(--text-muted); line-height: 1.65; margin-bottom: 16px; }
+    .criteria-weight { display: inline-flex; align-items: center; gap: 6px; background: rgba(8,145,178,.1); border: 1px solid rgba(8,145,178,.2); border-radius: 50px; padding: 4px 12px; font-size: 12px; font-weight: 700; color: var(--cyan-dark); }
+
+    /* SCORING SECTION */
+    .scoring-section { background: var(--bg-alt); padding: 64px 24px; }
+    .scoring-inner { max-width: 900px; margin: 0 auto; }
+    .scoring-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; margin-top: 36px; }
+    .score-item { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 24px 20px; text-align: center; box-shadow: var(--shadow); }
+    .score-stars { font-size: 22px; margin-bottom: 8px; }
+    .score-label { font-size: 15px; font-weight: 800; color: var(--text); margin-bottom: 4px; }
+    .score-desc { font-size: 12px; color: var(--text-muted); }
+
+    .scoring-note { margin-top: 32px; background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 28px; display: flex; gap: 16px; align-items: flex-start; }
+    .scoring-note-icon { font-size: 28px; flex-shrink: 0; margin-top: 2px; }
+    .scoring-note-text h3 { font-size: 16px; font-weight: 800; color: var(--text); margin-bottom: 6px; }
+    .scoring-note-text p { font-size: 14px; color: var(--text-muted); line-height: 1.65; }
+
+    /* TRANSPARENCY SECTION */
+    .transparency-section { background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); padding: 64px 24px; }
+    .transparency-inner { max-width: 900px; margin: 0 auto; text-align: center; }
+    .transparency-section .section-label { color: var(--cyan-ultra); }
+    .transparency-section .section-title { color: #fff; }
+    .transparency-points { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; margin-top: 40px; }
+    .transparency-point { background: rgba(255,255,255,.05); border: 1px solid rgba(8,145,178,.25); border-radius: 14px; padding: 28px 22px; text-align: left; }
+    .transparency-point-icon { font-size: 28px; margin-bottom: 12px; display: block; }
+    .transparency-point-title { font-size: 15px; font-weight: 800; color: #fff; margin-bottom: 8px; }
+    .transparency-point-desc { font-size: 13px; color: rgba(255,255,255,.55); line-height: 1.65; }
+    .transparency-cta { margin-top: 48px; }
+    .transparency-cta p { font-size: 15px; color: rgba(255,255,255,.6); margin-bottom: 20px; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--cyan); color: #fff; font-size: 15px; font-weight: 800; padding: 14px 32px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 20px var(--cyan-glow); transition: box-shadow .2s, transform .15s; }
+    .btn-primary:hover { box-shadow: 0 6px 28px var(--cyan-glow); transform: scale(1.03); }
+  </style>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=%%GTM_ID%%" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header class="site-header">
+  <a href="/index.html" style="display:inline-flex;align-items:center;text-decoration:none;flex-shrink:0;">
+    <img src="/LOGO.png" alt="Business Directory" style="height:40px;width:auto;max-width:160px;object-fit:contain;display:block;">
+  </a>
+  <nav class="header-nav-group" aria-label="攻略分類">
+    <a href="/blog.html" class="header-nav">攻略中心</a>
+    <a href="/blog.html" class="header-nav">優惠資訊</a>
+    <a href="/guides.html" class="header-nav">入門攻略</a>
+    <a href="/help.html" class="header-nav">幫助中心</a>
+    <a href="/about.html" class="header-nav">關於我們</a>
+    <a href="/index.html" class="header-nav header-nav-cyan">領取好禮</a>
+  </nav>
+  <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+    <a href="/index.html" class="btn-sm">領取好禮 🎁</a>
+    <button class="hamburger-btn" id="hamburgerBtn" onclick="toggleMenu()" aria-label="選單" aria-expanded="false">
+      <span class="ham-line"></span><span class="ham-line"></span><span class="ham-line"></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/blog.html" class="mobile-menu-item">📚 攻略中心</a>
+  <a href="/blog.html" class="mobile-menu-item">🎁 優惠資訊</a>
+  <a href="/guides.html" class="mobile-menu-item">📖 入門攻略</a>
+  <a href="/help.html" class="mobile-menu-item">❓ 幫助中心</a>
+  <a href="/about.html" class="mobile-menu-item">👥 關於我們</a>
+  <div class="mobile-menu-cta-wrap">
+    <a href="/index.html" class="mobile-menu-cta">🎁 立即領取新會員好禮</a>
+  </div>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="breadcrumb">
+    <a href="/index.html">首頁</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>評測標準</span>
+  </div>
+  <div class="page-hero-label">📋 評測方法論</div>
+  <h1>我們如何評測平台</h1>
+  <p class="page-hero-sub">六大獨立標準 · 客觀評分 · 定期更新</p>
+</section>
+
+<!-- METHODOLOGY -->
+<section class="section">
+  <div class="section-inner">
+    <p class="section-label">評測原則</p>
+    <h2 class="section-title">獨立、客觀、用戶優先</h2>
+    <p class="section-desc">Business Directory 的使命係幫助用戶搵到最著數、最安全的娛樂平台。我們堅持三大評測原則：獨立運作（不受任何平台資助）、客觀分析（依據真實測試數據打分）、用戶優先（以普通用戶的角度出發，重視實際體驗）。每個評測結果均經過團隊多輪核實，並定期更新以反映平台最新狀況。</p>
+
+    <div class="principles-row">
+      <div class="principle-badge"><span>🛡️</span> 獨立評測，無廣告干擾</div>
+      <div class="principle-badge"><span>📊</span> 數據驅動，客觀打分</div>
+      <div class="principle-badge"><span>👤</span> 真實用戶視角</div>
+      <div class="principle-badge"><span>🔄</span> 每季定期更新</div>
+    </div>
+
+    <p class="section-label">六大評測標準</p>
+    <h2 class="section-title">全面評核每個平台</h2>
+    <div class="criteria-grid">
+      <div class="criteria-card">
+        <span class="criteria-icon">🔒</span>
+        <div class="criteria-title">牌照與合規</div>
+        <p class="criteria-desc">核實平台是否持有由正規監管機構頒發的營運牌照，包括牌照號碼核查、監管機構背景及合規紀錄審查，保障用戶安全。</p>
+        <span class="criteria-weight">⚖️ 評分比重：25%</span>
+      </div>
+      <div class="criteria-card">
+        <span class="criteria-icon">💳</span>
+        <div class="criteria-title">入款選項</div>
+        <p class="criteria-desc">評估支援的入款方式（PayMe、FPS、USDT、銀行轉帳等）、最低入款金額、到帳速度及手續費，愈多選擇、愈快到帳分數愈高。</p>
+        <span class="criteria-weight">⚖️ 評分比重：20%</span>
+      </div>
+      <div class="criteria-card">
+        <span class="criteria-icon">📤</span>
+        <div class="criteria-title">提款速度</div>
+        <p class="criteria-desc">由申請到實際到帳的時間、提款限額設定、拒款比例及原因透明度均納入考量，提款快捷無阻才算合格。</p>
+        <span class="criteria-weight">⚖️ 評分比重：20%</span>
+      </div>
+      <div class="criteria-card">
+        <span class="criteria-icon">🎁</span>
+        <div class="criteria-title">迎新好禮</div>
+        <p class="criteria-desc">分析迎新好禮的實際價值，包括好禮金額、流水要求倍數、有效期設定及條款透明度，流水要求愈低、條款愈清晰分數愈高。</p>
+        <span class="criteria-weight">⚖️ 評分比重：15%</span>
+      </div>
+      <div class="criteria-card">
+        <span class="criteria-icon">📱</span>
+        <div class="criteria-title">用戶體驗</div>
+        <p class="criteria-desc">測試平台頁面載入速度、手機版介面設計、功能完整性及客服回應時間（Live Chat / WhatsApp），整體使用流暢度影響最終評分。</p>
+        <span class="criteria-weight">⚖️ 評分比重：10%</span>
+      </div>
+      <div class="criteria-card">
+        <span class="criteria-icon">⭐</span>
+        <div class="criteria-title">用戶評價</div>
+        <p class="criteria-desc">收集真實用戶反饋、分析投訴處理情況及長期口碑，包括第三方評測平台評分及社群討論熱度，反映平台實際聲譽。</p>
+        <span class="criteria-weight">⚖️ 評分比重：10%</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCORING SYSTEM -->
+<section class="scoring-section">
+  <div class="scoring-inner">
+    <p class="section-label">評分系統</p>
+    <h2 class="section-title">5 星制加權評分</h2>
+    <p class="section-desc" style="color:var(--text-muted);font-size:15px;max-width:700px;">Business Directory 採用 5 星制評分，每個平台的最終評分為六大標準的加權平均值。評分 4 星或以上方可列入「推薦平台」名單，低於 3 星的平台會在評測中標示警告。</p>
+    <div class="scoring-grid">
+      <div class="score-item">
+        <div class="score-stars">⭐⭐⭐⭐⭐</div>
+        <div class="score-label">4.5 – 5.0 星</div>
+        <div class="score-desc">強力推薦，各方面均出色</div>
+      </div>
+      <div class="score-item">
+        <div class="score-stars">⭐⭐⭐⭐</div>
+        <div class="score-label">3.5 – 4.4 星</div>
+        <div class="score-desc">值得推薦，部分細節尚可優化</div>
+      </div>
+      <div class="score-item">
+        <div class="score-stars">⭐⭐⭐</div>
+        <div class="score-label">2.5 – 3.4 星</div>
+        <div class="score-desc">一般水準，建議比較後決定</div>
+      </div>
+      <div class="score-item">
+        <div class="score-stars">⭐⭐</div>
+        <div class="score-label">2.4 星以下</div>
+        <div class="score-desc">不推薦，存在明顯不足</div>
+      </div>
+    </div>
+    <div class="scoring-note">
+      <span class="scoring-note-icon">🔄</span>
+      <div class="scoring-note-text">
+        <h3>定期重新評測</h3>
+        <p>所有已評測平台每季度進行一次全面重新評核，如平台有重大變動（如牌照更新、提款政策調整），我們會即時更新評分。評測日期顯示於每個評測頁面。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRANSPARENCY -->
+<section class="transparency-section">
+  <div class="transparency-inner">
+    <p class="section-label">透明度聲明</p>
+    <h2 class="section-title">公正獨立，無利益衝突</h2>
+    <div class="transparency-points">
+      <div class="transparency-point">
+        <span class="transparency-point-icon">🚫</span>
+        <div class="transparency-point-title">不收廣告費</div>
+        <p class="transparency-point-desc">Business Directory 不向任何娛樂平台收取廣告費或推廣費。我們的評測結果完全基於客觀測試數據，不受商業利益影響。</p>
+      </div>
+      <div class="transparency-point">
+        <span class="transparency-point-icon">🔍</span>
+        <div class="transparency-point-title">真實帳號測試</div>
+        <p class="transparency-point-desc">所有評測均使用真實帳號進行，包括實際入款、提款測試，確保評分反映真實用戶體驗，而非單憑平台提供資料。</p>
+      </div>
+      <div class="transparency-point">
+        <span class="transparency-point-icon">📅</span>
+        <div class="transparency-point-title">評測日期透明</div>
+        <p class="transparency-point-desc">每個評測頁面均清楚標示最後更新日期，讓用戶了解資料的時效性。舊資料會以警告標示提醒用戶。</p>
+      </div>
+      <div class="transparency-point">
+        <span class="transparency-point-icon">📩</span>
+        <div class="transparency-point-title">歡迎意見反饋</div>
+        <p class="transparency-point-desc">如你對某平台評分有異議，或發現資料有誤，歡迎透過聯絡表格告知我們，我們將認真審視並更新評測內容。</p>
+      </div>
+    </div>
+    <div class="transparency-cta">
+      <p>想了解更多評測詳情？查看我們的完整攻略中心</p>
+      <a href="/blog.html" class="btn-primary">📚 查看評測攻略</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-main">
+  <div class="footer-top">
+    <div class="footer-big-links">
+      <a href="/blog.html">攻略</a><a href="/guides.html">指南</a><a href="/help.html">幫助</a><a href="/about.html">關於</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">攻略分類<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/blog.html">📚 全部攻略</a></li>
+        <li><a href="/blog.html">🎰 電子遊藝攻略</a></li>
+        <li><a href="/blog.html">🃏 百家樂指南</a></li>
+        <li><a href="/blog.html">⚽ 足球賽事分析</a></li>
+        <li><a href="/blog.html">💳 入款教學</a></li>
+        <li><a href="/blog.html">📤 提款教學</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">資訊平台<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/docs.html">📋 評測標準</a></li>
+        <li><a href="/guides.html">📖 入門攻略</a></li>
+        <li><a href="/help.html">❓ 幫助中心</a></li>
+        <li><a href="/api.html">🔌 資料 API</a></li>
+        <li><a href="/about.html">👥 關於我們</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">法律資訊<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/privacy.html">🔒 私隱政策</a></li>
+        <li><a href="/terms.html">📃 使用條款</a></li>
+        <li><a href="/index.html">🏠 返回首頁</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-subscribe-row">
+    <div class="footer-subscribe-box">
+      <p>📬 訂閱最新優惠資訊，第一時間獲取著數</p>
+      <form class="footer-subscribe-form"><input type="email" class="footer-subscribe-input" placeholder="輸入你的電郵" required><button type="submit" class="footer-subscribe-btn">→</button></form>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <span>© 2026 Business Directory. All rights reserved. &nbsp;|&nbsp; 🔞 18+ only</span>
+    <span><a href="/blog.html">攻略中心</a><a href="/about.html">關於我們</a><a href="/privacy.html">私隱政策</a><a href="/terms.html">使用條款</a></span>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="返回頂部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+  function toggleMenu() {
+    var btn = document.getElementById('hamburgerBtn'), menu = document.getElementById('mobileMenu');
+    var open = btn.classList.toggle('open'); menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+  document.addEventListener('click', function(e) {
+    var menu = document.getElementById('mobileMenu'), btn = document.getElementById('hamburgerBtn');
+    if (menu && menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+      menu.classList.remove('open'); btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false'); document.body.style.overflow = '';
+    }
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var btt = document.getElementById('backToTop');
+    if (btt) window.addEventListener('scroll', function() { btt.classList.toggle('visible', window.scrollY > 400); }, {passive:true});
+    document.querySelectorAll('.footer-col .footer-col-title').forEach(function(t) {
+      t.addEventListener('click', function() {
+        var col = this.closest('.footer-col'), arrow = this.querySelector('.footer-col-arrow');
+        var isOpen = col.classList.toggle('open');
+        if (arrow) arrow.textContent = isOpen ? '－' : '＋';
+      });
+    });
+  });
+</script>
+</body>
+</html>

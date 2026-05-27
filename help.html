@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=%%GA4_ID%%"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','%%GA4_ID%%');</script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','%%GTM_ID%%');</script>
+  <title>幫助中心 | Business Directory</title>
+  <meta name="description" content="Business Directory 幫助中心 — 常見問題解答、入款提款教學、帳號設定指南。">
+  <link rel="canonical" href="https://businessdirectory-uk.com/help">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; background: #ffffff; color: #0f172a; line-height: 1.6; }
+    :root {
+      --cyan: #0891b2; --cyan-dark: #0e7490; --cyan-light: #22d3ee; --cyan-ultra: #67e8f9;
+      --cyan-glow: rgba(8,145,178,.28);
+      --bg: #ffffff; --bg-alt: #f0f9ff; --bg-dark: #0c1a2e; --bg-dark2: #0f2744;
+      --text: #0f172a; --text-muted: #64748b; --text-light: #475569; --border: #bae6fd;
+      --shadow: 0 1px 4px rgba(8,145,178,.08), 0 1px 2px rgba(0,0,0,.04);
+      --shadow-md: 0 4px 12px rgba(8,145,178,.12), 0 2px 4px rgba(0,0,0,.05);
+    }
+
+    /* HEADER */
+    .site-header { background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); border-bottom: 2px solid var(--cyan); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 10px; position: sticky; top: 0; z-index: 200; }
+    .header-nav { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; font-weight: 700; color: rgba(255,255,255,.75); text-decoration: none; padding: 7px 14px; border-radius: 20px; border: 1px solid rgba(255,255,255,.2); white-space: nowrap; transition: color .2s, border-color .2s; }
+    .header-nav:hover { color: var(--cyan-ultra); border-color: var(--cyan-light); }
+    .header-nav-cyan { background: rgba(8,145,178,.18); border-color: rgba(8,145,178,.45); color: var(--cyan-ultra); }
+    .header-nav-group { flex: 1; min-width: 0; display: flex; gap: 6px; align-items: center; overflow-x: auto; scrollbar-width: none; padding: 0 4px; }
+    .header-nav-group::-webkit-scrollbar { display: none; }
+    .btn-sm { background: var(--cyan); color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px; text-decoration: none; white-space: nowrap; flex-shrink: 0; border: 2px solid rgba(255,255,255,.2); cursor: pointer; font-family: inherit; box-shadow: 0 4px 16px var(--cyan-glow); letter-spacing: .02em; transition: box-shadow .2s, transform .15s; }
+    .btn-sm:hover { box-shadow: 0 6px 24px var(--cyan-glow); transform: scale(1.03); }
+    .hamburger-btn { display: none; flex-direction: column; justify-content: center; align-items: center; gap: 5px; width: 40px; height: 40px; background: none; border: none; cursor: pointer; padding: 9px 8px; flex-shrink: 0; }
+    .ham-line { display: block; width: 22px; height: 2px; background: rgba(255,255,255,.85); border-radius: 2px; transition: transform .22s ease, opacity .15s ease; transform-origin: center; }
+    .hamburger-btn.open .ham-line:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger-btn.open .ham-line:nth-child(2) { opacity: 0; }
+    .hamburger-btn.open .ham-line:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    @media (max-width: 639px) { .hamburger-btn { display: flex; } .header-nav-group { display: none !important; } }
+    .mobile-menu { position: fixed; top: 63px; left: 0; right: 0; background: var(--bg-dark2); border-bottom: 2px solid var(--cyan); z-index: 198; padding: 6px 0 18px; transform: translateY(-10px); opacity: 0; pointer-events: none; transition: transform .22s ease, opacity .18s ease; max-height: calc(100vh - 63px); overflow-y: auto; }
+    .mobile-menu.open { transform: translateY(0); opacity: 1; pointer-events: all; }
+    .mobile-menu-item { display: block; padding: 14px 24px; font-size: 15px; font-weight: 600; color: rgba(255,255,255,.8); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.06); transition: color .15s, background .15s; }
+    .mobile-menu-item:hover { color: var(--cyan-ultra); background: rgba(8,145,178,.1); }
+    .mobile-menu-cta-wrap { padding: 14px 20px 0; }
+    .mobile-menu-cta { display: block; background: var(--cyan); color: #fff; text-align: center; padding: 15px; border-radius: 12px; font-weight: 800; font-size: 17px; text-decoration: none; box-shadow: 0 4px 16px var(--cyan-glow); }
+
+    /* FOOTER */
+    .footer-main { background: linear-gradient(155deg, #071525 0%, var(--bg-dark) 100%); overflow: hidden; }
+    .footer-top { max-width: 1100px; margin: 0 auto; padding: 56px 24px 40px; display: grid; grid-template-columns: 1fr; gap: 32px; }
+    @media (min-width: 480px) { .footer-top { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 640px) { .footer-top { grid-template-columns: 200px 1fr 1fr 1fr; gap: 40px; } }
+    .footer-big-links { display: flex; flex-direction: column; gap: 4px; }
+    .footer-big-links a { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(26px, 4vw, 42px); font-weight: 900; color: rgba(255,255,255,.8); text-decoration: none; text-transform: uppercase; line-height: 1.1; transition: color .2s; }
+    .footer-big-links a:hover { color: var(--cyan-ultra); }
+    .footer-col-title { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan-ultra); margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; }
+    .footer-col-arrow { display: none; font-size: 14px; font-style: normal; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-links li a { font-size: 13px; color: rgba(255,255,255,.4); text-decoration: none; transition: color .2s; }
+    .footer-links li a:hover { color: var(--cyan-ultra); }
+    @media (max-width: 479px) { .footer-top { grid-template-columns: 1fr; gap: 0; padding: 32px 20px 16px; } .footer-big-links { display: none; } .footer-col { border-bottom: 1px solid rgba(255,255,255,.07); } .footer-col-title { cursor: pointer; padding: 14px 0; margin-bottom: 0; user-select: none; } .footer-col-arrow { display: inline; } .footer-links { max-height: 0; overflow: hidden; transition: max-height .28s ease; padding-bottom: 0; gap: 0; } .footer-col.open .footer-links { max-height: 280px; padding-bottom: 14px; gap: 10px; } }
+    .footer-subscribe-row { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; }
+    .footer-subscribe-box { background: rgba(8,145,178,.1); border: 1px solid rgba(8,145,178,.2); border-radius: 20px; padding: 24px 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; }
+    .footer-subscribe-box p { font-size: 15px; font-weight: 700; color: #fff; }
+    .footer-subscribe-form { display: flex; flex: 1; min-width: 220px; max-width: 380px; }
+    .footer-subscribe-input { flex: 1; padding: 12px 16px; background: rgba(255,255,255,.08); border: 1px solid rgba(8,145,178,.3); border-right: none; border-radius: 10px 0 0 10px; font-size: 13px; color: #fff; font-family: inherit; outline: none; }
+    .footer-subscribe-input::placeholder { color: rgba(255,255,255,.3); }
+    .footer-subscribe-btn { padding: 12px 20px; background: var(--cyan); border: none; border-radius: 0 10px 10px 0; color: #fff; font-size: 18px; cursor: pointer; transition: background .2s; }
+    .footer-subscribe-btn:hover { background: var(--cyan-light); }
+    .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,.07); max-width: 1100px; margin: 0 auto 20px; }
+    .footer-bottom { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; font-size: 11px; color: rgba(255,255,255,.3); }
+    .footer-bottom a { color: rgba(255,255,255,.3); text-decoration: none; margin: 0 6px; }
+    .footer-bottom a:hover { color: rgba(255,255,255,.6); }
+    .back-to-top { position: fixed; right: 20px; bottom: 28px; z-index: 200; width: 42px; height: 42px; background: var(--cyan); border: none; border-radius: 50%; color: #fff; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(8,145,178,.45); opacity: 0; transform: translateY(12px); transition: opacity .25s, transform .25s, background .2s; pointer-events: none; }
+    .back-to-top.visible { opacity: 1; transform: translateY(0); pointer-events: all; }
+    .back-to-top:hover { background: var(--cyan-light); }
+
+    /* PAGE HERO */
+    .page-hero { background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-dark2) 60%, #0a2240 100%); padding: 72px 24px 60px; text-align: center; position: relative; overflow: hidden; }
+    .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(8,145,178,.18) 0%, transparent 70%); pointer-events: none; }
+    .breadcrumb { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 12px; color: rgba(255,255,255,.45); margin-bottom: 24px; position: relative; }
+    .breadcrumb a { color: rgba(255,255,255,.45); text-decoration: none; transition: color .2s; }
+    .breadcrumb a:hover { color: var(--cyan-ultra); }
+    .breadcrumb-sep { color: rgba(255,255,255,.25); }
+    .page-hero-label { display: inline-flex; align-items: center; gap: 6px; background: rgba(8,145,178,.2); border: 1px solid rgba(8,145,178,.4); border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 700; color: var(--cyan-ultra); letter-spacing: .06em; margin-bottom: 20px; position: relative; }
+    .page-hero h1 { font-size: clamp(30px, 5vw, 52px); font-weight: 900; color: #fff; line-height: 1.15; margin-bottom: 16px; position: relative; }
+    .page-hero-sub { font-size: clamp(14px, 2vw, 17px); color: rgba(255,255,255,.6); position: relative; margin-bottom: 36px; }
+
+    /* SEARCH BAR (decorative) */
+    .hero-search { display: flex; max-width: 540px; margin: 0 auto; position: relative; }
+    .hero-search-input { flex: 1; padding: 16px 20px 16px 48px; background: rgba(255,255,255,.1); border: 1px solid rgba(8,145,178,.4); border-right: none; border-radius: 14px 0 0 14px; font-size: 15px; color: #fff; font-family: inherit; outline: none; backdrop-filter: blur(8px); }
+    .hero-search-input::placeholder { color: rgba(255,255,255,.4); }
+    .hero-search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); font-size: 18px; pointer-events: none; }
+    .hero-search-btn { padding: 16px 24px; background: var(--cyan); border: none; border-radius: 0 14px 14px 0; color: #fff; font-size: 15px; font-weight: 700; cursor: pointer; font-family: inherit; transition: background .2s; white-space: nowrap; }
+    .hero-search-btn:hover { background: var(--cyan-light); }
+
+    /* QUICK CATEGORIES */
+    .quick-cats { background: var(--bg-alt); padding: 64px 24px; }
+    .quick-cats-inner { max-width: 960px; margin: 0 auto; }
+    .section-label { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); margin-bottom: 10px; }
+    .section-title { font-size: clamp(22px, 3.5vw, 34px); font-weight: 900; color: var(--text); margin-bottom: 8px; line-height: 1.25; }
+    .section-desc { font-size: 15px; color: var(--text-muted); margin-bottom: 36px; }
+    .cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+    .cat-card { display: flex; align-items: flex-start; gap: 16px; background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 24px 20px; box-shadow: var(--shadow); text-decoration: none; transition: box-shadow .2s, transform .2s; }
+    .cat-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .cat-icon { font-size: 30px; flex-shrink: 0; width: 52px; height: 52px; background: var(--bg-alt); border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+    .cat-content { flex: 1; min-width: 0; }
+    .cat-title { font-size: 15px; font-weight: 800; color: var(--text); margin-bottom: 5px; }
+    .cat-desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; }
+
+    /* FAQ SECTION */
+    .faq-section { padding: 64px 24px; }
+    .faq-inner { max-width: 800px; margin: 0 auto; }
+    .faq-group { margin-bottom: 48px; }
+    .faq-group-title { font-size: 18px; font-weight: 800; color: var(--text); padding: 0 0 16px; border-bottom: 2px solid var(--border); margin-bottom: 4px; display: flex; align-items: center; gap: 10px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-question { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 4px; cursor: pointer; font-size: 15px; font-weight: 700; color: var(--text); user-select: none; transition: color .2s; list-style: none; }
+    .faq-question::-webkit-details-marker { display: none; }
+    .faq-question::marker { display: none; content: ''; }
+    .faq-item[open] .faq-question { color: var(--cyan-dark); }
+    .faq-chevron { font-size: 14px; color: var(--text-muted); flex-shrink: 0; transition: transform .25s; }
+    .faq-item[open] .faq-chevron { transform: rotate(180deg); color: var(--cyan); }
+    .faq-answer { padding: 0 4px 20px; font-size: 14px; color: var(--text-muted); line-height: 1.75; }
+
+    /* CONTACT CTA */
+    .contact-cta { background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); padding: 72px 24px; text-align: center; }
+    .contact-cta-inner { max-width: 640px; margin: 0 auto; }
+    .contact-cta h2 { font-size: clamp(24px, 4vw, 38px); font-weight: 900; color: #fff; margin-bottom: 16px; }
+    .contact-cta p { font-size: 16px; color: rgba(255,255,255,.6); margin-bottom: 36px; line-height: 1.65; }
+    .cta-btns { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--cyan); color: #fff; font-size: 15px; font-weight: 800; padding: 14px 32px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 20px var(--cyan-glow); transition: box-shadow .2s, transform .15s; }
+    .btn-primary:hover { box-shadow: 0 6px 28px var(--cyan-glow); transform: scale(1.03); }
+    .btn-outline { display: inline-flex; align-items: center; gap: 8px; background: transparent; color: rgba(255,255,255,.8); font-size: 15px; font-weight: 700; padding: 13px 30px; border-radius: 50px; text-decoration: none; border: 2px solid rgba(255,255,255,.25); transition: border-color .2s, color .2s; }
+    .btn-outline:hover { border-color: var(--cyan-light); color: var(--cyan-ultra); }
+  </style>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=%%GTM_ID%%" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header class="site-header">
+  <a href="/index.html" style="display:inline-flex;align-items:center;text-decoration:none;flex-shrink:0;">
+    <img src="/LOGO.png" alt="Business Directory" style="height:40px;width:auto;max-width:160px;object-fit:contain;display:block;">
+  </a>
+  <nav class="header-nav-group" aria-label="攻略分類">
+    <a href="/blog.html" class="header-nav">攻略中心</a>
+    <a href="/blog.html" class="header-nav">優惠資訊</a>
+    <a href="/guides.html" class="header-nav">入門攻略</a>
+    <a href="/help.html" class="header-nav">幫助中心</a>
+    <a href="/about.html" class="header-nav">關於我們</a>
+    <a href="/index.html" class="header-nav header-nav-cyan">領取好禮</a>
+  </nav>
+  <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+    <a href="/index.html" class="btn-sm">領取好禮 🎁</a>
+    <button class="hamburger-btn" id="hamburgerBtn" onclick="toggleMenu()" aria-label="選單" aria-expanded="false">
+      <span class="ham-line"></span><span class="ham-line"></span><span class="ham-line"></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/blog.html" class="mobile-menu-item">📚 攻略中心</a>
+  <a href="/blog.html" class="mobile-menu-item">🎁 優惠資訊</a>
+  <a href="/guides.html" class="mobile-menu-item">📖 入門攻略</a>
+  <a href="/help.html" class="mobile-menu-item">❓ 幫助中心</a>
+  <a href="/about.html" class="mobile-menu-item">👥 關於我們</a>
+  <div class="mobile-menu-cta-wrap">
+    <a href="/index.html" class="mobile-menu-cta">🎁 立即領取新會員好禮</a>
+  </div>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="breadcrumb">
+    <a href="/index.html">首頁</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>幫助中心</span>
+  </div>
+  <div class="page-hero-label">❓ 幫助中心</div>
+  <h1>幫助中心</h1>
+  <p class="page-hero-sub">常見問題 · 快速解答 · 全程支援</p>
+  <div class="hero-search">
+    <span class="hero-search-icon">🔍</span>
+    <input type="text" class="hero-search-input" placeholder="搜尋問題，例如「點樣提款」...">
+    <button class="hero-search-btn">搜尋</button>
+  </div>
+</section>
+
+<!-- QUICK CATEGORIES -->
+<section class="quick-cats">
+  <div class="quick-cats-inner">
+    <p class="section-label">快速分類</p>
+    <h2 class="section-title">你需要什麼幫助？</h2>
+    <p class="section-desc">選擇以下分類，快速找到你需要的答案</p>
+    <div class="cat-grid">
+      <a href="#faq-bonus" class="cat-card">
+        <div class="cat-icon">💰</div>
+        <div class="cat-content">
+          <div class="cat-title">迎新好禮</div>
+          <div class="cat-desc">如何領取、條款解讀、有效期查詢</div>
+        </div>
+      </a>
+      <a href="#faq-deposit" class="cat-card">
+        <div class="cat-icon">💳</div>
+        <div class="cat-content">
+          <div class="cat-title">入款方法</div>
+          <div class="cat-desc">PayMe/FPS/USDT/銀行轉帳完整教學</div>
+        </div>
+      </a>
+      <a href="#faq-deposit" class="cat-card">
+        <div class="cat-icon">📤</div>
+        <div class="cat-content">
+          <div class="cat-title">提款流程</div>
+          <div class="cat-desc">申請步驟、等候時間、常見問題</div>
+        </div>
+      </a>
+      <a href="#faq-account" class="cat-card">
+        <div class="cat-icon">🔐</div>
+        <div class="cat-content">
+          <div class="cat-title">帳號安全</div>
+          <div class="cat-desc">登記、驗證、密碼重設指引</div>
+        </div>
+      </a>
+      <a href="#faq-platform" class="cat-card">
+        <div class="cat-icon">📋</div>
+        <div class="cat-content">
+          <div class="cat-title">條款規則</div>
+          <div class="cat-desc">使用條款、迎新條款詳細解讀</div>
+        </div>
+      </a>
+      <a href="#contact-cta" class="cat-card">
+        <div class="cat-icon">📞</div>
+        <div class="cat-content">
+          <div class="cat-title">聯絡客服</div>
+          <div class="cat-desc">客服渠道、回應時間查詢</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="faq-section">
+  <div class="faq-inner">
+    <p class="section-label">常見問題</p>
+    <h2 class="section-title">FAQ 問答</h2>
+
+    <!-- 迎新好禮 -->
+    <div class="faq-group" id="faq-bonus">
+      <div class="faq-group-title">💰 迎新好禮</div>
+      <details class="faq-item">
+        <summary class="faq-question">點樣領取迎新好禮？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">領取迎新好禮一般分為三步：①完成新帳號登記（填寫真實個人資料）；②完成身份驗證（上傳身份證明文件）；③按照平台指示完成首次入款（部分平台要求最低入款金額）。好禮會在確認後自動發放到你的帳戶餘額，或需在「優惠中心」手動領取，詳情視乎各平台設定。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">迎新好禮有效期幾耐？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">各平台迎新好禮的有效期不盡相同，一般為 7 至 30 天。有效期由好禮發放日起計算，期間必須完成指定流水要求才可提款。建議在領取好禮後盡快查閱平台條款，確認有效期及流水要求，以免好禮到期失效。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">唔同平台可以重複領迎新好禮嗎？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">每個平台的迎新好禮只限新會員（首次登記）領取一次。但由於每個平台係獨立運營，你可以在不同平台分別以新會員身份登記並領取迎新好禮。Business Directory 評測了多個平台的迎新條款，可參考我們的攻略文章選擇最著數的方案。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">流水要求係咩意思？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">流水要求（Wagering Requirement）係指你需要將好禮金額進行指定倍數的有效投注，才可以將好禮兌換成可提款的真實金額。例如好禮 HK$100、流水要求 10 倍，即需完成 HK$1,000 的有效投注。流水要求愈低，好禮愈容易套現，我們的評測會重點標示各平台的流水倍數。</div>
+      </details>
+    </div>
+
+    <!-- 入款提款 -->
+    <div class="faq-group" id="faq-deposit">
+      <div class="faq-group-title">💳 入款提款</div>
+      <details class="faq-item">
+        <summary class="faq-question">最快入款方法係咩？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">FPS（轉數快）和 PayMe 一般係最快的入款方式，到帳時間通常在 5 分鐘內，部分平台甚至即時到帳。USDT（加密貨幣）入款速度亦很快，但需先在交易所購買。銀行轉帳到帳時間較長，一般需 15 分鐘至 1 小時，視乎銀行處理速度。建議優先選用 FPS 或 PayMe 確保入款效率。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">提款要幾耐到帳？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">提款到帳時間因平台及提款方式而異。一般情況：FPS/轉數快提款約 15 分鐘至 2 小時；銀行轉帳約 1 至 24 小時；加密貨幣提款視乎網絡確認時間，通常 10 至 60 分鐘。高峰時段（如周末或節假日）可能需時更長。如提款超過 24 小時仍未到帳，建議聯絡平台客服查詢。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">最低提款金額係幾多？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">各平台最低提款金額有所不同，一般介乎 HK$200 至 HK$500 之間。部分平台對使用加密貨幣提款設有不同的最低金額限制。詳細的提款限額資訊可在各平台評測頁面查看，或直接查閱平台的提款條款說明。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">提款被拒咋辦？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">提款被拒最常見原因包括：①未完成 KYC 身份驗證；②好禮流水要求未達標；③提款金額超出單次或每日限額；④提款帳戶與入款帳戶不符。收到拒款通知後，先查看平台提供的拒款原因，再聯絡客服了解具體情況。如懷疑平台存在問題，可參考 Business Directory 的評測及用戶反饋。</div>
+      </details>
+    </div>
+
+    <!-- 帳號問題 -->
+    <div class="faq-group" id="faq-account">
+      <div class="faq-group-title">🔐 帳號問題</div>
+      <details class="faq-item">
+        <summary class="faq-question">點樣完成 KYC 身份驗證？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">KYC（了解你的客戶）身份驗證一般需要提交：①有效身份證明文件（香港身份證或護照）；②近期地址證明（如水電費帳單或銀行月結單，日期在 3 個月內）；③部分平台需要自拍照片（手持身份證）。提交後一般在 1 至 48 小時內完成審核，完成 KYC 才可進行提款操作。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">忘記密碼點算？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">在登入頁面點擊「忘記密碼」，輸入你的登記電郵或電話號碼，系統會發送重設連結或驗證碼。點擊連結或輸入驗證碼後，設定新密碼即可。如無法收到重設郵件，請先檢查垃圾郵件夾，或聯絡平台客服協助重設。為安全起見，建議設定含大小寫字母及數字的強密碼。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">可以改電話號碼嗎？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">大部分平台支援更改登記電話號碼，但通常需要通過身份驗證才可修改。一般流程：登入帳號 → 前往帳戶設定 → 選擇更改電話號碼 → 輸入新號碼並完成驗證（OTP 驗證碼）。如系統不支援自助修改，需聯絡平台客服並提供身份證明文件協助更改。</div>
+      </details>
+    </div>
+
+    <!-- 平台選擇 -->
+    <div class="faq-group" id="faq-platform">
+      <div class="faq-group-title">🌐 平台選擇</div>
+      <details class="faq-item">
+        <summary class="faq-question">Business Directory 係咩類型網站？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">Business Directory 係香港一個獨立的娛樂平台資訊服務網站，提供各大平台的客觀評測、最新優惠資訊及詳細使用攻略。我們不直接運營任何娛樂平台，亦不代任何平台收取廣告費，定位係幫助用戶在資訊透明的情況下做出最明智的選擇。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">點樣揀適合自己的平台？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">揀選平台時可參考以下幾個重點：①牌照合規（確保安全）；②迎新好禮質素（好禮金額 vs 流水要求）；③慣用入款方式支援度；④提款速度及限額；⑤手機版體驗。建議對照 Business Directory 的六大評測標準，按個人需求優先排序，配合我們的平台評測報告作出選擇。</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">有冇真實用戶評價可以參考？<span class="faq-chevron">▼</span></summary>
+        <div class="faq-answer">有！Business Directory 的每個平台評測頁面均包含真實用戶評價及投訴紀錄分析。我們會定期收集並更新用戶反饋，包括正面及負面評價，確保資訊全面客觀。此外，攻略中心亦有詳細的平台使用心得文章，可提供更多實際使用參考。</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT CTA -->
+<section class="contact-cta" id="contact-cta">
+  <div class="contact-cta-inner">
+    <h2>仍有疑問？</h2>
+    <p>查看我們的攻略中心，有更多詳細教學文章；或瀏覽各平台評測，找到最適合你的選擇。</p>
+    <div class="cta-btns">
+      <a href="/blog.html" class="btn-primary">📚 前往攻略中心</a>
+      <a href="/guides.html" class="btn-outline">📖 查看入門攻略</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-main">
+  <div class="footer-top">
+    <div class="footer-big-links">
+      <a href="/blog.html">攻略</a><a href="/guides.html">指南</a><a href="/help.html">幫助</a><a href="/about.html">關於</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">攻略分類<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/blog.html">📚 全部攻略</a></li>
+        <li><a href="/blog.html">🎰 電子遊藝攻略</a></li>
+        <li><a href="/blog.html">🃏 百家樂指南</a></li>
+        <li><a href="/blog.html">⚽ 足球賽事分析</a></li>
+        <li><a href="/blog.html">💳 入款教學</a></li>
+        <li><a href="/blog.html">📤 提款教學</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">資訊平台<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/docs.html">📋 評測標準</a></li>
+        <li><a href="/guides.html">📖 入門攻略</a></li>
+        <li><a href="/help.html">❓ 幫助中心</a></li>
+        <li><a href="/api.html">🔌 資料 API</a></li>
+        <li><a href="/about.html">👥 關於我們</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">法律資訊<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/privacy.html">🔒 私隱政策</a></li>
+        <li><a href="/terms.html">📃 使用條款</a></li>
+        <li><a href="/index.html">🏠 返回首頁</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-subscribe-row">
+    <div class="footer-subscribe-box">
+      <p>📬 訂閱最新優惠資訊，第一時間獲取著數</p>
+      <form class="footer-subscribe-form"><input type="email" class="footer-subscribe-input" placeholder="輸入你的電郵" required><button type="submit" class="footer-subscribe-btn">→</button></form>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <span>© 2026 Business Directory. All rights reserved. &nbsp;|&nbsp; 🔞 18+ only</span>
+    <span><a href="/blog.html">攻略中心</a><a href="/about.html">關於我們</a><a href="/privacy.html">私隱政策</a><a href="/terms.html">使用條款</a></span>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="返回頂部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+  function toggleMenu() {
+    var btn = document.getElementById('hamburgerBtn'), menu = document.getElementById('mobileMenu');
+    var open = btn.classList.toggle('open'); menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+  document.addEventListener('click', function(e) {
+    var menu = document.getElementById('mobileMenu'), btn = document.getElementById('hamburgerBtn');
+    if (menu && menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+      menu.classList.remove('open'); btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false'); document.body.style.overflow = '';
+    }
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var btt = document.getElementById('backToTop');
+    if (btt) window.addEventListener('scroll', function() { btt.classList.toggle('visible', window.scrollY > 400); }, {passive:true});
+    document.querySelectorAll('.footer-col .footer-col-title').forEach(function(t) {
+      t.addEventListener('click', function() {
+        var col = this.closest('.footer-col'), arrow = this.querySelector('.footer-col-arrow');
+        var isOpen = col.classList.toggle('open');
+        if (arrow) arrow.textContent = isOpen ? '－' : '＋';
+      });
+    });
+  });
+</script>
+</body>
+</html>
