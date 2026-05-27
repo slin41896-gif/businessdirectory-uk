@@ -1,0 +1,39 @@
+name: Deploy to Cloudflare Pages (Manual Fallback)
+
+# 本專案主要部署方式：本機 deploy-main.ps1 → CF Pages（不依賴 GitHub Actions）
+# 此 workflow 僅作手動備用，平時不自動觸發
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual deploy'
+        required: false
+        default: 'manual fallback deploy'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy to Cloudflare Pages
+        run: npx wrangler pages deploy . --project-name businessdirectory-uk --branch main --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Submit Sitemap to GSC
+        continue-on-error: true
+        run: |
+          cd .github/scripts && npm install --silent && node submit-sitemap.js
+        env:
+          GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
+          GSC_REFRESH_TOKEN: ${{ secrets.GSC_REFRESH_TOKEN }}
+          GSC_SITE_URL: sc-domain:businessdirectory-uk.com
+          GSC_SITEMAP_URL: https://businessdirectory-uk.com/sitemap.xml

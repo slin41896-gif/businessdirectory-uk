@@ -1,0 +1,727 @@
+{
+  "updated": "2026-05-14",
+  "version": "1.0",
+  "categories": {
+    "epl": {
+      "label": "英超足球",
+      "keywords": [
+        "英超",
+        "EPL",
+        "Premier League",
+        "曼城",
+        "Man City",
+        "利物浦",
+        "Liverpool",
+        "切爾西",
+        "Chelsea",
+        "阿仙奴",
+        "Arsenal",
+        "熱刺",
+        "Tottenham",
+        "曼聯",
+        "Manchester",
+        "Leeds",
+        "West Ham"
+      ],
+      "stats": [
+        {
+          "stat": "32億+",
+          "context": "英超全球月均收視人口（2023/24賽季）",
+          "source": "Premier League官方"
+        },
+        {
+          "stat": "51億英鎊",
+          "context": "英超電視版權費2022-25年合約總值",
+          "source": "Premier League媒體報告"
+        },
+        {
+          "stat": "700億美元",
+          "context": "英超20隊球隊市值合計（2024年）",
+          "source": "Forbes 2024"
+        }
+      ]
+    },
+    "laliga": {
+      "label": "西甲足球",
+      "keywords": [
+        "LaLiga",
+        "西甲",
+        "巴塞",
+        "巴薩",
+        "Barcelona",
+        "皇馬",
+        "Real Madrid",
+        "西班牙聯賽"
+      ],
+      "stats": [
+        {
+          "stat": "23億",
+          "context": "西甲全球收視人口（2024年）",
+          "source": "LaLiga官方"
+        },
+        {
+          "stat": "58億歐元",
+          "context": "西甲聯賽2024財年總收入",
+          "source": "LaLiga年報2024"
+        },
+        {
+          "stat": "1.5億",
+          "context": "皇馬vs巴薩「國家德比」平均收視人次",
+          "source": "UEFA媒體數據2023/24"
+        }
+      ]
+    },
+    "champions_league": {
+      "label": "歐冠賽事",
+      "keywords": [
+        "歐冠",
+        "歐聯",
+        "Champions League",
+        "UCL",
+        "歐霸",
+        "Europa",
+        "歐洲聯賽",
+        "歐洲賽"
+      ],
+      "stats": [
+        {
+          "stat": "1.8億",
+          "context": "2024歐冠決賽全球觀眾人數",
+          "source": "UEFA官方報告"
+        },
+        {
+          "stat": "36億歐元",
+          "context": "歐冠歐洲區2021-24轉播版權費",
+          "source": "UEFA財務報告"
+        },
+        {
+          "stat": "55個",
+          "context": "UEFA成員協會參與歐冠資格賽國家數目",
+          "source": "UEFA官方"
+        }
+      ]
+    },
+    "nba": {
+      "label": "NBA籃球",
+      "keywords": [
+        "NBA",
+        "Knicks",
+        "Spurs",
+        "76ers",
+        "Timberwolves",
+        "Lakers",
+        "Celtics",
+        "Warriors"
+      ],
+      "stats": [
+        {
+          "stat": "100億美元+",
+          "context": "NBA 2023/24賽季全球總收益",
+          "source": "Forbes 2024"
+        },
+        {
+          "stat": "4億+",
+          "context": "NBA在亞洲擁有的球迷數量",
+          "source": "NBA Global Survey 2024"
+        },
+        {
+          "stat": "650萬",
+          "context": "NBA季後賽美國平均每場收視人數",
+          "source": "Nielsen 2024"
+        }
+      ]
+    },
+    "hk_basketball": {
+      "label": "香港籃球",
+      "keywords": [
+        "籃球",
+        "basketball",
+        "FIBA",
+        "香港籃球",
+        "港隊",
+        "CBA",
+        "亞洲盃",
+        "Asia Cup"
+      ],
+      "stats": [
+        {
+          "stat": "5萬+",
+          "context": "香港籃球總會登記球員人數（2024）",
+          "source": "HKBA年報2024"
+        },
+        {
+          "stat": "16隊",
+          "context": "FIBA亞洲盃決賽圈參賽隊伍數目",
+          "source": "FIBA官方規章"
+        },
+        {
+          "stat": "2萬+",
+          "context": "香港籃球聯賽年度總觀眾人次",
+          "source": "HKBA統計數據"
+        }
+      ]
+    },
+    "hk_football": {
+      "label": "香港足球",
+      "keywords": [
+        "香港足球",
+        "港超",
+        "HKFA",
+        "港足",
+        "HK football",
+        "足球節",
+        "football festival",
+        "Hong Kong football"
+      ],
+      "stats": [
+        {
+          "stat": "700+",
+          "context": "香港足總登記球隊總數（2024）",
+          "source": "HKFA年報2024"
+        },
+        {
+          "stat": "6萬+",
+          "context": "香港足總登記球員總人數",
+          "source": "HKFA 2024"
+        },
+        {
+          "stat": "15,000+",
+          "context": "香港足球節2026預計吸引球迷人數",
+          "source": "HKFA官方公告"
+        }
+      ]
+    },
+    "horse_racing": {
+      "label": "香港賽馬",
+      "keywords": [
+        "賽馬",
+        "馬匹",
+        "馬場",
+        "跑馬地",
+        "沙田",
+        "HKJC",
+        "馬會",
+        "投注",
+        "horse racing",
+        "jockey"
+      ],
+      "stats": [
+        {
+          "stat": "HK$1,800億+",
+          "context": "香港賽馬年度總投注額（2023/24賽季）",
+          "source": "HKJC年報2023/24"
+        },
+        {
+          "stat": "HK$200億+",
+          "context": "馬會每年向政府繳稅及慈善撥款",
+          "source": "HKJC 2024"
+        },
+        {
+          "stat": "85場+",
+          "context": "沙田及跑馬地每年合辦賽事場數",
+          "source": "HKJC賽季計劃"
+        }
+      ]
+    },
+    "athletics": {
+      "label": "田徑運動",
+      "keywords": [
+        "田徑",
+        "100m",
+        "短跑",
+        "athletics",
+        "sprint",
+        "陳佩琪",
+        "chan pui ki"
+      ],
+      "stats": [
+        {
+          "stat": "1萬+",
+          "context": "香港田徑總會登記田徑員人數",
+          "source": "HKAAA 2024"
+        },
+        {
+          "stat": "3面",
+          "context": "香港田徑代表隊2024年亞運獲獎數目",
+          "source": "香港奧委會報告"
+        },
+        {
+          "stat": "10.78秒",
+          "context": "100米女子亞洲現役頂級水平紀錄",
+          "source": "WA世界田徑官方"
+        }
+      ]
+    },
+    "badminton": {
+      "label": "羽毛球",
+      "keywords": [
+        "羽毛球",
+        "badminton",
+        "BWF",
+        "林丹",
+        "桃田",
+        "Top8",
+        "亞洲",
+        "Asia"
+      ],
+      "stats": [
+        {
+          "stat": "2.2億+",
+          "context": "全球羽毛球運動參與人數估算（2024）",
+          "source": "BWF官方數據"
+        },
+        {
+          "stat": "1.5萬+",
+          "context": "香港羽毛球總會登記會員人數",
+          "source": "HKBA 2024年報"
+        },
+        {
+          "stat": "8/10席",
+          "context": "亞洲選手佔BWF世界排名前十比例（2024）",
+          "source": "BWF World Rankings"
+        }
+      ]
+    },
+    "tennis": {
+      "label": "網球",
+      "keywords": [
+        "網球",
+        "tennis",
+        "ATP",
+        "WTA",
+        "黃俊熙",
+        "wong chun hei",
+        "大坂直美"
+      ],
+      "stats": [
+        {
+          "stat": "2,000+",
+          "context": "全球ATP排名球員總數（2024年）",
+          "source": "ATP官方數據"
+        },
+        {
+          "stat": "2萬+",
+          "context": "香港網球總會登記會員人數",
+          "source": "HKTA 2024"
+        },
+        {
+          "stat": "5,000萬美元+",
+          "context": "亞洲ATP賽事2024年獎金總額",
+          "source": "ATP官方網站"
+        }
+      ]
+    },
+    "rugby": {
+      "label": "欖球",
+      "keywords": [
+        "欖球",
+        "rugby",
+        "七人欖球",
+        "Sevens",
+        "HKRFU",
+        "社區"
+      ],
+      "stats": [
+        {
+          "stat": "1976年",
+          "context": "香港國際七人欖球賽創辦年份，歷史最悠久之一",
+          "source": "HKRFU官方"
+        },
+        {
+          "stat": "860萬+",
+          "context": "全球登記欖球運動員人數（2023）",
+          "source": "World Rugby 2023"
+        },
+        {
+          "stat": "8,000+",
+          "context": "香港欖球總會年度登記球員人數",
+          "source": "HKRFU 2023/24"
+        }
+      ]
+    },
+    "table_tennis": {
+      "label": "乒乓球",
+      "keywords": [
+        "乒乓球",
+        "table tennis",
+        "ITTF",
+        "世乒賽",
+        "世界錦標賽",
+        "中韓"
+      ],
+      "stats": [
+        {
+          "stat": "8.75億+",
+          "context": "全球乒乓球運動參與人數（ITTF 2023）",
+          "source": "ITTF官方數據"
+        },
+        {
+          "stat": "5/10席",
+          "context": "中國選手佔ITTF世界排名前十比例（2024）",
+          "source": "ITTF World Rankings"
+        },
+        {
+          "stat": "60%+",
+          "context": "世乒賽八強成員來自中韓兩國的歷史比例",
+          "source": "ITTF賽事紀錄"
+        }
+      ]
+    },
+    "mlb": {
+      "label": "美國棒球",
+      "keywords": [
+        "MLB",
+        "Giants",
+        "Dodgers",
+        "Sasaki",
+        "Ohtani",
+        "大谷",
+        "佐佐木",
+        "棒球",
+        "baseball"
+      ],
+      "stats": [
+        {
+          "stat": "7,100萬+",
+          "context": "MLB 2024賽季球場入場觀眾總人次",
+          "source": "MLB官方數據"
+        },
+        {
+          "stat": "7億美元",
+          "context": "大谷翔平10年合約總值（史上最大額職業運動合約）",
+          "source": "ESPN 2023"
+        },
+        {
+          "stat": "1.4億+",
+          "context": "MLB 2024年全球直播訂閱用戶數",
+          "source": "MLB官方報告"
+        }
+      ]
+    },
+    "hk_sports_policy": {
+      "label": "香港體育政策",
+      "keywords": [
+        "香港體育",
+        "sports planning",
+        "五年計劃",
+        "體育政策",
+        "諮詢",
+        "consultation",
+        "體育發展"
+      ],
+      "stats": [
+        {
+          "stat": "HK$30億+",
+          "context": "香港體育五年計劃2024-2028預算",
+          "source": "2024年施政報告"
+        },
+        {
+          "stat": "3個",
+          "context": "政府計劃新建或翻新主要體育設施數目",
+          "source": "施政報告2024"
+        },
+        {
+          "stat": "36人",
+          "context": "香港運動員參與2024年巴黎奧運人數",
+          "source": "香港奧委會"
+        }
+      ]
+    },
+    "welcome_bonus": {
+      "label": "迎新獎勵",
+      "keywords": [
+        "迎新獎勵",
+        "welcome bonus",
+        "新用戶",
+        "首充",
+        "迎新",
+        "新人",
+        "首次存款",
+        "new player",
+        "first deposit"
+      ],
+      "stats": [
+        {
+          "stat": "76%",
+          "context": "新用戶以迎新優惠作為選擇平台首要考量因素",
+          "source": "2024年博彩用戶調查"
+        },
+        {
+          "stat": "10億+",
+          "context": "全球線上博彩用戶總人數（2024年）",
+          "source": "H2 Gambling Capital"
+        },
+        {
+          "stat": "HK$3,200億",
+          "context": "亞太區線上博彩市場2024年規模估算",
+          "source": "Statista 2024"
+        }
+      ]
+    },
+    "deposit_withdrawal": {
+      "label": "存提款",
+      "keywords": [
+        "入金",
+        "出金",
+        "存款",
+        "提款",
+        "FPS",
+        "USDT",
+        "PayMe",
+        "銀行轉帳",
+        "withdrawal",
+        "deposit",
+        "轉數快",
+        "加密貨幣",
+        "即時到帳"
+      ],
+      "stats": [
+        {
+          "stat": "99.8%",
+          "context": "香港FPS轉數快系統實時到帳成功率",
+          "source": "香港金管局2024報告"
+        },
+        {
+          "stat": "+45%",
+          "context": "加密貨幣博彩交易量年增長率（2024）",
+          "source": "Chainalysis 2024"
+        },
+        {
+          "stat": "即時~24小時",
+          "context": "主流持牌平台平均提款到帳時間",
+          "source": "行業標準2024"
+        }
+      ]
+    },
+    "platform_review": {
+      "label": "平台評測",
+      "keywords": [
+        "平台",
+        "評測",
+        "黑名單",
+        "可信",
+        "牌照",
+        "license",
+        "VIP",
+        "客服",
+        "推薦",
+        "認可",
+        "正規"
+      ],
+      "stats": [
+        {
+          "stat": "92%",
+          "context": "持牌平台訴訟勝訴率（2023年行業數據）",
+          "source": "iGaming Business報告"
+        },
+        {
+          "stat": "35%",
+          "context": "有忠誠計劃的平台玩家保留率高於無計劃平台",
+          "source": "博彩業報告2024"
+        },
+        {
+          "stat": "HK$3,200億",
+          "context": "亞洲博彩市場2024年總規模估算",
+          "source": "H2 Gambling Capital"
+        }
+      ]
+    },
+    "baccarat": {
+      "label": "百家樂",
+      "keywords": [
+        "百家樂",
+        "baccarat",
+        "莊家",
+        "閒家",
+        "免佣"
+      ],
+      "stats": [
+        {
+          "stat": "88%",
+          "context": "百家樂佔澳門賭場總收入比例（2023）",
+          "source": "澳門博彩監察協調局"
+        },
+        {
+          "stat": "51% vs 49%",
+          "context": "百家樂莊家對閒家標準勝率（無佣算法）",
+          "source": "統計學計算"
+        },
+        {
+          "stat": "HK$5,000億+",
+          "context": "亞太區百家樂年市場規模估算（2024）",
+          "source": "Statista博彩報告"
+        }
+      ]
+    },
+    "live_casino": {
+      "label": "真人賭場",
+      "keywords": [
+        "真人",
+        "荷官",
+        "live casino",
+        "live dealer",
+        "真人賭場",
+        "直播荷官"
+      ],
+      "stats": [
+        {
+          "stat": "68億美元",
+          "context": "全球真人賭場市場2024年規模",
+          "source": "Grand View Research"
+        },
+        {
+          "stat": "38%",
+          "context": "真人荷官遊戲佔線上賭場總收入比例（2024）",
+          "source": "Global Gambling Report"
+        },
+        {
+          "stat": "57%",
+          "context": "亞洲玩家佔全球真人賭場用戶比例",
+          "source": "Evolution Gaming年報2024"
+        }
+      ]
+    },
+    "slots": {
+      "label": "老虎機",
+      "keywords": [
+        "老虎機",
+        "RTP",
+        "slot",
+        "轉軸",
+        "獎池",
+        "jackpot",
+        "累積彩金"
+      ],
+      "stats": [
+        {
+          "stat": "290億美元",
+          "context": "全球老虎機市場2024年規模",
+          "source": "Market Research Future"
+        },
+        {
+          "stat": "96-97%",
+          "context": "主流平台線上老虎機平均RTP回報率",
+          "source": "行業標準數據"
+        },
+        {
+          "stat": "70%+",
+          "context": "線上老虎機佔線上賭場遊戲種類比例（2024）",
+          "source": "SlotsUp數據"
+        }
+      ]
+    },
+    "sports_betting_blog": {
+      "label": "體育博彩",
+      "keywords": [
+        "體育投注",
+        "足球投注",
+        "賠率",
+        "football betting",
+        "體育博彩",
+        "下注",
+        "handicap",
+        "讓球"
+      ],
+      "stats": [
+        {
+          "stat": "830億美元",
+          "context": "全球體育博彩市場2024年規模",
+          "source": "Grand View Research"
+        },
+        {
+          "stat": "46%",
+          "context": "亞洲體育博彩佔全球市場份額（2024）",
+          "source": "IBIA 2024"
+        },
+        {
+          "stat": "78%",
+          "context": "線上體育博彩佔總博彩市場比例（2024）",
+          "source": "H2 Gambling Capital"
+        }
+      ]
+    },
+    "promotions": {
+      "label": "優惠與回水",
+      "keywords": [
+        "優惠碼",
+        "promo code",
+        "回水",
+        "現金回贈",
+        "cashback",
+        "rebate",
+        "優惠",
+        "免費旋轉",
+        "free spin",
+        "每週"
+      ],
+      "stats": [
+        {
+          "stat": "35%",
+          "context": "有回饋計劃平台比無計劃平台玩家保留率高",
+          "source": "博彩業報告2024"
+        },
+        {
+          "stat": "18%",
+          "context": "線上賭場推廣預算佔總收入比例（2024）",
+          "source": "iGaming Business"
+        },
+        {
+          "stat": "8-15%",
+          "context": "現金回贈計劃平均讓玩家提升回本率範圍",
+          "source": "行業標準計算"
+        }
+      ]
+    },
+    "mobile": {
+      "label": "手機博彩",
+      "keywords": [
+        "手機",
+        "mobile",
+        "app",
+        "下載",
+        "iOS",
+        "Android",
+        "流動版本",
+        "手機版"
+      ],
+      "stats": [
+        {
+          "stat": "62%",
+          "context": "手機端博彩佔全球線上賭場收入比例（2024）",
+          "source": "Statista 2024"
+        },
+        {
+          "stat": "+32%",
+          "context": "博彩類App下載量2024年年增長率",
+          "source": "data.ai（原App Annie）"
+        },
+        {
+          "stat": "4.1/5",
+          "context": "主流市場博彩App平均用戶評分",
+          "source": "App Store / Google Play平均"
+        }
+      ]
+    },
+    "general_gambling": {
+      "label": "博彩通用",
+      "keywords": [],
+      "stats": [
+        {
+          "stat": "3,200億美元",
+          "context": "亞洲博彩市場2024年總規模",
+          "source": "H2 Gambling Capital"
+        },
+        {
+          "stat": "58%",
+          "context": "線上博彩用戶主要年齡層（25-44歲）佔比",
+          "source": "2024年全球用戶調查"
+        },
+        {
+          "stat": "62%",
+          "context": "手機端博彩佔線上博彩總交易比例（2024）",
+          "source": "Statista 2024"
+        }
+      ]
+    }
+  }
+}

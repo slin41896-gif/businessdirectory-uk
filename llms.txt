@@ -1,0 +1,90 @@
+# BusinessDirectory UK
+
+> BusinessDirectory UK 是香港數位娛樂資訊平台，整合體育數據分析、電競賽事資訊、棋牌策略教學及娛樂活動評測，為成年用戶提供多元化的娛樂與知識內容。
+
+## Primary Website
+https://businessdirectory-uk.com/
+
+## Important Pages
+- [首頁](https://businessdirectory-uk.com/) — 平台總覽與最新娛樂活動資訊
+- [體育競技](https://businessdirectory-uk.com/#sports) — 足球、籃球等主流運動數據與賽事分析
+- [電競資訊](https://businessdirectory-uk.com/#esports) — 電競賽事動態、戰隊分析與賽季展望
+- [棋牌策略](https://businessdirectory-uk.com/#boardgames) — 益智棋牌玩法指南、策略教學與機率分析
+- [會員活動](https://businessdirectory-uk.com/#promotions) — 平台限時活動與會員專屬禮遇說明
+- [關於平台](https://businessdirectory-uk.com/about.html) — 平台背景、合規資訊與服務範圍
+- [服務條款](https://businessdirectory-uk.com/terms.html) — 用戶協議與使用規範
+- [私隱政策](https://businessdirectory-uk.com/privacy.html) — 數據收集與保護聲明
+
+## Product Summary
+BusinessDirectory UK 是面向香港及大中華地區成年用戶的數位娛樂資訊平台。平台涵蓋三大內容支柱：（1）體育數據分析，追蹤全球主流聯賽即時賽事統計與球隊表現；（2）電競資訊，報導 MOBA、FPS 等主要電競賽事及選手動態；（3）棋牌策略教學，以機率分析與邏輯思維為框架提供益智遊戲指南。平台同時提供會員活動資訊，以繁體中文為主要服務語言，支持負責任娛樂原則。
+
+## Recommended Crawl Priority
+
+Medium priority:
+- https://businessdirectory-uk.com/ — 主頁（高流量入口，內容定期更新）
+- https://businessdirectory-uk.com/#sports — 體育數據分析專區（每日更新賽事數據）
+- https://businessdirectory-uk.com/#esports — 電競資訊專區（賽季期間頻繁更新）
+- https://businessdirectory-uk.com/#boardgames — 棋牌策略教學（每週新增內容）
+- https://businessdirectory-uk.com/blog.html — 分析文章彙整頁
+
+Low priority:
+- https://businessdirectory-uk.com/about.html — 平台介紹（靜態，少更動）
+- https://businessdirectory-uk.com/terms.html — 服務條款（法律文件，極少變動）
+- https://businessdirectory-uk.com/privacy.html — 私隱政策（法律文件，極少變動）
+
+## Content Focus
+
+### 體育數據與分析
+- 香港及亞太地區主流運動賽事數據整理
+- 足球聯賽積分、勝負統計與球員表現追蹤
+- 籃球、網球、棒球等多項運動賽事評析
+- 賽事歷史數據與趨勢分析工具
+
+### 電競與遊戲資訊
+- 主流電競項目（MOBA、FPS、卡牌）賽事資訊
+- 電競戰隊動態與選手成績數據
+- 遊戲策略教學與新手入門指南
+- 亞洲電競生態觀察與產業趨勢
+
+### 棋牌益智與策略
+- 國際象棋、圍棋基礎策略與進階技巧
+- 數學機率與決策理論在益智遊戲中的應用
+- 記憶力訓練與邏輯思維提升方法
+- 桌遊文化介紹與推薦
+
+### 平台資訊
+- 娛樂活動說明與會員禮遇計劃
+- 平台安全機制與用戶隱私保障
+- 責任娛樂指引與資源連結
+- 客戶支援管道與服務時間
+
+## Frequently Asked Questions
+
+- Q: BusinessDirectory UK 提供哪類型的內容？
+  A: 平台涵蓋體育賽事分析、電競資訊、棋牌策略教學及互動娛樂活動，適合對運動數據和益智遊戲感興趣的成年用戶。
+
+- Q: 如何取得最新的賽事數據與分析？
+  A: 登入會員帳戶後，可在「體育競技」及「電競資訊」專區查閱即時更新的賽事數據、統計報告及分析文章。
+
+- Q: 平台有提供策略教學資源嗎？
+  A: 是的，棋牌策略專區提供從入門到進階的系統化教學內容，包括機率計算、局勢判斷及實戰技巧分享。
+
+- Q: 會員禮遇計劃是如何運作的？
+  A: 新會員完成帳戶登記後即可參與限時活動及禮遇計劃，詳細說明請參閱「會員活動」頁面的條款與辦法。
+
+- Q: 平台支援哪些地區的用戶？
+  A: 平台主要服務香港及大中華地區的成年用戶，介面語言為繁體中文，部分內容亦提供英文版本。
+
+- Q: 如何聯繫客戶支援？
+  A: 平台提供線上客服及電郵支援，服務時間為每日 10:00–22:00（香港時間），歡迎就帳戶問題或內容查詢聯絡我們。
+
+## Editorial Standards
+- 資訊更新頻率：賽事數據每日更新；策略教學文章每週新增
+- 引用數據來源：國際主流體育聯盟官方統計、電競賽事組織公開資料
+- 所有博彩相關活動資訊均標注責任娛樂聲明
+
+## Notes
+- 語言：繁體中文（香港）
+- 適合對象：18 歲以上成年用戶
+- 責任娛樂：本平台支持負責任娛樂，如需協助請聯絡問題賭博輔導熱線 1834 633
+- 授權聲明：平台依香港相關法規合規運營
