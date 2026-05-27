@@ -1207,11 +1207,12 @@
 
     /* Mockup right panel */
     .hero-mockup {
-      position: relative; height: 420px; width: 100%; max-width: 460px;
+      position: relative; height: 400px; width: 100%; max-width: 380px;
     }
     .hm-main-card {
-      position: absolute; top: 16px; right: 0;
-      width: 265px;
+      position: absolute; top: 24px;
+      left: 50%; transform: translateX(-50%);
+      width: 240px;
       background: #fff; border: 1px solid #e2e8f0;
       border-radius: 20px; padding: 22px;
       box-shadow: 0 20px 60px rgba(0,0,0,.10), 0 4px 16px rgba(0,0,0,.06);
@@ -1243,8 +1244,8 @@
       box-shadow: 0 8px 24px rgba(0,0,0,.09); z-index: 3;
     }
     .hm-float-1 { top: 0; left: 0; }
-    .hm-float-2 { bottom: 80px; left: 10px; }
-    .hm-float-3 { bottom: 0; right: 0; }
+    .hm-float-2 { bottom: 4px; left: 0; }
+    .hm-float-3 { bottom: 20px; right: 4px; }
     .hm-float-eyebrow { display: block; font-size: 9px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #94a3b8; margin-bottom: 3px; }
     .hm-float-val { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 900; color: #0f172a; line-height: 1.15; }
     .hm-float-sub { display: block; font-size: 9.5px; color: #64748b; margin-top: 2px; }
@@ -1256,14 +1257,14 @@
       .hero-btns { justify-content: center; }
       .hero-mini-stats { justify-content: center; }
       .hero-right { display: flex; justify-content: center; }
-      .hero-mockup { height: 300px; max-width: 360px; }
-      .hm-main-card { width: 215px; padding: 16px; }
+      .hero-mockup { height: 320px; max-width: 340px; }
+      .hm-main-card { width: 200px; padding: 16px; }
       .hm-score-big { font-size: 38px; }
     }
     @media (max-width: 480px) {
       .hero-inner { padding: 36px 20px 44px; }
-      .hero-mockup { height: 260px; max-width: 320px; }
-      .hm-main-card { width: 190px; }
+      .hero-mockup { height: 280px; max-width: 300px; }
+      .hm-main-card { width: 180px; }
       .hm-float-2 { display: none; }
     }
   </style>
