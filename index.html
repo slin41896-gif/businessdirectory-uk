@@ -491,17 +491,19 @@
       font-size: 12px; font-weight: 600; color: var(--text-light); white-space: nowrap;
     }
 
-    /* ── FEATURES (dark navy) ── */
+    /* ── FEATURES (light bg) ── */
     .features {
       padding: 72px 20px 64px;
-      background: linear-gradient(155deg, var(--bg-dark2) 0%, #061020 50%, #0a2747 100%);
+      background: var(--bg-alt);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
       position: relative; overflow: hidden;
     }
     .features::before {
       content: '';
       position: absolute; top: -120px; right: -80px;
       width: 600px; height: 600px;
-      background: radial-gradient(circle, rgba(8,145,178,.1) 0%, transparent 65%);
+      background: radial-gradient(circle, rgba(8,145,178,.06) 0%, transparent 65%);
       pointer-events: none;
     }
     .features-header {
@@ -511,7 +513,7 @@
     .features-label {
       font-size: 10px; font-weight: 700;
       letter-spacing: .14em; text-transform: uppercase;
-      color: var(--cyan-light);
+      color: var(--cyan);
       writing-mode: vertical-rl; transform: rotate(180deg);
       flex-shrink: 0; padding-top: 6px; display: none;
     }
@@ -519,12 +521,12 @@
     .features-title {
       font-family: 'Barlow Condensed', sans-serif;
       font-size: clamp(30px, 7vw, 56px);
-      font-weight: 900; color: #fff;
+      font-weight: 900; color: var(--text);
       line-height: 1.05; text-transform: uppercase;
       margin-bottom: 10px;
     }
     .features-sub {
-      font-size: 14px; color: rgba(255,255,255,.55);
+      font-size: 14px; color: var(--text-muted);
       max-width: 600px; margin-bottom: 44px;
     }
     .feat-cards {
@@ -534,21 +536,21 @@
     @media (min-width: 540px) { .feat-cards { grid-template-columns: repeat(2, 1fr); } }
     @media (min-width: 860px) { .feat-cards { grid-template-columns: repeat(3, 1fr); } }
     .feat-card {
-      background: rgba(255,255,255,.05);
-      border: 1px solid rgba(8,145,178,.2);
+      background: #fff;
+      border: 1px solid var(--border);
       border-radius: 20px; padding: 28px 22px;
       transition: border-color .2s, transform .2s, box-shadow .2s;
     }
-    .feat-card:hover { border-color: rgba(8,145,178,.55); transform: translateY(-4px); box-shadow: 0 12px 36px rgba(8,145,178,.15); }
+    .feat-card:hover { border-color: var(--cyan); transform: translateY(-4px); box-shadow: 0 12px 36px rgba(8,145,178,.12); }
     .feat-card-top { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
     .feat-num {
       font-family: 'Barlow Condensed', sans-serif;
       font-size: 30px; font-weight: 900;
-      color: rgba(255,255,255,.22); line-height: 1;
+      color: var(--border); line-height: 1;
     }
     .feat-icon { font-size: 28px; line-height: 1; }
-    .feat-title { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 8px; }
-    .feat-desc { font-size: 13px; color: rgba(255,255,255,.55); line-height: 1.65; }
+    .feat-title { font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .feat-desc { font-size: 13px; color: var(--text-muted); line-height: 1.65; }
     .features .btn { max-width: 440px; margin: 44px auto 0; font-size: 18px; }
 
     /* ── GAME CATEGORIES ── */
@@ -1248,7 +1250,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- ═══ ENTITY DEFINITION (LLM 強化) ═══ -->
 <div id="entity-definition" class="entity-def" aria-label="平台介紹">
-  <p><strong>Business Directory</strong> 係一個為香港及澳門用戶提供娛樂平台資訊、會員優惠及獎勵指南嘅平台，致力協助用戶尋找正規持牌娛樂服務及最新迎新禮遇。平台提供詳盡攻略分析、秒速入出款指引及 24/7 客服支援，助港澳用戶安心暢享頂級娛樂體驗。</p>
+  <p><strong>BDUK</strong> 係一個為香港及澳門用戶提供娛樂平台資訊、會員優惠及獎勵指南嘅平台，致力協助用戶尋找正規持牌娛樂服務及最新迎新禮遇。平台提供詳盡攻略分析、秒速入出款指引及 24/7 客服支援，助港澳用戶安心暢享頂級娛樂體驗。</p>
 </div>
 
 <!-- ═══ FEATURES / REVIEW METHODOLOGY ═══ -->
