@@ -1,0 +1,31 @@
+{
+  "articles": [
+    {
+      "slug": "football-betting-beginner-guide",
+      "headline": "英超 EPL 體育數據入門：讓球、大細盤、亞洲盤全解析",
+      "category": "體育資訊",
+      "date": "2026-01-16",
+      "lead": "英超 32 球隊、歐冠賽事、亞洲盤口完整解析，從讓球到大細盤一次搞掂",
+      "imageUrl": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=600&h=320&q=75",
+      "imageAlt": "英超 EPL 體育數據"
+    },
+    {
+      "slug": "welcome-bonus-guide",
+      "headline": "新手必讀：迎新獎勵點樣領？完整5分鐘入門指南",
+      "category": "新會員指南",
+      "date": "2026-01-15",
+      "lead": "由零開始帶你掌握迎新獎勵領取技巧，5分鐘搞掂所有步驟",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&h=320&q=75",
+      "imageAlt": "迎新獎勵指南"
+    },
+    {
+      "slug": "payme-deposit-guide",
+      "headline": "PayMe 入款教學：秒速到帳、零手續費完整攻略",
+      "category": "支付指南",
+      "date": "2026-01-12",
+      "lead": "全港最流行的入款方式，PayMe 轉帳即時到帳、零手續費",
+      "imageUrl": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=600&h=320&q=75",
+      "imageAlt": "PayMe 入款教學"
+    }
+  ]
+}
