@@ -104,8 +104,8 @@
     @media (min-width: 900px) { .articles-grid { grid-template-columns: repeat(3, 1fr); } }
     .article-card { background: #fff; border: 1px solid #bae6fd; border-radius: 16px; overflow: hidden; transition: transform .2s, box-shadow .2s; }
     .article-card:hover { transform: translateY(-4px); box-shadow: 0 12px 36px rgba(8,145,178,.12); }
-    .article-card-img { background: #f0f9ff; height: 120px; display: flex; align-items: center; justify-content: center; position: relative; }
-    .article-card-emoji { font-size: 48px; }
+    .article-card-img { background: #0c1a2e; height: 160px; background-size: cover; background-position: center; background-repeat: no-repeat; position: relative; }
+    .article-card-emoji { display: none; }
     .article-cat-badge { position: absolute; top: 10px; right: 10px; background: #0891b2; color: #fff; font-size: 10px; font-weight: 700; padding: 3px 10px; border-radius: 20px; }
     .article-card-body { padding: 16px; }
     .article-card-title { font-size: 14.5px; font-weight: 700; color: #0f172a; line-height: 1.4; margin-bottom: 8px; }
@@ -194,9 +194,9 @@
     <h1 class="blog-hero-title">全港最完整<br><em>娛樂平台攻略庫</em></h1>
     <p class="blog-hero-sub">每日更新 · 編輯精選 · 新手入門必讀</p>
     <div class="blog-hero-stats">
-      <span class="blog-hero-stat">📚 43+ 篇攻略</span>
-      <span class="blog-hero-stat">🗂️ 8 大分類</span>
-      <span class="blog-hero-stat">🔄 每日更新</span>
+      <span class="blog-hero-stat">43+ 篇攻略</span>
+      <span class="blog-hero-stat">8 大分類</span>
+      <span class="blog-hero-stat">每日更新</span>
     </div>
   </div>
 </section>
@@ -205,13 +205,13 @@
 <div class="cat-bar-wrap" id="catBar">
   <div class="cat-bar">
     <button class="cat-btn active" data-cat="all" onclick="filterCat('all',this)">全部</button>
-    <button class="cat-btn" data-cat="迎新好禮" onclick="filterCat('迎新好禮',this)">🆕 迎新好禮</button>
-    <button class="cat-btn" data-cat="入款攻略" onclick="filterCat('入款攻略',this)">💳 入款攻略</button>
-    <button class="cat-btn" data-cat="提款教學" onclick="filterCat('提款教學',this)">📤 提款教學</button>
-    <button class="cat-btn" data-cat="遊戲指南" onclick="filterCat('遊戲指南',this)">🎰 遊戲指南</button>
-    <button class="cat-btn" data-cat="平台評測" onclick="filterCat('平台評測',this)">🔍 平台評測</button>
-    <button class="cat-btn" data-cat="VIP優惠" onclick="filterCat('VIP優惠',this)">👑 VIP優惠</button>
-    <button class="cat-btn" data-cat="運動投注" onclick="filterCat('運動投注',this)">⚽ 運動投注</button>
+    <button class="cat-btn" data-cat="新會員指南" onclick="filterCat('新會員指南',this)">新會員指南</button>
+    <button class="cat-btn" data-cat="支付指南" onclick="filterCat('支付指南',this)">支付指南</button>
+    <button class="cat-btn" data-cat="提款指南" onclick="filterCat('提款指南',this)">提款指南</button>
+    <button class="cat-btn" data-cat="娛樂指南" onclick="filterCat('娛樂指南',this)">娛樂指南</button>
+    <button class="cat-btn" data-cat="平台評鑑" onclick="filterCat('平台評鑑',this)">平台評鑑</button>
+    <button class="cat-btn" data-cat="會員計劃" onclick="filterCat('會員計劃',this)">會員計劃</button>
+    <button class="cat-btn" data-cat="體育資訊" onclick="filterCat('體育資訊',this)">體育資訊</button>
   </div>
 </div>
 
@@ -219,11 +219,10 @@
 <main class="articles-wrap" id="main-content">
   <div class="articles-grid" id="articlesGrid">
 
-    <!-- 迎新好禮 (3) -->
-    <article class="article-card" data-cat="迎新好禮">
-      <div class="article-card-img">
-        <span class="article-card-emoji">🆕</span>
-        <span class="article-cat-badge">迎新好禮</span>
+    <!-- 新會員指南 (3) -->
+    <article class="article-card" data-cat="新會員指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">新會員指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/welcome-bonus-guide.html">新手必讀：迎新獎勵點樣領？完整5分鐘入門指南</a></h2>
@@ -235,10 +234,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="迎新好禮">
-      <div class="article-card-img">
-        <span class="article-card-emoji">💡</span>
-        <span class="article-cat-badge">迎新好禮</span>
+    <article class="article-card" data-cat="新會員指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">新會員指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/new-player-first-deposit-tips.html">新人首充必睇！5大條款陷阱同入款技巧</a></h2>
@@ -250,10 +248,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="迎新好禮">
-      <div class="article-card-img">
-        <span class="article-card-emoji">📋</span>
-        <span class="article-cat-badge">迎新好禮</span>
+    <article class="article-card" data-cat="新會員指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">新會員指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/bonus-terms-wagering-guide.html">優惠條款流水攻略2026｜常見陷阱及要求完全解讀</a></h2>
@@ -265,11 +262,10 @@
       </div>
     </article>
 
-    <!-- 入款攻略 (5) -->
-    <article class="article-card" data-cat="入款攻略">
-      <div class="article-card-img">
-        <span class="article-card-emoji">💳</span>
-        <span class="article-cat-badge">入款攻略</span>
+    <!-- 支付指南 (5) -->
+    <article class="article-card" data-cat="支付指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">支付指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/payme-deposit-guide.html">PayMe 入款教學：秒速到帳、零手續費完整攻略</a></h2>
@@ -281,10 +277,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="入款攻略">
-      <div class="article-card-img">
-        <span class="article-card-emoji">⚡</span>
-        <span class="article-cat-badge">入款攻略</span>
+    <article class="article-card" data-cat="支付指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">支付指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/fps-instant-deposit-tips.html">FPS 即時到帳秘訣2026｜轉數快入款3秒到賬完整攻略</a></h2>
@@ -296,10 +291,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="入款攻略">
-      <div class="article-card-img">
-        <span class="article-card-emoji">₮</span>
-        <span class="article-cat-badge">入款攻略</span>
+    <article class="article-card" data-cat="支付指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">支付指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/usdt-deposit-guide.html">USDT 加密貨幣入款教學 2026 完整攻略｜TRC20 vs ERC20</a></h2>
@@ -311,10 +305,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="入款攻略">
-      <div class="article-card-img">
-        <span class="article-card-emoji">🏦</span>
-        <span class="article-cat-badge">入款攻略</span>
+    <article class="article-card" data-cat="支付指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">支付指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/bank-transfer-deposit-guide.html">銀行轉帳入款教學2026｜操作步驟、備註填法、到帳時間完整攻略</a></h2>
@@ -326,10 +319,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="入款攻略">
-      <div class="article-card-img">
-        <span class="article-card-emoji">🆚</span>
-        <span class="article-cat-badge">入款攻略</span>
+    <article class="article-card" data-cat="支付指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">支付指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/fps-vs-usdt.html">FPS 轉數快 vs USDT：邊種付款方式最適合你？</a></h2>
@@ -341,11 +333,10 @@
       </div>
     </article>
 
-    <!-- 提款教學 (2) -->
-    <article class="article-card" data-cat="提款教學">
-      <div class="article-card-img">
-        <span class="article-card-emoji">❌</span>
-        <span class="article-cat-badge">提款教學</span>
+    <!-- 提款指南 (2) -->
+    <article class="article-card" data-cat="提款指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">提款指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/withdrawal-rejected-reasons.html">提款被拒原因全解析｜8大常見問題即查即解教學2026</a></h2>
@@ -357,10 +348,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="提款教學">
-      <div class="article-card-img">
-        <span class="article-card-emoji">🚀</span>
-        <span class="article-cat-badge">提款教學</span>
+    <article class="article-card" data-cat="提款指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">提款指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/fast-withdrawal-platform-comparison.html">2026快速提款平台全面比較攻略</a></h2>
@@ -372,11 +362,10 @@
       </div>
     </article>
 
-    <!-- 遊戲指南 (3) -->
-    <article class="article-card" data-cat="遊戲指南">
-      <div class="article-card-img">
-        <span class="article-card-emoji">🃏</span>
-        <span class="article-cat-badge">遊戲指南</span>
+    <!-- 娛樂指南 (3) -->
+    <article class="article-card" data-cat="娛樂指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">娛樂指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/baccarat-basics-beginner-guide.html">百家樂基礎入門教學2026完整版｜新手必學玩法規則</a></h2>
@@ -388,10 +377,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="遊戲指南">
-      <div class="article-card-img">
-        <span class="article-card-emoji">🎰</span>
-        <span class="article-cat-badge">遊戲指南</span>
+    <article class="article-card" data-cat="娛樂指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1596838132731-3301c3fd4317?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">娛樂指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/live-casino-live-dealer-guide.html">Live Casino 真人荷官體驗攻略｜玩法賠率注意事項完整指南</a></h2>
@@ -403,10 +391,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="遊戲指南">
-      <div class="article-card-img">
-        <span class="article-card-emoji">🎲</span>
-        <span class="article-cat-badge">遊戲指南</span>
+    <article class="article-card" data-cat="娛樂指南">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1523920290228-4f321a939b4c?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">娛樂指南</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/slot-rtp-guide.html">老虎機 RTP 點睇？教你識揀高回報機贏更多</a></h2>
@@ -418,11 +405,10 @@
       </div>
     </article>
 
-    <!-- 平台評測 (3) -->
-    <article class="article-card" data-cat="平台評測">
-      <div class="article-card-img">
-        <span class="article-card-emoji">🔍</span>
-        <span class="article-cat-badge">平台評測</span>
+    <!-- 平台評鑑 (3) -->
+    <article class="article-card" data-cat="平台評鑑">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">平台評鑑</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/how-to-check-platform-credibility.html">娛樂平台信譽點樣睇？5大指標教你揀可靠平台唔中伏</a></h2>
@@ -434,10 +420,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="平台評測">
-      <div class="article-card-img">
-        <span class="article-card-emoji">⚖️</span>
-        <span class="article-cat-badge">平台評測</span>
+    <article class="article-card" data-cat="平台評鑑">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">平台評鑑</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/hk-platform-legal-issues.html">香港娛樂平台法律問題全解析：合規牌照同玩家保障</a></h2>
@@ -449,10 +434,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="平台評測">
-      <div class="article-card-img">
-        <span class="article-card-emoji">🚫</span>
-        <span class="article-cat-badge">平台評測</span>
+    <article class="article-card" data-cat="平台評鑑">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">平台評鑑</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/avoid-blacklist-platforms.html">娛樂平台黑名單點避免？5大識別不可靠平台技巧2026</a></h2>
@@ -464,11 +448,10 @@
       </div>
     </article>
 
-    <!-- VIP優惠 (3) -->
-    <article class="article-card" data-cat="VIP優惠">
-      <div class="article-card-img">
-        <span class="article-card-emoji">👑</span>
-        <span class="article-cat-badge">VIP優惠</span>
+    <!-- 會員計劃 (3) -->
+    <article class="article-card" data-cat="會員計劃">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">會員計劃</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/vip-program-guide.html">VIP 計劃詳解：等級制度同積分換算一文睇清</a></h2>
@@ -480,10 +463,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="VIP優惠">
-      <div class="article-card-img">
-        <span class="article-card-emoji">💰</span>
-        <span class="article-cat-badge">VIP優惠</span>
+    <article class="article-card" data-cat="會員計劃">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1579621970795-87facc2f976d?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">會員計劃</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/cashback-rebate-guide.html">反水返水係咩？娛樂平台返水計算方法同領取攻略2026</a></h2>
@@ -495,10 +477,9 @@
       </div>
     </article>
 
-    <article class="article-card" data-cat="VIP優惠">
-      <div class="article-card-img">
-        <span class="article-card-emoji">🔄</span>
-        <span class="article-cat-badge">VIP優惠</span>
+    <article class="article-card" data-cat="會員計劃">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1506784926709-22f1ec395907?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">會員計劃</span>
       </div>
       <div class="article-card-body">
         <h2 class="article-card-title"><a href="/blog/weekly-rebate-guide.html">娛樂平台週回贈活動攻略2026｜最大化領取技巧大公開</a></h2>
@@ -510,15 +491,14 @@
       </div>
     </article>
 
-    <!-- 運動投注 (1) -->
-    <article class="article-card" data-cat="運動投注">
-      <div class="article-card-img">
-        <span class="article-card-emoji">⚽</span>
-        <span class="article-cat-badge">運動投注</span>
+    <!-- 體育資訊 (1) -->
+    <article class="article-card" data-cat="體育資訊">
+      <div class="article-card-img" style="background-image:url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=600&h=320&q=75')">
+        <span class="article-cat-badge">體育資訊</span>
       </div>
       <div class="article-card-body">
-        <h2 class="article-card-title"><a href="/blog/football-betting-beginner-guide.html">足球投注新手入門：基礎術語全解析</a></h2>
-        <p class="article-card-desc">讓球、大細盤、亞洲盤點解？本文用最簡單的語言解釋足球投注基礎術語，助新手快速上手。</p>
+        <h2 class="article-card-title"><a href="/blog/football-betting-beginner-guide.html">英超 EPL 體育數據入門：讓球、大細盤、亞洲盤全解析</a></h2>
+        <p class="article-card-desc">Premier League、歐冠 Champions League 體育數據分析必讀！讓球、大細盤、亞洲盤術語一文搞掂，掌握賽事統計分析技巧。</p>
         <div class="article-card-foot">
           <span class="article-date">2025-12-27</span>
           <a href="/blog/football-betting-beginner-guide.html" class="article-read-more">閱讀攻略 →</a>
@@ -535,7 +515,7 @@
   <div class="blog-cta-inner">
     <h2>攻略睇晒，係時候行動！</h2>
     <p>立即領取新會員好禮，輕鬆開始你的娛樂之旅</p>
-    <a href="http://g1vip.com?p=279138" class="blog-cta-btn" onclick="handleCTA(event,'bottom')">🎁 立即領取新會員好禮</a>
+    <a href="http://g1vip.com?p=279138" class="blog-cta-btn" onclick="handleCTA(event,'bottom')">立即領取新會員好禮</a>
   </div>
 </section>
 
@@ -547,36 +527,36 @@
     <div class="footer-col">
       <p class="footer-col-title">攻略分類<span class="footer-col-arrow">＋</span></p>
       <ul class="footer-links">
-        <li><a href="/blog.html">📚 全部攻略</a></li>
-        <li><a href="/blog.html">🎰 電子遊藝攻略</a></li>
-        <li><a href="/blog.html">🃏 百家樂指南</a></li>
-        <li><a href="/blog.html">⚽ 足球賽事分析</a></li>
-        <li><a href="/blog.html">💳 入款教學</a></li>
-        <li><a href="/blog.html">📤 提款教學</a></li>
+        <li><a href="/blog.html">全部文章</a></li>
+        <li><a href="/blog.html">娛樂指南</a></li>
+        <li><a href="/blog.html">平台評鑑</a></li>
+        <li><a href="/blog.html">體育資訊</a></li>
+        <li><a href="/blog.html">支付指南</a></li>
+        <li><a href="/blog.html">提款指南</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <p class="footer-col-title">資訊平台<span class="footer-col-arrow">＋</span></p>
       <ul class="footer-links">
-        <li><a href="/docs.html">📋 評測標準</a></li>
-        <li><a href="/guides.html">📖 入門攻略</a></li>
-        <li><a href="/help.html">❓ 幫助中心</a></li>
-        <li><a href="/api.html">🔌 資料 API</a></li>
-        <li><a href="/about.html">👥 關於我們</a></li>
+        <li><a href="/docs.html">評測標準</a></li>
+        <li><a href="/guides.html">入門指南</a></li>
+        <li><a href="/help.html">幫助中心</a></li>
+        <li><a href="/api.html">資料 API</a></li>
+        <li><a href="/about.html">關於我們</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <p class="footer-col-title">法律資訊<span class="footer-col-arrow">＋</span></p>
       <ul class="footer-links">
-        <li><a href="/privacy.html">🔒 私隱政策</a></li>
-        <li><a href="/terms.html">📃 使用條款</a></li>
-        <li><a href="/index.html">🏠 返回首頁</a></li>
+        <li><a href="/privacy.html">私隱政策</a></li>
+        <li><a href="/terms.html">使用條款</a></li>
+        <li><a href="/index.html">返回首頁</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-subscribe-row">
     <div class="footer-subscribe-box">
-      <p>📬 訂閱最新優惠資訊，第一時間獲取著數</p>
+      <p>訂閱最新資訊，第一時間獲取最新消息</p>
       <form class="footer-subscribe-form"><input type="email" class="footer-subscribe-input" placeholder="輸入你的電郵" required><button type="submit" class="footer-subscribe-btn">→</button></form>
     </div>
   </div>
