@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-nba-spurs-thunder-game-7",
+      "headline": "溫班亞瑪爆發，馬刺逼雷霆入搶七",
+      "category": "體育資訊",
+      "date": "2026-05-29",
+      "lead": "NBA西區決賽戰況白熱化！馬刺隊憑藉新星溫班亞瑪找回狀態，個人轟下28分，帶領球隊以一場大勝擊敗雷霆，成功將系列賽逼入最關鍵的第七戰，賽事懸念再度升級。",
+      "imageUrl": "/images/blog/2026-05-29-nba-spurs-thunder-game-7.jpg",
+      "imageAlt": "溫班亞瑪爆發，馬刺逼雷霆入搶七"
+    },
+    {
       "slug": "2026-05-29-thunder-vs-spurs-game-7-sga-clutch",
       "headline": "雷霆遭逼G7 SGA：生涯最重要一戰",
       "category": "體育資訊",
@@ -34,15 +43,6 @@
       "date": "2026-05-29",
       "excerpt": "香港《賭博條例》（第148章）實施逾40年，但針對網上博彩嘅監管至今仍存在法律灰色地帶，令大量無牌平台乘虛向港人提供服務。2025年涉及無牌網上博彩詐騙案超過1,400宗，損失累計逾5.2億港元。本文",
       "imageUrl": "/blog/img/hk-legal-gambling-platform-regulatory-guide.jpg"
-    },
-    {
-      "slug": "2026-05-29-nba-spurs-thunder-game-7",
-      "headline": "馬刺主場大勝 雷霆失準 搶七定生死",
-      "category": "體育資訊",
-      "date": "2026-05-29",
-      "lead": "NBA 西岸決賽戰況白熱化！馬刺喺主場以 118:91 大炒雷霆，成功將系列賽逼入「搶七」生死戰，氣氛緊張到極點。",
-      "imageUrl": "https://images.pexels.com/photos/36780538/pexels-photo-36780538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Dynamic scene of a baseball game in a Tokyo stadium capturing the batter's swing."
     },
     {
       "slug": "2026-05-29-argentina-world-cup-2026-preview",
