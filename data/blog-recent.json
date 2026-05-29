@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-nba-wembanyama-leads-spurs-to-game-7",
+      "headline": "溫班亞瑪爆發，馬刺搶七有望",
+      "category": "體育資訊",
+      "date": "2026-05-29",
+      "lead": "聖安東尼奧馬刺隊在溫班亞瑪的強勢帶領下，於關鍵的第六場比賽中成功扳平戰局，將系列賽逼入驚心動魄的搶七大戰。這位法國新星的進攻慾望與場上決策，再次成為全場焦點。",
+      "imageUrl": "https://images.pexels.com/photos/34918720/pexels-photo-34918720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "A detailed image showcasing a basketball resting on a park bench, highlighting texture and outdoor setting."
+    },
+    {
       "slug": "2026-05-29-spurs-force-game-7-vs-thunder-in-western-conference-finals",
       "headline": "馬刺主場扳平 3:3 雷霆西岸決賽鬥到尾",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "2026年世界盃決戰在即，衛冕冠軍阿根廷隊以強勢姿態迎接挑戰。本文為您整合最新世界排名、豪華球員陣容及賽程詳情，助您緊貼「藍白軍團」的衛冕之路。",
       "imageUrl": "https://images.pexels.com/photos/7932148/pexels-photo-7932148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "A professional cyclist in gear racing on an urban road in Hong Kong."
-    },
-    {
-      "slug": "2026-05-29-wembanyama-leads-spurs-in-game-6",
-      "headline": "溫班亞瑪半場22分4三分，馬刺西決G6重振雄風",
-      "category": "體育資訊",
-      "date": "2026-05-29",
-      "lead": "NBA西區決賽G6，馬刺新星溫班亞瑪上半場找回手感，攻下22分並投進4記三分，帶領球隊取得領先，力求扳平系列賽。",
-      "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
     }
   ]
 }
