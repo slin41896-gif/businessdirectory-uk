@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-tennis-rain-disrupts-match-qatar-loses-0-1-to-ireland",
+      "headline": "卡塔爾網球賽雨戰失利 0:1不敵愛爾蘭",
+      "category": "體育資訊",
+      "date": "2026-05-29",
+      "lead": "卡塔爾隊在一場受天氣嚴重影響的網球賽事中，以0比1不敵愛爾蘭隊。雨勢多次打斷比賽節奏，最終未能扭轉敗局。",
+      "imageUrl": "https://images.pexels.com/photos/32289819/pexels-photo-32289819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "A player serves on a clay tennis court, highlighting the beauty and intensity of the sport at sunset."
+    },
+    {
       "slug": "2026-05-29-argentina-world-cup-preview",
       "headline": "阿根廷2026世界盃全方位預覽",
       "category": "體育資訊",
