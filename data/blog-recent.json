@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-30-thunder-vs-spurs-game-7-sga-says-career-defining",
+      "headline": "雷霆逼入G7 SGA：生涯最重要一戰",
+      "category": "體育資訊",
+      "date": "2026-05-30",
+      "lead": "NBA西岸決賽峰迴路轉，奧克拉荷馬雷霆隊被聖安東尼奧馬刺隊逼入搶七生死戰。儘管球隊主將SGA坦承身心俱疲，但他仍展現出無比的決心，稱這將是其職業生涯中最重要的一",
+      "imageUrl": "/images/blog/2026-05-30-thunder-vs-spurs-game-7-sga-says-career-defining.jpg",
+      "imageAlt": "雷霆逼入G7 SGA：生涯最重要一戰"
+    },
+    {
       "slug": "2026-05-30-nba-wembanyama-leads-spurs-to-game-7",
       "headline": "馬刺搶七！溫班亞瑪展侵略性，讚賞替補奇兵",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "NBA西區決賽戰況白熱化，奧克拉荷馬雷霆隊被聖安東尼奧馬刺隊逼入搶七大戰。球隊主將SGA坦言身心俱疲，但仍展現出破釜沉舟的決心，形容這將是其職業生涯中最重要的一",
       "imageUrl": "/images/blog/2026-05-29-thunder-vs-spurs-game-7-sga-clutch.jpg",
       "imageAlt": "雷霆遭逼G7 SGA：生涯最重要一戰"
-    },
-    {
-      "slug": "2026-05-29-nba-western-conference-finals-spurs-thunder-game-7",
-      "headline": "馬刺主場發威 扳平雷霆 搶七決生死",
-      "category": "體育資訊",
-      "date": "2026-05-29",
-      "lead": "NBA西區決賽峰迴路轉！馬刺隊在主場以118比91大勝雷霆，成功將系列賽逼入最關鍵的搶七大戰，戰情白熱化。",
-      "imageUrl": "/images/blog/2026-05-29-nba-western-conference-finals-spurs-thunder-game-.jpg",
-      "imageAlt": "馬刺主場發威 扳平雷霆 搶七決生死"
     }
   ]
 }
