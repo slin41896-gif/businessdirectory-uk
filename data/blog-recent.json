@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-30-nba-western-conference-finals-game-7-analysis",
+      "headline": "西決生死搶七 馬刺雷霆數據解碼",
+      "category": "體育資訊",
+      "date": "2026-05-30",
+      "lead": "NBA西區決賽進入白熱化階段，馬刺與雷霆的史詩級對決將在搶七大戰中劃上句號。數據分析顯示雙方勢均力敵，而馬刺球員班斯的生日出戰，更為這場關鍵戰役增添了懸念。",
+      "imageUrl": "/images/blog/2026-05-30-nba-western-conference-finals-game-7-analysis.jpg",
+      "imageAlt": "西決生死搶七 馬刺雷霆數據解碼"
+    },
+    {
       "slug": "2026-05-29-knicks-robinson-fracture-championship-blow",
       "headline": "尼克羅賓森骨折 冠軍夢蒙上陰影",
       "category": "體育資訊",
@@ -62,14 +71,6 @@
       "lead": "NBA季後賽激戰連場，聖安東尼奧馬刺隊憑藉法國新星溫班亞瑪的強勢回歸，以一場酣暢淋漓的勝利，將與奧克拉荷馬雷霆隊的系列賽逼入萬眾矚目的第七戰。",
       "imageUrl": "/images/blog/2026-05-29-nba-playoffs-wembanyama-spurs-force-game-7.jpg",
       "imageAlt": "溫班亞瑪發威，馬刺逼雷霆入搶七"
-    },
-    {
-      "slug": "hk-legal-gambling-platform-regulatory-guide",
-      "title": "香港合法博彩平台監管架構與持牌營運標準深度分析",
-      "category": "undefined",
-      "date": "2026-05-29",
-      "excerpt": "香港《賭博條例》（第148章）實施逾40年，但針對網上博彩嘅監管至今仍存在法律灰色地帶，令大量無牌平台乘虛向港人提供服務。2025年涉及無牌網上博彩詐騙案超過1,400宗，損失累計逾5.2億港元。本文",
-      "imageUrl": "/blog/img/hk-legal-gambling-platform-regulatory-guide.jpg"
     }
   ]
 }
