@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-nba-wembanyama-spurs-force-game-7",
+      "headline": "溫班亞瑪爆發！馬刺搶七關鍵戰勝出",
+      "category": "體育資訊",
+      "date": "2026-05-29",
+      "lead": "馬刺隊超級新秀溫班亞瑪今場火力全開，以強悍的個人表現帶領球隊贏下關鍵一役，成功將系列賽逼入生死攸關的搶七大戰。他賽後高度讚揚了球隊板凳球員的關鍵發揮，認為是勝利",
+      "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
+    },
+    {
       "slug": "2026-05-29-spurs-force-game-7-against-thunder-in-western-conference-finals",
       "headline": "馬刺主場贏波追平3:3 搶七惡鬥雷霆爭總決門票",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "國際龍舟聯合會（IDBF）總部正式落戶香港，標誌著香港體育發展邁入新里程碑。立法會議員霍啟剛形容此乃體育界盛事，將進一步鞏固香港作為國際體育樞紐的地位。",
       "imageUrl": "https://images.pexels.com/photos/32536629/pexels-photo-32536629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "Exciting dragon boat race in a lush Taiwanese park on a sunny day. Participants paddle vigorously."
-    },
-    {
-      "slug": "football-betting-beginner-guide",
-      "headline": "英超 EPL 體育數據入門：讓球、大細盤、亞洲盤全解析",
-      "category": "體育資訊",
-      "date": "2025-12-27",
-      "lead": "Premier League、歐冠體育數據分析必讀！讓球、大細盤、亞洲盤術語一文搞掂。",
-      "imageUrl": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=600&h=320&q=75",
-      "imageAlt": "英超 EPL 體育數據入門"
     }
   ]
 }
