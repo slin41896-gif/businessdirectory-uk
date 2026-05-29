@@ -18,8 +18,10 @@
     "category": "平台監管",
     "angle": "監管說明型",
     "image_theme": "official license document with regulatory seal and legal framework symbols",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+    "status": "used",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字",
+    "slug": "hk-legal-gambling-platform-regulatory-guide",
+    "used_date": "2026-05-29"
   },
   {
     "id": 3,
