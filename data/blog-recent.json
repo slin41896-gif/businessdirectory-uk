@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-spurs-tie-thunder-to-force-game-7",
+      "headline": "馬刺主場發威 追平雷霆3:3 決戰第七場",
+      "category": "體育資訊",
+      "date": "2026-05-29",
+      "lead": "NBA西岸決賽峰迴路轉！馬刺喺主場以118:91大勝雷霆，成功將系列賽追成3:3平手，將戰線推向驚心動魄嘅「搶七」大戰，勝者將晉級總決賽。",
+      "imageUrl": "https://images.pexels.com/photos/34918720/pexels-photo-34918720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "A detailed image showcasing a basketball resting on a park bench, highlighting texture and outdoor setting."
+    },
+    {
       "slug": "2026-05-29-hong-kong-dragon-boat-federation-hq-relocation",
       "headline": "霍啟剛：龍舟總會落戶香港 體育樞紐地位升級",
       "category": "體育資訊",
