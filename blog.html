@@ -605,6 +605,12 @@
     var noResults = document.getElementById('noResults');
     if (noResults) noResults.style.display = visible === 0 ? '' : 'none';
   }
+  (function() {
+    var cat = new URLSearchParams(location.search).get('cat');
+    if (!cat) return;
+    var btn = Array.from(document.querySelectorAll('.cat-btn')).find(function(b){ return b.dataset.cat === cat; });
+    if (btn) { filterCat(cat, btn); btn.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' }); }
+  })();
   function toggleMenu(){var btn=document.getElementById('hamburgerBtn'),menu=document.getElementById('mobileMenu');var open=btn.classList.toggle('open');menu.classList.toggle('open');btn.setAttribute('aria-expanded',open?'true':'false');document.body.style.overflow=open?'hidden':'';}
   document.addEventListener('click',function(e){var menu=document.getElementById('mobileMenu'),btn=document.getElementById('hamburgerBtn');if(menu&&menu.classList.contains('open')&&!menu.contains(e.target)&&!btn.contains(e.target)){menu.classList.remove('open');btn.classList.remove('open');btn.setAttribute('aria-expanded','false');document.body.style.overflow='';}});
   document.addEventListener('DOMContentLoaded',function(){
