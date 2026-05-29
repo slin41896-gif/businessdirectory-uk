@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-nba-thunder-sga-playoff-record",
+      "headline": "SGA西岸決戰滑鐵盧 正負值-28創MVP級別新低",
+      "category": "體育資訊",
+      "date": "2026-05-29",
+      "lead": "雷霆隊MVP熱門Shai Gilgeous-Alexander（SGA）在西岸決賽關鍵一役中表現失準，得分創下本季新低，正負值更跌至-28，寫下MVP級別球員季",
+      "imageUrl": "https://images.pexels.com/photos/32012753/pexels-photo-32012753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "High school lacrosse players face off during an intense game, showcasing sportsmanship and competitive spirit."
+    },
+    {
       "slug": "nba-wemby-spurs-force-game-7-bench-heroes-may29-2026",
       "headline": "文班亞瑪爆發，馬刺搶七！讚板凳奇兵",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "NBA 西岸季後賽關鍵一役，馬刺新星溫班亞瑪找回狀態，攻入28分帶領球隊以118比91大勝雷霆，將系列賽逼入第七戰的生死對決。",
       "imageUrl": "https://images.pexels.com/photos/30555530/pexels-photo-30555530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "Dramatic moment in a basketball game with players and an engaged crowd."
-    },
-    {
-      "slug": "2026-05-29-spurs-thunder-game-7-western-conference-finals",
-      "headline": "馬刺主場大勝雷霆，西冠逼入搶七",
-      "category": "體育資訊",
-      "date": "2026-05-29",
-      "lead": "NBA西區冠軍賽戰況激烈，馬刺隊喺主場以118比91擊敗雷霆隊，成功將系列賽逼入搶七大戰，氣氛一觸即發。",
-      "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
     }
   ]
 }
