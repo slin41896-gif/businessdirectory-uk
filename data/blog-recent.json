@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-30-nba-draft-lottery-reforms-relegation-risk",
+      "headline": "NBA選秀新規：榜尾三隊「降班」 嚴打擺爛",
+      "category": "體育資訊",
+      "date": "2026-05-30",
+      "lead": "NBA聯盟今日（30日）公布一項劃時代的選秀抽籤新規，戰績最差的三支球隊將面臨「降班」風險，此舉勢將徹底改變球隊的戰術部署，嚴防「擺爛」文化。",
+      "imageUrl": "/images/blog/2026-05-30-nba-draft-lottery-reforms-relegation-risk.jpg",
+      "imageAlt": "NBA選秀新規：榜尾三隊「降班」 嚴打擺爛"
+    },
+    {
       "slug": "2026-05-30-thunder-vs-spurs-game-7-sga-says-career-defining",
       "headline": "雷霆逼入G7 SGA：生涯最重要一戰",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "NBA西區決賽戰況白熱化！馬刺隊憑藉新星溫班亞瑪找回狀態，個人轟下28分，帶領球隊以一場大勝擊敗雷霆，成功將系列賽逼入最關鍵的第七戰，賽事懸念再度升級。",
       "imageUrl": "/images/blog/2026-05-29-nba-spurs-thunder-game-7.jpg",
       "imageAlt": "溫班亞瑪爆發，馬刺逼雷霆入搶七"
-    },
-    {
-      "slug": "2026-05-29-thunder-vs-spurs-game-7-sga-clutch",
-      "headline": "雷霆遭逼G7 SGA：生涯最重要一戰",
-      "category": "體育資訊",
-      "date": "2026-05-29",
-      "lead": "NBA西區決賽戰況白熱化，奧克拉荷馬雷霆隊被聖安東尼奧馬刺隊逼入搶七大戰。球隊主將SGA坦言身心俱疲，但仍展現出破釜沉舟的決心，形容這將是其職業生涯中最重要的一",
-      "imageUrl": "/images/blog/2026-05-29-thunder-vs-spurs-game-7-sga-clutch.jpg",
-      "imageAlt": "雷霆遭逼G7 SGA：生涯最重要一戰"
     }
   ]
 }
