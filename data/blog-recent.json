@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-30-nba-wembanyama-leads-spurs-to-game-7",
+      "headline": "馬刺搶七！溫班亞瑪展侵略性，讚賞替補奇兵",
+      "category": "體育資訊",
+      "date": "2026-05-30",
+      "lead": "NBA 季後賽戰況白熱化！聖安東尼奧馬刺憑藉新星溫班亞瑪的關鍵時刻爆發，成功將系列賽拖入驚心動魄的搶七大戰。賽後，這位法國巨塔將功勞歸於表現出色的替補陣容。",
+      "imageUrl": "/images/blog/2026-05-30-nba-wembanyama-leads-spurs-to-game-7.jpg",
+      "imageAlt": "馬刺搶七！溫班亞瑪展侵略性，讚賞替補奇兵"
+    },
+    {
       "slug": "2026-05-30-nba-western-conference-finals-game-7-analysis",
       "headline": "西決生死搶七 馬刺雷霆數據解碼",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "NBA西區決賽峰迴路轉！馬刺隊在主場以118比91大勝雷霆，成功將系列賽逼入最關鍵的搶七大戰，戰情白熱化。",
       "imageUrl": "/images/blog/2026-05-29-nba-western-conference-finals-spurs-thunder-game-.jpg",
       "imageAlt": "馬刺主場發威 扳平雷霆 搶七決生死"
-    },
-    {
-      "slug": "2026-05-29-nba-playoffs-wembanyama-spurs-force-game-7",
-      "headline": "溫班亞瑪發威，馬刺逼雷霆入搶七",
-      "category": "體育資訊",
-      "date": "2026-05-29",
-      "lead": "NBA季後賽激戰連場，聖安東尼奧馬刺隊憑藉法國新星溫班亞瑪的強勢回歸，以一場酣暢淋漓的勝利，將與奧克拉荷馬雷霆隊的系列賽逼入萬眾矚目的第七戰。",
-      "imageUrl": "/images/blog/2026-05-29-nba-playoffs-wembanyama-spurs-force-game-7.jpg",
-      "imageAlt": "溫班亞瑪發威，馬刺逼雷霆入搶七"
     }
   ]
 }
