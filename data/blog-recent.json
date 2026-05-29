@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "nba-wemby-spurs-force-game-7-bench-heroes-may29-2026",
+      "headline": "文班亞瑪爆發，馬刺搶七！讚板凳奇兵",
+      "category": "體育資訊",
+      "date": "2026-05-29",
+      "lead": "NBA西區決賽進入白熱化階段，聖安東尼奧馬刺隊憑藉新星文班亞瑪的超卓表現，成功將系列賽逼入萬眾期待的搶七大戰。文班亞瑪在關鍵時刻展現出的強大進攻侵略性，成為球隊",
+      "imageUrl": "https://images.pexels.com/photos/11221497/pexels-photo-11221497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Two players compete fiercely during a nighttime football match on a grass field."
+    },
+    {
       "slug": "2026-05-29-spurs-force-game-7-vs-thunder-wembanyama-shines",
       "headline": "馬刺逼雷霆入搶七！溫班亞瑪回穩28分",
       "category": "體育資訊",
@@ -60,15 +69,6 @@
       "category": "體育資訊",
       "date": "2026-05-29",
       "lead": "NBA西區冠軍賽戰況激烈，馬刺隊喺主場以118比91擊敗雷霆隊，成功將系列賽逼入搶七大戰，氣氛一觸即發。",
-      "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
-    },
-    {
-      "slug": "2026-05-29-nba-wembanyama-spurs-force-game-7",
-      "headline": "溫班亞瑪爆發！馬刺搶七關鍵戰勝出",
-      "category": "體育資訊",
-      "date": "2026-05-29",
-      "lead": "馬刺隊超級新秀溫班亞瑪今場火力全開，以強悍的個人表現帶領球隊贏下關鍵一役，成功將系列賽逼入生死攸關的搶七大戰。他賽後高度讚揚了球隊板凳球員的關鍵發揮，認為是勝利",
       "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
     }
