@@ -1,0 +1,59 @@
+- generic [ref=e3]:
+  - main [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e14]:
+            - link "Personal" [ref=e16] [cursor=pointer]:
+              - /url: /projects/71kj3bSkFOBDN5tH
+            - generic [ref=e25]: /
+            - generic "BDUK - Blog Auto-Publish" [ref=e26]
+          - generic [ref=e30]: + Add tag
+          - generic [ref=e31]:
+            - generic [ref=e33] [cursor=pointer]
+            - generic [ref=e34]
+        - radiogroup [ref=e68]:
+          - radio "Editor" [checked] [ref=e69]:
+            - generic [ref=e70] [cursor=pointer]: Editor
+          - radio "Executions" [ref=e71]:
+            - generic [ref=e72] [cursor=pointer]: Executions
+          - radio "Evaluations" [ref=e73]:
+            - generic [ref=e74] [cursor=pointer]: Evaluations
+      - complementary [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e78]:
+            - link [ref=e79] [cursor=pointer]:
+              - /url: /home
+            - menubar [ref=e86]
+            - button "Open command palette" [ref=e94] [cursor=pointer]
+            - button "Toggle sidebar" [ref=e101] [cursor=pointer]
+          - generic [ref=e111]:
+            - menuitem "Overview" [ref=e113] [cursor=pointer]
+            - menuitem "Chat" [ref=e122] [cursor=pointer]
+          - generic [ref=e130]:
+            - menuitem "Templates" [ref=e132] [cursor=pointer]
+            - menuitem "Insights" [ref=e142] [cursor=pointer]
+            - menuitem "Help" [ref=e149] [cursor=pointer]
+            - menuitem "Settings" [ref=e160] [cursor=pointer]
+      - main [ref=e170]:
+        - generic [ref=e173]:
+          - generic [ref=e175]:
+            - generic [ref=e177]
+            - img [ref=e1391]
+            - img [ref=e1392]
+            - generic [ref=e1394]
+          - button "Execute workflow" [ref=e1429] [cursor=pointer]:
+            - generic [ref=e1430]
+          - generic [ref=e1434]:
+            - button "Open nodes panel" [ref=e1436] [cursor=pointer]
+            - button "Command bar" [ref=e1441] [cursor=pointer]
+            - button "Add sticky note" [ref=e1448] [cursor=pointer]
+            - button "Open focus panel" [ref=e1455] [cursor=pointer]
+          - generic:
+            - complementary
+        - generic [ref=e1468]:
+          - generic [ref=e1469] [cursor=pointer]:
+            - generic [ref=e1470]: Logs
+            - generic [ref=e1472]
+          - paragraph [ref=e1488]: Nothing to display yet. Execute the workflow to see execution logs.
+  - complementary
