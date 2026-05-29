@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-nba-wembanyama-spurs-thunder-game-7",
+      "headline": "溫班亞瑪28分領軍 馬刺逼雷霆入搶七",
+      "category": "體育資訊",
+      "date": "2026-05-29",
+      "lead": "NBA 西岸季後賽關鍵一役，馬刺新星溫班亞瑪找回狀態，攻入28分帶領球隊以118比91大勝雷霆，將系列賽逼入第七戰的生死對決。",
+      "imageUrl": "https://images.pexels.com/photos/30555530/pexels-photo-30555530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Dramatic moment in a basketball game with players and an engaged crowd."
+    },
+    {
       "slug": "2026-05-29-spurs-thunder-game-7-western-conference-finals",
       "headline": "馬刺主場大勝雷霆，西冠逼入搶七",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "馬刺隊嘅超級新秀溫班亞瑪喺關鍵第六戰展現出非凡嘅領袖氣質，帶領球隊以一場硬仗逼退對手，成功將系列賽推入搶七大戰。賽後，佢將勝利歸功於全隊嘅努力，特別讚賞咗替補陣",
       "imageUrl": "https://images.pexels.com/photos/34688570/pexels-photo-34688570.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "Two basketballs resting on a blue indoor basketball court with wooden flooring."
-    },
-    {
-      "slug": "2026-05-29-spurs-tie-thunder-to-force-game-7",
-      "headline": "馬刺主場發威 追平雷霆3:3 決戰第七場",
-      "category": "體育資訊",
-      "date": "2026-05-29",
-      "lead": "NBA西岸決賽峰迴路轉！馬刺喺主場以118:91大勝雷霆，成功將系列賽追成3:3平手，將戰線推向驚心動魄嘅「搶七」大戰，勝者將晉級總決賽。",
-      "imageUrl": "https://images.pexels.com/photos/34918720/pexels-photo-34918720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "A detailed image showcasing a basketball resting on a park bench, highlighting texture and outdoor setting."
     }
   ]
 }
