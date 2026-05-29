@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-knicks-robinson-fracture-finals-blow",
+      "headline": "尼克羅賓森手指骨折，總冠軍賽前傳壞消息",
+      "category": "體育資訊",
+      "date": "2026-05-29",
+      "lead": "NBA總冠軍賽即將開打，紐約尼克隊卻遭遇晴天霹靂，主力中鋒羅賓森被診斷出手指骨折，為球隊爭冠之路蒙上陰影。",
+      "imageUrl": "https://images.pexels.com/photos/29661219/pexels-photo-29661219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Two female athletes competing in an intense field hockey match outdoors."
+    },
+    {
       "slug": "2026-05-29-nba-thunder-sga-playoff-record",
       "headline": "SGA西岸決戰滑鐵盧 正負值-28創MVP級別新低",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "NBA 西岸決賽峰迴路轉，馬刺隊在主場奮力一搏，以 118:91 擊敗雷霆隊，將總比分扳成 3:3，為這場史詩級對決增添了無盡懸念。",
       "imageUrl": "https://images.pexels.com/photos/37289810/pexels-photo-37289810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "A team of paddlers competes in a vibrant dragon boat race in Hong Kong's New Territories."
-    },
-    {
-      "slug": "2026-05-29-nba-wembanyama-spurs-thunder-game-7",
-      "headline": "溫班亞瑪28分領軍 馬刺逼雷霆入搶七",
-      "category": "體育資訊",
-      "date": "2026-05-29",
-      "lead": "NBA 西岸季後賽關鍵一役，馬刺新星溫班亞瑪找回狀態，攻入28分帶領球隊以118比91大勝雷霆，將系列賽逼入第七戰的生死對決。",
-      "imageUrl": "https://images.pexels.com/photos/30555530/pexels-photo-30555530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Dramatic moment in a basketball game with players and an engaged crowd."
     }
   ]
 }
