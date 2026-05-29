@@ -1,0 +1,5602 @@
+[
+  {
+    "id": 1,
+    "niche": "main",
+    "keyword": "線上娛樂平台",
+    "category": "跨類別",
+    "angle": "市場比較型",
+    "image_theme": "digital entertainment platform interface with multiple screens and global connectivity",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 2,
+    "niche": "main",
+    "keyword": "合法博彩平台",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "official license document with regulatory seal and legal framework symbols",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 3,
+    "niche": "main",
+    "keyword": "持牌娛樂平台",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "licensed gaming authority certificate with official stamps and compliance badges",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 4,
+    "niche": "main",
+    "keyword": "MGA 牌照平台",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "Malta Gaming Authority official logo with European regulatory framework backdrop",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 5,
+    "niche": "main",
+    "keyword": "UKGC 牌照",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "UK Gambling Commission seal with British regulatory documents and compliance framework",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 6,
+    "niche": "main",
+    "keyword": "博彩平台推薦",
+    "category": "消費者工具",
+    "angle": "市場比較型",
+    "image_theme": "comparison chart with multiple platform logos rated by independent analysts",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 7,
+    "niche": "main",
+    "keyword": "香港娛樂平台",
+    "category": "HK本地",
+    "angle": "市場比較型",
+    "image_theme": "Hong Kong skyline with digital entertainment industry overlay and market data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 8,
+    "niche": "main",
+    "keyword": "博彩平台比較",
+    "category": "消費者工具",
+    "angle": "技術評測型",
+    "image_theme": "side-by-side platform comparison table with analytical metrics and ratings",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 9,
+    "niche": "main",
+    "keyword": "安全博彩平台",
+    "category": "平台監管",
+    "angle": "技術評測型",
+    "image_theme": "cybersecurity shield protecting online platform with encryption symbols and safety indicators",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 10,
+    "niche": "main",
+    "keyword": "負責任博彩",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "responsible gambling awareness symbols with support resources and helpline imagery",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 11,
+    "niche": "main",
+    "keyword": "快速提款平台",
+    "category": "消費者工具",
+    "angle": "技術評測型",
+    "image_theme": "fast transaction processing dashboard with speed metrics and payment flow diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 12,
+    "niche": "main",
+    "keyword": "加密貨幣博彩",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "cryptocurrency coins and blockchain technology integrated with digital gaming industry",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 13,
+    "niche": "main",
+    "keyword": "BTC 博彩平台",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "Bitcoin symbol integrated with online gaming platform analytics and market trend charts",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 14,
+    "niche": "main",
+    "keyword": "USDT 娛樂平台",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "Tether stablecoin logo alongside digital entertainment platform with payment flow graphics",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 15,
+    "niche": "main",
+    "keyword": "HKD 博彩平台",
+    "category": "HK本地",
+    "angle": "市場比較型",
+    "image_theme": "Hong Kong dollar currency symbol with local digital gaming market comparison data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 16,
+    "niche": "main",
+    "keyword": "KYC 驗證流程",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "identity verification process flowchart with document scanning and compliance checkpoints",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 17,
+    "niche": "main",
+    "keyword": "Self-Exclusion 博彩",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "self-exclusion program infographic with support pathways and regulatory compliance indicators",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 18,
+    "niche": "main",
+    "keyword": "問題博彩支援",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "support services network diagram with counseling resources and helpline contact information",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 19,
+    "niche": "main",
+    "keyword": "存款限額設定",
+    "category": "消費者工具",
+    "angle": "監管說明型",
+    "image_theme": "deposit limit control panel interface with budget management tools and responsible gaming settings",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 20,
+    "niche": "main",
+    "keyword": "博彩投訴機制",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "consumer complaint escalation flowchart with regulatory authority contact points and resolution timeline",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 21,
+    "niche": "main",
+    "keyword": "博彩市場規模",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "global gambling market size infographic with growth trajectory charts and revenue statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 22,
+    "niche": "main",
+    "keyword": "亞洲博彩市場",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "Asia-Pacific gambling market map with regional revenue data and growth indicators",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 23,
+    "niche": "main",
+    "keyword": "電競投注市場",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "esports betting market growth chart with tournament statistics and player demographic data",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 24,
+    "niche": "main",
+    "keyword": "加密博彩市場",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "crypto gambling market statistics dashboard with blockchain transaction volume and market share data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 25,
+    "niche": "main",
+    "keyword": "香港合法博彩",
+    "category": "HK本地",
+    "angle": "監管說明型",
+    "image_theme": "Hong Kong legal gaming framework diagram with HKJC authorization and regulatory structure",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 26,
+    "niche": "main",
+    "keyword": "香港博彩法律",
+    "category": "HK本地",
+    "angle": "監管說明型",
+    "image_theme": "Hong Kong gambling ordinance legal documents with court and regulatory authority imagery",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 27,
+    "niche": "main",
+    "keyword": "香港負責任博彩",
+    "category": "HK本地",
+    "angle": "監管說明型",
+    "image_theme": "responsible gambling campaign materials in Hong Kong context with local support organization logos",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 28,
+    "niche": "main",
+    "keyword": "香港體育博彩",
+    "category": "HK本地",
+    "angle": "市場比較型",
+    "image_theme": "Hong Kong sports betting market overview with HKJC data and regional comparison statistics",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 29,
+    "niche": "main",
+    "keyword": "香港線上賭場",
+    "category": "HK本地",
+    "angle": "行業分析型",
+    "image_theme": "Hong Kong online casino industry analysis chart with market penetration and regulatory landscape",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 30,
+    "niche": "main",
+    "keyword": "博彩 API 數據",
+    "category": "消費者工具",
+    "angle": "技術評測型",
+    "image_theme": "API data integration diagram with gambling data feeds, endpoints, and developer documentation",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 31,
+    "niche": "main",
+    "keyword": "賠率比較工具",
+    "category": "消費者工具",
+    "angle": "技術評測型",
+    "image_theme": "odds comparison software interface with multiple bookmaker feeds and real-time data visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 32,
+    "niche": "main",
+    "keyword": "博彩數據分析",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "gambling data analytics dashboard with statistical models, trend lines, and predictive metrics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 33,
+    "niche": "main",
+    "keyword": "24 小時客服博彩",
+    "category": "消費者工具",
+    "angle": "技術評測型",
+    "image_theme": "24-hour customer support center with live chat interface and response time metrics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 34,
+    "niche": "main",
+    "keyword": "移動端博彩平台",
+    "category": "消費者工具",
+    "angle": "技術評測型",
+    "image_theme": "mobile gaming platform interface on smartphone and tablet with performance benchmark data",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 35,
+    "niche": "main",
+    "keyword": "繁體中文博彩平台",
+    "category": "HK本地",
+    "angle": "市場比較型",
+    "image_theme": "Traditional Chinese language gaming platform interface with localization features and regional market data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 36,
+    "niche": "main",
+    "keyword": "最低存款博彩",
+    "category": "消費者工具",
+    "angle": "市場比較型",
+    "image_theme": "minimum deposit comparison chart across multiple platforms with accessibility metrics",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 37,
+    "niche": "main",
+    "keyword": "多幣種博彩平台",
+    "category": "跨類別",
+    "angle": "技術評測型",
+    "image_theme": "multi-currency payment system diagram with currency exchange rates and supported coin logos",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 38,
+    "niche": "main",
+    "keyword": "博彩平台評測",
+    "category": "消費者工具",
+    "angle": "技術評測型",
+    "image_theme": "independent platform review methodology chart with scoring criteria and audit process",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 39,
+    "niche": "main",
+    "keyword": "博彩優惠條款",
+    "category": "消費者工具",
+    "angle": "監管說明型",
+    "image_theme": "bonus terms and conditions fine print analysis with consumer protection highlights",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 40,
+    "niche": "main",
+    "keyword": "流水要求比較",
+    "category": "消費者工具",
+    "angle": "市場比較型",
+    "image_theme": "wagering requirement comparison table across platforms with mathematical formula visualization",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 41,
+    "niche": "main",
+    "keyword": "博彩帳號安全",
+    "category": "平台監管",
+    "angle": "技術評測型",
+    "image_theme": "account security framework diagram with two-factor authentication, encryption layers, and audit logs",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 42,
+    "niche": "main",
+    "keyword": "提款速度測試",
+    "category": "消費者工具",
+    "angle": "數據報告型",
+    "image_theme": "withdrawal speed benchmark test results chart comparing processing times across payment methods",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 43,
+    "niche": "main",
+    "keyword": "博彩行業報告",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "gambling industry annual report cover with global market statistics and sector performance data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 44,
+    "niche": "main",
+    "keyword": "線上博彩監管",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "online gambling regulatory framework map with jurisdiction boundaries and licensing authority logos",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 45,
+    "niche": "main",
+    "keyword": "博彩廣告規範",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "gambling advertising standards document with regulatory guidelines and compliance checklist",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 46,
+    "niche": "main",
+    "keyword": "博彩反洗錢",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "anti-money laundering compliance framework diagram with transaction monitoring and reporting structure",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 47,
+    "niche": "main",
+    "keyword": "體育投注平台",
+    "category": "跨類別",
+    "angle": "市場比較型",
+    "image_theme": "sports betting platform comparison chart with market coverage, odds quality, and feature ratings",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 48,
+    "niche": "main",
+    "keyword": "真人賭桌平台",
+    "category": "跨類別",
+    "angle": "技術評測型",
+    "image_theme": "live dealer casino studio setup with streaming technology infrastructure and latency metrics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 49,
+    "niche": "main",
+    "keyword": "老虎機平台",
+    "category": "跨類別",
+    "angle": "技術評測型",
+    "image_theme": "slot machine platform software comparison with RTP statistics and game provider market share data",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 50,
+    "niche": "main",
+    "keyword": "電競投注平台",
+    "category": "跨類別",
+    "angle": "行業分析型",
+    "image_theme": "esports betting platform industry analysis with market growth data and tournament coverage statistics",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 51,
+    "niche": "main",
+    "keyword": "賽馬投注平台",
+    "category": "跨類別",
+    "angle": "行業分析型",
+    "image_theme": "horse racing betting market analysis with track statistics and global platform comparison data",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 52,
+    "niche": "main",
+    "keyword": "棋牌遊戲平台",
+    "category": "跨類別",
+    "angle": "市場比較型",
+    "image_theme": "card and board game platform comparison with Asian market penetration data and player statistics",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 53,
+    "niche": "main",
+    "keyword": "博彩平台牌照查詢",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "license verification database interface with regulatory authority lookup tools and verification steps",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 54,
+    "niche": "main",
+    "keyword": "博彩聯盟條款",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "affiliate program terms document with commission structure and compliance requirement highlights",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 55,
+    "niche": "main",
+    "keyword": "博彩平台 2FA",
+    "category": "平台監管",
+    "angle": "技術評測型",
+    "image_theme": "two-factor authentication setup interface with security audit comparison across major platforms",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 56,
+    "niche": "main",
+    "keyword": "博彩用戶數據保護",
+    "category": "平台監管",
+    "angle": "監管說明型",
+    "image_theme": "GDPR and data protection compliance framework for gambling platforms with privacy policy structure",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 57,
+    "niche": "main",
+    "keyword": "Odds API 比較",
+    "category": "消費者工具",
+    "angle": "技術評測型",
+    "image_theme": "odds API provider comparison chart with coverage, latency, pricing tiers, and data accuracy metrics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 58,
+    "niche": "main",
+    "keyword": "博彩數據 Feed",
+    "category": "消費者工具",
+    "angle": "技術評測型",
+    "image_theme": "sports data feed architecture diagram with real-time streaming infrastructure and API endpoint visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 59,
+    "niche": "main",
+    "keyword": "線上博彩趨勢",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "online gambling trend analysis dashboard with five-year growth projections and emerging market indicators",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 60,
+    "niche": "main",
+    "keyword": "電子錢包博彩平台",
+    "category": "消費者工具",
+    "angle": "技術評測型",
+    "image_theme": "e-wallet payment method comparison for gambling platforms with transaction speed and fee structure data",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 61,
+    "niche": "sports-bet",
+    "keyword": "亞洲盤",
+    "category": "賠率研究",
+    "angle": "行業分析型",
+    "image_theme": "Asian handicap betting market diagram with odds movement analysis and bookmaker comparison data",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 62,
+    "niche": "sports-bet",
+    "keyword": "歐洲賠率",
+    "category": "賠率研究",
+    "angle": "市場比較型",
+    "image_theme": "European decimal odds format comparison chart with bookmaker market overview and historical data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 63,
+    "niche": "sports-bet",
+    "keyword": "足球讓球",
+    "category": "賠率研究",
+    "angle": "技術評測型",
+    "image_theme": "football handicap line explanation diagram with statistical analysis and market movement visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 64,
+    "niche": "sports-bet",
+    "keyword": "體育投注",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "sports betting industry global market overview with revenue breakdown by sport and region",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 65,
+    "niche": "sports-bet",
+    "keyword": "足球賠率",
+    "category": "賠率研究",
+    "angle": "數據報告型",
+    "image_theme": "football odds database visualization with bookmaker pricing comparison and margin analysis",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 66,
+    "niche": "sports-bet",
+    "keyword": "即時投注",
+    "category": "投注工具",
+    "angle": "技術評測型",
+    "image_theme": "live in-play betting interface with real-time data feed latency metrics and platform comparison",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 67,
+    "niche": "sports-bet",
+    "keyword": "賠率比較",
+    "category": "投注工具",
+    "angle": "技術評測型",
+    "image_theme": "odds comparison tool interface showing bookmaker price differentials and best odds indicators",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 68,
+    "niche": "sports-bet",
+    "keyword": "串關投注",
+    "category": "賠率研究",
+    "angle": "行業分析型",
+    "image_theme": "accumulator bet structure diagram with probability calculation and expected return analysis",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 69,
+    "niche": "sports-bet",
+    "keyword": "投注交易所",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "betting exchange market structure diagram with back-lay mechanism and liquidity depth visualization",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 70,
+    "niche": "sports-bet",
+    "keyword": "讓球計算",
+    "category": "投注工具",
+    "angle": "技術評測型",
+    "image_theme": "handicap calculation formula chart with worked examples and mathematical breakdown",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 71,
+    "niche": "sports-bet",
+    "keyword": "賠率波動",
+    "category": "賠率研究",
+    "angle": "數據報告型",
+    "image_theme": "odds movement timeline chart with market trigger events and sharp money flow indicators",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 72,
+    "niche": "sports-bet",
+    "keyword": "足球盤口",
+    "category": "賠率研究",
+    "angle": "行業分析型",
+    "image_theme": "football betting line market overview with Asian vs European format comparison and bookmaker positioning",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 73,
+    "niche": "sports-bet",
+    "keyword": "半場讓球",
+    "category": "賠率研究",
+    "angle": "數據報告型",
+    "image_theme": "half-time handicap statistical analysis chart with historical hit rate data by league and match type",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 74,
+    "niche": "sports-bet",
+    "keyword": "亞洲賠率",
+    "category": "賠率研究",
+    "angle": "市場比較型",
+    "image_theme": "Asian odds format explained with comparison to European and fractional formats, market adoption data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 75,
+    "niche": "sports-bet",
+    "keyword": "封盤賠率",
+    "category": "賠率研究",
+    "angle": "數據報告型",
+    "image_theme": "closing line odds data visualization with pre-match vs closing price comparison statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 76,
+    "niche": "sports-bet",
+    "keyword": "Closing Line Value",
+    "category": "統計模型",
+    "angle": "數據報告型",
+    "image_theme": "closing line value metric dashboard with CLV calculation methodology and long-term profitability correlation data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 77,
+    "niche": "sports-bet",
+    "keyword": "足球 xG",
+    "category": "統計模型",
+    "angle": "數據報告型",
+    "image_theme": "expected goals xG model visualization with shot quality heatmap and statistical validation data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 78,
+    "niche": "sports-bet",
+    "keyword": "泊松分布足球",
+    "category": "統計模型",
+    "angle": "技術評測型",
+    "image_theme": "Poisson distribution football score prediction model with probability matrix and validation backtesting",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 79,
+    "niche": "sports-bet",
+    "keyword": "Elo 評分足球",
+    "category": "統計模型",
+    "angle": "技術評測型",
+    "image_theme": "Elo rating system applied to football teams with ranking chart and predictive accuracy comparison",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 80,
+    "niche": "sports-bet",
+    "keyword": "Kelly Criterion",
+    "category": "統計模型",
+    "angle": "數據報告型",
+    "image_theme": "Kelly Criterion bankroll allocation formula diagram with risk-adjusted sizing examples and simulation results",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 81,
+    "niche": "sports-bet",
+    "keyword": "Bankroll Management",
+    "category": "統計模型",
+    "angle": "行業分析型",
+    "image_theme": "bankroll management strategy comparison chart with risk of ruin calculations and staking plan analysis",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 82,
+    "niche": "sports-bet",
+    "keyword": "投注記錄追蹤",
+    "category": "投注工具",
+    "angle": "技術評測型",
+    "image_theme": "betting record tracking software interface with ROI calculation, sport breakdown, and performance analytics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 83,
+    "niche": "sports-bet",
+    "keyword": "Expected Value 投注",
+    "category": "統計模型",
+    "angle": "數據報告型",
+    "image_theme": "expected value calculation in sports betting with mathematical formula and probability edge visualization",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 84,
+    "niche": "sports-bet",
+    "keyword": "Arbitrage Betting",
+    "category": "統計模型",
+    "angle": "行業分析型",
+    "image_theme": "sports arbitrage opportunity diagram showing price discrepancy between bookmakers with profit calculation",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 85,
+    "niche": "sports-bet",
+    "keyword": "體育投注稅",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "sports betting taxation framework comparison by jurisdiction with regulatory compliance requirements",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 86,
+    "niche": "sports-bet",
+    "keyword": "英超讓球",
+    "category": "賠率研究",
+    "angle": "數據報告型",
+    "image_theme": "Premier League handicap market historical data with team performance against spread statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 87,
+    "niche": "sports-bet",
+    "keyword": "歐冠賠率",
+    "category": "賠率研究",
+    "angle": "市場比較型",
+    "image_theme": "UEFA Champions League odds comparison chart with bookmaker margin analysis and market efficiency data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 88,
+    "niche": "sports-bet",
+    "keyword": "世界杯賠率",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "FIFA World Cup outright betting odds historical data with market movement and tournament progression statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 89,
+    "niche": "sports-bet",
+    "keyword": "NBA 讓分",
+    "category": "賠率研究",
+    "angle": "數據報告型",
+    "image_theme": "NBA point spread historical analysis with ATS performance by team, venue, and season segment",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 90,
+    "niche": "sports-bet",
+    "keyword": "ATS 命中率",
+    "category": "統計模型",
+    "angle": "數據報告型",
+    "image_theme": "against the spread win rate statistical dashboard with sample size validation and regression analysis",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 91,
+    "niche": "sports-bet",
+    "keyword": "籃球大小球",
+    "category": "賠率研究",
+    "angle": "數據報告型",
+    "image_theme": "basketball totals market historical data with pace-adjusted scoring statistics and over/under hit rates",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 92,
+    "niche": "sports-bet",
+    "keyword": "網球賠率",
+    "category": "賠率研究",
+    "angle": "市場比較型",
+    "image_theme": "tennis betting market comparison with surface-adjusted rankings, odds efficiency, and set betting data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 93,
+    "niche": "sports-bet",
+    "keyword": "HKJC 足球",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "HKJC football betting market structure with pool size data, product range, and revenue statistics",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 94,
+    "niche": "sports-bet",
+    "keyword": "足球外圍",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "illegal football betting market regulatory analysis with enforcement statistics and legal framework comparison",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 95,
+    "niche": "sports-bet",
+    "keyword": "香港體育投注",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "Hong Kong sports betting market data with HKJC monopoly structure and consumer behavior statistics",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 96,
+    "niche": "sports-bet",
+    "keyword": "粵港澳投注文化",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "Greater Bay Area gambling culture comparison with regulatory differences and market behavior analysis",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 97,
+    "niche": "sports-bet",
+    "keyword": "Smart Money 賠率",
+    "category": "賠率研究",
+    "angle": "數據報告型",
+    "image_theme": "smart money odds movement detection chart with sharp vs public betting percentage data visualization",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 98,
+    "niche": "sports-bet",
+    "keyword": "賠率漂移分析",
+    "category": "賠率研究",
+    "angle": "數據報告型",
+    "image_theme": "odds drift analysis timeline chart with causal factor identification and market efficiency indicators",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 99,
+    "niche": "sports-bet",
+    "keyword": "Sharp Bettor",
+    "category": "統計模型",
+    "angle": "行業分析型",
+    "image_theme": "sharp bettor profiling analysis with CLV performance data, staking patterns, and bookmaker response",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 100,
+    "niche": "sports-bet",
+    "keyword": "Recreational Bettor",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "recreational bettor demographic study with behavior patterns, loss rate statistics, and market segmentation data",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 101,
+    "niche": "sports-bet",
+    "keyword": "足球投注策略",
+    "category": "統計模型",
+    "angle": "數據報告型",
+    "image_theme": "football betting strategy backtesting results with statistical validation and risk-adjusted returns comparison",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 102,
+    "niche": "sports-bet",
+    "keyword": "足球數據 API",
+    "category": "投注工具",
+    "angle": "技術評測型",
+    "image_theme": "football data API provider comparison with coverage depth, update frequency, and pricing structure chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 103,
+    "niche": "sports-bet",
+    "keyword": "OddsPortal 評測",
+    "category": "投注工具",
+    "angle": "技術評測型",
+    "image_theme": "OddsPortal platform feature review with historical odds database depth and bookmaker coverage comparison",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 104,
+    "niche": "sports-bet",
+    "keyword": "BetExplorer 比較",
+    "category": "投注工具",
+    "angle": "技術評測型",
+    "image_theme": "BetExplorer tool comparison with competing odds aggregators showing feature matrix and data accuracy metrics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 105,
+    "niche": "sports-bet",
+    "keyword": "投注平台限額",
+    "category": "監管合規",
+    "angle": "市場比較型",
+    "image_theme": "betting platform stake limit comparison chart with sharp bettor restriction policies across major bookmakers",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 106,
+    "niche": "sports-bet",
+    "keyword": "體育操控賽事",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "match fixing detection framework with regulatory authority investigation process and integrity monitoring system",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 107,
+    "niche": "sports-bet",
+    "keyword": "足球賠率建模",
+    "category": "統計模型",
+    "angle": "技術評測型",
+    "image_theme": "football odds modeling workflow diagram with data inputs, statistical engine, and output calibration chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 108,
+    "niche": "sports-bet",
+    "keyword": "足球統計工具",
+    "category": "投注工具",
+    "angle": "技術評測型",
+    "image_theme": "football statistics software comparison dashboard with data coverage, visualization features, and accuracy benchmarks",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 109,
+    "niche": "sports-bet",
+    "keyword": "Monte Carlo 足球",
+    "category": "統計模型",
+    "angle": "技術評測型",
+    "image_theme": "Monte Carlo simulation applied to football outcome prediction with probability distribution and confidence interval charts",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 110,
+    "niche": "sports-bet",
+    "keyword": "Dixon-Coles 模型",
+    "category": "統計模型",
+    "angle": "技術評測型",
+    "image_theme": "Dixon-Coles football prediction model architecture diagram with parameter estimation and backtesting validation results",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 111,
+    "niche": "live-casino",
+    "keyword": "真人百家樂",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "Live baccarat table with professional dealer in modern casino studio",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 112,
+    "niche": "live-casino",
+    "keyword": "線上輪盤",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "Online roulette wheel close-up with digital interface overlay",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 113,
+    "niche": "live-casino",
+    "keyword": "真人荷官",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "Professional live dealer in broadcasting studio with high-end camera equipment",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 114,
+    "niche": "live-casino",
+    "keyword": "百家樂賠率",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Statistical chart showing baccarat payout ratios and probability data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 115,
+    "niche": "live-casino",
+    "keyword": "真人賭桌",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "High-definition live casino table broadcast setup with multiple camera angles",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 116,
+    "niche": "live-casino",
+    "keyword": "骰寶線上",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "Online Sic Bo dice game with digital display and live studio background",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 117,
+    "niche": "live-casino",
+    "keyword": "百家樂 House Edge",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Infographic comparing baccarat house edge percentages across bet types",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 118,
+    "niche": "live-casino",
+    "keyword": "百家樂路單",
+    "category": "概率統計",
+    "angle": "行業分析型",
+    "image_theme": "Baccarat road map scoreboard with traditional pattern display",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 119,
+    "niche": "live-casino",
+    "keyword": "百家樂概率",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Mathematical probability diagram for baccarat outcomes with statistical tables",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 120,
+    "niche": "live-casino",
+    "keyword": "輪盤 RTP",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Roulette wheel with RTP percentage overlay and comparison chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 121,
+    "niche": "live-casino",
+    "keyword": "輪盤 House Edge",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Roulette house edge comparison chart between European and American variants",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 122,
+    "niche": "live-casino",
+    "keyword": "La Partage 規則",
+    "category": "概率統計",
+    "angle": "監管說明型",
+    "image_theme": "European roulette table with La Partage rule explanation diagram",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 123,
+    "niche": "live-casino",
+    "keyword": "歐式輪盤",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "European roulette wheel with single zero and elegant casino backdrop",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 124,
+    "niche": "live-casino",
+    "keyword": "美式輪盤",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "American roulette wheel with double zero and comparison to European variant",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 125,
+    "niche": "live-casino",
+    "keyword": "Gambler's Fallacy",
+    "category": "概率統計",
+    "angle": "行業分析型",
+    "image_theme": "Abstract illustration of probability fallacy with coin flip sequence and statistical graph",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 126,
+    "niche": "live-casino",
+    "keyword": "骰寶賠率",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Sic Bo payout table with dice combination probability statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 127,
+    "niche": "live-casino",
+    "keyword": "真人賭場平台",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "Live casino platform comparison showing multiple software providers interface",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 128,
+    "niche": "live-casino",
+    "keyword": "Live Casino 平台",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "Live casino software platform dashboard with streaming technology visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 129,
+    "niche": "live-casino",
+    "keyword": "Evolution Gaming",
+    "category": "平台技術",
+    "angle": "行業分析型",
+    "image_theme": "Professional live casino studio setup representing premium streaming provider",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 130,
+    "niche": "live-casino",
+    "keyword": "Pragmatic Live",
+    "category": "平台技術",
+    "angle": "行業分析型",
+    "image_theme": "Modern live casino studio with high-quality streaming equipment",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 131,
+    "niche": "live-casino",
+    "keyword": "Lightning Roulette",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "Lightning roulette studio with dramatic lighting effects and digital multiplier display",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 132,
+    "niche": "live-casino",
+    "keyword": "百家樂和局概率",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Baccarat tie bet probability infographic with statistical breakdown",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 133,
+    "niche": "live-casino",
+    "keyword": "真人荷官 RNG",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "Comparison diagram of live dealer games versus RNG software games",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 134,
+    "niche": "live-casino",
+    "keyword": "荷官 GLI 認證",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "Gaming testing laboratory certification document with official seal",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 135,
+    "niche": "live-casino",
+    "keyword": "真人賭桌延遲",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "Network latency diagram for live streaming with technical performance metrics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 136,
+    "niche": "live-casino",
+    "keyword": "串流賭桌品質",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "HD live stream quality comparison chart with resolution and bitrate metrics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 137,
+    "niche": "live-casino",
+    "keyword": "百家樂莊閒統計",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Baccarat banker versus player statistical analysis chart with probability data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 138,
+    "niche": "live-casino",
+    "keyword": "骰寶大小概率",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Sic Bo big and small bet probability chart with dice outcome distribution",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 139,
+    "niche": "live-casino",
+    "keyword": "停損策略賭場",
+    "category": "消費者保護",
+    "angle": "行業分析型",
+    "image_theme": "Responsible gambling stop-loss strategy diagram with bankroll management chart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 140,
+    "niche": "live-casino",
+    "keyword": "21 點 Basic Strategy",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Blackjack basic strategy chart with optimal decision matrix",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 141,
+    "niche": "live-casino",
+    "keyword": "Blackjack 策略",
+    "category": "概率統計",
+    "angle": "行業分析型",
+    "image_theme": "Blackjack strategy card and mathematical probability analysis diagram",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 142,
+    "niche": "live-casino",
+    "keyword": "真人賭桌 VIP",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "Exclusive VIP live casino table with premium environment and private dealer",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 143,
+    "niche": "live-casino",
+    "keyword": "亞洲百家樂文化",
+    "category": "HK亞洲",
+    "angle": "行業分析型",
+    "image_theme": "Asian baccarat culture with traditional elements and modern casino setting",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 144,
+    "niche": "live-casino",
+    "keyword": "粵語荷官",
+    "category": "HK亞洲",
+    "angle": "市場比較型",
+    "image_theme": "Cantonese-speaking live dealer in professional casino studio",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 145,
+    "niche": "live-casino",
+    "keyword": "百家樂澳門",
+    "category": "HK亞洲",
+    "angle": "行業分析型",
+    "image_theme": "Macau casino baccarat hall with gaming revenue statistics overlay",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 146,
+    "niche": "live-casino",
+    "keyword": "香港真人賭桌",
+    "category": "HK亞洲",
+    "angle": "市場比較型",
+    "image_theme": "Hong Kong online live casino market landscape with regulatory context",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 147,
+    "niche": "live-casino",
+    "keyword": "真人賭桌移動端",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "Mobile live casino interface on smartphone with performance metrics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 148,
+    "niche": "live-casino",
+    "keyword": "多台遊戲",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "Multi-table live casino interface showing simultaneous game management",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 149,
+    "niche": "live-casino",
+    "keyword": "Variance 娛樂場",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Casino variance and volatility statistical chart with risk level comparison",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 150,
+    "niche": "live-casino",
+    "keyword": "Live Casino RTP",
+    "category": "概率統計",
+    "angle": "數據報告型",
+    "image_theme": "Live casino RTP comparison table across different game types and providers",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 151,
+    "niche": "live-casino",
+    "keyword": "真人賭桌廣告規範",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "Advertising regulation document for live casino with compliance checklist",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 152,
+    "niche": "live-casino",
+    "keyword": "未成年保護博彩",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "Age verification system and minor protection policy in online gambling",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 153,
+    "niche": "live-casino",
+    "keyword": "Deposit Limit 設定",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "Deposit limit settings interface with responsible gambling tools",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 154,
+    "niche": "live-casino",
+    "keyword": "損失追逐行為",
+    "category": "消費者保護",
+    "angle": "行業分析型",
+    "image_theme": "Behavioral analysis chart showing loss chasing patterns in gambling",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 155,
+    "niche": "live-casino",
+    "keyword": "Reality Check 功能",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "Reality check gambling tool interface showing session time and spending alerts",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 156,
+    "niche": "live-casino",
+    "keyword": "5G 直播賭桌",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "5G network technology enabling ultra-low latency live casino streaming",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 157,
+    "niche": "live-casino",
+    "keyword": "WebRTC 賭桌",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "WebRTC technology diagram for real-time live casino video streaming",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 158,
+    "niche": "live-casino",
+    "keyword": "真人賭桌 HTML5",
+    "category": "平台技術",
+    "angle": "技術評測型",
+    "image_theme": "HTML5 live casino compatibility across devices and browsers diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 159,
+    "niche": "live-casino",
+    "keyword": "賭桌數據合規",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "Data compliance framework for live casino operations with GDPR reference",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 160,
+    "niche": "live-casino",
+    "keyword": "荷官培訓標準",
+    "category": "平台技術",
+    "angle": "行業分析型",
+    "image_theme": "Professional live dealer training program with certification standards",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 161,
+    "niche": "hk-racing",
+    "keyword": "香港賽馬",
+    "category": "市場研究",
+    "angle": "行業分析型",
+    "image_theme": "Hong Kong horse racing at Sha Tin racecourse with city skyline backdrop",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 162,
+    "niche": "hk-racing",
+    "keyword": "HKJC 賠率",
+    "category": "HKJC數據",
+    "angle": "數據報告型",
+    "image_theme": "HKJC odds board with digital display and statistical analysis overlay",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 163,
+    "niche": "hk-racing",
+    "keyword": "賽馬投注",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "Horse racing betting window with tote board and crowd at Hong Kong racecourse",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 164,
+    "niche": "hk-racing",
+    "keyword": "馬匹分析",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "Racehorse performance data analysis with form charts and statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 165,
+    "niche": "hk-racing",
+    "keyword": "騎師勝率",
+    "category": "人員數據",
+    "angle": "數據報告型",
+    "image_theme": "Jockey win rate statistics chart with comparative performance data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 166,
+    "niche": "hk-racing",
+    "keyword": "跑馬地",
+    "category": "HKJC數據",
+    "angle": "行業分析型",
+    "image_theme": "Happy Valley racecourse night racing with urban Hong Kong surroundings",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 167,
+    "niche": "hk-racing",
+    "keyword": "沙田賽馬",
+    "category": "HKJC數據",
+    "angle": "行業分析型",
+    "image_theme": "Sha Tin racecourse aerial view with mountain backdrop and track layout",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 168,
+    "niche": "hk-racing",
+    "keyword": "賽馬賠率",
+    "category": "HKJC數據",
+    "angle": "數據報告型",
+    "image_theme": "Horse racing odds comparison chart with win probability statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 169,
+    "niche": "hk-racing",
+    "keyword": "練馬師統計",
+    "category": "人員數據",
+    "angle": "數據報告型",
+    "image_theme": "Trainer performance statistics table with seasonal win rate data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 170,
+    "niche": "hk-racing",
+    "keyword": "彩池賠率",
+    "category": "HKJC數據",
+    "angle": "數據報告型",
+    "image_theme": "Pari-mutuel pool odds diagram with dividend calculation visualization",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 171,
+    "niche": "hk-racing",
+    "keyword": "獨贏賠率",
+    "category": "HKJC數據",
+    "angle": "數據報告型",
+    "image_theme": "Win bet odds board with historical dividend comparison chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 172,
+    "niche": "hk-racing",
+    "keyword": "連贏賠率",
+    "category": "HKJC數據",
+    "angle": "數據報告型",
+    "image_theme": "Quinella bet odds statistical breakdown with combination probability data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 173,
+    "niche": "hk-racing",
+    "keyword": "馬匹狀態",
+    "category": "馬匹分析",
+    "angle": "技術評測型",
+    "image_theme": "Racehorse condition assessment chart with physical performance indicators",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 174,
+    "niche": "hk-racing",
+    "keyword": "磅重分析",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "Horse racing weight handicap analysis chart with performance correlation data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 175,
+    "niche": "hk-racing",
+    "keyword": "沙地轉草地",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "Surface switch performance statistics comparing dirt to turf race results",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 176,
+    "niche": "hk-racing",
+    "keyword": "賽馬路單",
+    "category": "馬匹分析",
+    "angle": "行業分析型",
+    "image_theme": "Horse racing form guide with past performance records and trend analysis",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 177,
+    "niche": "hk-racing",
+    "keyword": "HKJC 彩池",
+    "category": "HKJC數據",
+    "angle": "數據報告型",
+    "image_theme": "HKJC betting pool size statistics with turnover trend chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 178,
+    "niche": "hk-racing",
+    "keyword": "香港外圍馬",
+    "category": "監管歷史",
+    "angle": "監管說明型",
+    "image_theme": "Illegal horse racing bookmaking regulatory enforcement in Hong Kong",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 179,
+    "niche": "hk-racing",
+    "keyword": "賽馬套利",
+    "category": "市場研究",
+    "angle": "行業分析型",
+    "image_theme": "Horse racing arbitrage strategy diagram with odds comparison across pools",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 180,
+    "niche": "hk-racing",
+    "keyword": "Speed Rating",
+    "category": "馬匹分析",
+    "angle": "技術評測型",
+    "image_theme": "Speed rating calculation methodology chart with track condition adjustments",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 181,
+    "niche": "hk-racing",
+    "keyword": "Racing Post Rating",
+    "category": "馬匹分析",
+    "angle": "技術評測型",
+    "image_theme": "Racing Post rating system methodology diagram with comparative benchmarks",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 182,
+    "niche": "hk-racing",
+    "keyword": "Timeform 賽馬",
+    "category": "馬匹分析",
+    "angle": "技術評測型",
+    "image_theme": "Timeform rating system overview with horse performance data visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 183,
+    "niche": "hk-racing",
+    "keyword": "賽馬 Form 分析",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "Horse racing form analysis spreadsheet with performance metrics and trends",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 184,
+    "niche": "hk-racing",
+    "keyword": "馬匹年齡統計",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "Racehorse age performance statistics chart showing peak performance years",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 185,
+    "niche": "hk-racing",
+    "keyword": "首次出賽馬匹",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "First-start horse racing statistics with debut win rate analysis",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 186,
+    "niche": "hk-racing",
+    "keyword": "降班馬表現",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "Horse stepping down in class performance statistics with win rate data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 187,
+    "niche": "hk-racing",
+    "keyword": "升班馬表現",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "Horse stepping up in class performance analysis with historical statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 188,
+    "niche": "hk-racing",
+    "keyword": "客席騎師",
+    "category": "人員數據",
+    "angle": "市場比較型",
+    "image_theme": "International visiting jockey performance comparison statistics at HKJC",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 189,
+    "niche": "hk-racing",
+    "keyword": "HKJC App",
+    "category": "HKJC數據",
+    "angle": "技術評測型",
+    "image_theme": "HKJC mobile betting application interface with feature comparison",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 190,
+    "niche": "hk-racing",
+    "keyword": "賽馬 GPS 數據",
+    "category": "市場研究",
+    "angle": "技術評測型",
+    "image_theme": "GPS tracking technology in horse racing with position data visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 191,
+    "niche": "hk-racing",
+    "keyword": "Sectional Timing",
+    "category": "馬匹分析",
+    "angle": "技術評測型",
+    "image_theme": "Sectional timing data display for horse racing with split time analysis",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 192,
+    "niche": "hk-racing",
+    "keyword": "賽馬 AI 預測",
+    "category": "市場研究",
+    "angle": "技術評測型",
+    "image_theme": "AI machine learning model for horse racing prediction with accuracy statistics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 193,
+    "niche": "hk-racing",
+    "keyword": "賽馬心率數據",
+    "category": "馬匹分析",
+    "angle": "技術評測型",
+    "image_theme": "Racehorse heart rate monitoring data with performance correlation chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 194,
+    "niche": "hk-racing",
+    "keyword": "跑馬地夜賽",
+    "category": "HKJC數據",
+    "angle": "行業分析型",
+    "image_theme": "Happy Valley night racing atmosphere with floodlights and city backdrop",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 195,
+    "niche": "hk-racing",
+    "keyword": "沙田草地比較",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "Sha Tin turf versus all-weather track performance comparison statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 196,
+    "niche": "hk-racing",
+    "keyword": "香港賽馬歷史",
+    "category": "監管歷史",
+    "angle": "行業分析型",
+    "image_theme": "Historical timeline of Hong Kong horse racing from colonial era to modern HKJC",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 197,
+    "niche": "hk-racing",
+    "keyword": "HKJC 年報",
+    "category": "HKJC數據",
+    "angle": "數據報告型",
+    "image_theme": "HKJC annual report data visualization with revenue and betting turnover statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 198,
+    "niche": "hk-racing",
+    "keyword": "三冠馬統計",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "Triple crown horse statistics with historical champion race records",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 199,
+    "niche": "hk-racing",
+    "keyword": "賽馬旅遊香港",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "Horse racing tourism in Hong Kong with visitor statistics and racecourse experience",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 200,
+    "niche": "hk-racing",
+    "keyword": "賽馬媒體報道",
+    "category": "市場研究",
+    "angle": "行業分析型",
+    "image_theme": "Horse racing media coverage analysis with publication and broadcast statistics",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 201,
+    "niche": "hk-racing",
+    "keyword": "HKJC 稅率",
+    "category": "監管歷史",
+    "angle": "監管說明型",
+    "image_theme": "HKJC betting tax rate structure diagram with government revenue statistics",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 202,
+    "niche": "hk-racing",
+    "keyword": "賭馬法律香港",
+    "category": "監管歷史",
+    "angle": "監管說明型",
+    "image_theme": "Hong Kong gambling law framework document with regulatory authority overview",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 203,
+    "niche": "hk-racing",
+    "keyword": "負責任賭馬",
+    "category": "監管歷史",
+    "angle": "監管說明型",
+    "image_theme": "Responsible gambling program for horse racing with player protection tools",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 204,
+    "niche": "hk-racing",
+    "keyword": "問題賭馬支援",
+    "category": "監管歷史",
+    "angle": "監管說明型",
+    "image_theme": "Problem gambling support services for horse racing bettors with helpline information",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 205,
+    "niche": "hk-racing",
+    "keyword": "香港賽馬文化",
+    "category": "市場研究",
+    "angle": "行業分析型",
+    "image_theme": "Hong Kong horse racing cultural significance with community and social impact",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 206,
+    "niche": "hk-racing",
+    "keyword": "澳洲馬匹香港",
+    "category": "馬匹分析",
+    "angle": "市場比較型",
+    "image_theme": "Australian imported racehorses performance statistics in Hong Kong racing",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 207,
+    "niche": "hk-racing",
+    "keyword": "英愛馬匹統計",
+    "category": "馬匹分析",
+    "angle": "數據報告型",
+    "image_theme": "British and Irish imported racehorse performance statistics in Hong Kong",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 208,
+    "niche": "hk-racing",
+    "keyword": "亞洲賽馬比較",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "Asian horse racing market comparison chart with prize money and turnover data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 209,
+    "niche": "hk-racing",
+    "keyword": "日本賽馬 vs 香港",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "Japan versus Hong Kong horse racing comparison infographic with key metrics",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 210,
+    "niche": "hk-racing",
+    "keyword": "新加坡賽馬比較",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "Singapore versus Hong Kong horse racing industry comparison with statistics",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 211,
+    "niche": "slots",
+    "keyword": "老虎機 RTP",
+    "category": "RTP研究",
+    "angle": "數據報告型",
+    "image_theme": "slot machine RTP percentage display, statistical chart, casino analytics dashboard",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 212,
+    "niche": "slots",
+    "keyword": "線上老虎機",
+    "category": "廠商比較",
+    "angle": "市場比較型",
+    "image_theme": "online slot machines grid, digital casino interface, multiple game thumbnails",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 213,
+    "niche": "slots",
+    "keyword": "累積獎池",
+    "category": "RTP研究",
+    "angle": "數據報告型",
+    "image_theme": "progressive jackpot meter rising, golden coins accumulating, casino prize counter",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 214,
+    "niche": "slots",
+    "keyword": "Progressive Jackpot",
+    "category": "RTP研究",
+    "angle": "技術評測型",
+    "image_theme": "progressive jackpot network diagram, linked slot machines, prize pool growth graph",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 215,
+    "niche": "slots",
+    "keyword": "老虎機技巧",
+    "category": "消費者研究",
+    "angle": "行業分析型",
+    "image_theme": "slot machine strategy diagram, bankroll management chart, player decision flowchart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 216,
+    "niche": "slots",
+    "keyword": "Free Spin",
+    "category": "RTP研究",
+    "angle": "技術評測型",
+    "image_theme": "free spin bonus round activation, slot reels with free spin symbol, bonus feature screen",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 217,
+    "niche": "slots",
+    "keyword": "Megaways 老虎機",
+    "category": "廠商比較",
+    "angle": "技術評測型",
+    "image_theme": "Megaways slot reel configuration, cascading symbols, variable row slots diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 218,
+    "niche": "slots",
+    "keyword": "老虎機波動率",
+    "category": "波動率研究",
+    "angle": "數據報告型",
+    "image_theme": "volatility chart comparison, slot variance graph, risk-reward spectrum diagram",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 219,
+    "niche": "slots",
+    "keyword": "Volatility Index",
+    "category": "波動率研究",
+    "angle": "技術評測型",
+    "image_theme": "volatility index scale, slot game risk meter, statistical variance visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 220,
+    "niche": "slots",
+    "keyword": "老虎機推薦",
+    "category": "廠商比較",
+    "angle": "市場比較型",
+    "image_theme": "curated slot game selection grid, rating stars comparison chart, top picks display",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 221,
+    "niche": "slots",
+    "keyword": "Bonus Buy",
+    "category": "RTP研究",
+    "angle": "技術評測型",
+    "image_theme": "bonus buy feature interface, instant bonus round purchase screen, cost-benefit analysis",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 222,
+    "niche": "slots",
+    "keyword": "Must-Drop Jackpot",
+    "category": "RTP研究",
+    "angle": "數據報告型",
+    "image_theme": "must-drop jackpot countdown timer, prize drop mechanism diagram, jackpot trigger statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 223,
+    "niche": "slots",
+    "keyword": "老虎機 House Edge",
+    "category": "RTP研究",
+    "angle": "行業分析型",
+    "image_theme": "house edge percentage diagram, casino advantage chart, mathematical probability visualization",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 224,
+    "niche": "slots",
+    "keyword": "高波動率老虎機",
+    "category": "波動率研究",
+    "angle": "技術評測型",
+    "image_theme": "high volatility slot win pattern, rare big win visualization, risk profile chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 225,
+    "niche": "slots",
+    "keyword": "低波動率老虎機",
+    "category": "波動率研究",
+    "angle": "技術評測型",
+    "image_theme": "low volatility slot frequent small wins chart, steady payout pattern, win frequency graph",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 226,
+    "niche": "slots",
+    "keyword": "老虎機 Hit Frequency",
+    "category": "波動率研究",
+    "angle": "數據報告型",
+    "image_theme": "hit frequency bar chart, slot win rate comparison, spin outcome statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 227,
+    "niche": "slots",
+    "keyword": "Pragmatic Play RTP",
+    "category": "廠商比較",
+    "angle": "數據報告型",
+    "image_theme": "Pragmatic Play logo with RTP data table, game provider analytics, payout percentage comparison",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 228,
+    "niche": "slots",
+    "keyword": "NetEnt 老虎機",
+    "category": "廠商比較",
+    "angle": "市場比較型",
+    "image_theme": "NetEnt game portfolio grid, studio branding, slot game library comparison",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 229,
+    "niche": "slots",
+    "keyword": "BTG Megaways",
+    "category": "廠商比較",
+    "angle": "技術評測型",
+    "image_theme": "Big Time Gaming Megaways engine diagram, reel configuration mechanics, licensed provider network",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 230,
+    "niche": "slots",
+    "keyword": "老虎機廠商比較",
+    "category": "廠商比較",
+    "angle": "市場比較型",
+    "image_theme": "slot provider comparison table, market share pie chart, studio logos side by side",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 231,
+    "niche": "slots",
+    "keyword": "老虎機審計報告",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "audit report document, testing laboratory seal, compliance certificate",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 232,
+    "niche": "slots",
+    "keyword": "eCOGRA 老虎機",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "eCOGRA certification seal, testing lab document, fair game stamp",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 233,
+    "niche": "slots",
+    "keyword": "老虎機監管標準",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "regulatory framework diagram, compliance checklist, gaming standards document",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 234,
+    "niche": "slots",
+    "keyword": "UKGC 老虎機廣告",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "UK Gambling Commission logo, advertising standards document, regulatory code of practice",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 235,
+    "niche": "slots",
+    "keyword": "強制顯示 RTP",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "mandatory RTP display interface, regulatory compliance UI, player information screen",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 236,
+    "niche": "slots",
+    "keyword": "Loss Disguised as Win",
+    "category": "消費者研究",
+    "angle": "行業分析型",
+    "image_theme": "loss disguised as win diagram, slot near-miss analysis, behavioral psychology chart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 237,
+    "niche": "slots",
+    "keyword": "老虎機聲音設計",
+    "category": "消費者研究",
+    "angle": "行業分析型",
+    "image_theme": "slot machine sound wave visualization, audio design psychology diagram, sensory feedback chart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 238,
+    "niche": "slots",
+    "keyword": "Autoplay 老虎機",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "autoplay feature settings panel, automated spin regulation diagram, loss limit controls",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 239,
+    "niche": "slots",
+    "keyword": "老虎機 HTML5",
+    "category": "廠商比較",
+    "angle": "技術評測型",
+    "image_theme": "HTML5 slot game code structure, cross-platform compatibility diagram, browser-based gaming",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 240,
+    "niche": "slots",
+    "keyword": "移動端老虎機",
+    "category": "廠商比較",
+    "angle": "市場比較型",
+    "image_theme": "mobile slot gaming on smartphone, responsive design comparison, touch interface slots",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 241,
+    "niche": "slots",
+    "keyword": "RNG 老虎機",
+    "category": "監管合規",
+    "angle": "技術評測型",
+    "image_theme": "random number generator diagram, RNG certification document, algorithm fairness visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 242,
+    "niche": "slots",
+    "keyword": "老虎機廠商市場份額",
+    "category": "廠商比較",
+    "angle": "行業分析型",
+    "image_theme": "slot provider market share chart, industry breakdown pie chart, market concentration data",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 243,
+    "niche": "slots",
+    "keyword": "老虎機流水要求",
+    "category": "消費者研究",
+    "angle": "行業分析型",
+    "image_theme": "wagering requirement calculation chart, playthrough multiplier table, bonus terms comparison",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 244,
+    "niche": "slots",
+    "keyword": "老虎機優惠條款",
+    "category": "消費者研究",
+    "angle": "行業分析型",
+    "image_theme": "bonus terms fine print document, slot promotion conditions table, T&C comparison chart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 245,
+    "niche": "slots",
+    "keyword": "問題博彩老虎機",
+    "category": "消費者研究",
+    "angle": "監管說明型",
+    "image_theme": "problem gambling awareness diagram, responsible gaming tools interface, help resources chart",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 246,
+    "niche": "slots",
+    "keyword": "老虎機停損策略",
+    "category": "消費者研究",
+    "angle": "行業分析型",
+    "image_theme": "loss limit strategy chart, stop-loss threshold diagram, session management flowchart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 247,
+    "niche": "slots",
+    "keyword": "老虎機本金管理",
+    "category": "消費者研究",
+    "angle": "行業分析型",
+    "image_theme": "bankroll management pie chart, session budget allocation, risk management diagram",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 248,
+    "niche": "slots",
+    "keyword": "Bankroll 老虎機",
+    "category": "消費者研究",
+    "angle": "數據報告型",
+    "image_theme": "bankroll tracking spreadsheet, session stake statistics, fund management visualization",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 249,
+    "niche": "slots",
+    "keyword": "亞洲老虎機主題",
+    "category": "廠商比較",
+    "angle": "市場比較型",
+    "image_theme": "Asian themed slot games grid, dragon and fortune symbols, Eastern aesthetic casino games",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 250,
+    "niche": "slots",
+    "keyword": "Dragon Fortune 老虎機",
+    "category": "廠商比較",
+    "angle": "技術評測型",
+    "image_theme": "dragon fortune slot game screenshot, Asian mythology slot reels, fortune symbol paytable",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 251,
+    "niche": "slots",
+    "keyword": "澳門老虎機",
+    "category": "廠商比較",
+    "angle": "行業分析型",
+    "image_theme": "Macau casino floor slot machines, luxury gaming hall, Cotai Strip gaming venue",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 252,
+    "niche": "slots",
+    "keyword": "香港電子遊戲機",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "electronic gaming machine regulation document, amusement arcade legal framework, gaming ordinance chart",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 253,
+    "niche": "slots",
+    "keyword": "繁體中文老虎機",
+    "category": "廠商比較",
+    "angle": "市場比較型",
+    "image_theme": "traditional Chinese interface slot game, localized casino UI, Chinese language gaming platform",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 254,
+    "niche": "slots",
+    "keyword": "老虎機數據 API",
+    "category": "波動率研究",
+    "angle": "技術評測型",
+    "image_theme": "slot data API documentation, JSON response structure, developer integration diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 255,
+    "niche": "slots",
+    "keyword": "Slot Tracker 工具",
+    "category": "波動率研究",
+    "angle": "技術評測型",
+    "image_theme": "slot tracker dashboard, session history chart, RTP tracking tool interface",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 256,
+    "niche": "slots",
+    "keyword": "老虎機模擬器",
+    "category": "波動率研究",
+    "angle": "技術評測型",
+    "image_theme": "slot simulator software interface, free play mode screen, demo game testing environment",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 257,
+    "niche": "slots",
+    "keyword": "老虎機數學模型",
+    "category": "波動率研究",
+    "angle": "數據報告型",
+    "image_theme": "slot math model diagram, probability distribution chart, game mathematics whiteboard",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 258,
+    "niche": "slots",
+    "keyword": "老虎機統計工具",
+    "category": "波動率研究",
+    "angle": "數據報告型",
+    "image_theme": "statistical analysis tool dashboard, slot performance metrics, data visualization charts",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 259,
+    "niche": "slots",
+    "keyword": "老虎機 Jackpot 概率",
+    "category": "RTP研究",
+    "angle": "數據報告型",
+    "image_theme": "jackpot probability statistics chart, odds comparison table, million-to-one visualization",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 260,
+    "niche": "slots",
+    "keyword": "老虎機爆池數據",
+    "category": "RTP研究",
+    "angle": "數據報告型",
+    "image_theme": "jackpot hit data timeline, prize pool burst statistics, historical jackpot frequency chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 261,
+    "niche": "platform-review",
+    "keyword": "博彩平台評測",
+    "category": "條款分析",
+    "angle": "市場比較型",
+    "image_theme": "gambling platform review scorecard, rating comparison table, evaluation criteria chart",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 262,
+    "niche": "platform-review",
+    "keyword": "MGA 牌照",
+    "category": "牌照合規",
+    "angle": "監管說明型",
+    "image_theme": "Malta Gaming Authority logo, MGA license certificate, EU gambling regulation document",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 263,
+    "niche": "platform-review",
+    "keyword": "UKGC 牌照",
+    "category": "牌照合規",
+    "angle": "監管說明型",
+    "image_theme": "UK Gambling Commission seal, UKGC license document, British gambling regulation framework",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 264,
+    "niche": "platform-review",
+    "keyword": "直布羅陀 GRA 牌照",
+    "category": "牌照合規",
+    "angle": "監管說明型",
+    "image_theme": "Gibraltar Regulatory Authority document, GRA license certificate, offshore gambling regulation",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 265,
+    "niche": "platform-review",
+    "keyword": "Curaçao 牌照",
+    "category": "牌照合規",
+    "angle": "監管說明型",
+    "image_theme": "Curacao eGaming license certificate, offshore gaming jurisdiction document, license tier comparison",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 266,
+    "niche": "platform-review",
+    "keyword": "牌照核查方法",
+    "category": "牌照合規",
+    "angle": "技術評測型",
+    "image_theme": "license verification process diagram, regulatory database lookup, authentication steps flowchart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 267,
+    "niche": "platform-review",
+    "keyword": "持牌平台比較",
+    "category": "牌照合規",
+    "angle": "市場比較型",
+    "image_theme": "licensed platform comparison table, regulatory jurisdiction map, operator ranking chart",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 268,
+    "niche": "platform-review",
+    "keyword": "牌照吊銷記錄",
+    "category": "牌照合規",
+    "angle": "數據報告型",
+    "image_theme": "license revocation records timeline, regulatory enforcement actions table, compliance failure statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 269,
+    "niche": "platform-review",
+    "keyword": "KYC 審核速度",
+    "category": "KYC合規",
+    "angle": "數據報告型",
+    "image_theme": "KYC verification speed comparison chart, identity check timeline, platform processing time data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 270,
+    "niche": "platform-review",
+    "keyword": "Enhanced Due Diligence",
+    "category": "KYC合規",
+    "angle": "監管說明型",
+    "image_theme": "enhanced due diligence process diagram, EDD compliance checklist, high-risk customer flowchart",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 271,
+    "niche": "platform-review",
+    "keyword": "Source of Funds 驗證",
+    "category": "KYC合規",
+    "angle": "監管說明型",
+    "image_theme": "source of funds verification document checklist, wealth origin proof diagram, AML compliance flowchart",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 272,
+    "niche": "platform-review",
+    "keyword": "AML 博彩平台",
+    "category": "KYC合規",
+    "angle": "監管說明型",
+    "image_theme": "anti-money laundering gambling compliance framework, AML policy document, suspicious transaction report",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 273,
+    "niche": "platform-review",
+    "keyword": "博彩 KYC 自動化",
+    "category": "KYC合規",
+    "angle": "技術評測型",
+    "image_theme": "automated KYC verification system diagram, AI identity check interface, document scanning technology",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 274,
+    "niche": "platform-review",
+    "keyword": "流水要求比較",
+    "category": "條款分析",
+    "angle": "市場比較型",
+    "image_theme": "wagering requirement comparison table, playthrough multiplier chart, platform bonus terms data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 275,
+    "niche": "platform-review",
+    "keyword": "博彩灰色條款",
+    "category": "條款分析",
+    "angle": "行業分析型",
+    "image_theme": "ambiguous terms and conditions document, grey area clause analysis, consumer risk highlight",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 276,
+    "niche": "platform-review",
+    "keyword": "Void Bet 規則",
+    "category": "條款分析",
+    "angle": "行業分析型",
+    "image_theme": "void bet rule explanation diagram, bet cancellation conditions table, platform policy comparison",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 277,
+    "niche": "platform-review",
+    "keyword": "帳號凍結條件",
+    "category": "條款分析",
+    "angle": "行業分析型",
+    "image_theme": "account freeze trigger conditions chart, suspension criteria comparison, platform policy document",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 278,
+    "niche": "platform-review",
+    "keyword": "最高獎金上限",
+    "category": "條款分析",
+    "angle": "數據報告型",
+    "image_theme": "maximum win cap comparison table, platform withdrawal ceiling chart, bonus win limit statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 279,
+    "niche": "platform-review",
+    "keyword": "銀行轉帳提款速度",
+    "category": "條款分析",
+    "angle": "數據報告型",
+    "image_theme": "bank transfer withdrawal speed comparison chart, processing time data table, payout timeline",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 280,
+    "niche": "platform-review",
+    "keyword": "電子錢包提款速度",
+    "category": "條款分析",
+    "angle": "數據報告型",
+    "image_theme": "e-wallet withdrawal speed comparison, PayPal Skrill processing time chart, digital wallet payout data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 281,
+    "niche": "platform-review",
+    "keyword": "加密貨幣提款速度",
+    "category": "條款分析",
+    "angle": "數據報告型",
+    "image_theme": "crypto withdrawal speed comparison, Bitcoin Ethereum payout timeline, blockchain transaction chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 282,
+    "niche": "platform-review",
+    "keyword": "提款文件要求",
+    "category": "KYC合規",
+    "angle": "行業分析型",
+    "image_theme": "withdrawal documentation checklist, identity proof requirements table, verification document types",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 283,
+    "niche": "platform-review",
+    "keyword": "大額提款流程",
+    "category": "條款分析",
+    "angle": "行業分析型",
+    "image_theme": "large withdrawal process flowchart, high-value payout steps diagram, enhanced verification timeline",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 284,
+    "niche": "platform-review",
+    "keyword": "拒絕提款原因",
+    "category": "消費者保護",
+    "angle": "行業分析型",
+    "image_theme": "withdrawal rejection reasons chart, denial category breakdown, common refusal triggers table",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 285,
+    "niche": "platform-review",
+    "keyword": "Deposit Limit",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "deposit limit setting interface, responsible gambling control panel, mandatory limit regulation document",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 286,
+    "niche": "platform-review",
+    "keyword": "Reality Check",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "reality check notification popup, time spent gambling alert interface, responsible gaming reminder",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 287,
+    "niche": "platform-review",
+    "keyword": "Cooling-Off Period",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "cooling off period timeline diagram, self-exclusion cooling phase chart, account suspension countdown",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 288,
+    "niche": "platform-review",
+    "keyword": "問題博彩資源",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "problem gambling help resources page, support organization logos, helpline contact chart",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 289,
+    "niche": "platform-review",
+    "keyword": "未成年保護措施",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "age verification system diagram, underage protection measures checklist, parental control interface",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 290,
+    "niche": "platform-review",
+    "keyword": "TLS 1.3 加密",
+    "category": "技術安全",
+    "angle": "技術評測型",
+    "image_theme": "TLS 1.3 encryption handshake diagram, SSL certificate comparison, secure connection protocol chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 291,
+    "niche": "platform-review",
+    "keyword": "2FA 博彩平台",
+    "category": "技術安全",
+    "angle": "技術評測型",
+    "image_theme": "two-factor authentication gambling platform interface, 2FA setup screen, authentication app diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 292,
+    "niche": "platform-review",
+    "keyword": "用戶數據 GDPR",
+    "category": "技術安全",
+    "angle": "監管說明型",
+    "image_theme": "GDPR compliance document, user data protection framework, privacy regulation diagram",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 293,
+    "niche": "platform-review",
+    "keyword": "平台伺服器位置",
+    "category": "技術安全",
+    "angle": "數據報告型",
+    "image_theme": "server location map, data center jurisdiction chart, hosting infrastructure diagram",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 294,
+    "niche": "platform-review",
+    "keyword": "滲透測試報告",
+    "category": "技術安全",
+    "angle": "技術評測型",
+    "image_theme": "penetration testing report document, security audit findings chart, vulnerability assessment matrix",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 295,
+    "niche": "platform-review",
+    "keyword": "博彩平台市場集中度",
+    "category": "牌照合規",
+    "angle": "行業分析型",
+    "image_theme": "gambling market concentration chart, operator market share data, industry consolidation trend",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 296,
+    "niche": "platform-review",
+    "keyword": "博彩平台倒閉案例",
+    "category": "消費者保護",
+    "angle": "數據報告型",
+    "image_theme": "gambling platform collapse case timeline, failed operator history chart, consumer loss statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 297,
+    "niche": "platform-review",
+    "keyword": "Entain GVC 888 架構",
+    "category": "牌照合規",
+    "angle": "行業分析型",
+    "image_theme": "Entain GVC 888 corporate structure diagram, merger acquisition chart, gambling conglomerate map",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 298,
+    "niche": "platform-review",
+    "keyword": "White Label 平台",
+    "category": "技術安全",
+    "angle": "行業分析型",
+    "image_theme": "white label gambling platform architecture diagram, operator branding overlay, software provider chain",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 299,
+    "niche": "platform-review",
+    "keyword": "Affiliate 博彩條款",
+    "category": "條款分析",
+    "angle": "行業分析型",
+    "image_theme": "affiliate marketing terms document, commission structure table, referral program conditions chart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 300,
+    "niche": "platform-review",
+    "keyword": "香港用戶合法平台",
+    "category": "牌照合規",
+    "angle": "監管說明型",
+    "image_theme": "Hong Kong gambling regulation map, legal platform options chart, offshore access legal framework",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 301,
+    "niche": "platform-review",
+    "keyword": "香港信用卡博彩",
+    "category": "消費者保護",
+    "angle": "行業分析型",
+    "image_theme": "Hong Kong credit card gambling transaction diagram, payment method restriction chart, bank policy table",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 302,
+    "niche": "platform-review",
+    "keyword": "香港銀行轉帳博彩",
+    "category": "消費者保護",
+    "angle": "行業分析型",
+    "image_theme": "Hong Kong bank transfer gambling process diagram, FPS payment method chart, transaction restriction data",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 303,
+    "niche": "platform-review",
+    "keyword": "新加坡 vs 香港博彩監管",
+    "category": "牌照合規",
+    "angle": "市場比較型",
+    "image_theme": "Singapore vs Hong Kong gambling regulation comparison chart, legal framework side-by-side, regulatory map",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 304,
+    "niche": "platform-review",
+    "keyword": "繁體中文客服平台",
+    "category": "消費者保護",
+    "angle": "市場比較型",
+    "image_theme": "Traditional Chinese customer service platform comparison, live chat interface, support quality chart",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 305,
+    "niche": "platform-review",
+    "keyword": "博彩後台系統供應商",
+    "category": "技術安全",
+    "angle": "行業分析型",
+    "image_theme": "gambling backend system provider comparison, platform software architecture, B2B supplier chart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 306,
+    "niche": "platform-review",
+    "keyword": "RG 工具技術整合",
+    "category": "技術安全",
+    "angle": "技術評測型",
+    "image_theme": "responsible gambling tool integration diagram, RG API connection, platform feature implementation chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 307,
+    "niche": "platform-review",
+    "keyword": "移動端博彩適配",
+    "category": "技術安全",
+    "angle": "技術評測型",
+    "image_theme": "mobile gambling platform adaptation comparison, responsive design test results, app vs browser performance",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 308,
+    "niche": "platform-review",
+    "keyword": "博彩 API 開放程度",
+    "category": "技術安全",
+    "angle": "技術評測型",
+    "image_theme": "gambling platform API documentation, openness rating chart, developer integration capability comparison",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 309,
+    "niche": "platform-review",
+    "keyword": "實名制驗證平台",
+    "category": "KYC合規",
+    "angle": "數據報告型",
+    "image_theme": "real-name verification platform comparison, identity authentication statistics, KYC strictness ranking",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 310,
+    "niche": "platform-review",
+    "keyword": "ADR 爭議解決博彩",
+    "category": "消費者保護",
+    "angle": "監管說明型",
+    "image_theme": "alternative dispute resolution gambling process diagram, ADR body logos, complaint escalation flowchart",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 311,
+    "niche": "esports",
+    "keyword": "電競投注",
+    "category": "市場研究",
+    "angle": "行業分析型",
+    "image_theme": "esports betting market overview with data charts and stadium crowd",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 312,
+    "niche": "esports",
+    "keyword": "CS2 投注",
+    "category": "賠率市場",
+    "angle": "市場比較型",
+    "image_theme": "CS2 competitive match with betting odds display on screen",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 313,
+    "niche": "esports",
+    "keyword": "LOL 賠率",
+    "category": "賠率市場",
+    "angle": "數據報告型",
+    "image_theme": "League of Legends esports arena with odds board and statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 314,
+    "niche": "esports",
+    "keyword": "VALORANT 投注",
+    "category": "賠率市場",
+    "angle": "市場比較型",
+    "image_theme": "VALORANT tournament stage with live betting interface overlay",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 315,
+    "niche": "esports",
+    "keyword": "電競賠率",
+    "category": "賠率市場",
+    "angle": "行業分析型",
+    "image_theme": "esports odds comparison screen with multiple game titles and numbers",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 316,
+    "niche": "esports",
+    "keyword": "電競賠率比較",
+    "category": "賠率市場",
+    "angle": "市場比較型",
+    "image_theme": "side-by-side odds comparison table for esports betting platforms",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 317,
+    "niche": "esports",
+    "keyword": "BO1 賠率",
+    "category": "賠率市場",
+    "angle": "技術評測型",
+    "image_theme": "best-of-one esports match format odds analysis chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 318,
+    "niche": "esports",
+    "keyword": "BO3 賠率",
+    "category": "賠率市場",
+    "angle": "技術評測型",
+    "image_theme": "best-of-three esports series odds breakdown visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 319,
+    "niche": "esports",
+    "keyword": "電競串關",
+    "category": "賠率市場",
+    "angle": "技術評測型",
+    "image_theme": "esports parlay betting slip with multiple game selections",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 320,
+    "niche": "esports",
+    "keyword": "電競即時投注",
+    "category": "賠率市場",
+    "angle": "技術評測型",
+    "image_theme": "live esports betting interface with real-time odds movement graph",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 321,
+    "niche": "esports",
+    "keyword": "電競 In-Play",
+    "category": "賠率市場",
+    "angle": "行業分析型",
+    "image_theme": "in-play esports betting dashboard with live match stats panel",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 322,
+    "niche": "esports",
+    "keyword": "首血盤口",
+    "category": "賠率市場",
+    "angle": "技術評測型",
+    "image_theme": "first blood prop bet market for esports match with data table",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 323,
+    "niche": "esports",
+    "keyword": "首塔盤口",
+    "category": "賠率市場",
+    "angle": "技術評測型",
+    "image_theme": "first tower prop bet market visualization for MOBA esports",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 324,
+    "niche": "esports",
+    "keyword": "電競結算規則",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "esports settlement rules official document with regulatory seal",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 325,
+    "niche": "esports",
+    "keyword": "電競棄賽退款",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "esports match cancellation refund policy document official",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 326,
+    "niche": "esports",
+    "keyword": "CS2 地圖勝率",
+    "category": "賽事數據",
+    "angle": "數據報告型",
+    "image_theme": "CS2 map win rate statistics heatmap with professional data visualization",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 327,
+    "niche": "esports",
+    "keyword": "CS2 Major 賠率",
+    "category": "賠率市場",
+    "angle": "數據報告型",
+    "image_theme": "CS2 Major tournament bracket with historical odds display",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 328,
+    "niche": "esports",
+    "keyword": "LOL 世界賽賠率",
+    "category": "賠率市場",
+    "angle": "數據報告型",
+    "image_theme": "League of Legends World Championship odds board and trophy stage",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 329,
+    "niche": "esports",
+    "keyword": "VALORANT Champions 賠率",
+    "category": "賠率市場",
+    "angle": "數據報告型",
+    "image_theme": "VALORANT Champions tournament odds and team performance statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 330,
+    "niche": "esports",
+    "keyword": "電競 Upset 統計",
+    "category": "賽事數據",
+    "angle": "數據報告型",
+    "image_theme": "esports upset results statistics chart highlighting underdog victories",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 331,
+    "niche": "esports",
+    "keyword": "電競選手 Rating",
+    "category": "賽事數據",
+    "angle": "技術評測型",
+    "image_theme": "esports player performance rating dashboard with multi-metric analysis",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 332,
+    "niche": "esports",
+    "keyword": "CS2 HLTV Rating",
+    "category": "賽事數據",
+    "angle": "技術評測型",
+    "image_theme": "HLTV player rating system methodology explained with data table",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 333,
+    "niche": "esports",
+    "keyword": "LOL KDA 統計",
+    "category": "賽事數據",
+    "angle": "數據報告型",
+    "image_theme": "League of Legends KDA statistics infographic for professional players",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 334,
+    "niche": "esports",
+    "keyword": "ACS VALORANT",
+    "category": "賽事數據",
+    "angle": "技術評測型",
+    "image_theme": "VALORANT average combat score ACS metric explanation chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 335,
+    "niche": "esports",
+    "keyword": "電競選手轉會賠率",
+    "category": "賠率市場",
+    "angle": "行業分析型",
+    "image_theme": "esports player transfer market speculation and odds board",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 336,
+    "niche": "esports",
+    "keyword": "電競操縱賽事",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "esports match fixing investigation concept with warning indicators",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 337,
+    "niche": "esports",
+    "keyword": "Match-Fixing 電競",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "match fixing in esports awareness with regulatory framework visual",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 338,
+    "niche": "esports",
+    "keyword": "ESIC 電競誠信",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "Esports Integrity Commission integrity report and compliance document",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 339,
+    "niche": "esports",
+    "keyword": "電競投注監管",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "esports betting regulatory framework diagram with authority organization logos",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 340,
+    "niche": "esports",
+    "keyword": "香港電競投注法律",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "Hong Kong legal document esports betting regulation official",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 341,
+    "niche": "esports",
+    "keyword": "Skin Gambling",
+    "category": "市場研究",
+    "angle": "行業分析型",
+    "image_theme": "CS2 weapon skin gambling market analysis with price trend chart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 342,
+    "niche": "esports",
+    "keyword": "Fantasy Esports",
+    "category": "市場研究",
+    "angle": "行業分析型",
+    "image_theme": "fantasy esports draft interface with player selection and scoring system",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 343,
+    "niche": "esports",
+    "keyword": "電競投注平台比較",
+    "category": "平台工具",
+    "angle": "市場比較型",
+    "image_theme": "esports betting platform comparison table with feature and odds ratings",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 344,
+    "niche": "esports",
+    "keyword": "電競賠率流動性",
+    "category": "賠率市場",
+    "angle": "行業分析型",
+    "image_theme": "esports betting market liquidity depth chart with order flow",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 345,
+    "niche": "esports",
+    "keyword": "電競 API 數據",
+    "category": "平台工具",
+    "angle": "技術評測型",
+    "image_theme": "esports data API integration architecture diagram with live statistics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 346,
+    "niche": "esports",
+    "keyword": "GRID Data 電競",
+    "category": "平台工具",
+    "angle": "技術評測型",
+    "image_theme": "GRID esports official data platform dashboard with real-time stats",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 347,
+    "niche": "esports",
+    "keyword": "Abios 電競數據",
+    "category": "平台工具",
+    "angle": "技術評測型",
+    "image_theme": "Abios esports data analytics platform visualization and API",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 348,
+    "niche": "esports",
+    "keyword": "電競投注用戶統計",
+    "category": "市場研究",
+    "angle": "數據報告型",
+    "image_theme": "esports betting user demographics infographic with age and regional charts",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 349,
+    "niche": "esports",
+    "keyword": "電競粉絲投注偏見",
+    "category": "市場研究",
+    "angle": "數據報告型",
+    "image_theme": "esports fan bias in betting behavior research statistical chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 350,
+    "niche": "esports",
+    "keyword": "電競 Live Betting 行為",
+    "category": "市場研究",
+    "angle": "數據報告型",
+    "image_theme": "live betting behavior analysis during esports match with engagement heatmap",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 351,
+    "niche": "esports",
+    "keyword": "電競投注文化香港",
+    "category": "市場研究",
+    "angle": "行業分析型",
+    "image_theme": "Hong Kong esports betting culture cityscape with gaming and wagering elements",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 352,
+    "niche": "esports",
+    "keyword": "東南亞電競賠率",
+    "category": "市場研究",
+    "angle": "市場比較型",
+    "image_theme": "Southeast Asia esports market map with regional odds comparison data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 353,
+    "niche": "esports",
+    "keyword": "中國電競市場影響",
+    "category": "市場研究",
+    "angle": "行業分析型",
+    "image_theme": "China esports market global influence on betting landscape analysis",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 354,
+    "niche": "esports",
+    "keyword": "電競投注問題博彩",
+    "category": "監管合規",
+    "angle": "監管說明型",
+    "image_theme": "responsible gambling in esports awareness campaign with support resources",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 355,
+    "niche": "esports",
+    "keyword": "電競賠率市場份額",
+    "category": "市場研究",
+    "angle": "數據報告型",
+    "image_theme": "esports odds market share breakdown by game title bar and pie chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 356,
+    "niche": "esports",
+    "keyword": "電競專門投注平台",
+    "category": "平台工具",
+    "angle": "市場比較型",
+    "image_theme": "dedicated esports-only betting platform interface feature comparison",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 357,
+    "niche": "esports",
+    "keyword": "電競賠率建模工具",
+    "category": "平台工具",
+    "angle": "技術評測型",
+    "image_theme": "esports odds modeling algorithm tool visualization with probability output",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 358,
+    "niche": "esports",
+    "keyword": "電競小眾賽事賠率",
+    "category": "賠率市場",
+    "angle": "行業分析型",
+    "image_theme": "niche esports tournament betting market with smaller game title odds",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 359,
+    "niche": "esports",
+    "keyword": "Sportradar 電競數據",
+    "category": "平台工具",
+    "angle": "技術評測型",
+    "image_theme": "Sportradar esports data integrity monitoring platform dashboard",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 360,
+    "niche": "esports",
+    "keyword": "電競觀賽投注行為",
+    "category": "市場研究",
+    "angle": "數據報告型",
+    "image_theme": "esports spectator betting behavior research with live audience engagement data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 361,
+    "niche": "crypto-gambling",
+    "keyword": "比特幣博彩",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "Bitcoin gambling market overview with blockchain visualization and data charts",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 362,
+    "niche": "crypto-gambling",
+    "keyword": "加密貨幣賭場",
+    "category": "平台評測",
+    "angle": "市場比較型",
+    "image_theme": "cryptocurrency casino platform interface comparison with token icons",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 363,
+    "niche": "crypto-gambling",
+    "keyword": "Provably Fair",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "provably fair algorithm cryptographic hash verification diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 364,
+    "niche": "crypto-gambling",
+    "keyword": "無 KYC 博彩",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "no-KYC gambling platform privacy and regulatory compliance visual",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 365,
+    "niche": "crypto-gambling",
+    "keyword": "BTC 博彩",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "BTC gambling market size and transaction volume statistics chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 366,
+    "niche": "crypto-gambling",
+    "keyword": "ETH 博彩",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "Ethereum gambling smart contract transaction data visualization",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 367,
+    "niche": "crypto-gambling",
+    "keyword": "USDT 博彩平台",
+    "category": "平台評測",
+    "angle": "市場比較型",
+    "image_theme": "USDT stablecoin gambling platform comparison with deposit speed data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 368,
+    "niche": "crypto-gambling",
+    "keyword": "Monero 博彩",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "Monero privacy coin gambling anonymity technology diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 369,
+    "niche": "crypto-gambling",
+    "keyword": "匿名博彩平台",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "anonymous gambling platform privacy framework regulatory overview",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 370,
+    "niche": "crypto-gambling",
+    "keyword": "DeFi 博彩",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "DeFi gambling protocol smart contract architecture diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 371,
+    "niche": "crypto-gambling",
+    "keyword": "NFT 博彩",
+    "category": "技術研究",
+    "angle": "行業分析型",
+    "image_theme": "NFT gambling asset integration with blockchain game items",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 372,
+    "niche": "crypto-gambling",
+    "keyword": "智能合約賭場",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "smart contract casino code audit and transparency technical visual",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 373,
+    "niche": "crypto-gambling",
+    "keyword": "去中心化賭場",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "decentralized casino DAO governance and on-chain operations diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 374,
+    "niche": "crypto-gambling",
+    "keyword": "Chainlink VRF",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "Chainlink VRF verifiable random function gambling application diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 375,
+    "niche": "crypto-gambling",
+    "keyword": "SHA-256 博彩",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "SHA-256 cryptographic hash function gambling seed verification visual",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 376,
+    "niche": "crypto-gambling",
+    "keyword": "Rug Pull 賭場",
+    "category": "風險研究",
+    "angle": "監管說明型",
+    "image_theme": "rug pull crypto casino scam warning red flags identification",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 377,
+    "niche": "crypto-gambling",
+    "keyword": "Gas Fee 博彩",
+    "category": "技術研究",
+    "angle": "數據報告型",
+    "image_theme": "Ethereum gas fee impact on gambling transaction cost data chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 378,
+    "niche": "crypto-gambling",
+    "keyword": "Lightning Network 博彩",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "Bitcoin Lightning Network instant payment gambling speed diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 379,
+    "niche": "crypto-gambling",
+    "keyword": "Solana 博彩",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "Solana blockchain gambling platform high speed transaction visual",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 380,
+    "niche": "crypto-gambling",
+    "keyword": "Layer 2 博彩",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "Layer 2 scaling solution gambling cost reduction technical diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 381,
+    "niche": "crypto-gambling",
+    "keyword": "Rollbit 評測",
+    "category": "平台評測",
+    "angle": "技術評測型",
+    "image_theme": "Rollbit crypto casino platform review interface and game statistics",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 382,
+    "niche": "crypto-gambling",
+    "keyword": "Stake 博彩評測",
+    "category": "平台評測",
+    "angle": "技術評測型",
+    "image_theme": "Stake.com crypto gambling platform independent review and data",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 383,
+    "niche": "crypto-gambling",
+    "keyword": "Crash 遊戲",
+    "category": "平台評測",
+    "angle": "技術評測型",
+    "image_theme": "crash game multiplier chart provably fair mechanic explained",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 384,
+    "niche": "crypto-gambling",
+    "keyword": "加密博彩 VIP",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "crypto gambling VIP program tier structure and rewards analysis",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 385,
+    "niche": "crypto-gambling",
+    "keyword": "加密博彩流水要求",
+    "category": "平台評測",
+    "angle": "市場比較型",
+    "image_theme": "crypto casino wagering requirement comparison table with percentages",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 386,
+    "niche": "crypto-gambling",
+    "keyword": "加密博彩監管",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "crypto gambling regulatory landscape global jurisdiction map",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 387,
+    "niche": "crypto-gambling",
+    "keyword": "FATF 加密博彩",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "FATF Financial Action Task Force crypto gambling compliance framework",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 388,
+    "niche": "crypto-gambling",
+    "keyword": "香港加密博彩法律",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "Hong Kong cryptocurrency gambling legal framework document",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 389,
+    "niche": "crypto-gambling",
+    "keyword": "MiCA 加密博彩",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "EU MiCA regulation impact on crypto gambling industry diagram",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 390,
+    "niche": "crypto-gambling",
+    "keyword": "加密博彩稅務",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "crypto gambling tax reporting obligations jurisdiction comparison",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 391,
+    "niche": "crypto-gambling",
+    "keyword": "Curaçao 加密牌照",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "Curacao gambling license crypto casino regulatory certification",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 392,
+    "niche": "crypto-gambling",
+    "keyword": "Chainalysis 博彩",
+    "category": "風險研究",
+    "angle": "數據報告型",
+    "image_theme": "Chainalysis blockchain analytics gambling transaction tracing report",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 393,
+    "niche": "crypto-gambling",
+    "keyword": "加密博彩匿名性",
+    "category": "風險研究",
+    "angle": "技術評測型",
+    "image_theme": "crypto gambling anonymity vs transparency technical analysis",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 394,
+    "niche": "crypto-gambling",
+    "keyword": "Zero-Knowledge Proof 博彩",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "zero-knowledge proof ZKP gambling fairness verification diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 395,
+    "niche": "crypto-gambling",
+    "keyword": "BTC 確認時間",
+    "category": "技術研究",
+    "angle": "數據報告型",
+    "image_theme": "Bitcoin transaction confirmation time gambling deposit speed data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 396,
+    "niche": "crypto-gambling",
+    "keyword": "ETH Gas 費用",
+    "category": "技術研究",
+    "angle": "數據報告型",
+    "image_theme": "Ethereum gas fee historical data chart for gambling transactions",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 397,
+    "niche": "crypto-gambling",
+    "keyword": "TRC20 vs ERC20",
+    "category": "技術研究",
+    "angle": "市場比較型",
+    "image_theme": "TRC20 TRON vs ERC20 Ethereum token standard comparison gambling",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 398,
+    "niche": "crypto-gambling",
+    "keyword": "加密博彩詐騙",
+    "category": "風險研究",
+    "angle": "監管說明型",
+    "image_theme": "crypto gambling scam warning signs identification guide visual",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 399,
+    "niche": "crypto-gambling",
+    "keyword": "加密博彩問題博彩",
+    "category": "風險研究",
+    "angle": "監管說明型",
+    "image_theme": "problem gambling crypto context responsible gaming resources",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 400,
+    "niche": "crypto-gambling",
+    "keyword": "香港 VASP 牌照",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "Hong Kong VASP virtual asset service provider license framework",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 401,
+    "niche": "crypto-gambling",
+    "keyword": "加密博彩 AML",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "crypto gambling anti-money laundering AML compliance framework diagram",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 402,
+    "niche": "crypto-gambling",
+    "keyword": "MetaMask 博彩",
+    "category": "平台評測",
+    "angle": "技術評測型",
+    "image_theme": "MetaMask wallet crypto gambling connection tutorial interface",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 403,
+    "niche": "crypto-gambling",
+    "keyword": "Etherscan 博彩查詢",
+    "category": "技術研究",
+    "angle": "技術評測型",
+    "image_theme": "Etherscan blockchain explorer gambling transaction verification",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 404,
+    "niche": "crypto-gambling",
+    "keyword": "冷錢包博彩資金",
+    "category": "風險研究",
+    "angle": "技術評測型",
+    "image_theme": "cold hardware wallet crypto gambling fund security management",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 405,
+    "niche": "crypto-gambling",
+    "keyword": "加密博彩手續費",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "crypto gambling transaction fee comparison across networks data chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 406,
+    "niche": "crypto-gambling",
+    "keyword": "NFT 遊戲資產",
+    "category": "技術研究",
+    "angle": "行業分析型",
+    "image_theme": "NFT in-game assets gaming economy and gambling integration",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 407,
+    "niche": "crypto-gambling",
+    "keyword": "DeFi Gambling TVL",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "DeFi gambling total value locked TVL statistics and protocol ranking",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 408,
+    "niche": "crypto-gambling",
+    "keyword": "加密博彩市場規模",
+    "category": "市場數據",
+    "angle": "數據報告型",
+    "image_theme": "crypto gambling global market size growth forecast chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 409,
+    "niche": "crypto-gambling",
+    "keyword": "中國禁令加密博彩",
+    "category": "監管框架",
+    "angle": "監管說明型",
+    "image_theme": "China crypto gambling ban regulatory enforcement and market impact",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 410,
+    "niche": "crypto-gambling",
+    "keyword": "東南亞加密博彩",
+    "category": "市場數據",
+    "angle": "行業分析型",
+    "image_theme": "Southeast Asia crypto gambling market growth map and adoption data",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 411,
+    "niche": "sports-analytics",
+    "keyword": "xG 足球",
+    "category": "核心指標",
+    "angle": "行業分析型",
+    "image_theme": "football pitch with heat map overlay showing expected goals zones",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 412,
+    "niche": "sports-analytics",
+    "keyword": "xG 是什麼",
+    "category": "核心指標",
+    "angle": "技術評測型",
+    "image_theme": "infographic diagram explaining expected goals concept with shot circles on pitch",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 413,
+    "niche": "sports-analytics",
+    "keyword": "Expected Goals",
+    "category": "核心指標",
+    "angle": "數據報告型",
+    "image_theme": "soccer analytics dashboard showing xG bar charts and scatter plots",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 414,
+    "niche": "sports-analytics",
+    "keyword": "PPDA 高壓指標",
+    "category": "核心指標",
+    "angle": "技術評測型",
+    "image_theme": "football tactical board showing defensive pressing zones and PPDA metric visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 415,
+    "niche": "sports-analytics",
+    "keyword": "Progressive Passes",
+    "category": "核心指標",
+    "angle": "數據報告型",
+    "image_theme": "football pitch with progressive pass arrows and statistical overlay",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 416,
+    "niche": "sports-analytics",
+    "keyword": "xA 助攻期望值",
+    "category": "核心指標",
+    "angle": "技術評測型",
+    "image_theme": "football analytics screen showing assist probability map and player pass network",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 417,
+    "niche": "sports-analytics",
+    "keyword": "VAEP 球員貢獻",
+    "category": "核心指標",
+    "angle": "行業分析型",
+    "image_theme": "player performance radar chart with VAEP value highlighted in sports analytics interface",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 418,
+    "niche": "sports-analytics",
+    "keyword": "Defensive Actions 足球",
+    "category": "核心指標",
+    "angle": "數據報告型",
+    "image_theme": "football defensive action heatmap with tackles and interceptions marked on pitch",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 419,
+    "niche": "sports-analytics",
+    "keyword": "Pitch Control 足球",
+    "category": "核心指標",
+    "angle": "技術評測型",
+    "image_theme": "football pitch control visualization with color gradient showing territorial dominance",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 420,
+    "niche": "sports-analytics",
+    "keyword": "Expected Threat xT",
+    "category": "核心指標",
+    "angle": "數據報告型",
+    "image_theme": "football pitch grid showing expected threat values per zone with color intensity scale",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 421,
+    "niche": "sports-analytics",
+    "keyword": "NBA PER",
+    "category": "籃球數據",
+    "angle": "技術評測型",
+    "image_theme": "NBA basketball analytics dashboard showing Player Efficiency Rating comparison chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 422,
+    "niche": "sports-analytics",
+    "keyword": "True Shooting Percentage",
+    "category": "籃球數據",
+    "angle": "數據報告型",
+    "image_theme": "basketball court diagram with shooting zones and true shooting percentage statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 423,
+    "niche": "sports-analytics",
+    "keyword": "RAPM 籃球",
+    "category": "籃球數據",
+    "angle": "技術評測型",
+    "image_theme": "basketball analytics screen showing Regularized Adjusted Plus-Minus player rankings",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 424,
+    "niche": "sports-analytics",
+    "keyword": "Box Plus Minus",
+    "category": "籃球數據",
+    "angle": "數據報告型",
+    "image_theme": "NBA player comparison table with Box Plus Minus values and statistical breakdown",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 425,
+    "niche": "sports-analytics",
+    "keyword": "Win Shares NBA",
+    "category": "籃球數據",
+    "angle": "行業分析型",
+    "image_theme": "basketball win shares visualization with player contribution stacked bar chart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 426,
+    "niche": "sports-analytics",
+    "keyword": "Four Factors 籃球",
+    "category": "籃球數據",
+    "angle": "技術評測型",
+    "image_theme": "basketball four factors analysis chart showing eFG%, TOV%, ORB%, FTR comparison",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 427,
+    "niche": "sports-analytics",
+    "keyword": "Second Spectrum NBA",
+    "category": "籃球數據",
+    "angle": "行業分析型",
+    "image_theme": "NBA arena with Second Spectrum player tracking cameras and data visualization overlay",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 428,
+    "niche": "sports-analytics",
+    "keyword": "GPS 追蹤足球",
+    "category": "數據建模",
+    "angle": "技術評測型",
+    "image_theme": "football players wearing GPS vests with tracking data visualization on pitch",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 429,
+    "niche": "sports-analytics",
+    "keyword": "Sprint Distance 數據",
+    "category": "數據建模",
+    "angle": "數據報告型",
+    "image_theme": "athlete performance graph showing sprint distance covered with speed zones breakdown",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 430,
+    "niche": "sports-analytics",
+    "keyword": "High Intensity Running",
+    "category": "數據建模",
+    "angle": "數據報告型",
+    "image_theme": "sports science chart showing high intensity running metrics and athlete workload data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 431,
+    "niche": "sports-analytics",
+    "keyword": "Load Management 運動",
+    "category": "數據建模",
+    "angle": "行業分析型",
+    "image_theme": "athlete training load management dashboard with workload balance indicators",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 432,
+    "niche": "sports-analytics",
+    "keyword": "VO2 Max 競技",
+    "category": "數據建模",
+    "angle": "技術評測型",
+    "image_theme": "sports physiology lab with VO2 max testing equipment and performance data graph",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 433,
+    "niche": "sports-analytics",
+    "keyword": "生物力學數據分析",
+    "category": "數據建模",
+    "angle": "技術評測型",
+    "image_theme": "biomechanics motion capture lab with athlete skeleton overlay and force plate data",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 434,
+    "niche": "sports-analytics",
+    "keyword": "泊松模型足球",
+    "category": "數據建模",
+    "angle": "數據報告型",
+    "image_theme": "mathematical Poisson distribution chart applied to football score prediction analysis",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 435,
+    "niche": "sports-analytics",
+    "keyword": "Dixon-Coles 模型",
+    "category": "數據建模",
+    "angle": "技術評測型",
+    "image_theme": "statistical model visualization showing Dixon-Coles football prediction probability matrix",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 436,
+    "niche": "sports-analytics",
+    "keyword": "Elo 評分體育",
+    "category": "數據建模",
+    "angle": "數據報告型",
+    "image_theme": "Elo rating system chart showing sports team ranking changes over time",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 437,
+    "niche": "sports-analytics",
+    "keyword": "Machine Learning 體育預測",
+    "category": "數據建模",
+    "angle": "技術評測型",
+    "image_theme": "machine learning algorithm visualization applied to sports outcome prediction with neural network diagram",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 438,
+    "niche": "sports-analytics",
+    "keyword": "Random Forest 球員",
+    "category": "數據建模",
+    "angle": "技術評測型",
+    "image_theme": "random forest decision tree visualization for athlete performance feature importance analysis",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 439,
+    "niche": "sports-analytics",
+    "keyword": "時間序列體育數據",
+    "category": "數據建模",
+    "angle": "數據報告型",
+    "image_theme": "time series sports analytics chart showing seasonal performance trends and statistical patterns",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 440,
+    "niche": "sports-analytics",
+    "keyword": "Clustering 球員分類",
+    "category": "數據建模",
+    "angle": "技術評測型",
+    "image_theme": "player clustering scatter plot showing position groups and performance archetype segmentation",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 441,
+    "niche": "sports-analytics",
+    "keyword": "Opta 數據平台",
+    "category": "數據工具",
+    "angle": "行業分析型",
+    "image_theme": "Opta sports data platform interface with football statistics feed and analytics dashboard",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 442,
+    "niche": "sports-analytics",
+    "keyword": "StatsBomb 數據",
+    "category": "數據工具",
+    "angle": "行業分析型",
+    "image_theme": "StatsBomb data visualization showing detailed event data on football pitch",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 443,
+    "niche": "sports-analytics",
+    "keyword": "Wyscout 足球數據",
+    "category": "數據工具",
+    "angle": "行業分析型",
+    "image_theme": "Wyscout scouting platform with player profile data and video analysis interface",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 444,
+    "niche": "sports-analytics",
+    "keyword": "Tracab 追蹤數據",
+    "category": "數據工具",
+    "angle": "技術評測型",
+    "image_theme": "stadium with Tracab optical player tracking system cameras and position data visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 445,
+    "niche": "sports-analytics",
+    "keyword": "FIFA EPTS 數據",
+    "category": "數據工具",
+    "angle": "監管說明型",
+    "image_theme": "FIFA EPTS tracking device worn by football player with official regulation documentation",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 446,
+    "niche": "sports-analytics",
+    "keyword": "免費體育數據 API",
+    "category": "數據工具",
+    "angle": "市場比較型",
+    "image_theme": "developer screen showing sports data API documentation with code examples and endpoint comparison",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 447,
+    "niche": "sports-analytics",
+    "keyword": "英超數據分析",
+    "category": "數據工具",
+    "angle": "數據報告型",
+    "image_theme": "Premier League analytics report with team statistics comparison and performance metrics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 448,
+    "niche": "sports-analytics",
+    "keyword": "五大聯賽 xG",
+    "category": "數據工具",
+    "angle": "數據報告型",
+    "image_theme": "European top five leagues xG comparison chart showing season averages and team rankings",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 449,
+    "niche": "sports-analytics",
+    "keyword": "歐冠數據分析",
+    "category": "數據工具",
+    "angle": "行業分析型",
+    "image_theme": "UEFA Champions League analytics dashboard with team performance heatmaps and knockout stage data",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 450,
+    "niche": "sports-analytics",
+    "keyword": "香港足球數據",
+    "category": "數據工具",
+    "angle": "數據報告型",
+    "image_theme": "Hong Kong Premier League football statistics report with local team performance data visualization",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 451,
+    "niche": "sports-analytics",
+    "keyword": "Python 足球分析",
+    "category": "媒體研究",
+    "angle": "技術評測型",
+    "image_theme": "Python code editor with football data analysis script and matplotlib visualization output",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 452,
+    "niche": "sports-analytics",
+    "keyword": "R 語言體育",
+    "category": "媒體研究",
+    "angle": "技術評測型",
+    "image_theme": "R Studio interface with sports data analysis code and ggplot2 visualization charts",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 453,
+    "niche": "sports-analytics",
+    "keyword": "Tableau 體育可視化",
+    "category": "媒體研究",
+    "angle": "市場比較型",
+    "image_theme": "Tableau sports analytics dashboard with interactive charts and athlete performance metrics",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 454,
+    "niche": "sports-analytics",
+    "keyword": "Jupyter 足球分析",
+    "category": "媒體研究",
+    "angle": "技術評測型",
+    "image_theme": "Jupyter notebook with football data science analysis code cells and pitch visualization output",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 455,
+    "niche": "sports-analytics",
+    "keyword": "FiveThirtyEight 模型",
+    "category": "媒體研究",
+    "angle": "行業分析型",
+    "image_theme": "FiveThirtyEight style data journalism visualization with sports prediction model charts",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 456,
+    "niche": "sports-analytics",
+    "keyword": "The Athletic 數據",
+    "category": "媒體研究",
+    "angle": "行業分析型",
+    "image_theme": "sports journalism analytics article layout with data-driven football analysis graphics",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 457,
+    "niche": "sports-analytics",
+    "keyword": "數據新聞學體育",
+    "category": "媒體研究",
+    "angle": "行業分析型",
+    "image_theme": "data journalism newsroom with sports analytics visualizations on screens and reporter at desk",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 458,
+    "niche": "sports-analytics",
+    "keyword": "香港體育數據新聞",
+    "category": "媒體研究",
+    "angle": "數據報告型",
+    "image_theme": "Hong Kong sports media analytics report with local football and basketball data visualizations",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 459,
+    "niche": "sports-analytics",
+    "keyword": "運動數據分析師",
+    "category": "媒體研究",
+    "angle": "行業分析型",
+    "image_theme": "sports data analyst working at desk with multiple screens showing performance analytics dashboards",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 460,
+    "niche": "sports-analytics",
+    "keyword": "StatsBomb 開放數據",
+    "category": "媒體研究",
+    "angle": "技術評測型",
+    "image_theme": "open source football data visualization using StatsBomb free dataset with Python pitch plots",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 461,
+    "niche": "esports-industry",
+    "keyword": "電競市場規模",
+    "category": "市場規模",
+    "angle": "數據報告型",
+    "image_theme": "esports market size infographic with global revenue charts and growth trend lines",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 462,
+    "niche": "esports-industry",
+    "keyword": "電競產業報告",
+    "category": "市場規模",
+    "angle": "行業分析型",
+    "image_theme": "esports industry annual report cover with global market statistics and segment breakdown charts",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 463,
+    "niche": "esports-industry",
+    "keyword": "電競廣告收入",
+    "category": "市場規模",
+    "angle": "數據報告型",
+    "image_theme": "esports advertising revenue breakdown chart showing brand categories and investment growth",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 464,
+    "niche": "esports-industry",
+    "keyword": "電競直播平台",
+    "category": "市場規模",
+    "angle": "市場比較型",
+    "image_theme": "esports streaming platform comparison showing viewer numbers and market share pie chart",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 465,
+    "niche": "esports-industry",
+    "keyword": "Twitch 市場份額",
+    "category": "市場規模",
+    "angle": "數據報告型",
+    "image_theme": "Twitch streaming platform market share chart with competitor comparison and viewer statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 466,
+    "niche": "esports-industry",
+    "keyword": "YouTube Gaming",
+    "category": "市場規模",
+    "angle": "市場比較型",
+    "image_theme": "YouTube Gaming platform analytics dashboard showing content creator statistics and viewership trends",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 467,
+    "niche": "esports-industry",
+    "keyword": "電競周邊產品",
+    "category": "市場規模",
+    "angle": "市場比較型",
+    "image_theme": "esports peripheral product lineup including gaming mouse, keyboard, headset with market revenue data",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 468,
+    "niche": "esports-industry",
+    "keyword": "亞太電競市場",
+    "category": "市場規模",
+    "angle": "數據報告型",
+    "image_theme": "Asia Pacific esports market map with country revenue breakdown and growth percentage indicators",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 469,
+    "niche": "esports-industry",
+    "keyword": "電競移動遊戲",
+    "category": "市場規模",
+    "angle": "行業分析型",
+    "image_theme": "mobile esports tournament setup with smartphones and regional market growth chart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 470,
+    "niche": "esports-industry",
+    "keyword": "電競票務收入",
+    "category": "市場規模",
+    "angle": "數據報告型",
+    "image_theme": "esports arena event ticket sales data with attendance statistics and revenue comparison chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 471,
+    "niche": "esports-industry",
+    "keyword": "電競版權估值",
+    "category": "商業版權",
+    "angle": "行業分析型",
+    "image_theme": "esports media rights valuation chart comparing traditional sports broadcast deals",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 472,
+    "niche": "esports-industry",
+    "keyword": "LOL 世界賽版權",
+    "category": "商業版權",
+    "angle": "行業分析型",
+    "image_theme": "League of Legends World Championship broadcast rights deal visualization with global media partner logos",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 473,
+    "niche": "esports-industry",
+    "keyword": "電競贊助市場",
+    "category": "商業版權",
+    "angle": "數據報告型",
+    "image_theme": "esports sponsorship market breakdown by industry sector with brand investment comparison chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 474,
+    "niche": "esports-industry",
+    "keyword": "電競品牌 ROI",
+    "category": "商業版權",
+    "angle": "市場比較型",
+    "image_theme": "brand sponsorship ROI analysis chart for esports versus traditional sports marketing investment",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 475,
+    "niche": "esports-industry",
+    "keyword": "電競俱樂部估值",
+    "category": "商業版權",
+    "angle": "數據報告型",
+    "image_theme": "esports organization valuation ranking chart with top club revenue and investor data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 476,
+    "niche": "esports-industry",
+    "keyword": "電競 Franchise 模式",
+    "category": "商業版權",
+    "angle": "行業分析型",
+    "image_theme": "esports franchise league structure diagram showing team slot ownership and revenue sharing model",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 477,
+    "niche": "esports-industry",
+    "keyword": "電競選手薪資",
+    "category": "選手數據",
+    "angle": "數據報告型",
+    "image_theme": "esports player salary comparison chart by game title and region with average earnings data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 478,
+    "niche": "esports-industry",
+    "keyword": "電競選手職業生涯",
+    "category": "選手數據",
+    "angle": "行業分析型",
+    "image_theme": "esports player career timeline showing peak performance age and career length statistics",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 479,
+    "niche": "esports-industry",
+    "keyword": "電競選手轉會市場",
+    "category": "選手數據",
+    "angle": "市場比較型",
+    "image_theme": "esports player transfer market data with contract values and team movement visualization",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 480,
+    "niche": "esports-industry",
+    "keyword": "電競選手傷病率",
+    "category": "選手數據",
+    "angle": "數據報告型",
+    "image_theme": "esports player injury statistics chart showing overuse injuries and health risk factors",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 481,
+    "niche": "esports-industry",
+    "keyword": "電競選手退役",
+    "category": "選手數據",
+    "angle": "行業分析型",
+    "image_theme": "esports retirement statistics showing average career length and post-career transition paths",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 482,
+    "niche": "esports-industry",
+    "keyword": "女性電競選手",
+    "category": "選手數據",
+    "angle": "數據報告型",
+    "image_theme": "female esports player statistics showing gender representation trends and tournament participation data",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 483,
+    "niche": "esports-industry",
+    "keyword": "T1 俱樂部分析",
+    "category": "選手數據",
+    "angle": "行業分析型",
+    "image_theme": "T1 esports organization analysis chart with player roster performance data and financial metrics",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 484,
+    "niche": "esports-industry",
+    "keyword": "Cloud9 架構",
+    "category": "選手數據",
+    "angle": "行業分析型",
+    "image_theme": "Cloud9 esports organization structure diagram showing multi-game roster and management hierarchy",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 485,
+    "niche": "esports-industry",
+    "keyword": "電競俱樂部財務",
+    "category": "選手數據",
+    "angle": "數據報告型",
+    "image_theme": "esports club financial report showing revenue streams, expenses, and profit margin analysis",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 486,
+    "niche": "esports-industry",
+    "keyword": "中國電競投資",
+    "category": "選手數據",
+    "angle": "行業分析型",
+    "image_theme": "China esports investment landscape chart showing VC funding rounds and major investor profiles",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 487,
+    "niche": "esports-industry",
+    "keyword": "電競多遊戲戰略",
+    "category": "選手數據",
+    "angle": "行業分析型",
+    "image_theme": "esports organization multi-title strategy diagram showing game division performance and resource allocation",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 488,
+    "niche": "esports-industry",
+    "keyword": "電競觀眾統計",
+    "category": "觀眾研究",
+    "angle": "數據報告型",
+    "image_theme": "esports audience demographics chart showing age, gender, and geographic distribution statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 489,
+    "niche": "esports-industry",
+    "keyword": "電競 vs 傳統體育觀眾",
+    "category": "觀眾研究",
+    "angle": "市場比較型",
+    "image_theme": "audience comparison chart between esports and traditional sports showing viewership demographics side by side",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 490,
+    "niche": "esports-industry",
+    "keyword": "電競觀看時長",
+    "category": "觀眾研究",
+    "angle": "數據報告型",
+    "image_theme": "esports watch time analytics chart showing average viewing duration by platform and event type",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 491,
+    "niche": "esports-industry",
+    "keyword": "亞洲電競觀眾行為",
+    "category": "觀眾研究",
+    "angle": "市場比較型",
+    "image_theme": "Asian esports audience behavior research chart comparing viewing habits across South Korea, China, and Southeast Asia",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 492,
+    "niche": "esports-industry",
+    "keyword": "電競消費行為",
+    "category": "觀眾研究",
+    "angle": "數據報告型",
+    "image_theme": "esports consumer spending behavior chart showing merchandise, subscriptions, and in-game purchase patterns",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 493,
+    "niche": "esports-industry",
+    "keyword": "鬥魚虎牙生態",
+    "category": "觀眾研究",
+    "angle": "行業分析型",
+    "image_theme": "Douyu and Huya streaming platform ecosystem diagram with user base and content creator statistics",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 494,
+    "niche": "esports-industry",
+    "keyword": "電競數據供應商",
+    "category": "觀眾研究",
+    "angle": "市場比較型",
+    "image_theme": "esports data provider comparison chart showing service offerings, coverage, and market positioning",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 495,
+    "niche": "esports-industry",
+    "keyword": "電競媒體商業模式",
+    "category": "觀眾研究",
+    "angle": "行業分析型",
+    "image_theme": "esports media business model diagram showing content monetization streams and distribution channels",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 496,
+    "niche": "esports-industry",
+    "keyword": "中國電競監管",
+    "category": "監管政策",
+    "angle": "監管說明型",
+    "image_theme": "China esports regulatory framework document with government policy timeline and restriction categories",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 497,
+    "niche": "esports-industry",
+    "keyword": "韓國電競制度",
+    "category": "監管政策",
+    "angle": "監管說明型",
+    "image_theme": "Korean esports institutional structure showing KeSPA organization chart and government partnership framework",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 498,
+    "niche": "esports-industry",
+    "keyword": "香港電競發展局",
+    "category": "監管政策",
+    "angle": "監管說明型",
+    "image_theme": "Hong Kong esports development bureau official document with policy framework and industry support programs",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 499,
+    "niche": "esports-industry",
+    "keyword": "電競運動員認定",
+    "category": "監管政策",
+    "angle": "監管說明型",
+    "image_theme": "esports athlete recognition policy document with official certification criteria and government endorsement",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 500,
+    "niche": "esports-industry",
+    "keyword": "ESIC 反操控",
+    "category": "監管政策",
+    "angle": "監管說明型",
+    "image_theme": "ESIC anti-corruption investigation report with match manipulation detection methodology diagram",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 501,
+    "niche": "esports-industry",
+    "keyword": "香港電競產業",
+    "category": "監管政策",
+    "angle": "行業分析型",
+    "image_theme": "Hong Kong esports industry overview map showing venues, organizations, and market development indicators",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 502,
+    "niche": "esports-industry",
+    "keyword": "亞洲電競文化差異",
+    "category": "監管政策",
+    "angle": "市場比較型",
+    "image_theme": "Asia esports cultural comparison chart showing regional differences in gaming culture and industry development",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 503,
+    "niche": "esports-industry",
+    "keyword": "東南亞電競市場",
+    "category": "監管政策",
+    "angle": "數據報告型",
+    "image_theme": "Southeast Asia esports market data showing country breakdown, mobile gaming dominance, and growth projections",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 504,
+    "niche": "esports-industry",
+    "keyword": "日本電競法規",
+    "category": "監管政策",
+    "angle": "監管說明型",
+    "image_theme": "Japan esports regulation document showing prize money laws and professional player certification system",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 505,
+    "niche": "esports-industry",
+    "keyword": "韓國電競培訓",
+    "category": "監管政策",
+    "angle": "行業分析型",
+    "image_theme": "Korean esports training academy showing player development pipeline and education system integration",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 506,
+    "niche": "esports-industry",
+    "keyword": "AI 電競訓練",
+    "category": "監管政策",
+    "angle": "技術評測型",
+    "image_theme": "AI-powered esports training software interface showing performance analysis and coaching recommendations",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 507,
+    "niche": "esports-industry",
+    "keyword": "VR 電競市場",
+    "category": "監管政策",
+    "angle": "市場比較型",
+    "image_theme": "VR esports competition setup with headsets and virtual arena visualization showing market potential",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 508,
+    "niche": "esports-industry",
+    "keyword": "5G 電競直播",
+    "category": "監管政策",
+    "angle": "技術評測型",
+    "image_theme": "5G network infrastructure supporting esports live streaming with latency improvement data chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 509,
+    "niche": "esports-industry",
+    "keyword": "Cloud Gaming 電競",
+    "category": "監管政策",
+    "angle": "行業分析型",
+    "image_theme": "cloud gaming platform for esports showing server infrastructure and competitive gaming accessibility chart",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 510,
+    "niche": "esports-industry",
+    "keyword": "電競設備市場",
+    "category": "監管政策",
+    "angle": "市場比較型",
+    "image_theme": "esports equipment market analysis chart comparing gaming hardware brands and product category revenue",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 511,
+    "niche": "strategy-games",
+    "keyword": "電子麻將",
+    "category": "麻將研究",
+    "angle": "市場比較型",
+    "image_theme": "digital mahjong game interface on tablet with tile graphics and online multiplayer statistics",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 512,
+    "niche": "strategy-games",
+    "keyword": "線上麻將",
+    "category": "麻將研究",
+    "angle": "市場比較型",
+    "image_theme": "online mahjong platform comparison showing player counts, game variants, and user interface design",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 513,
+    "niche": "strategy-games",
+    "keyword": "麻將策略",
+    "category": "麻將研究",
+    "angle": "技術評測型",
+    "image_theme": "mahjong strategy diagram showing tile combinations, probability trees, and decision-making flowchart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 514,
+    "niche": "strategy-games",
+    "keyword": "麻將概率",
+    "category": "麻將研究",
+    "angle": "數據報告型",
+    "image_theme": "mahjong probability calculation chart showing winning hand odds and tile distribution statistics",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 515,
+    "niche": "strategy-games",
+    "keyword": "麻將教學",
+    "category": "麻將研究",
+    "angle": "技術評測型",
+    "image_theme": "mahjong learning tutorial layout showing tile types, scoring rules, and beginner guide infographic",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 516,
+    "niche": "strategy-games",
+    "keyword": "廣東麻將規則",
+    "category": "麻將研究",
+    "angle": "監管說明型",
+    "image_theme": "Cantonese mahjong rules reference card showing official scoring combinations and regional rule variations",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 517,
+    "niche": "strategy-games",
+    "keyword": "麻將聽牌",
+    "category": "麻將研究",
+    "angle": "技術評測型",
+    "image_theme": "mahjong tenpai hand visualization showing remaining tiles needed and probability calculation",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 518,
+    "niche": "strategy-games",
+    "keyword": "麻將換三張",
+    "category": "麻將研究",
+    "angle": "技術評測型",
+    "image_theme": "mahjong tile exchange rule diagram showing three-tile swap mechanics and strategic considerations",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 519,
+    "niche": "strategy-games",
+    "keyword": "麻將 AI",
+    "category": "麻將研究",
+    "angle": "技術評測型",
+    "image_theme": "mahjong AI neural network diagram with decision tree visualization and performance benchmark chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 520,
+    "niche": "strategy-games",
+    "keyword": "Suphx 麻將 AI",
+    "category": "麻將研究",
+    "angle": "技術評測型",
+    "image_theme": "Suphx Microsoft mahjong AI architecture diagram showing deep reinforcement learning model performance against human players",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 521,
+    "niche": "strategy-games",
+    "keyword": "圍棋 AI",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "Go AI program interface showing board position analysis with neural network evaluation scores",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 522,
+    "niche": "strategy-games",
+    "keyword": "AlphaGo",
+    "category": "AI棋局",
+    "angle": "行業分析型",
+    "image_theme": "AlphaGo versus Lee Sedol match board position with DeepMind neural network visualization diagram",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 523,
+    "niche": "strategy-games",
+    "keyword": "AlphaZero",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "AlphaZero self-play training visualization showing performance improvement curves across chess, Go, and shogi",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 524,
+    "niche": "strategy-games",
+    "keyword": "Leela Zero",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "Leela Zero open source Go AI interface with distributed computing network diagram and strength ranking",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 525,
+    "niche": "strategy-games",
+    "keyword": "Stockfish",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "Stockfish chess engine analysis interface showing evaluation bar, best moves, and calculation depth",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 526,
+    "niche": "strategy-games",
+    "keyword": "圍棋策略",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "Go game strategy diagram showing influence maps, territorial control, and joseki pattern examples",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 527,
+    "niche": "strategy-games",
+    "keyword": "圍棋 ELO",
+    "category": "AI棋局",
+    "angle": "數據報告型",
+    "image_theme": "Go player ELO rating chart showing top player rankings and historical rating progression over time",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 528,
+    "niche": "strategy-games",
+    "keyword": "圍棋 SGF",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "SGF file format diagram showing Go game record structure with branch variations and annotation system",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 529,
+    "niche": "strategy-games",
+    "keyword": "Monte Carlo 圍棋",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "Monte Carlo tree search visualization applied to Go board showing simulation branches and win rate estimates",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 530,
+    "niche": "strategy-games",
+    "keyword": "圍棋 MCTS",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "MCTS algorithm diagram for Go showing selection, expansion, simulation, and backpropagation phases",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 531,
+    "niche": "strategy-games",
+    "keyword": "國際象棋 AI",
+    "category": "AI棋局",
+    "angle": "市場比較型",
+    "image_theme": "chess AI engine comparison chart showing Elo ratings of Stockfish, Leela Chess Zero, and commercial engines",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 532,
+    "niche": "strategy-games",
+    "keyword": "Centipawn Loss",
+    "category": "AI棋局",
+    "angle": "數據報告型",
+    "image_theme": "chess game accuracy analysis showing centipawn loss statistics and blunder frequency distribution chart",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 533,
+    "niche": "strategy-games",
+    "keyword": "Shannon Number",
+    "category": "AI棋局",
+    "angle": "數據報告型",
+    "image_theme": "Shannon number visualization showing chess game tree complexity with exponential calculation diagram",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 534,
+    "niche": "strategy-games",
+    "keyword": "Syzygy Tablebase",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "chess endgame tablebase lookup system diagram showing perfect play database architecture",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 535,
+    "niche": "strategy-games",
+    "keyword": "FIDE 評分",
+    "category": "AI棋局",
+    "angle": "監管說明型",
+    "image_theme": "FIDE official rating system document showing Elo calculation formula and rating category thresholds",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 536,
+    "niche": "strategy-games",
+    "keyword": "中國象棋規則",
+    "category": "AI棋局",
+    "angle": "監管說明型",
+    "image_theme": "Chinese chess official rules diagram showing piece movements, river boundary, and capture mechanics",
+    "status": "available",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+  },
+  {
+    "id": 537,
+    "niche": "strategy-games",
+    "keyword": "象棋 AI",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "Chinese chess AI engine interface showing position evaluation and best move recommendation system",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 538,
+    "niche": "strategy-games",
+    "keyword": "將棋 AI",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "shogi AI program interface with piece value analysis and professional player strength comparison chart",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 539,
+    "niche": "strategy-games",
+    "keyword": "Bonanza 將棋",
+    "category": "AI棋局",
+    "angle": "行業分析型",
+    "image_theme": "Bonanza shogi engine historical significance diagram showing impact on AI board game development",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 540,
+    "niche": "strategy-games",
+    "keyword": "YaneuraOu",
+    "category": "AI棋局",
+    "angle": "技術評測型",
+    "image_theme": "YaneuraOu shogi engine open source architecture diagram with NNUE evaluation network visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 541,
+    "niche": "strategy-games",
+    "keyword": "納什均衡",
+    "category": "博弈論",
+    "angle": "技術評測型",
+    "image_theme": "Nash equilibrium game theory diagram showing payoff matrix and strategic equilibrium point visualization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 542,
+    "niche": "strategy-games",
+    "keyword": "Minimax 策略",
+    "category": "博弈論",
+    "angle": "技術評測型",
+    "image_theme": "minimax algorithm tree diagram showing game state evaluation with alpha-beta pruning optimization",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 543,
+    "niche": "strategy-games",
+    "keyword": "混合策略均衡",
+    "category": "博弈論",
+    "angle": "技術評測型",
+    "image_theme": "mixed strategy equilibrium probability diagram applied to rock-paper-scissors and poker game theory",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 544,
+    "niche": "strategy-games",
+    "keyword": "信息不完全博弈",
+    "category": "博弈論",
+    "angle": "技術評測型",
+    "image_theme": "incomplete information game theory diagram showing hidden information scenarios in card and board games",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 545,
+    "niche": "strategy-games",
+    "keyword": "合作博弈理論",
+    "category": "博弈論",
+    "angle": "行業分析型",
+    "image_theme": "cooperative game theory diagram showing coalition formation and Shapley value distribution in strategic games",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 546,
+    "niche": "strategy-games",
+    "keyword": "囚徒困境棋牌",
+    "category": "博弈論",
+    "angle": "技術評測型",
+    "image_theme": "prisoner's dilemma payoff matrix applied to card game strategy with cooperation versus defection analysis",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 547,
+    "niche": "strategy-games",
+    "keyword": "麻將認知研究",
+    "category": "認知科學",
+    "angle": "數據報告型",
+    "image_theme": "cognitive neuroscience research chart showing mahjong gameplay effects on working memory and pattern recognition",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 548,
+    "niche": "strategy-games",
+    "keyword": "棋類認知老化",
+    "category": "認知科學",
+    "angle": "數據報告型",
+    "image_theme": "cognitive aging research chart showing board game activity effects on elderly mental acuity and dementia prevention",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 549,
+    "niche": "strategy-games",
+    "keyword": "策略遊戲工作記憶",
+    "category": "認知科學",
+    "angle": "數據報告型",
+    "image_theme": "working memory research diagram showing strategy game cognitive load measurement and neural activation patterns",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 550,
+    "niche": "strategy-games",
+    "keyword": "遊戲學習曲線",
+    "category": "認知科學",
+    "angle": "技術評測型",
+    "image_theme": "strategy game learning curve chart showing skill acquisition progression and mastery plateau analysis",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 551,
+    "niche": "strategy-games",
+    "keyword": "策略遊戲設計",
+    "category": "認知科學",
+    "angle": "行業分析型",
+    "image_theme": "strategy game design framework diagram showing rule complexity, depth, and player engagement balance",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 552,
+    "niche": "strategy-games",
+    "keyword": "遊戲平衡性設計",
+    "category": "認知科學",
+    "angle": "技術評測型",
+    "image_theme": "game balance design analysis chart showing player win rates, strategy diversity, and meta-game health indicators",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 553,
+    "niche": "strategy-games",
+    "keyword": "信息不完全遊戲",
+    "category": "認知科學",
+    "angle": "技術評測型",
+    "image_theme": "hidden information game design diagram showing uncertainty mechanics in mahjong, poker, and card games",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 554,
+    "niche": "strategy-games",
+    "keyword": "隨機性遊戲設計",
+    "category": "認知科學",
+    "angle": "技術評測型",
+    "image_theme": "randomness in game design chart showing luck versus skill balance across dice games, card games, and mahjong",
+    "status": "available",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+  },
+  {
+    "id": 555,
+    "niche": "strategy-games",
+    "keyword": "麻將在香港文化",
+    "category": "文化歷史",
+    "angle": "行業分析型",
+    "image_theme": "mahjong cultural significance in Hong Kong showing historical photographs, family gathering scenes, and social tradition",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 556,
+    "niche": "strategy-games",
+    "keyword": "香港麻將調查",
+    "category": "文化歷史",
+    "angle": "數據報告型",
+    "image_theme": "Hong Kong mahjong survey results chart showing participation rates, frequency, and demographic breakdown",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 557,
+    "niche": "strategy-games",
+    "keyword": "香港圍棋發展",
+    "category": "文化歷史",
+    "angle": "行業分析型",
+    "image_theme": "Hong Kong Go federation development timeline showing tournament history, player membership, and youth program growth",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 558,
+    "niche": "strategy-games",
+    "keyword": "亞洲棋類賽事",
+    "category": "文化歷史",
+    "angle": "市場比較型",
+    "image_theme": "Asian board game tournament calendar showing major Go, chess, and mahjong competitions with prize pool comparison",
+    "status": "available",
+    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
+  },
+  {
+    "id": 559,
+    "niche": "strategy-games",
+    "keyword": "電子麻將普及率",
+    "category": "文化歷史",
+    "angle": "數據報告型",
+    "image_theme": "digital mahjong adoption rate survey chart showing regional penetration across Asia and demographic breakdown",
+    "status": "available",
+    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
+  },
+  {
+    "id": 560,
+    "niche": "strategy-games",
+    "keyword": "香港智力運動",
+    "category": "文化歷史",
+    "angle": "行業分析型",
+    "image_theme": "Hong Kong mind sports development overview showing chess, Go, and bridge participation statistics and organizational structure",
+    "status": "available",
+    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  }
+]
