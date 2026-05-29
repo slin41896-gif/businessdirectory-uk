@@ -1,9 +1,9 @@
-name: Deploy to Cloudflare Pages (Manual Fallback)
-
-# 本專案主要部署方式：本機 deploy-main.ps1 → CF Pages（不依賴 GitHub Actions）
-# 此 workflow 僅作手動備用，平時不自動觸發
+name: Deploy to Cloudflare Pages
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       reason:
