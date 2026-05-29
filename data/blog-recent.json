@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-spurs-force-game-7-vs-thunder-wembanyama-shines",
+      "headline": "馬刺逼雷霆入搶七！溫班亞瑪回穩28分",
+      "category": "體育資訊",
+      "date": "2026-05-29",
+      "lead": "NBA西區決賽峰迴路轉！聖安東尼奧馬刺隊憑藉新星溫班亞瑪今仗回勇攻下28分，以一場壓倒性勝利擊敗奧克拉荷馬雷霆隊，成功將系列賽逼入最緊張刺激的搶七大戰。全港球迷",
+      "imageUrl": "https://images.pexels.com/photos/18457221/pexels-photo-18457221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Runners sprinting through water during a competitive triathlon event outdoors."
+    },
+    {
       "slug": "2026-05-29-nba-spurs-thunder-game-7",
       "headline": "溫班亞瑪回勇 助馬刺逼雷霆打七場",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "馬刺隊超級新秀溫班亞瑪今場火力全開，以強悍的個人表現帶領球隊贏下關鍵一役，成功將系列賽逼入生死攸關的搶七大戰。他賽後高度讚揚了球隊板凳球員的關鍵發揮，認為是勝利",
       "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
-    },
-    {
-      "slug": "2026-05-29-spurs-force-game-7-against-thunder-in-western-conference-finals",
-      "headline": "馬刺主場贏波追平3:3 搶七惡鬥雷霆爭總決門票",
-      "category": "體育資訊",
-      "date": "2026-05-29",
-      "lead": "NBA西岸決賽峰迴路轉！馬刺隊喺主場以118比91大勝雷霆，成功將系列賽追成3比3平手，將於作客進行一場「搶七」生死戰，爭奪總冠軍賽席位。",
-      "imageUrl": "https://images.pexels.com/photos/30555530/pexels-photo-30555530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Dramatic moment in a basketball game with players and an engaged crowd."
     }
   ]
 }
