@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "egypt-salah-world-cup-2026-hk-report",
+      "headline": "沙拿再戰世盃 埃及隊長領軍衝擊",
+      "category": "體育資訊",
+      "date": "2026-05-31",
+      "lead": "埃及國家隊公布新一期大軍名單，球隊靈魂人物穆罕默德·沙拿將第二次披上國家隊戰袍，征戰世界盃舞台。這位利物浦的頂級射手，其一舉一動牽動著全球無數球迷的心，包括香港",
+      "imageUrl": "https://images.pexels.com/photos/31160096/pexels-photo-31160096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Fans cheering during a thrilling night football match at Mohamed Bin Zayed Stadium, Abu Dhabi."
+    },
+    {
       "slug": "2026-05-31-spurs-game-7-new-nba-record",
       "headline": "馬刺爭搶七創紀錄",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "NBA西岸決賽峰迴路轉，奧克拉荷馬雷霆隊被聖安東尼奧馬刺隊逼入搶七生死戰。儘管球隊主將SGA坦承身心俱疲，但他仍展現出無比的決心，稱這將是其職業生涯中最重要的一",
       "imageUrl": "/images/blog/2026-05-30-thunder-vs-spurs-game-7-sga-says-career-defining.jpg",
       "imageAlt": "雷霆逼入G7 SGA：生涯最重要一戰"
-    },
-    {
-      "slug": "2026-05-30-nba-wembanyama-leads-spurs-to-game-7",
-      "headline": "馬刺搶七！溫班亞瑪展侵略性，讚賞替補奇兵",
-      "category": "體育資訊",
-      "date": "2026-05-30",
-      "lead": "NBA 季後賽戰況白熱化！聖安東尼奧馬刺憑藉新星溫班亞瑪的關鍵時刻爆發，成功將系列賽拖入驚心動魄的搶七大戰。賽後，這位法國巨塔將功勞歸於表現出色的替補陣容。",
-      "imageUrl": "/images/blog/2026-05-30-nba-wembanyama-leads-spurs-to-game-7.jpg",
-      "imageAlt": "馬刺搶七！溫班亞瑪展侵略性，讚賞替補奇兵"
     }
   ]
 }
