@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "slug": "2026-05-31-spurs-game-7-new-nba-record",
+      "headline": "馬刺爭搶七創紀錄",
+      "category": "體育資訊",
+      "date": "2026-05-31",
+      "lead": "NBA西區冠軍賽迎來最高潮，馬刺隊明日將與對手展開驚心動魄的搶七大戰。一旦馬刺贏下這場關鍵戰役，將寫下NBA歷史上連續八個賽季出現不同總冠軍的全新紀錄。",
+      "imageUrl": "https://images.pexels.com/photos/30555530/pexels-photo-30555530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Dramatic moment in a basketball game with players and an engaged crowd."
+    },
+    {
       "slug": "2026-05-31-mlb-schwarber-dodgers-no-hitter-crushed",
       "headline": "史瓦伯全壘打 終結道奇無安打",
       "category": "體育資訊",
@@ -62,15 +71,6 @@
       "lead": "NBA 季後賽戰況白熱化！聖安東尼奧馬刺憑藉新星溫班亞瑪的關鍵時刻爆發，成功將系列賽拖入驚心動魄的搶七大戰。賽後，這位法國巨塔將功勞歸於表現出色的替補陣容。",
       "imageUrl": "/images/blog/2026-05-30-nba-wembanyama-leads-spurs-to-game-7.jpg",
       "imageAlt": "馬刺搶七！溫班亞瑪展侵略性，讚賞替補奇兵"
-    },
-    {
-      "slug": "2026-05-30-nba-western-conference-finals-game-7-analysis",
-      "headline": "西決生死搶七 馬刺雷霆數據解碼",
-      "category": "體育資訊",
-      "date": "2026-05-30",
-      "lead": "NBA西區決賽進入白熱化階段，馬刺與雷霆的史詩級對決將在搶七大戰中劃上句號。數據分析顯示雙方勢均力敵，而馬刺球員班斯的生日出戰，更為這場關鍵戰役增添了懸念。",
-      "imageUrl": "/images/blog/2026-05-30-nba-western-conference-finals-game-7-analysis.jpg",
-      "imageAlt": "西決生死搶七 馬刺雷霆數據解碼"
     }
   ]
 }
