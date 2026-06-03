@@ -1,0 +1,460 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z96N8HQGP4"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z96N8HQGP4');</script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WM32S7LZ');</script>
+  <title>資料 API | BDUK</title>
+  <meta name="description" content="BDUK 資料 API — 最新優惠資訊、平台評測資料 RSS 訂閱及 API 接入指南。">
+  <link rel="canonical" href="https://businessdirectory-uk.com/api">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; background: #ffffff; color: #0f172a; line-height: 1.6; }
+    :root {
+      --cyan: #0891b2; --cyan-dark: #0e7490; --cyan-light: #22d3ee; --cyan-ultra: #67e8f9;
+      --cyan-glow: rgba(8,145,178,.28);
+      --bg: #ffffff; --bg-alt: #f0f9ff; --bg-dark: #0c1a2e; --bg-dark2: #0f2744;
+      --text: #0f172a; --text-muted: #64748b; --text-light: #475569; --border: #bae6fd;
+      --shadow: 0 1px 4px rgba(8,145,178,.08), 0 1px 2px rgba(0,0,0,.04);
+      --shadow-md: 0 4px 12px rgba(8,145,178,.12), 0 2px 4px rgba(0,0,0,.05);
+    }
+
+    /* HEADER */
+    .site-header { background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); border-bottom: 2px solid var(--cyan); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 10px; position: sticky; top: 0; z-index: 200; }
+    .header-nav { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; font-weight: 700; color: rgba(255,255,255,.75); text-decoration: none; padding: 7px 14px; border-radius: 20px; border: 1px solid rgba(255,255,255,.2); white-space: nowrap; transition: color .2s, border-color .2s; }
+    .header-nav:hover { color: var(--cyan-ultra); border-color: var(--cyan-light); }
+    .header-nav-cyan { background: rgba(8,145,178,.18); border-color: rgba(8,145,178,.45); color: var(--cyan-ultra); }
+    .header-nav-group { flex: 1; min-width: 0; display: flex; gap: 6px; align-items: center; overflow-x: auto; scrollbar-width: none; padding: 0 4px; }
+    .header-nav-group::-webkit-scrollbar { display: none; }
+    .btn-sm { background: var(--cyan); color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px; text-decoration: none; white-space: nowrap; flex-shrink: 0; border: 2px solid rgba(255,255,255,.2); cursor: pointer; font-family: inherit; box-shadow: 0 4px 16px var(--cyan-glow); letter-spacing: .02em; transition: box-shadow .2s, transform .15s; }
+    .btn-sm:hover { box-shadow: 0 6px 24px var(--cyan-glow); transform: scale(1.03); }
+    .hamburger-btn { display: none; flex-direction: column; justify-content: center; align-items: center; gap: 5px; width: 40px; height: 40px; background: none; border: none; cursor: pointer; padding: 9px 8px; flex-shrink: 0; }
+    .ham-line { display: block; width: 22px; height: 2px; background: rgba(255,255,255,.85); border-radius: 2px; transition: transform .22s ease, opacity .15s ease; transform-origin: center; }
+    .hamburger-btn.open .ham-line:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger-btn.open .ham-line:nth-child(2) { opacity: 0; }
+    .hamburger-btn.open .ham-line:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    @media (max-width: 639px) { .hamburger-btn { display: flex; } .header-nav-group { display: none !important; } }
+    .mobile-menu { position: fixed; top: 63px; left: 0; right: 0; background: var(--bg-dark2); border-bottom: 2px solid var(--cyan); z-index: 198; padding: 6px 0 18px; transform: translateY(-10px); opacity: 0; pointer-events: none; transition: transform .22s ease, opacity .18s ease; max-height: calc(100vh - 63px); overflow-y: auto; }
+    .mobile-menu.open { transform: translateY(0); opacity: 1; pointer-events: all; }
+    .mobile-menu-item { display: block; padding: 14px 24px; font-size: 15px; font-weight: 600; color: rgba(255,255,255,.8); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.06); transition: color .15s, background .15s; }
+    .mobile-menu-item:hover { color: var(--cyan-ultra); background: rgba(8,145,178,.1); }
+    .mobile-menu-cta-wrap { padding: 14px 20px 0; }
+    .mobile-menu-cta { display: block; background: var(--cyan); color: #fff; text-align: center; padding: 15px; border-radius: 12px; font-weight: 800; font-size: 17px; text-decoration: none; box-shadow: 0 4px 16px var(--cyan-glow); }
+
+    /* FOOTER */
+    .footer-main { background: linear-gradient(155deg, #071525 0%, var(--bg-dark) 100%); overflow: hidden; }
+    .footer-top { max-width: 1100px; margin: 0 auto; padding: 48px 24px 36px; display: grid; grid-template-columns: 160px 1fr 1fr 1fr; gap: 36px; align-items: start; }
+    .footer-big-links { display: flex; flex-direction: column; gap: 4px; }
+    .footer-big-links a { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(22px, 3vw, 36px); font-weight: 900; color: rgba(255,255,255,.8); text-decoration: none; text-transform: uppercase; line-height: 1.1; transition: color .2s; }
+    .footer-big-links a:hover { color: var(--cyan-ultra); }
+    .footer-col-title { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan-ultra); margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; cursor: default; padding: 0; user-select: auto; }
+    .footer-col-arrow { display: none; font-size: 14px; font-style: normal; transition: transform .25s; }
+    .footer-col.open .footer-col-arrow { transform: rotate(45deg); }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; max-height: none; overflow: visible; padding-bottom: 0; }
+    .footer-links li a { font-size: 13px; color: rgba(255,255,255,.4); text-decoration: none; transition: color .2s; }
+    .footer-links li a:hover { color: var(--cyan-ultra); }
+    .footer-col { }
+    @media (max-width: 639px) { .footer-top { grid-template-columns: 1fr; gap: 0; padding: 24px 20px 8px; } .footer-big-links { display: none; } .footer-col { border-bottom: 1px solid rgba(255,255,255,.07); } .footer-col-title { cursor: pointer; padding: 14px 0; margin-bottom: 0; user-select: none; } .footer-col-arrow { display: inline; } .footer-links { max-height: 0; overflow: hidden; transition: max-height .3s ease, padding-bottom .3s; padding-bottom: 0; gap: 0; } .footer-col.open .footer-links { max-height: 320px; padding-bottom: 16px; gap: 10px; } }
+    .footer-subscribe-row { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; }
+    .footer-subscribe-box { background: rgba(8,145,178,.1); border: 1px solid rgba(8,145,178,.2); border-radius: 20px; padding: 24px 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; }
+    .footer-subscribe-box p { font-size: 15px; font-weight: 700; color: #fff; }
+    .footer-subscribe-form { display: flex; flex: 1; min-width: 220px; max-width: 380px; }
+    .footer-subscribe-input { flex: 1; padding: 12px 16px; background: rgba(255,255,255,.08); border: 1px solid rgba(8,145,178,.3); border-right: none; border-radius: 10px 0 0 10px; font-size: 13px; color: #fff; font-family: inherit; outline: none; }
+    .footer-subscribe-input::placeholder { color: rgba(255,255,255,.3); }
+    .footer-subscribe-btn { padding: 12px 20px; background: var(--cyan); border: none; border-radius: 0 10px 10px 0; color: #fff; font-size: 18px; cursor: pointer; transition: background .2s; }
+    .footer-subscribe-btn:hover { background: var(--cyan-light); }
+    .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,.07); max-width: 1100px; margin: 0 auto 20px; }
+    .footer-bottom { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; font-size: 11px; color: rgba(255,255,255,.3); }
+    .footer-bottom a { color: rgba(255,255,255,.3); text-decoration: none; margin: 0 6px; }
+    .footer-bottom a:hover { color: rgba(255,255,255,.6); }
+    .back-to-top { position: fixed; right: 20px; bottom: 28px; z-index: 200; width: 42px; height: 42px; background: var(--cyan); border: none; border-radius: 50%; color: #fff; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(8,145,178,.45); opacity: 0; transform: translateY(12px); transition: opacity .25s, transform .25s, background .2s; pointer-events: none; }
+    .back-to-top.visible { opacity: 1; transform: translateY(0); pointer-events: all; }
+    .back-to-top:hover { background: var(--cyan-light); }
+
+    /* PAGE HERO */
+    .page-hero { background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-dark2) 60%, #0a2240 100%); padding: 72px 24px 60px; text-align: center; position: relative; overflow: hidden; }
+    .page-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(8,145,178,.18) 0%, transparent 70%); pointer-events: none; }
+    .breadcrumb { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 12px; color: rgba(255,255,255,.45); margin-bottom: 24px; position: relative; }
+    .breadcrumb a { color: rgba(255,255,255,.45); text-decoration: none; transition: color .2s; }
+    .breadcrumb a:hover { color: var(--cyan-ultra); }
+    .breadcrumb-sep { color: rgba(255,255,255,.25); }
+    .page-hero-label { display: inline-flex; align-items: center; gap: 6px; background: rgba(8,145,178,.2); border: 1px solid rgba(8,145,178,.4); border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 700; color: var(--cyan-ultra); letter-spacing: .06em; margin-bottom: 20px; position: relative; }
+    .page-hero h1 { font-size: clamp(30px, 5vw, 52px); font-weight: 900; color: #fff; line-height: 1.15; margin-bottom: 16px; position: relative; }
+    .page-hero-sub { font-size: clamp(14px, 2vw, 17px); color: rgba(255,255,255,.6); position: relative; }
+
+    /* SECTIONS */
+    .section { padding: 64px 24px; }
+    .section-inner { max-width: 960px; margin: 0 auto; }
+    .section-label { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); margin-bottom: 10px; }
+    .section-title { font-size: clamp(22px, 3.5vw, 34px); font-weight: 900; color: var(--text); margin-bottom: 12px; line-height: 1.25; }
+    .section-desc { font-size: 15px; color: var(--text-muted); line-height: 1.75; margin-bottom: 40px; }
+
+    /* FEATURE CARDS */
+    .feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+    .feature-card { background: #fff; border: 1px solid var(--border); border-radius: 20px; padding: 32px 28px; box-shadow: var(--shadow); position: relative; overflow: hidden; transition: box-shadow .2s, transform .2s; }
+    .feature-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--cyan) 0%, var(--cyan-light) 100%); border-radius: 20px 20px 0 0; }
+    .feature-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+    .feature-icon { font-size: 36px; margin-bottom: 16px; display: block; }
+    .feature-title { font-size: 19px; font-weight: 800; color: var(--text); margin-bottom: 10px; }
+    .feature-desc { font-size: 14px; color: var(--text-muted); line-height: 1.7; margin-bottom: 20px; }
+    .feature-tag { display: inline-flex; align-items: center; gap: 5px; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 50px; padding: 5px 12px; font-size: 12px; font-weight: 700; color: var(--text-muted); margin-bottom: 8px; }
+    .feature-url { display: block; background: var(--bg-dark); border-radius: 10px; padding: 12px 16px; font-family: 'Courier New', monospace; font-size: 12px; color: var(--cyan-ultra); word-break: break-all; margin-top: 14px; }
+    .feature-readers { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+    .reader-badge { display: inline-flex; align-items: center; gap: 4px; background: rgba(8,145,178,.08); border: 1px solid rgba(8,145,178,.2); border-radius: 50px; padding: 4px 10px; font-size: 11px; font-weight: 600; color: var(--cyan-dark); }
+    .feature-status-badge { display: inline-flex; align-items: center; gap: 5px; border-radius: 50px; padding: 5px 12px; font-size: 12px; font-weight: 700; margin-top: 10px; }
+    .badge-pending { background: rgba(251,191,36,.12); border: 1px solid rgba(251,191,36,.3); color: #b45309; }
+    .badge-live { background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.3); color: #15803d; }
+
+    /* CODE BLOCK SECTION */
+    .code-section { background: var(--bg-alt); padding: 64px 24px; }
+    .code-inner { max-width: 800px; margin: 0 auto; }
+    .code-block { background: var(--bg-dark); border-radius: 16px; overflow: hidden; margin-bottom: 24px; }
+    .code-block-header { background: rgba(255,255,255,.06); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,.08); }
+    .code-block-title { font-size: 12px; font-weight: 700; color: rgba(255,255,255,.5); letter-spacing: .06em; text-transform: uppercase; }
+    .code-copy-btn { background: rgba(8,145,178,.2); border: 1px solid rgba(8,145,178,.35); border-radius: 6px; padding: 4px 10px; font-size: 11px; font-weight: 600; color: var(--cyan-ultra); cursor: pointer; font-family: inherit; transition: background .2s; }
+    .code-copy-btn:hover { background: rgba(8,145,178,.35); }
+    .code-content { padding: 20px 24px; overflow-x: auto; }
+    .code-content pre { font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.8; color: rgba(255,255,255,.85); white-space: pre; }
+    .code-comment { color: rgba(103,232,249,.5); }
+    .code-key { color: #67e8f9; }
+    .code-val { color: #a5f3fc; }
+
+    /* ENDPOINTS LIST */
+    .endpoints-list { display: flex; flex-direction: column; gap: 12px; margin-top: 32px; }
+    .endpoint-row { display: flex; align-items: center; gap: 14px; background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; box-shadow: var(--shadow); }
+    .endpoint-method { font-family: 'Courier New', monospace; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 6px; flex-shrink: 0; }
+    .method-get { background: rgba(34,197,94,.12); color: #15803d; border: 1px solid rgba(34,197,94,.25); }
+    .endpoint-path { font-family: 'Courier New', monospace; font-size: 13px; color: var(--text); flex: 1; min-width: 0; word-break: break-all; }
+    .endpoint-desc { font-size: 12px; color: var(--text-muted); flex-shrink: 0; white-space: nowrap; }
+    @media (max-width: 600px) { .endpoint-desc { display: none; } }
+
+    /* API FORM */
+    .api-form-section { padding: 64px 24px; }
+    .api-form-inner { max-width: 640px; margin: 0 auto; }
+    .form-title { font-size: clamp(22px, 3.5vw, 30px); font-weight: 900; color: var(--text); margin-bottom: 8px; }
+    .form-desc { font-size: 15px; color: var(--text-muted); margin-bottom: 36px; line-height: 1.65; }
+    .api-form { display: flex; flex-direction: column; gap: 18px; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-label { font-size: 13px; font-weight: 700; color: var(--text-light); }
+    .form-input, .form-select, .form-textarea { padding: 13px 16px; background: #fff; border: 1.5px solid var(--border); border-radius: 10px; font-size: 14px; color: var(--text); font-family: inherit; outline: none; transition: border-color .2s; }
+    .form-input:focus, .form-select:focus, .form-textarea:focus { border-color: var(--cyan); }
+    .form-textarea { resize: vertical; min-height: 100px; }
+    .form-submit { background: var(--cyan); color: #fff; font-size: 15px; font-weight: 800; padding: 15px 32px; border-radius: 50px; border: none; cursor: pointer; font-family: inherit; box-shadow: 0 4px 20px var(--cyan-glow); transition: box-shadow .2s, transform .15s; align-self: flex-start; }
+    .form-submit:hover { box-shadow: 0 6px 28px var(--cyan-glow); transform: scale(1.03); }
+    .form-success { display: none; background: rgba(34,197,94,.1); border: 1px solid rgba(34,197,94,.3); border-radius: 14px; padding: 20px 24px; font-size: 15px; font-weight: 700; color: #15803d; text-align: center; }
+    .form-success.show { display: block; }
+  </style>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM32S7LZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header class="site-header">
+  <a href="/index.html" style="display:inline-flex;align-items:center;text-decoration:none;flex-shrink:0;">
+    <img src="/LOGO.png" alt="BDUK" style="height:40px;width:auto;max-width:160px;object-fit:contain;display:block;">
+  </a>
+  <nav class="header-nav-group" aria-label="攻略分類">
+    <a href="/blog.html" class="header-nav">攻略中心</a>
+    <a href="/blog.html" class="header-nav">優惠資訊</a>
+    <a href="/guides.html" class="header-nav">入門攻略</a>
+    <a href="/help.html" class="header-nav">幫助中心</a>
+    <a href="/about.html" class="header-nav">關於我們</a>
+    <a href="https://lokguhk.com?p=998307" class="header-nav header-nav-cyan" onclick="handleCTA(event,'nav')">領取好禮</a>
+  </nav>
+  <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+    <a href="https://lokguhk.com?p=998307" class="btn-sm" onclick="handleCTA(event,'header')">領取好禮 🎁</a>
+    <button class="hamburger-btn" id="hamburgerBtn" onclick="toggleMenu()" aria-label="選單" aria-expanded="false">
+      <span class="ham-line"></span><span class="ham-line"></span><span class="ham-line"></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/blog.html" class="mobile-menu-item">📚 攻略中心</a>
+  <a href="/blog.html" class="mobile-menu-item">🎁 優惠資訊</a>
+  <a href="/guides.html" class="mobile-menu-item">📖 入門攻略</a>
+  <a href="/help.html" class="mobile-menu-item">❓ 幫助中心</a>
+  <a href="/about.html" class="mobile-menu-item">👥 關於我們</a>
+  <div class="mobile-menu-cta-wrap">
+    <a href="https://lokguhk.com?p=998307" class="mobile-menu-cta" onclick="handleCTA(event,'menu')">🎁 立即領取新會員好禮</a>
+  </div>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="breadcrumb">
+    <a href="/index.html">首頁</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>資料 API</span>
+  </div>
+  <div class="page-hero-label">🔌 資料接入</div>
+  <h1>資料 API &amp; 資訊訂閱</h1>
+  <p class="page-hero-sub">即時同步最新優惠資訊 · RSS 訂閱 · 資料接入</p>
+</section>
+
+<!-- MAIN FEATURES -->
+<section class="section">
+  <div class="section-inner">
+    <p class="section-label">主要功能</p>
+    <h2 class="section-title">三種資料接入方式</h2>
+    <p class="section-desc">BDUK 提供多種方式讓你即時獲取最新平台資訊、優惠資訊及評測報告，適合不同使用場景。</p>
+    <div class="feature-grid">
+      <!-- RSS -->
+      <div class="feature-card">
+        <span class="feature-icon">📡</span>
+        <div class="feature-title">RSS 訂閱</div>
+        <p class="feature-desc">訂閱 BDUK 最新攻略文章，自動推送到你的閱讀器，第一時間獲取最新評測及優惠資訊，無需手動查看。</p>
+        <span class="feature-status-badge badge-live">🟢 即時可用</span>
+        <code class="feature-url">https://businessdirectory-uk.com/feed.xml</code>
+        <div class="feature-readers">
+          <span class="reader-badge">📖 Feedly</span>
+          <span class="reader-badge">📰 Inoreader</span>
+          <span class="reader-badge">📱 Flipboard</span>
+          <span class="reader-badge">🔖 Reeder</span>
+        </div>
+      </div>
+      <!-- API -->
+      <div class="feature-card">
+        <span class="feature-icon">📊</span>
+        <div class="feature-title">優惠資料 API</div>
+        <p class="feature-desc">透過 REST API 獲取各平台最新優惠資訊、迎新好禮金額及條款數據，適合開發者整合到自己的應用程式或資訊服務。</p>
+        <span class="feature-status-badge badge-pending">🔜 即將開放</span>
+        <div class="feature-tag">🔐 需要 API Key</div>
+        <div class="feature-tag">📋 填表申請</div>
+      </div>
+      <!-- PDF -->
+      <div class="feature-card">
+        <span class="feature-icon">📋</span>
+        <div class="feature-title">評測報告下載</div>
+        <p class="feature-desc">下載最新平台評測報告 PDF，包含完整六大標準評分、用戶反饋摘要及平台比較分析，適合研究使用。</p>
+        <span class="feature-status-badge badge-pending">🔜 即將推出</span>
+        <div class="feature-tag">📅 每季更新</div>
+        <div class="feature-tag">🆓 免費下載</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CODE BLOCK SECTION -->
+<section class="code-section">
+  <div class="code-inner">
+    <p class="section-label">使用方式</p>
+    <h2 class="section-title">快速接入資料</h2>
+    <p class="section-desc" style="color:var(--text-muted);font-size:15px;margin-bottom:32px;">以下是目前可用的公開資料端點，無需 API Key，可直接存取。</p>
+
+    <div class="code-block">
+      <div class="code-block-header">
+        <span class="code-block-title">公開資料端點</span>
+        <button class="code-copy-btn" onclick="copyCode(this, 'endpoints-code')">複製</button>
+      </div>
+      <div class="code-content">
+        <pre id="endpoints-code"><span class="code-comment"># RSS 文章訂閱</span>
+<span class="code-key">RSS Feed:  </span><span class="code-val">https://businessdirectory-uk.com/feed.xml</span>
+
+<span class="code-comment"># 網站地圖</span>
+<span class="code-key">Sitemap:   </span><span class="code-val">https://businessdirectory-uk.com/sitemap.xml</span>
+
+<span class="code-comment"># robots.txt</span>
+<span class="code-key">Robots:    </span><span class="code-val">https://businessdirectory-uk.com/robots.txt</span></pre>
+      </div>
+    </div>
+
+    <div class="code-block">
+      <div class="code-block-header">
+        <span class="code-block-title">RSS 接入示例（JavaScript）</span>
+        <button class="code-copy-btn" onclick="copyCode(this, 'js-code')">複製</button>
+      </div>
+      <div class="code-content">
+        <pre id="js-code"><span class="code-comment">// 使用 rss-parser 套件訂閱最新文章</span>
+<span class="code-key">const</span> <span class="code-val">Parser = require('rss-parser');</span>
+<span class="code-key">const</span> <span class="code-val">parser = new Parser();</span>
+
+<span class="code-key">const</span> <span class="code-val">feed = await parser.parseURL(</span>
+  <span class="code-val">'https://businessdirectory-uk.com/feed.xml'</span>
+<span class="code-val">);</span>
+
+<span class="code-val">feed.items.forEach(item =&gt; {</span>
+  <span class="code-val">console.log(item.title, item.link);</span>
+<span class="code-val">});</span></pre>
+      </div>
+    </div>
+
+    <div class="endpoints-list">
+      <div class="endpoint-row">
+        <span class="endpoint-method method-get">GET</span>
+        <span class="endpoint-path">/feed.xml</span>
+        <span class="endpoint-desc">RSS 文章訂閱</span>
+      </div>
+      <div class="endpoint-row">
+        <span class="endpoint-method method-get">GET</span>
+        <span class="endpoint-path">/sitemap.xml</span>
+        <span class="endpoint-desc">網站地圖索引</span>
+      </div>
+      <div class="endpoint-row">
+        <span class="endpoint-method method-get">GET</span>
+        <span class="endpoint-path">/api/v1/platforms <span style="font-size:10px;color:var(--text-muted);">(即將開放)</span></span>
+        <span class="endpoint-desc">平台評測資料</span>
+      </div>
+      <div class="endpoint-row">
+        <span class="endpoint-method method-get">GET</span>
+        <span class="endpoint-path">/api/v1/offers <span style="font-size:10px;color:var(--text-muted);">(即將開放)</span></span>
+        <span class="endpoint-desc">最新優惠列表</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- API APPLICATION FORM -->
+<section class="api-form-section">
+  <div class="api-form-inner">
+    <p class="section-label">申請 API 接入</p>
+    <h2 class="form-title">申請優惠資料 API</h2>
+    <p class="form-desc">優惠資料 API 目前處於 Beta 測試階段，歡迎開發者及資訊服務商申請提前接入。填寫以下表格，我們將在 3 個工作日內回覆。</p>
+    <form class="api-form" id="apiForm" onsubmit="submitApiForm(event)">
+      <div class="form-group">
+        <label class="form-label" for="apiName">姓名 / 公司名稱 *</label>
+        <input type="text" id="apiName" class="form-input" placeholder="你的姓名或公司名稱" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="apiEmail">電郵地址 *</label>
+        <input type="email" id="apiEmail" class="form-input" placeholder="your@email.com" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="apiUse">使用用途 *</label>
+        <select id="apiUse" class="form-select" required>
+          <option value="" disabled selected>請選擇用途</option>
+          <option value="app">手機 / 網頁應用程式開發</option>
+          <option value="research">學術研究 / 數據分析</option>
+          <option value="media">媒體 / 資訊平台</option>
+          <option value="bot">自動化工具 / Bot</option>
+          <option value="other">其他</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="apiDesc">詳細說明（選填）</label>
+        <textarea id="apiDesc" class="form-textarea" placeholder="請簡單描述你的項目及使用場景..."></textarea>
+      </div>
+      <button type="submit" class="form-submit">🚀 提交申請</button>
+    </form>
+    <div class="form-success" id="formSuccess">
+      ✅ 已收到你的申請！我們將在 3 個工作日內以電郵回覆，請留意收件箱。
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-main">
+  <div class="footer-top">
+    <div class="footer-big-links">
+      <a href="/blog.html">攻略</a><a href="/guides.html">指南</a><a href="/help.html">幫助</a><a href="/about.html">關於</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">攻略分類<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/blog.html">📚 全部攻略</a></li>
+        <li><a href="/blog.html">🎰 電子遊藝攻略</a></li>
+        <li><a href="/blog.html">🃏 百家樂指南</a></li>
+        <li><a href="/blog.html">⚽ 足球賽事分析</a></li>
+        <li><a href="/blog.html">💳 入款教學</a></li>
+        <li><a href="/blog.html">📤 提款教學</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">資訊平台<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/docs.html">📋 評測標準</a></li>
+        <li><a href="/guides.html">📖 入門攻略</a></li>
+        <li><a href="/help.html">❓ 幫助中心</a></li>
+        <li><a href="/api.html">🔌 資料 API</a></li>
+        <li><a href="/about.html">👥 關於我們</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">法律資訊<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/privacy.html">🔒 私隱政策</a></li>
+        <li><a href="/terms.html">📃 使用條款</a></li>
+        <li><a href="/index.html">🏠 返回首頁</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-subscribe-row">
+    <div class="footer-subscribe-box">
+      <p>📬 訂閱最新優惠資訊，第一時間獲取著數</p>
+      <form class="footer-subscribe-form"><input type="email" class="footer-subscribe-input" placeholder="輸入你的電郵" required><button type="submit" class="footer-subscribe-btn">→</button></form>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <span>© 2026 BDUK. All rights reserved. &nbsp;|&nbsp; 🔞 18+ only</span>
+    <span><a href="/blog.html">攻略中心</a><a href="/about.html">關於我們</a><a href="/privacy.html">私隱政策</a><a href="/terms.html">使用條款</a></span>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="返回頂部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+  const DESTINATION_URL = 'https://lokguhk.com?p=998307';
+  function handleCTA(e, loc) {
+    if (e) e.preventDefault();
+    if (typeof gtag !== 'undefined') gtag('event', 'cta_click', {button_location: loc});
+    setTimeout(function(){ window.location.href = DESTINATION_URL; }, 80);
+  }
+  function toggleMenu() {
+    var btn = document.getElementById('hamburgerBtn'), menu = document.getElementById('mobileMenu');
+    var open = btn.classList.toggle('open'); menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+  document.addEventListener('click', function(e) {
+    var menu = document.getElementById('mobileMenu'), btn = document.getElementById('hamburgerBtn');
+    if (menu && menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+      menu.classList.remove('open'); btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false'); document.body.style.overflow = '';
+    }
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var btt = document.getElementById('backToTop');
+    if (btt) window.addEventListener('scroll', function() { btt.classList.toggle('visible', window.scrollY > 400); }, {passive:true});
+    document.querySelectorAll('.footer-col .footer-col-title').forEach(function(t) {
+      t.addEventListener('click', function() {
+        var col = this.closest('.footer-col'), arrow = this.querySelector('.footer-col-arrow');
+        var isOpen = col.classList.toggle('open');
+        if (arrow) arrow.textContent = isOpen ? '－' : '＋';
+      });
+    });
+  });
+
+  function copyCode(btn, id) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var text = el.textContent;
+    navigator.clipboard.writeText(text).then(function() {
+      btn.textContent = '已複製 ✓';
+      setTimeout(function() { btn.textContent = '複製'; }, 2000);
+    }).catch(function() {
+      btn.textContent = '複製失敗';
+      setTimeout(function() { btn.textContent = '複製'; }, 2000);
+    });
+  }
+
+  function submitApiForm(e) {
+    e.preventDefault();
+    var form = document.getElementById('apiForm');
+    var success = document.getElementById('formSuccess');
+    form.style.display = 'none';
+    success.classList.add('show');
+  }
+</script>
+</body>
+</html>

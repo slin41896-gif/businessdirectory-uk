@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z96N8HQGP4"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z96N8HQGP4');</script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WM32S7LZ');</script>
+  <title>關於我們 | BDUK</title>
+  <meta name="description" content="BDUK 是香港領先的娛樂平台資訊服務，由資深編輯提供最新優惠、攻略及評測。">
+  <link rel="canonical" href="https://businessdirectory-uk.com/about">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --cyan: #0891b2;
+      --cyan-dark: #0e7490;
+      --cyan-light: #22d3ee;
+      --cyan-ultra: #67e8f9;
+      --cyan-glow: rgba(8,145,178,.28);
+      --bg: #ffffff;
+      --bg-alt: #f0f9ff;
+      --bg-dark: #0c1a2e;
+      --bg-dark2: #0f2744;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --text-light: #475569;
+      --border: #bae6fd;
+      --shadow: 0 1px 4px rgba(8,145,178,.08), 0 1px 2px rgba(0,0,0,.04);
+      --shadow-md: 0 4px 12px rgba(8,145,178,.12), 0 2px 4px rgba(0,0,0,.05);
+      --shadow-cyan: 0 6px 24px rgba(8,145,178,.32);
+      --live: #22c55e;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+
+    /* HEADER */
+    .site-header { background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); border-bottom: 2px solid var(--cyan); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 10px; position: sticky; top: 0; z-index: 200; }
+    .header-nav { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; font-weight: 700; color: rgba(255,255,255,.75); text-decoration: none; padding: 7px 14px; border-radius: 20px; border: 1px solid rgba(255,255,255,.2); white-space: nowrap; transition: color .2s, border-color .2s; }
+    .header-nav:hover { color: var(--cyan-ultra); border-color: var(--cyan-light); }
+    .header-nav-cyan { background: rgba(8,145,178,.18); border-color: rgba(8,145,178,.45); color: var(--cyan-ultra); }
+    .header-nav-group { flex: 1; min-width: 0; display: flex; gap: 6px; align-items: center; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: 0 4px; }
+    .header-nav-group::-webkit-scrollbar { display: none; }
+    .btn-sm { background: var(--cyan); color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px; text-decoration: none; white-space: nowrap; flex-shrink: 0; border: 2px solid rgba(255,255,255,.2); cursor: pointer; font-family: inherit; box-shadow: 0 4px 16px var(--cyan-glow); letter-spacing: .02em; transition: box-shadow .2s, transform .15s; }
+    .btn-sm:hover { box-shadow: 0 6px 24px var(--cyan-glow); transform: scale(1.03); }
+    /* Hamburger */
+    .hamburger-btn { display: none; flex-direction: column; justify-content: center; align-items: center; gap: 5px; width: 40px; height: 40px; background: none; border: none; cursor: pointer; padding: 9px 8px; flex-shrink: 0; }
+    .ham-line { display: block; width: 22px; height: 2px; background: rgba(255,255,255,.85); border-radius: 2px; transition: transform .22s ease, opacity .15s ease; transform-origin: center; }
+    .hamburger-btn.open .ham-line:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger-btn.open .ham-line:nth-child(2) { opacity: 0; }
+    .hamburger-btn.open .ham-line:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    @media (max-width: 639px) { .hamburger-btn { display: flex; } .header-nav-group { display: none !important; } }
+    .mobile-menu { position: fixed; top: 63px; left: 0; right: 0; background: var(--bg-dark2); border-bottom: 2px solid var(--cyan); z-index: 198; padding: 6px 0 18px; transform: translateY(-10px); opacity: 0; pointer-events: none; transition: transform .22s ease, opacity .18s ease; max-height: calc(100vh - 63px); overflow-y: auto; }
+    .mobile-menu.open { transform: translateY(0); opacity: 1; pointer-events: all; }
+    .mobile-menu-item { display: block; padding: 14px 24px; font-size: 15px; font-weight: 600; color: rgba(255,255,255,.8); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.06); transition: color .15s, background .15s; }
+    .mobile-menu-item:hover { color: var(--cyan-ultra); background: rgba(8,145,178,.1); }
+    .mobile-menu-cta-wrap { padding: 14px 20px 0; }
+    .mobile-menu-cta { display: block; background: var(--cyan); color: #fff; text-align: center; padding: 15px; border-radius: 12px; font-weight: 800; font-size: 17px; text-decoration: none; box-shadow: 0 4px 16px var(--cyan-glow); }
+
+    /* HERO */
+    .about-hero { background: linear-gradient(155deg, var(--bg-dark) 0%, var(--bg-dark2) 50%, #072840 100%); padding: 80px 20px 72px; text-align: center; position: relative; overflow: hidden; }
+    .about-hero::before { content: ''; position: absolute; top: -100px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; background: radial-gradient(circle, rgba(8,145,178,.12) 0%, transparent 65%); pointer-events: none; }
+    .about-hero-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--cyan-light); margin-bottom: 16px; position: relative; }
+    .about-hero h1 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(36px, 8vw, 64px); font-weight: 900; color: #fff; text-transform: uppercase; line-height: 1.05; margin-bottom: 20px; position: relative; }
+    .about-hero h1 em { font-style: normal; color: var(--cyan-ultra); }
+    .about-hero p { font-size: 16px; color: rgba(255,255,255,.7); max-width: 580px; margin: 0 auto; line-height: 1.75; position: relative; }
+
+    /* ABOUT SECTION */
+    .about-section { padding: 72px 20px; background: var(--bg); }
+    .about-inner { max-width: 800px; margin: 0 auto; }
+    .section-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); margin-bottom: 8px; }
+    .section-title { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(26px, 5vw, 42px); font-weight: 900; color: var(--text); text-transform: uppercase; margin-bottom: 24px; line-height: 1.1; }
+    .about-inner p { font-size: 15px; color: var(--text-light); line-height: 1.8; margin-bottom: 16px; }
+    .about-inner p:last-child { margin-bottom: 0; }
+
+    /* STATS */
+    .about-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 40px 0; }
+    @media (min-width: 540px) { .about-stats { grid-template-columns: repeat(4, 1fr); } }
+    .about-stat { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 16px; padding: 24px 16px; text-align: center; }
+    .about-stat-n { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 32px; font-weight: 900; color: var(--cyan); line-height: 1; margin-bottom: 6px; }
+    .about-stat-l { font-size: 12px; color: var(--text-muted); font-weight: 600; }
+
+    /* TEAM */
+    .team-section { padding: 72px 20px; background: var(--bg-alt); border-top: 1px solid var(--border); }
+    .team-inner { max-width: 800px; margin: 0 auto; }
+    .team-card { background: var(--bg); border: 1px solid var(--border); border-radius: 20px; padding: 36px 32px; display: flex; align-items: flex-start; gap: 24px; box-shadow: var(--shadow); }
+    @media (max-width: 540px) { .team-card { flex-direction: column; align-items: center; text-align: center; } }
+    .team-avatar { width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--cyan-dark), var(--cyan-light)); display: flex; align-items: center; justify-content: center; font-size: 32px; flex-shrink: 0; }
+    .team-name { font-size: 20px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+    .team-role { font-size: 12px; font-weight: 700; color: var(--cyan); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px; }
+    .team-bio { font-size: 14px; color: var(--text-light); line-height: 1.75; }
+    .team-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+    .team-tag { font-size: 11px; font-weight: 600; color: var(--cyan); background: rgba(8,145,178,.08); border: 1px solid rgba(8,145,178,.2); border-radius: 20px; padding: 3px 11px; }
+
+    /* MISSION */
+    .mission-section { padding: 72px 20px; background: linear-gradient(155deg, var(--bg-dark2) 0%, var(--bg-dark) 100%); border-top: 1px solid rgba(8,145,178,.2); }
+    .mission-inner { max-width: 700px; margin: 0 auto; text-align: center; }
+    .mission-title { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(28px, 6vw, 48px); font-weight: 900; color: #fff; text-transform: uppercase; margin-bottom: 20px; line-height: 1.1; }
+    .mission-title em { font-style: normal; color: var(--cyan-ultra); }
+    .mission-text { font-size: 15px; color: rgba(255,255,255,.7); line-height: 1.8; margin-bottom: 14px; }
+
+    /* FOOTER */
+    .footer-main { background: linear-gradient(155deg, #071525 0%, var(--bg-dark) 100%); overflow: hidden; }
+    .footer-top { max-width: 1100px; margin: 0 auto; padding: 48px 24px 36px; display: grid; grid-template-columns: 160px 1fr 1fr 1fr; gap: 36px; align-items: start; }
+    .footer-big-links { display: flex; flex-direction: column; gap: 4px; }
+    .footer-big-links a { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(22px, 3vw, 36px); font-weight: 900; color: rgba(255,255,255,.8); text-decoration: none; text-transform: uppercase; line-height: 1.1; transition: color .2s; }
+    .footer-big-links a:hover { color: var(--cyan-ultra); }
+    .footer-col-title { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan-ultra); margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; cursor: default; padding: 0; user-select: auto; }
+    .footer-col-arrow { display: none; font-size: 14px; font-style: normal; transition: transform .25s; }
+    .footer-col.open .footer-col-arrow { transform: rotate(45deg); }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; max-height: none; overflow: visible; padding-bottom: 0; }
+    .footer-links li a { font-size: 13px; color: rgba(255,255,255,.4); text-decoration: none; transition: color .2s; }
+    .footer-links li a:hover { color: var(--cyan-ultra); }
+    .footer-col { }
+    @media (max-width: 639px) { .footer-top { grid-template-columns: 1fr; gap: 0; padding: 24px 20px 8px; } .footer-big-links { display: none; } .footer-col { border-bottom: 1px solid rgba(255,255,255,.07); } .footer-col-title { cursor: pointer; padding: 14px 0; margin-bottom: 0; user-select: none; } .footer-col-arrow { display: inline; } .footer-links { max-height: 0; overflow: hidden; transition: max-height .3s ease, padding-bottom .3s; padding-bottom: 0; gap: 0; } .footer-col.open .footer-links { max-height: 320px; padding-bottom: 16px; gap: 10px; } }
+    .footer-subscribe-row { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; }
+    .footer-subscribe-box { background: rgba(8,145,178,.1); border: 1px solid rgba(8,145,178,.2); border-radius: 20px; padding: 24px 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; }
+    .footer-subscribe-box p { font-size: 15px; font-weight: 700; color: #fff; }
+    .footer-subscribe-form { display: flex; flex: 1; min-width: 220px; max-width: 380px; }
+    .footer-subscribe-input { flex: 1; padding: 12px 16px; background: rgba(255,255,255,.08); border: 1px solid rgba(8,145,178,.3); border-right: none; border-radius: 10px 0 0 10px; font-size: 13px; color: #fff; font-family: inherit; outline: none; }
+    .footer-subscribe-input::placeholder { color: rgba(255,255,255,.3); }
+    .footer-subscribe-btn { padding: 12px 20px; background: var(--cyan); border: none; border-radius: 0 10px 10px 0; color: #fff; font-size: 18px; cursor: pointer; transition: background .2s; }
+    .footer-subscribe-btn:hover { background: var(--cyan-light); }
+    .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,.07); max-width: 1100px; margin: 0 auto 20px; }
+    .footer-bottom { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; font-size: 11px; color: rgba(255,255,255,.3); }
+    .footer-bottom a { color: rgba(255,255,255,.3); text-decoration: none; margin: 0 6px; }
+    .footer-bottom a:hover { color: rgba(255,255,255,.6); }
+    /* Back to top */
+    .back-to-top { position: fixed; right: 20px; bottom: 28px; z-index: 200; width: 42px; height: 42px; background: var(--cyan); border: none; border-radius: 50%; color: #fff; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(8,145,178,.45); opacity: 0; transform: translateY(12px); transition: opacity .25s, transform .25s, background .2s; pointer-events: none; }
+    .back-to-top.visible { opacity: 1; transform: translateY(0); pointer-events: all; }
+    .back-to-top:hover { background: var(--cyan-light); }
+  </style>
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM32S7LZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="/index.html" style="display:inline-flex;align-items:center;text-decoration:none;flex-shrink:0;">
+    <img src="/LOGO.png" alt="BDUK" style="height:40px;width:auto;max-width:160px;object-fit:contain;display:block;">
+  </a>
+  <nav class="header-nav-group" aria-label="攻略分類">
+    <a href="/blog.html" class="header-nav">攻略中心</a>
+    <a href="/blog.html" class="header-nav">優惠資訊</a>
+    <a href="/guides.html" class="header-nav">入門攻略</a>
+    <a href="/help.html" class="header-nav">幫助中心</a>
+    <a href="/about.html" class="header-nav">關於我們</a>
+    <a href="https://lokguhk.com?p=998307" class="header-nav header-nav-cyan" onclick="handleCTA(event,'nav')">領取好禮</a>
+  </nav>
+  <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+    <a href="https://lokguhk.com?p=998307" class="btn-sm" onclick="handleCTA(event,'header')">領取好禮 🎁</a>
+    <button class="hamburger-btn" id="hamburgerBtn" onclick="toggleMenu()" aria-label="選單" aria-expanded="false">
+      <span class="ham-line"></span><span class="ham-line"></span><span class="ham-line"></span>
+    </button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/blog.html" class="mobile-menu-item">📚 攻略中心</a>
+  <a href="/blog.html" class="mobile-menu-item">🎁 優惠資訊</a>
+  <a href="/guides.html" class="mobile-menu-item">📖 入門攻略</a>
+  <a href="/help.html" class="mobile-menu-item">❓ 幫助中心</a>
+  <a href="/about.html" class="mobile-menu-item">👥 關於我們</a>
+  <div class="mobile-menu-cta-wrap">
+    <a href="https://lokguhk.com?p=998307" class="mobile-menu-cta" onclick="handleCTA(event,'menu')">🎁 立即領取新會員好禮</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="about-hero">
+  <div class="about-hero-eyebrow">ABOUT US · 關於我們</div>
+  <h1>Business <em>Directory</em></h1>
+  <p>香港最全面的娛樂資訊平台，每日為您提供最新優惠資訊、實用攻略指南及平台評測，助您做出最明智的選擇。</p>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section">
+  <div class="about-inner">
+    <div class="section-eyebrow">OUR STORY</div>
+    <h2 class="section-title">我們的故事</h2>
+
+    <p>BDUK 由一群熱愛香港娛樂文化的資深編輯創立，深明香港用戶需要的是可靠、即時、易讀的娛樂資訊。我們的目標只有一個：讓每一位用戶都能以最簡單的方式，找到最划算的娛樂選擇。</p>
+
+    <p>我們每日追蹤全港主要平台的最新優惠，以客觀、中立的角度進行評測，並由編輯團隊精挑細選，確保每一則資訊都真實可靠、有參考價值。無論是新手指南、入款攻略、還是最新的迎新禮遇，我們都為您一手整理好。</p>
+
+    <p>除了優惠資訊，我們的攻略中心每日更新實用攻略及平台深度評測，涵蓋電子遊藝、百家樂、體育投注等多個範疇，讓您在享受娛樂的同時，掌握最完整的資訊。</p>
+
+    <div class="about-stats">
+      <div class="about-stat">
+        <span class="about-stat-n">200萬+</span>
+        <span class="about-stat-l">會員信任</span>
+      </div>
+      <div class="about-stat">
+        <span class="about-stat-n">4.9★</span>
+        <span class="about-stat-l">好評評分</span>
+      </div>
+      <div class="about-stat">
+        <span class="about-stat-n">每日</span>
+        <span class="about-stat-l">內容更新</span>
+      </div>
+      <div class="about-stat">
+        <span class="about-stat-n">24/7</span>
+        <span class="about-stat-l">資訊追蹤</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="team-section">
+  <div class="team-inner">
+    <div class="section-eyebrow">OUR TEAM</div>
+    <h2 class="section-title" style="margin-bottom:32px;">編輯團隊</h2>
+    <div class="team-card">
+      <div class="team-avatar">✍️</div>
+      <div>
+        <div class="team-name">BDUK 編輯部</div>
+        <div class="team-role">資深娛樂資訊編輯團隊</div>
+        <p class="team-bio">由多位擁有豐富香港娛樂資訊報道經驗的編輯組成，專注於娛樂優惠評測、遊戲平台深度分析及攻略內容創作。團隊成員每日追蹤市場動態，以客觀、精準的態度為讀者提供最有參考價值的資訊，協助用戶做出最合適的娛樂選擇。</p>
+        <div class="team-tags">
+          <span class="team-tag">娛樂資訊</span>
+          <span class="team-tag">優惠評測</span>
+          <span class="team-tag">遊戲評測</span>
+          <span class="team-tag">入門攻略</span>
+          <span class="team-tag">香港娛樂</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION -->
+<section class="mission-section">
+  <div class="mission-inner">
+    <div class="mission-title">我們的<em>使命</em></div>
+    <p class="mission-text">BDUK 的使命，是成為香港用戶最信賴的娛樂資訊夥伴。我們相信，每個人都應該能夠以最透明、最便捷的方式，獲取最準確的娛樂資訊。</p>
+    <p class="mission-text">我們承諾：所有內容均由編輯團隊親自審核，確保資訊真實性；所有評測均以用戶利益為優先，不受任何商業利益影響。</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-main">
+  <div class="footer-top">
+    <div class="footer-big-links">
+      <a href="/blog.html">攻略</a>
+      <a href="/guides.html">指南</a>
+      <a href="/help.html">幫助</a>
+      <a href="/about.html">關於</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">攻略分類<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/blog.html">📚 全部攻略</a></li>
+        <li><a href="/blog.html">🎰 電子遊藝攻略</a></li>
+        <li><a href="/blog.html">🃏 百家樂指南</a></li>
+        <li><a href="/blog.html">⚽ 足球賽事分析</a></li>
+        <li><a href="/blog.html">💳 入款教學</a></li>
+        <li><a href="/blog.html">📤 提款教學</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">資訊平台<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/docs.html">📋 評測標準</a></li>
+        <li><a href="/guides.html">📖 入門攻略</a></li>
+        <li><a href="/help.html">❓ 幫助中心</a></li>
+        <li><a href="/api.html">🔌 資料 API</a></li>
+        <li><a href="/about.html">👥 關於我們</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">法律資訊<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/privacy.html">🔒 私隱政策</a></li>
+        <li><a href="/terms.html">📃 使用條款</a></li>
+        <li><a href="/index.html">🏠 返回首頁</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-subscribe-row">
+    <div class="footer-subscribe-box">
+      <p>📬 訂閱最新優惠資訊，第一時間獲取著數</p>
+      <form class="footer-subscribe-form">
+        <input type="email" class="footer-subscribe-input" placeholder="輸入你的電郵" required>
+        <button type="submit" class="footer-subscribe-btn">→</button>
+      </form>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <span>© 2026 BDUK. All rights reserved. &nbsp;|&nbsp; 🔞 18+ only</span>
+    <span><a href="/blog.html">攻略中心</a><a href="/about.html">關於我們</a><a href="/privacy.html">私隱政策</a><a href="/terms.html">使用條款</a></span>
+  </div>
+</footer>
+<button class="back-to-top" id="backToTop" aria-label="返回頂部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+  const DESTINATION_URL = 'https://lokguhk.com?p=998307';
+  function handleCTA(e, loc) {
+    if (e) e.preventDefault();
+    if (typeof gtag !== 'undefined') gtag('event', 'cta_click', {button_location: loc});
+    setTimeout(function(){ window.location.href = DESTINATION_URL; }, 80);
+  }
+  function toggleMenu() {
+    var btn = document.getElementById('hamburgerBtn');
+    var menu = document.getElementById('mobileMenu');
+    var open = btn.classList.toggle('open');
+    menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+  document.addEventListener('click', function(e) {
+    var menu = document.getElementById('mobileMenu');
+    var btn = document.getElementById('hamburgerBtn');
+    if (menu && menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+      menu.classList.remove('open'); btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false'); document.body.style.overflow = '';
+    }
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var btt = document.getElementById('backToTop');
+    if (btt) { window.addEventListener('scroll', function() { btt.classList.toggle('visible', window.scrollY > 400); }, {passive:true}); }
+    document.querySelectorAll('.footer-col .footer-col-title').forEach(function(title) {
+      title.addEventListener('click', function() {
+        var col = this.closest('.footer-col');
+        var arrow = this.querySelector('.footer-col-arrow');
+        var isOpen = col.classList.toggle('open');
+        if (arrow) arrow.textContent = isOpen ? '－' : '＋';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

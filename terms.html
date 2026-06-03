@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z96N8HQGP4"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z96N8HQGP4');</script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WM32S7LZ');</script>
+  <title>使用條款 | BDUK</title>
+  <meta name="description" content="BDUK 使用條款 — 使用本平台前請閱讀此條款。">
+  <link rel="canonical" href="https://businessdirectory-uk.com/terms">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --cyan: #0891b2;
+      --cyan-dark: #0e7490;
+      --cyan-light: #22d3ee;
+      --cyan-ultra: #67e8f9;
+      --cyan-glow: rgba(8,145,178,.28);
+      --bg: #ffffff;
+      --bg-alt: #f0f9ff;
+      --bg-dark: #0c1a2e;
+      --bg-dark2: #0f2744;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --text-light: #475569;
+      --border: #bae6fd;
+      --shadow: 0 1px 4px rgba(8,145,178,.08), 0 1px 2px rgba(0,0,0,.04);
+      --shadow-md: 0 4px 12px rgba(8,145,178,.12), 0 2px 4px rgba(0,0,0,.05);
+      --shadow-cyan: 0 6px 24px rgba(8,145,178,.32);
+      --live: #22c55e;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+
+    /* HEADER */
+    .site-header { background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); border-bottom: 2px solid var(--cyan); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 10px; position: sticky; top: 0; z-index: 200; }
+    .header-nav { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; font-weight: 700; color: rgba(255,255,255,.75); text-decoration: none; padding: 7px 14px; border-radius: 20px; border: 1px solid rgba(255,255,255,.2); white-space: nowrap; transition: color .2s, border-color .2s; }
+    .header-nav:hover { color: var(--cyan-ultra); border-color: var(--cyan-light); }
+    .header-nav-cyan { background: rgba(8,145,178,.18); border-color: rgba(8,145,178,.45); color: var(--cyan-ultra); }
+    .header-nav-group { flex: 1; min-width: 0; display: flex; gap: 6px; align-items: center; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: 0 4px; }
+    .header-nav-group::-webkit-scrollbar { display: none; }
+    .btn-sm { background: var(--cyan); color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px; text-decoration: none; white-space: nowrap; flex-shrink: 0; border: 2px solid rgba(255,255,255,.2); cursor: pointer; font-family: inherit; box-shadow: 0 4px 16px var(--cyan-glow); letter-spacing: .02em; transition: box-shadow .2s, transform .15s; }
+    .btn-sm:hover { box-shadow: 0 6px 24px var(--cyan-glow); transform: scale(1.03); }
+    /* Hamburger */
+    .hamburger-btn { display: none; flex-direction: column; justify-content: center; align-items: center; gap: 5px; width: 40px; height: 40px; background: none; border: none; cursor: pointer; padding: 9px 8px; flex-shrink: 0; }
+    .ham-line { display: block; width: 22px; height: 2px; background: rgba(255,255,255,.85); border-radius: 2px; transition: transform .22s ease, opacity .15s ease; transform-origin: center; }
+    .hamburger-btn.open .ham-line:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger-btn.open .ham-line:nth-child(2) { opacity: 0; }
+    .hamburger-btn.open .ham-line:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    @media (max-width: 639px) { .hamburger-btn { display: flex; } .header-nav-group { display: none !important; } }
+    .mobile-menu { position: fixed; top: 63px; left: 0; right: 0; background: var(--bg-dark2); border-bottom: 2px solid var(--cyan); z-index: 198; padding: 6px 0 18px; transform: translateY(-10px); opacity: 0; pointer-events: none; transition: transform .22s ease, opacity .18s ease; max-height: calc(100vh - 63px); overflow-y: auto; }
+    .mobile-menu.open { transform: translateY(0); opacity: 1; pointer-events: all; }
+    .mobile-menu-item { display: block; padding: 14px 24px; font-size: 15px; font-weight: 600; color: rgba(255,255,255,.8); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.06); transition: color .15s, background .15s; }
+    .mobile-menu-item:hover { color: var(--cyan-ultra); background: rgba(8,145,178,.1); }
+    .mobile-menu-cta-wrap { padding: 14px 20px 0; }
+    .mobile-menu-cta { display: block; background: var(--cyan); color: #fff; text-align: center; padding: 15px; border-radius: 12px; font-weight: 800; font-size: 17px; text-decoration: none; box-shadow: 0 4px 16px var(--cyan-glow); }
+
+    /* PAGE HERO */
+    .page-hero { background: linear-gradient(155deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); padding: 52px 20px 48px; text-align: center; position: relative; overflow: hidden; }
+    .page-hero::before { content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%); width: 500px; height: 500px; background: radial-gradient(circle, rgba(8,145,178,.1) 0%, transparent 65%); pointer-events: none; }
+    .page-hero-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--cyan-light); margin-bottom: 12px; position: relative; }
+    .page-hero h1 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(28px, 6vw, 48px); font-weight: 900; color: #fff; text-transform: uppercase; line-height: 1.05; margin-bottom: 12px; position: relative; }
+    .page-hero-updated { font-size: 12px; color: rgba(255,255,255,.4); position: relative; }
+
+    /* CONTENT */
+    .page-content { background: var(--bg); }
+    .page-wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 72px; }
+    .page-wrap > p { font-size: 15px; color: var(--text-light); line-height: 1.8; margin-bottom: 16px; }
+    .page-wrap h2 { font-size: 17px; font-weight: 700; margin: 36px 0 12px; color: var(--cyan); border-left: 3px solid var(--cyan); padding-left: 12px; }
+    .page-wrap p { font-size: 14.5px; color: var(--text-light); line-height: 1.8; margin-bottom: 14px; }
+    .page-wrap ul { margin: 10px 0 18px 22px; }
+    .page-wrap li { font-size: 14.5px; color: var(--text-light); line-height: 1.7; margin-bottom: 7px; }
+    .page-wrap strong { color: var(--text); font-weight: 700; }
+    .notice-box { background: rgba(8,145,178,.06); border: 1px solid rgba(8,145,178,.3); border-radius: 12px; padding: 18px 20px; margin: 28px 0; }
+    .notice-box p { margin-bottom: 0; color: var(--text-light); }
+
+    /* FOOTER */
+    .footer-main { background: linear-gradient(155deg, #071525 0%, var(--bg-dark) 100%); overflow: hidden; }
+    .footer-top { max-width: 1100px; margin: 0 auto; padding: 48px 24px 36px; display: grid; grid-template-columns: 160px 1fr 1fr 1fr; gap: 36px; align-items: start; }
+    .footer-big-links { display: flex; flex-direction: column; gap: 4px; }
+    .footer-big-links a { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(22px, 3vw, 36px); font-weight: 900; color: rgba(255,255,255,.8); text-decoration: none; text-transform: uppercase; line-height: 1.1; transition: color .2s; }
+    .footer-big-links a:hover { color: var(--cyan-ultra); }
+    .footer-col-title { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan-ultra); margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; cursor: default; padding: 0; user-select: auto; }
+    .footer-col-arrow { display: none; font-size: 14px; font-style: normal; transition: transform .25s; }
+    .footer-col.open .footer-col-arrow { transform: rotate(45deg); }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; max-height: none; overflow: visible; padding-bottom: 0; }
+    .footer-links li a { font-size: 13px; color: rgba(255,255,255,.4); text-decoration: none; transition: color .2s; }
+    .footer-links li a:hover { color: var(--cyan-ultra); }
+    .footer-col { }
+    @media (max-width: 639px) { .footer-top { grid-template-columns: 1fr; gap: 0; padding: 24px 20px 8px; } .footer-big-links { display: none; } .footer-col { border-bottom: 1px solid rgba(255,255,255,.07); } .footer-col-title { cursor: pointer; padding: 14px 0; margin-bottom: 0; user-select: none; } .footer-col-arrow { display: inline; } .footer-links { max-height: 0; overflow: hidden; transition: max-height .3s ease, padding-bottom .3s; padding-bottom: 0; gap: 0; } .footer-col.open .footer-links { max-height: 320px; padding-bottom: 16px; gap: 10px; } }
+    .footer-subscribe-row { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; }
+    .footer-subscribe-box { background: rgba(8,145,178,.1); border: 1px solid rgba(8,145,178,.2); border-radius: 20px; padding: 24px 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; }
+    .footer-subscribe-box p { font-size: 15px; font-weight: 700; color: #fff; }
+    .footer-subscribe-form { display: flex; flex: 1; min-width: 220px; max-width: 380px; }
+    .footer-subscribe-input { flex: 1; padding: 12px 16px; background: rgba(255,255,255,.08); border: 1px solid rgba(8,145,178,.3); border-right: none; border-radius: 10px 0 0 10px; font-size: 13px; color: #fff; font-family: inherit; outline: none; }
+    .footer-subscribe-input::placeholder { color: rgba(255,255,255,.3); }
+    .footer-subscribe-btn { padding: 12px 20px; background: var(--cyan); border: none; border-radius: 0 10px 10px 0; color: #fff; font-size: 18px; cursor: pointer; transition: background .2s; }
+    .footer-subscribe-btn:hover { background: var(--cyan-light); }
+    .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,.07); max-width: 1100px; margin: 0 auto 20px; }
+    .footer-bottom { max-width: 1100px; margin: 0 auto; padding: 0 24px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; font-size: 11px; color: rgba(255,255,255,.3); }
+    .footer-bottom a { color: rgba(255,255,255,.3); text-decoration: none; margin: 0 6px; }
+    .footer-bottom a:hover { color: rgba(255,255,255,.6); }
+    /* Back to top */
+    .back-to-top { position: fixed; right: 20px; bottom: 28px; z-index: 200; width: 42px; height: 42px; background: var(--cyan); border: none; border-radius: 50%; color: #fff; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(8,145,178,.45); opacity: 0; transform: translateY(12px); transition: opacity .25s, transform .25s, background .2s; pointer-events: none; }
+    .back-to-top.visible { opacity: 1; transform: translateY(0); pointer-events: all; }
+    .back-to-top:hover { background: var(--cyan-light); }
+  </style>
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM32S7LZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="/index.html" style="display:inline-flex;align-items:center;text-decoration:none;flex-shrink:0;">
+    <img src="/LOGO.png" alt="BDUK" style="height:40px;width:auto;max-width:160px;object-fit:contain;display:block;">
+  </a>
+  <nav class="header-nav-group" aria-label="攻略分類">
+    <a href="/blog.html" class="header-nav">攻略中心</a>
+    <a href="/blog.html" class="header-nav">優惠資訊</a>
+    <a href="/guides.html" class="header-nav">入門攻略</a>
+    <a href="/help.html" class="header-nav">幫助中心</a>
+    <a href="/about.html" class="header-nav">關於我們</a>
+    <a href="https://lokguhk.com?p=998307" class="header-nav header-nav-cyan" onclick="handleCTA(event,'nav')">領取好禮</a>
+  </nav>
+  <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+    <a href="https://lokguhk.com?p=998307" class="btn-sm" onclick="handleCTA(event,'header')">領取好禮 🎁</a>
+    <button class="hamburger-btn" id="hamburgerBtn" onclick="toggleMenu()" aria-label="選單" aria-expanded="false">
+      <span class="ham-line"></span><span class="ham-line"></span><span class="ham-line"></span>
+    </button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/blog.html" class="mobile-menu-item">📚 攻略中心</a>
+  <a href="/blog.html" class="mobile-menu-item">🎁 優惠資訊</a>
+  <a href="/guides.html" class="mobile-menu-item">📖 入門攻略</a>
+  <a href="/help.html" class="mobile-menu-item">❓ 幫助中心</a>
+  <a href="/about.html" class="mobile-menu-item">👥 關於我們</a>
+  <div class="mobile-menu-cta-wrap">
+    <a href="https://lokguhk.com?p=998307" class="mobile-menu-cta" onclick="handleCTA(event,'menu')">🎁 立即領取新會員好禮</a>
+  </div>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero-eyebrow">TERMS OF SERVICE · 使用條款</div>
+  <h1>使用條款</h1>
+  <p class="page-hero-updated">最後更新日期：2026 年 4 月 24 日</p>
+</section>
+
+<!-- CONTENT -->
+<div class="page-content">
+  <div class="page-wrap">
+
+    <div class="notice-box">
+      <p><strong>重要聲明：</strong>本平台為娛樂性質服務。所有獎勵積分及虛擬物品均不可兌換現金或任何有價值物品，屬純虛擬娛樂服務，非現金交易賭博。本服務只供年滿 18 歲人士使用。</p>
+    </div>
+
+    <p>請在使用 BDUK 平台（下稱「本平台」）前仔細閱讀以下使用條款。登記帳號或使用本平台即表示閣下同意受本條款約束。</p>
+
+    <h2>1. 服務性質</h2>
+    <p>本平台提供<strong>娛樂性質</strong>之虛擬積分服務，包括：</p>
+    <ul>
+      <li>虛擬積分獎勵計劃（迎新禮遇、每日獎勵等）</li>
+      <li>娛樂遊戲功能（使用虛擬積分）</li>
+      <li>虛擬積分購買服務（可選，非強制）</li>
+    </ul>
+    <p>所有虛擬積分及獎勵<strong>不可</strong>兌換成現金、實物或其他有價值物品。本平台不涉及現金交易賭博活動。平台為免費使用，另可選購虛擬積分等增值服務。</p>
+
+    <h2>2. 年齡要求</h2>
+    <p>使用本平台須符合以下條件：</p>
+    <ul>
+      <li>閣下須<strong>年滿 18 歲</strong>或所在司法管轄區規定的合法年齡（以較高者為準）</li>
+      <li>使用本平台即確認閣下已達到上述年齡要求</li>
+      <li>未成年人一經發現將立即終止帳號，所有積分及購買紀錄不予退款</li>
+    </ul>
+
+    <h2>3. 帳號責任</h2>
+    <ul>
+      <li>每人只可登記<strong>一個</strong>帳號，禁止重複登記</li>
+      <li>閣下須對帳號內所有活動負責</li>
+      <li>密碼須妥善保管，不得與他人共享帳號</li>
+      <li>如懷疑帳號遭盜用，須立即通知我們</li>
+      <li>提供虛假資料登記將導致帳號終止，且不予退款</li>
+    </ul>
+
+    <h2>4. 迎新獎勵條款</h2>
+    <ul>
+      <li>迎新獎勵只適用於首次登記的新用戶</li>
+      <li>每位用戶（每個身份/電話/裝置）只可領取一次</li>
+      <li>獎勵為平台虛擬積分，不可轉讓亦不可提取為現金</li>
+      <li>獎勵有效期如平台所示，過期自動失效</li>
+      <li>本平台保留修改、暫停或終止任何獎勵計劃的權利</li>
+    </ul>
+
+    <h2>5. 虛擬積分購買</h2>
+    <ul>
+      <li>所有虛擬積分購買均為<strong>最終決定，不設退款</strong>（除非法律強制要求）</li>
+      <li>虛擬積分不可轉讓給其他用戶</li>
+      <li>帳號終止後，未使用的虛擬積分將被沒收</li>
+      <li>本平台不對任何技術問題導致的積分損失承擔責任</li>
+    </ul>
+
+    <h2>6. 禁止行為</h2>
+    <p>以下行為被明確禁止，違者將立即終止帳號：</p>
+    <ul>
+      <li>濫用迎新獎勵（重複帳號、虛假資料）</li>
+      <li>嘗試黑客攻擊、操控或破壞平台系統</li>
+      <li>使用機器人或自動化程序</li>
+      <li>進行任何欺詐性交易</li>
+      <li>騷擾、威脅或侮辱其他用戶或工作人員</li>
+      <li>未成年人使用本平台</li>
+    </ul>
+
+    <h2>7. 負責任娛樂</h2>
+    <p>本平台支持負責任娛樂原則：</p>
+    <ul>
+      <li>請注意個人娛樂時間，適可而止</li>
+      <li>如發現沉迷跡象，請使用帳號自我限制功能</li>
+      <li>如需協助，請聯絡我們或尋求專業輔導</li>
+      <li>本平台保留權利限制或暫停可能存在問題行為的帳號</li>
+    </ul>
+
+    <h2>8. 知識產權</h2>
+    <p>本平台的所有內容，包括但不限於文字、圖像、標誌、設計及軟件，均受版權法保護，屬 BDUK 或其授權方所有。未經書面許可，不得複製、轉載或作商業用途。</p>
+
+    <h2>9. 服務變更及終止</h2>
+    <ul>
+      <li>本平台有權隨時修改、暫停或終止任何服務，恕不另行通知</li>
+      <li>在服務終止的情況下，虛擬積分及獎勵將不予補償</li>
+      <li>閣下可隨時申請關閉帳號，聯絡客服辦理</li>
+    </ul>
+
+    <h2>10. 免責聲明</h2>
+    <p>在法律允許的最大範圍內，本平台不對以下情況承擔責任：</p>
+    <ul>
+      <li>因使用或無法使用本平台而導致的任何損失</li>
+      <li>網絡中斷、伺服器故障或技術問題</li>
+      <li>第三方服務提供商的行為</li>
+      <li>用戶自身操作失誤</li>
+    </ul>
+
+    <h2>11. 適用法律</h2>
+    <p>本條款受香港特別行政區法律管轄。任何因本條款引起的爭議，雙方同意以香港法院為專屬管轄法院。</p>
+
+    <h2>12. 條款更新</h2>
+    <p>我們保留隨時修改本條款的權利。修改後的條款將發佈於本頁面，繼續使用本平台即視為接受修改後的條款。</p>
+
+    <h2>13. 聯絡我們</h2>
+    <p>如對本使用條款有任何疑問，請聯絡：</p>
+    <ul>
+      <li>電郵：support@businessdirectory-uk.com</li>
+      <li>客服時間：09:00 – 24:00（每日）</li>
+    </ul>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer-main">
+  <div class="footer-top">
+    <div class="footer-big-links">
+      <a href="/blog.html">攻略</a>
+      <a href="/guides.html">指南</a>
+      <a href="/help.html">幫助</a>
+      <a href="/about.html">關於</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">攻略分類<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/blog.html">📚 全部攻略</a></li>
+        <li><a href="/blog.html">🎰 電子遊藝攻略</a></li>
+        <li><a href="/blog.html">🃏 百家樂指南</a></li>
+        <li><a href="/blog.html">⚽ 足球賽事分析</a></li>
+        <li><a href="/blog.html">💳 入款教學</a></li>
+        <li><a href="/blog.html">📤 提款教學</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">資訊平台<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/docs.html">📋 評測標準</a></li>
+        <li><a href="/guides.html">📖 入門攻略</a></li>
+        <li><a href="/help.html">❓ 幫助中心</a></li>
+        <li><a href="/api.html">🔌 資料 API</a></li>
+        <li><a href="/about.html">👥 關於我們</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">法律資訊<span class="footer-col-arrow">＋</span></p>
+      <ul class="footer-links">
+        <li><a href="/privacy.html">🔒 私隱政策</a></li>
+        <li><a href="/terms.html">📃 使用條款</a></li>
+        <li><a href="/index.html">🏠 返回首頁</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-subscribe-row">
+    <div class="footer-subscribe-box">
+      <p>📬 訂閱最新優惠資訊，第一時間獲取著數</p>
+      <form class="footer-subscribe-form">
+        <input type="email" class="footer-subscribe-input" placeholder="輸入你的電郵" required>
+        <button type="submit" class="footer-subscribe-btn">→</button>
+      </form>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <span>© 2026 BDUK. All rights reserved. &nbsp;|&nbsp; 🔞 18+ only</span>
+    <span><a href="/blog.html">攻略中心</a><a href="/about.html">關於我們</a><a href="/privacy.html">私隱政策</a><a href="/terms.html">使用條款</a></span>
+  </div>
+</footer>
+<button class="back-to-top" id="backToTop" aria-label="返回頂部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+  const DESTINATION_URL = 'https://lokguhk.com?p=998307';
+  function handleCTA(e, loc) {
+    if (e) e.preventDefault();
+    if (typeof gtag !== 'undefined') gtag('event', 'cta_click', {button_location: loc});
+    setTimeout(function(){ window.location.href = DESTINATION_URL; }, 80);
+  }
+  function toggleMenu() {
+    var btn = document.getElementById('hamburgerBtn');
+    var menu = document.getElementById('mobileMenu');
+    var open = btn.classList.toggle('open');
+    menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+  document.addEventListener('click', function(e) {
+    var menu = document.getElementById('mobileMenu');
+    var btn = document.getElementById('hamburgerBtn');
+    if (menu && menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+      menu.classList.remove('open'); btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false'); document.body.style.overflow = '';
+    }
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var btt = document.getElementById('backToTop');
+    if (btt) { window.addEventListener('scroll', function() { btt.classList.toggle('visible', window.scrollY > 400); }, {passive:true}); }
+    document.querySelectorAll('.footer-col .footer-col-title').forEach(function(title) {
+      title.addEventListener('click', function() {
+        var col = this.closest('.footer-col');
+        var arrow = this.querySelector('.footer-col-arrow');
+        var isOpen = col.classList.toggle('open');
+        if (arrow) arrow.textContent = isOpen ? '－' : '＋';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
