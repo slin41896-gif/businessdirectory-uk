@@ -114,8 +114,10 @@
     "category": "平台監管",
     "angle": "監管說明型",
     "image_theme": "responsible gambling awareness symbols with support resources and helpline imagery",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
+    "status": "used",
+    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字",
+    "slug": "hong-kong-responsible-gaming-policy",
+    "used_date": "2026-06-06"
   },
   {
     "id": 11,
@@ -5616,5 +5618,22 @@
     "image_theme": "Hong Kong mind sports development overview showing chess, Go, and bridge participation statistics and organizational structure",
     "status": "available",
     "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
+  },
+  {
+    "id": 561,
+    "niche": "main",
+    "keyword": "印度對阿富汗運動博彩賠率2026",
+    "category": "優惠資訊",
+    "angle": "板球賽事賠率分析及博彩平台迎新優惠",
+    "image_theme": "dark cricket sports betting neon 2026",
+    "writing_style": "中性語氣，直接說明型，1200字",
+    "status": "available",
+    "slug": null,
+    "used_date": null,
+    "trending": true,
+    "trending_date": "2026-06-06",
+    "trending_title": "ind vs afg",
+    "trending_source": "Google HK Trends",
+    "relevance_score": 88
   }
 ]
