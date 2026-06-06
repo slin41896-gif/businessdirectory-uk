@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-06-2330",
+      "headline": "2026 NBA總冠軍賽：尼克遙遙領先，博彩賠率分析",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-06",
+      "lead": "2026年的NBA總冠軍賽戰況正如火如荼，其中紐約尼克隊以驚人的表現，在系列賽中取得2-0的領先優勢，更在博彩市場上成為了-500的絕對熱門。這意味著，若尼克最",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-06-2330/1200/628",
+      "imageAlt": "2026 NBA總冠軍賽：尼克遙遙領先，博彩賠率分析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-06-2300",
       "headline": "2026世界盃：數據導航博彩策略",
       "category": "世界盃",
@@ -76,15 +87,6 @@
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-06-2000/1200/628",
       "imageAlt": "2026世界盃：賽事深度分析與博彩策略",
       "sportsCat": "world-cup"
-    },
-    {
-      "slug": "2026-06-04-dodgers-edge-dbacks-one-run-win-mlb",
-      "cat": "mlb",
-      "headline": "2026-06-04-dodgers-edge-dbacks-one-run-win-mlb",
-      "category": "MLB 棒球",
-      "date": "",
-      "lead": "",
-      "imageUrl": "https://picsum.photos/seed/2026-06-04-dodgers-edge-dbacks-one-run-win-mlb/800/450"
     }
   ]
 }
