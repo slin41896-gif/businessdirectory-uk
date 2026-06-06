@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-06-2200",
+      "headline": "2026世界盃：小組賽前瞻與博彩市場洞察",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-06",
+      "lead": "2026世界盃的腳步越來越近，全球足球迷的目光早已聚焦於這場體壇盛事。作為香港博彩市場的深度分析師，我將為您帶來最精準的小組賽前瞻與投注策略。本次分析將結合最新",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-06-2200/1200/628",
+      "imageAlt": "2026世界盃：小組賽前瞻與博彩市場洞察",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "sports-intl-2026-06-06-2130",
       "headline": "NBA總決賽2026：博彩市場風向球",
       "category": "國際體育",
@@ -70,15 +81,6 @@
       "date": "",
       "lead": "",
       "imageUrl": "https://picsum.photos/seed/2026-06-05-nba-finals-ticket-prices-money-game/800/450"
-    },
-    {
-      "slug": "2026-06-05-russell-wilson-retires-joins-cbs-as-analyst",
-      "cat": "nfl",
-      "headline": "2026-06-05-russell-wilson-retires-joins-cbs-as-analyst",
-      "category": "NFL 美式足球",
-      "date": "",
-      "lead": "",
-      "imageUrl": "https://picsum.photos/seed/2026-06-05-russell-wilson-retires-joins-cbs-as-analyst/800/450"
     }
   ]
 }
