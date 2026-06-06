@@ -1,0 +1,49 @@
+{
+  "articles": [
+    {
+      "slug": "2026-06-04-dodgers-edge-dbacks-one-run-win-mlb",
+      "cat": "mlb",
+      "headline": "2026-06-04-dodgers-edge-dbacks-one-run-win-mlb",
+      "category": "MLB 棒球",
+      "date": "",
+      "lead": "",
+      "imageUrl": "https://picsum.photos/seed/2026-06-04-dodgers-edge-dbacks-one-run-win-mlb/800/450"
+    },
+    {
+      "slug": "2026-06-04-joshua-kimmich-germany-captain-leader",
+      "cat": "football",
+      "headline": "2026-06-04-joshua-kimmich-germany-captain-leader",
+      "category": "足球",
+      "date": "",
+      "lead": "",
+      "imageUrl": "https://picsum.photos/seed/2026-06-04-joshua-kimmich-germany-captain-leader/800/450"
+    },
+    {
+      "slug": "2026-06-05-nba-finals-ticket-prices-money-game",
+      "cat": "nba",
+      "headline": "2026-06-05-nba-finals-ticket-prices-money-game",
+      "category": "NBA 籃球",
+      "date": "",
+      "lead": "",
+      "imageUrl": "https://picsum.photos/seed/2026-06-05-nba-finals-ticket-prices-money-game/800/450"
+    },
+    {
+      "slug": "2026-06-05-russell-wilson-retires-joins-cbs-as-analyst",
+      "cat": "nfl",
+      "headline": "2026-06-05-russell-wilson-retires-joins-cbs-as-analyst",
+      "category": "NFL 美式足球",
+      "date": "",
+      "lead": "",
+      "imageUrl": "https://picsum.photos/seed/2026-06-05-russell-wilson-retires-joins-cbs-as-analyst/800/450"
+    },
+    {
+      "slug": "2026-06-06-nba-fan-invades-court-wembanyama-banned-for-life",
+      "cat": "nba",
+      "headline": "狂粉衝場影溫班亞瑪 遭NBA終身禁足",
+      "category": "NBA 籃球",
+      "date": "2026-06-06",
+      "lead": "NBA賽場安全響起警鐘！一名狂熱粉絲無視保安，衝入球場企圖與新星溫班亞瑪合照，結果被永久禁止進入所有NBA場館，聯盟主席更直指事件背後或有其他動機。",
+      "imageUrl": "https://images.pexels.com/photos/30555530/pexels-photo-30555530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    }
+  ]
+}
