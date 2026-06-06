@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang=zh-Hant-HK>
+<html lang="zh-Hant-HK">
 <head>
-  <meta charset=UTF-8>
-  <meta name=viewport content=width=device-width, initial-scale=1.0>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>體育新聞 | BDUK 娛樂平台</title>
-  <meta name=description content=BDUK 體育新聞：最新 NBA、世界盃、英超、賽馬等體育資訊，每日更新。>
-  <link rel=canonical href=https://businessdirectory-uk.com/sports/>
-  <link rel=icon href=/favicon.ico>
-  <script async src=https://www.googletagmanager.com/gtag/js?id=G-Z96N8HQGP4></script>
+  <meta name="description" content="BDUK 體育新聞：最新 NBA、世界盃、英超、MLB、NFL 等體育資訊，每日更新。">
+  <link rel="canonical" href="https://businessdirectory-uk.com/sports/">
+  <link rel="icon" href="/favicon.ico">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z96N8HQGP4"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z96N8HQGP4');</script>
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WM32S7LZ');</script>
   <style>
@@ -23,108 +23,122 @@
     .page-hero h1{color:#fff;font-size:clamp(22px,4vw,32px);font-weight:900;margin-bottom:8px}
     .page-hero p{color:#94a3b8;font-size:14px}
     .container{max-width:1000px;margin:0 auto;padding:32px 20px}
+    .cat-nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;align-items:center}
+    .cat-tab{background:#fff;border:1px solid var(--border);border-radius:20px;padding:6px 16px;font-size:12px;font-weight:700;color:var(--text-muted);cursor:pointer;transition:.15s;font-family:inherit}
+    .cat-tab:hover,.cat-tab.active{background:var(--cyan);color:#fff;border-color:var(--cyan)}
     .grid{display:grid;grid-template-columns:1fr;gap:20px}
     @media(min-width:640px){.grid{grid-template-columns:repeat(2,1fr)}}
     @media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
     .article-card{background:#fff;border:1px solid var(--border);border-radius:16px;overflow:hidden;transition:transform .2s,box-shadow .2s}
     .article-card:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(8,145,178,.12)}
+    .card-img-wrap{display:block;text-decoration:none}
     .article-card-img{height:160px;background:#0c1a2e;background-size:cover;background-position:center}
     .article-card-body{padding:16px}
-    .article-cat-badge{font-size:11px;font-weight:700;color:var(--cyan);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+    .article-cat-badge{font-size:11px;font-weight:700;color:var(--cyan);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;text-decoration:none;display:block}
+    .article-cat-badge:hover{color:#0e7490}
     .article-card-title{font-size:14.5px;font-weight:700;line-height:1.4;margin-bottom:8px}
     .article-card-title a{color:var(--text);text-decoration:none}
     .article-card-title a:hover{color:var(--cyan)}
     .article-card-desc{font-size:12.5px;color:var(--text-muted);line-height:1.6;margin-bottom:12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
     .article-card-foot{display:flex;align-items:center;justify-content:space-between;font-size:11px;color:#94a3b8}
     .read-more{color:var(--cyan);text-decoration:none;font-weight:600}
+    .hidden{display:none!important}
     footer{background:#0c1a2e;color:#64748b;text-align:center;padding:24px 20px;font-size:12px;margin-top:48px}
     footer a{color:#94a3b8;text-decoration:none;margin:0 8px}
   </style>
 </head>
 <body>
 <header>
-  <a href=/ class=logo><img src=/LOGO.png alt=BDUK onerror=this.style.display=none></a>
+  <a href="/" class="logo"><img src="/LOGO.png" alt="BDUK" onerror="this.style.display=none"></a>
   <nav>
-    <a href=/blog.html>攻略中心</a>
-    <a href=/blog.html>平台評測</a>
-    <a href=/sports/ class=active>體育新聞</a>
+    <a href="/blog.html">攻略中心</a>
+    <a href="/sports/" class="active">體育新聞</a>
   </nav>
 </header>
-<div class=page-hero>
+<div class="page-hero">
   <h1>⚽ 體育新聞</h1>
-  <p>最新 NBA、世界盃、英超、賽馬等體育資訊，每日更新</p>
+  <p>最新 NBA、世界盃、英超、MLB、NFL 等體育資訊，每日更新</p>
 </div>
-<div class=container>
-  <div class=grid>
+<div class="container">
+  <div class="cat-nav">
+    <button class="cat-tab active" data-filter="all" onclick="filterCat(this)" type="button">全部</button>
+    <button class="cat-tab" data-filter="nba" onclick="filterCat(this)" type="button">NBA 籃球</button><button class="cat-tab" data-filter="football" onclick="filterCat(this)" type="button">足球</button><button class="cat-tab" data-filter="world-cup" onclick="filterCat(this)" type="button">世界盃 2026</button><button class="cat-tab" data-filter="mlb" onclick="filterCat(this)" type="button">MLB 棒球</button><button class="cat-tab" data-filter="nfl" onclick="filterCat(this)" type="button">NFL 美式足球</button>
+  </div>
+  <div class="grid" id="articles-grid">
+<!-- SPORTS_LIST_INJECT_START -->
 
-  <article class=article-card data-cat=體育資訊>
-    <div class=article-card-img style=background-image:url("https://images.pexels.com/photos/30555530/pexels-photo-30555530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")></div>
-    <div class=article-card-body>
-      <div class=article-cat-badge>體育資訊</div>
-      <h2 class=article-card-title><a href=/sports/2026-06-06-nba-fan-invades-court-wembanyama-banned-for-life>狂粉衝場影溫班亞瑪 遭NBA終身禁足</a></h2>
-      <p class=article-card-desc>NBA賽場安全響起警鐘！一名狂熱粉絲無視保安，衝入球場企圖與新星溫班亞瑪合照，結果被永久禁止進入所有NBA場館，聯盟主席更直指事件背後或有其他動機。…</p>
-      <div class=article-card-foot><span>2026-06-06</span><a href=/sports/2026-06-06-nba-fan-invades-court-wembanyama-banned-for-life class=read-more>閱讀全文 →</a></div>
+  <article class="article-card" data-cat="mlb">
+    <a href="/sports/mlb/2026-06-04-dodgers-edge-dbacks-one-run-win-mlb" class="card-img-wrap">
+      <div class="article-card-img" style="background-image:url('https://picsum.photos/seed/2026-06-04-dodgers-edge-dbacks-one-run-win-mlb/800/450')"></div>
+    </a>
+    <div class="article-card-body">
+      <a href="/sports/mlb/" class="article-cat-badge">MLB 棒球</a>
+      <h2 class="article-card-title"><a href="/sports/mlb/2026-06-04-dodgers-edge-dbacks-one-run-win-mlb">2026-06-04-dodgers-edge-dbacks-one-run-win-mlb</a></h2>
+      <p class="article-card-desc"></p>
+      <div class="article-card-foot"><span></span><a href="/sports/mlb/2026-06-04-dodgers-edge-dbacks-one-run-win-mlb" class="read-more">閱讀全文 →</a></div>
     </div>
   </article>
-  <article class=article-card data-cat=體育資訊>
-    <div class=article-card-img style=background-image:url("https://images.pexels.com/photos/26832707/pexels-photo-26832707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")></div>
-    <div class=article-card-body>
-      <div class=article-cat-badge>體育資訊</div>
-      <h2 class=article-card-title><a href=/sports/2026-06-03-world-cup-fever-hong-kong-tuen-mun-cage-football-tseung-kwan-o-big-screen>世界盃熱潮席捲香港！屯門鐵籠足球場爆滿，將軍澳巨幕睇波嗨翻天</a></h2>
-      <p class=article-card-desc>隨著四年一度的世界盃賽事日益臨近，香港的足球熱情亦被徹底點燃。屯門的鐵籠足球場熱鬧非凡，而將軍澳的巨幕睇波活動更吸引了無數球迷，共同分享足球帶來的喜悅。…</p>
-      <div class=article-card-foot><span>2026-06-03</span><a href=/sports/2026-06-03-world-cup-fever-hong-kong-tuen-mun-cage-football-tseung-kwan-o-big-screen class=read-more>閱讀全文 →</a></div>
+  <article class="article-card" data-cat="football">
+    <a href="/sports/football/2026-06-04-joshua-kimmich-germany-captain-leader" class="card-img-wrap">
+      <div class="article-card-img" style="background-image:url('https://picsum.photos/seed/2026-06-04-joshua-kimmich-germany-captain-leader/800/450')"></div>
+    </a>
+    <div class="article-card-body">
+      <a href="/sports/football/" class="article-cat-badge">足球</a>
+      <h2 class="article-card-title"><a href="/sports/football/2026-06-04-joshua-kimmich-germany-captain-leader">2026-06-04-joshua-kimmich-germany-captain-leader</a></h2>
+      <p class="article-card-desc"></p>
+      <div class="article-card-foot"><span></span><a href="/sports/football/2026-06-04-joshua-kimmich-germany-captain-leader" class="read-more">閱讀全文 →</a></div>
     </div>
   </article>
-  <article class=article-card data-cat=體育資訊>
-    <div class=article-card-img style=background-image:url("https://images.pexels.com/photos/35120675/pexels-photo-35120675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")></div>
-    <div class=article-card-body>
-      <div class=article-cat-badge>體育資訊</div>
-      <h2 class=article-card-title><a href=/sports/2026-06-03-nba-legend-coach-rick-adelman-passes-away>NBA傳奇教頭艾德曼逝世</a></h2>
-      <p class=article-card-desc>NBA籃壇痛失一位傳奇人物，素有「華麗進攻大師」之稱的教練里克·艾德曼，今日以79歲高齡與世長辭，其對籃球的貢獻將被永遠銘記。…</p>
-      <div class=article-card-foot><span>2026-06-03</span><a href=/sports/2026-06-03-nba-legend-coach-rick-adelman-passes-away class=read-more>閱讀全文 →</a></div>
+  <article class="article-card" data-cat="nba">
+    <a href="/sports/nba/2026-06-05-nba-finals-ticket-prices-money-game" class="card-img-wrap">
+      <div class="article-card-img" style="background-image:url('https://picsum.photos/seed/2026-06-05-nba-finals-ticket-prices-money-game/800/450')"></div>
+    </a>
+    <div class="article-card-body">
+      <a href="/sports/nba/" class="article-cat-badge">NBA 籃球</a>
+      <h2 class="article-card-title"><a href="/sports/nba/2026-06-05-nba-finals-ticket-prices-money-game">2026-06-05-nba-finals-ticket-prices-money-game</a></h2>
+      <p class="article-card-desc"></p>
+      <div class="article-card-foot"><span></span><a href="/sports/nba/2026-06-05-nba-finals-ticket-prices-money-game" class="read-more">閱讀全文 →</a></div>
     </div>
   </article>
-  <article class=article-card data-cat=體育資訊>
-    <div class=article-card-img style=background-image:url("https://images.pexels.com/photos/30585023/pexels-photo-30585023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")></div>
-    <div class=article-card-body>
-      <div class=article-cat-badge>體育資訊</div>
-      <h2 class=article-card-title><a href=/sports/2026-06-03-ruben-amorim-liverpool-manager-decision-analysis>伊拉奧拿接掌紅軍？紅軍為何棄沙比阿朗素</a></h2>
-      <p class=article-card-desc>利物浦新帥人選塵埃落定在即，傳聞葡萄牙教練伊拉奧拿（Rúben Amorim）極大機會接掌紅軍兵符，令不少球迷及專家跌破眼鏡。…</p>
-      <div class=article-card-foot><span>2026-06-03</span><a href=/sports/2026-06-03-ruben-amorim-liverpool-manager-decision-analysis class=read-more>閱讀全文 →</a></div>
+  <article class="article-card" data-cat="nfl">
+    <a href="/sports/nfl/2026-06-05-russell-wilson-retires-joins-cbs-as-analyst" class="card-img-wrap">
+      <div class="article-card-img" style="background-image:url('https://picsum.photos/seed/2026-06-05-russell-wilson-retires-joins-cbs-as-analyst/800/450')"></div>
+    </a>
+    <div class="article-card-body">
+      <a href="/sports/nfl/" class="article-cat-badge">NFL 美式足球</a>
+      <h2 class="article-card-title"><a href="/sports/nfl/2026-06-05-russell-wilson-retires-joins-cbs-as-analyst">2026-06-05-russell-wilson-retires-joins-cbs-as-analyst</a></h2>
+      <p class="article-card-desc"></p>
+      <div class="article-card-foot"><span></span><a href="/sports/nfl/2026-06-05-russell-wilson-retires-joins-cbs-as-analyst" class="read-more">閱讀全文 →</a></div>
     </div>
   </article>
-  <article class=article-card data-cat=體育資訊>
-    <div class=article-card-img style=background-image:url("https://images.pexels.com/photos/8336982/pexels-photo-8336982.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")></div>
-    <div class=article-card-body>
-      <div class=article-cat-badge>體育資訊</div>
-      <h2 class=article-card-title><a href=/sports/2026-06-03-curry-li-ning-nba-china-market-divergence>Curry簽李寧十年 NBA中國市場現兩極化</a></h2>
-      <p class=article-card-desc>NBA超級巨星Stephen Curry與中國運動品牌李寧簽下十年長約，這項重磅合作預計將重塑NBA在中國市場的格局，並引發對兩地市場未來走向的廣泛討論。…</p>
-      <div class=article-card-foot><span>2026-06-03</span><a href=/sports/2026-06-03-curry-li-ning-nba-china-market-divergence class=read-more>閱讀全文 →</a></div>
+  <article class="article-card" data-cat="nba">
+    <a href="/sports/nba/2026-06-06-nba-fan-invades-court-wembanyama-banned-for-life" class="card-img-wrap">
+      <div class="article-card-img" style="background-image:url('https://images.pexels.com/photos/30555530/pexels-photo-30555530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
+    </a>
+    <div class="article-card-body">
+      <a href="/sports/nba/" class="article-cat-badge">NBA 籃球</a>
+      <h2 class="article-card-title"><a href="/sports/nba/2026-06-06-nba-fan-invades-court-wembanyama-banned-for-life">狂粉衝場影溫班亞瑪 遭NBA終身禁足</a></h2>
+      <p class="article-card-desc">NBA賽場安全響起警鐘！一名狂熱粉絲無視保安，衝入球場企圖與新星溫班亞瑪合照，結果被永久禁止進入所有NBA場館，聯盟主席更直指事件背後或有其他動機。</p>
+      <div class="article-card-foot"><span>2026-06-06</span><a href="/sports/nba/2026-06-06-nba-fan-invades-court-wembanyama-banned-for-life" class="read-more">閱讀全文 →</a></div>
     </div>
   </article>
-  <article class=article-card data-cat=體育資訊>
-    <div class=article-card-img style=background-image:url("https://images.pexels.com/photos/4752865/pexels-photo-4752865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")></div>
-    <div class=article-card-body>
-      <div class=article-cat-badge>體育資訊</div>
-      <h2 class=article-card-title><a href=/sports/2026-06-02-tchouameni-denies-fight-with-valverde>祖亞曼尼闢謠：我冇打華維迪</a></h2>
-      <p class=article-card-desc>皇家馬德里中場大將祖亞曼尼今日打破沉默，親自澄清近期甚囂塵上的毆鬥傳聞，堅決否認與隊友華維迪有任何肢體衝突。…</p>
-      <div class=article-card-foot><span>2026-06-02</span><a href=/sports/2026-06-02-tchouameni-denies-fight-with-valverde class=read-more>閱讀全文 →</a></div>
-    </div>
-  </article>
-  <article class=article-card data-cat=體育資訊>
-    <div class=article-card-img style=background-image:url("https://images.pexels.com/photos/17061702/pexels-photo-17061702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")></div>
-    <div class=article-card-body>
-      <div class=article-cat-badge>體育資訊</div>
-      <h2 class=article-card-title><a href=/sports/2026-06-02-dodgers-lose-to-diamondbacks-1-4>道奇作客不敵響尾蛇 爭議判決影響賽果？</a></h2>
-      <p class=article-card-desc>洛杉磯道奇隊今日作客亞利桑那，以1比4的比分不敵響尾蛇隊，近期表現持續受到考驗，賽事中亦出現一些值得商榷的判決。…</p>
-      <div class=article-card-foot><span>2026-06-02</span><a href=/sports/2026-06-02-dodgers-lose-to-diamondbacks-1-4 class=read-more>閱讀全文 →</a></div>
-    </div>
-  </article>
+<!-- SPORTS_LIST_INJECT_END -->
+
   </div>
 </div>
 <footer>
-  <a href=/>首頁</a><a href=/blog.html>攻略中心</a><a href=/sports/>體育新聞</a><a href=/privacy.html>私隱政策</a><a href=/terms.html>條款</a>
-  <p style=margin-top:12px>&copy; 2026 BusinessDirectory UK. All rights reserved.</p>
+  <a href="/">首頁</a><a href="/blog.html">攻略中心</a><a href="/sports/">體育新聞</a><a href="/privacy.html">私隱政策</a><a href="/terms.html">使用條款</a>
+  <p style="margin-top:8px">© 2026 BDUK. All rights reserved.</p>
 </footer>
+<script>
+function filterCat(btn){
+  document.querySelectorAll('.cat-tab').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  var f=btn.dataset.filter;
+  document.querySelectorAll('#articles-grid .article-card').forEach(function(c){
+    c.classList.toggle('hidden', f!=='all' && c.dataset.cat!==f);
+  });
+}
+</script>
 </body>
 </html>
