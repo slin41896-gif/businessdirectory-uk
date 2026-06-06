@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "nba-finals-knicks-beat-spurs-2-0-june-7-2026",
+      "headline": "紐約人險勝馬刺1分 總決賽場數領先2比0",
+      "category": "體育資訊",
+      "sportsCat": "nba",
+      "date": "2026-06-07",
+      "lead": "NBA總決賽戰況激烈，紐約人憑藉雲班亞馬最後一擊不中，以105-104險勝馬刺，總場數領先2比0，離總冠軍只差一步。",
+      "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
+    },
+    {
       "slug": "sports-intl-2026-06-06-2330",
       "headline": "2026 NBA總冠軍賽：尼克遙遙領先，博彩賠率分析",
       "category": "國際體育",
@@ -75,17 +85,6 @@
       "lead": "隨著2026年賽季進入尾聲，全球籃球迷的目光正聚焦於即將拉開序幕的NBA總決賽。這不僅是兩支頂尖球隊爭奪最高榮譽的舞台，更是國際體育博彩市場最受矚目的盛事之一。",
       "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-06-2030/1200/628",
       "imageAlt": "2026 NBA總決賽：博彩市場熱點分析",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "wc2026-analysis-2026-06-06-2000",
-      "headline": "2026世界盃：賽事深度分析與博彩策略",
-      "category": "世界盃",
-      "emoji": "⚽",
-      "date": "2026-06-06",
-      "lead": "2026世界盃的腳步日益臨近，全球足球迷的目光再次聚焦。作為香港博彩市場的深度分析師，我們將為您帶來一場關於本屆世界盃的全面解析。從錯綜複雜的小組賽形勢，到各路",
-      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-06-2000/1200/628",
-      "imageAlt": "2026世界盃：賽事深度分析與博彩策略",
       "sportsCat": "world-cup"
     }
   ]
