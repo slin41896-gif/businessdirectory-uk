@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-06-2030",
+      "headline": "2026 NBA總決賽：博彩市場熱點分析",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-06",
+      "lead": "隨著2026年賽季進入尾聲，全球籃球迷的目光正聚焦於即將拉開序幕的NBA總決賽。這不僅是兩支頂尖球隊爭奪最高榮譽的舞台，更是國際體育博彩市場最受矚目的盛事之一。",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-06-2030/1200/628",
+      "imageAlt": "2026 NBA總決賽：博彩市場熱點分析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-06-2000",
       "headline": "2026世界盃：賽事深度分析與博彩策略",
       "category": "世界盃",
