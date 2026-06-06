@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-06-2300",
+      "headline": "2026世界盃：數據導航博彩策略",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-06",
+      "lead": "2026世界盃的腳步日益臨近，小組賽階段的各項準備工作正如火如荼地展開。作為香港博彩市場的深度分析師，本文將為您帶來對即將到來的小組賽的全面預測與深度剖析，特別",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-06-2300/1200/628",
+      "imageAlt": "2026世界盃：數據導航博彩策略",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "sports-intl-2026-06-06-2230",
       "headline": "2026 NBA總決賽：國際體育博彩深度分析",
       "category": "國際體育",
@@ -74,15 +85,6 @@
       "date": "",
       "lead": "",
       "imageUrl": "https://picsum.photos/seed/2026-06-04-dodgers-edge-dbacks-one-run-win-mlb/800/450"
-    },
-    {
-      "slug": "2026-06-04-joshua-kimmich-germany-captain-leader",
-      "cat": "football",
-      "headline": "2026-06-04-joshua-kimmich-germany-captain-leader",
-      "category": "足球",
-      "date": "",
-      "lead": "",
-      "imageUrl": "https://picsum.photos/seed/2026-06-04-joshua-kimmich-germany-captain-leader/800/450"
     }
   ]
 }
