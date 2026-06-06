@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-06-2230",
+      "headline": "2026 NBA總決賽：國際體育博彩深度分析",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-06",
+      "lead": "2026年，全球體育迷的目光將再次聚焦在NBA總決賽的巔峰對決。作為國際體育博彩市場中最具話題性和影響力的賽事之一，NBA總決賽不僅是球隊榮譽的爭奪，更是博彩公",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-06-2230/1200/628",
+      "imageAlt": "2026 NBA總決賽：國際體育博彩深度分析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-06-2200",
       "headline": "2026世界盃：小組賽前瞻與博彩市場洞察",
       "category": "世界盃",
@@ -72,15 +83,6 @@
       "date": "",
       "lead": "",
       "imageUrl": "https://picsum.photos/seed/2026-06-04-joshua-kimmich-germany-captain-leader/800/450"
-    },
-    {
-      "slug": "2026-06-05-nba-finals-ticket-prices-money-game",
-      "cat": "nba",
-      "headline": "2026-06-05-nba-finals-ticket-prices-money-game",
-      "category": "NBA 籃球",
-      "date": "",
-      "lead": "",
-      "imageUrl": "https://picsum.photos/seed/2026-06-05-nba-finals-ticket-prices-money-game/800/450"
     }
   ]
 }
