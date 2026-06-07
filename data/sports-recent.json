@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-07-nba-knicks-spurs",
+      "headline": "尼克領先2-0，NBA總冠軍 odds -500，國際體育博彩受矚目",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-07",
+      "lead": "2026年NBA總冠軍賽進入白熱化階段，紐約尼克隊展現強勁實力，目前以2-0的大幅領先優勢，遙遙領先聖安東尼奧馬刺隊。根據權威博彩機構的數據顯示，尼克隊的總冠軍",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-nba-knicks-spurs/1200/628",
+      "imageAlt": "尼克領先2-0，NBA總冠軍 odds -500，國際體育博彩受矚目",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-07-2000",
       "headline": "2026世界盃：博彩市場深度分析",
       "category": "世界盃",
@@ -75,17 +86,6 @@
       "lead": "2026世界盃的腳步日益臨近，全球足球迷的目光早已聚焦於這場四年一度的體壇盛事。作為一個專精香港博彩市場的深度分析師，我將為您帶來最前沿、最獨到的賽事解讀。今日",
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1700/1200/628",
       "imageAlt": "2026世界盃：博彩市場動態與賽前預測",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "sports-intl-2026-06-07-1630",
-      "headline": "2026 NBA總決賽：亞洲博彩市場焦點",
-      "category": "國際體育",
-      "emoji": "🏆",
-      "date": "2026-06-07",
-      "lead": "2026年，體育賽事日程表再次點燃全球體育愛好者的熱情。其中，六月份的NBA總決賽無疑是眾所矚目的焦點，其熱度不僅席捲了北美賽場，更深深牽動著亞洲地區的國際體育",
-      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-1630/1200/628",
-      "imageAlt": "2026 NBA總決賽：亞洲博彩市場焦點",
       "sportsCat": "world-cup"
     }
   ]
