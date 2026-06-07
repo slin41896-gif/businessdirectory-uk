@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-07-1530",
+      "headline": "尼克-500遙遙領先 2026 NBA總冠軍 FanDuel賠率分析",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-07",
+      "lead": "2026年NBA總冠軍賽戰況激烈，紐約尼克隊在系列賽中以2-0領先聖安東尼奧馬刺隊，展現出強勁的奪冠勢頭。根據知名博彩平台FanDuel Sportsbook的",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-1530/1200/628",
+      "imageAlt": "尼克-500遙遙領先 2026 NBA總冠軍 FanDuel賠率分析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-07-1500",
       "headline": "2026世界盃：香港博彩市場深度分析",
       "category": "世界盃",
@@ -75,17 +86,6 @@
       "lead": "2026世界盃的腳步日益臨近，作為歷史上規模最大的一屆賽事，本屆世界盃將有48支球隊參與，橫跨美國、加拿大和墨西哥。對於香港的博彩愛好者而言，這意味著更豐富的投",
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1200/1200/628",
       "imageAlt": "2026世界盃：亞洲球隊潛力與冷門預測",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "sports-intl-2026-06-07-1130",
-      "headline": "NBA總冠軍賽2026：勇士王朝的終極考驗",
-      "category": "國際體育",
-      "emoji": "🏆",
-      "date": "2026-06-07",
-      "lead": "2026年的NBA總冠軍賽，注定是火花四濺、牽動全球籃球迷目光的盛事。尤其是金州勇士隊，這支近年來締造輝煌王朝的隊伍，在本賽季是否能再次證明他們的統治力，將是國",
-      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-1130/1200/628",
-      "imageAlt": "NBA總冠軍賽2026：勇士王朝的終極考驗",
       "sportsCat": "world-cup"
     }
   ]
