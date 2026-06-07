@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-07-2200",
+      "headline": "2026世界盃：香港博彩市場深度剖析",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-07",
+      "lead": "2026世界盃，這場規模空前的足球盛事，正以其獨特的魅力席捲全球。作為香港博彩市場的深度分析師，我們將聚焦於小組賽階段，為您帶來最前沿的賽事洞察。儘管今日暫無賽",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-2200/1200/628",
+      "imageAlt": "2026世界盃：香港博彩市場深度剖析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "sports-intl-2026-06-07-2130",
       "headline": "2026 NBA總決賽：博彩市場焦點",
       "category": "國際體育",
@@ -75,17 +86,6 @@
       "lead": "2026年，體育盛事雲集，而NBA總冠軍賽無疑是全球籃球迷和國際體育博彩市場最為關注的焦點之一。隨著賽季的推進，各支球隊為了爭奪至高榮譽展開激烈角逐，這也為廣大",
       "imageUrl": "https://picsum.photos/seed/nba-finals-2026-betting-analysis/1200/628",
       "imageAlt": "NBA總冠軍賽：2026年國際體育博彩熱門選項",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "wc2026-analysis-2026-06-07-1800",
-      "headline": "2026世界盃博彩市場深度剖析",
-      "category": "世界盃",
-      "emoji": "⚽",
-      "date": "2026-06-07",
-      "lead": "2026世界盃的腳步日益臨近，這將是史上規模最盛大的足球盛事，參賽隊伍擴展至48支，橫跨美國、加拿大及墨西哥。對於熱衷於足球博彩的香港玩家而言，這無疑是一個充滿",
-      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1800/1200/628",
-      "imageAlt": "2026世界盃博彩市場深度剖析",
       "sportsCat": "world-cup"
     }
   ]
