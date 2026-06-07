@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-07-1200",
+      "headline": "2026世界盃：亞洲球隊潛力與冷門預測",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-07",
+      "lead": "2026世界盃的腳步日益臨近，作為歷史上規模最大的一屆賽事，本屆世界盃將有48支球隊參與，橫跨美國、加拿大和墨西哥。對於香港的博彩愛好者而言，這意味著更豐富的投",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1200/1200/628",
+      "imageAlt": "2026世界盃：亞洲球隊潛力與冷門預測",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "sports-intl-2026-06-07-1130",
       "headline": "NBA總冠軍賽2026：勇士王朝的終極考驗",
       "category": "國際體育",
@@ -75,17 +86,6 @@
       "lead": "NBA總決賽戰況激烈，紐約人憑藉雲班亞馬最後一擊不中，以105-104險勝馬刺，總場數領先2比0，離總冠軍只差一步。",
       "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
-    },
-    {
-      "slug": "sports-intl-2026-06-06-2330",
-      "headline": "2026 NBA總冠軍賽：尼克遙遙領先，博彩賠率分析",
-      "category": "國際體育",
-      "emoji": "🏆",
-      "date": "2026-06-06",
-      "lead": "2026年的NBA總冠軍賽戰況正如火如荼，其中紐約尼克隊以驚人的表現，在系列賽中取得2-0的領先優勢，更在博彩市場上成為了-500的絕對熱門。這意味著，若尼克最",
-      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-06-2330/1200/628",
-      "imageAlt": "2026 NBA總冠軍賽：尼克遙遙領先，博彩賠率分析",
-      "sportsCat": "world-cup"
     }
   ]
 }
