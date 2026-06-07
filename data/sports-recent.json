@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-07-1330",
+      "headline": "2026 NBA總決賽：尼克-500奪冠熱門",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-07",
+      "lead": "2026年的NBA總決賽已進入白熱化階段，根據最新消息，紐約尼克隊以驚人的-500盤口成為奪冠最大熱門。在系列賽中以2-0領先對手聖安東尼奧馬刺隊，這讓他們在冠",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-1330/1200/628",
+      "imageAlt": "2026 NBA總決賽：尼克-500奪冠熱門",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-07-1300",
       "headline": "2026世界盃：香港博彩市場深度分析",
       "category": "世界盃",
@@ -75,17 +86,6 @@
       "lead": "2026世界盃的戰火即將點燃，全球球迷的目光再次聚焦。作為香港博彩市場的深度分析師，我們將為您帶來最權威、最前沿的賽事預測與投注指南。從各支球隊的實力分析，到潛",
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1000/1200/628",
       "imageAlt": "2026世界盃：奪冠熱門與冷門預測",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "sports-intl-2026-06-07-0930",
-      "headline": "NBA總決賽：尼克領先，博彩市場如何反應？",
-      "category": "國際體育",
-      "emoji": "🏆",
-      "date": "2026-06-07",
-      "lead": "2026年的NBA總決賽舞台已然搭建，紐約尼克隊在系列賽中以2-0的絕對優勢領跑，展現出強大的統治力。這不僅讓總冠軍的懸念驟減，更在國際體育博彩市場掀起了巨浪。",
-      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-0930/1200/628",
-      "imageAlt": "NBA總決賽：尼克領先，博彩市場如何反應？",
       "sportsCat": "world-cup"
     }
   ]
