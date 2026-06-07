@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-07-1230",
+      "headline": "2026 NBA總冠軍賽：尼克 vs. 馬刺，博彩分析",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-07",
+      "lead": "2026年的NBA總冠軍賽火熱開打，紐約尼克隊以驚人的勢頭，在總冠軍賽系列賽中取得2比0的領先，遙遙領先聖安東尼奧馬刺隊。這場備受矚目的對決，不僅吸引了全球籃球",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-1230/1200/628",
+      "imageAlt": "2026 NBA總冠軍賽：尼克 vs. 馬刺，博彩分析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-07-1200",
       "headline": "2026世界盃：亞洲球隊潛力與冷門預測",
       "category": "世界盃",
@@ -76,16 +87,6 @@
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-0900/1200/628",
       "imageAlt": "2026世界盃：深度博彩市場分析",
       "sportsCat": "world-cup"
-    },
-    {
-      "slug": "nba-finals-knicks-beat-spurs-2-0-june-7-2026",
-      "headline": "紐約人險勝馬刺1分 總決賽場數領先2比0",
-      "category": "體育資訊",
-      "sportsCat": "nba",
-      "date": "2026-06-07",
-      "lead": "NBA總決賽戰況激烈，紐約人憑藉雲班亞馬最後一擊不中，以105-104險勝馬刺，總場數領先2比0，離總冠軍只差一步。",
-      "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
     }
   ]
 }
