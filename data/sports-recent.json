@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-07-1300",
+      "headline": "2026世界盃：香港博彩市場深度分析",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-07",
+      "lead": "2026世界盃的腳步日益臨近，作為全球最受矚目的足球盛事，其博彩市場的熱度早已不亞於賽場本身。在香港，足球博彩擁有深厚的根基和廣泛的受眾，本篇文章將結合最新的賽",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1300/1200/628",
+      "imageAlt": "2026世界盃：香港博彩市場深度分析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "sports-intl-2026-06-07-1230",
       "headline": "2026 NBA總冠軍賽：尼克 vs. 馬刺，博彩分析",
       "category": "國際體育",
@@ -75,17 +86,6 @@
       "lead": "2026年的NBA總決賽舞台已然搭建，紐約尼克隊在系列賽中以2-0的絕對優勢領跑，展現出強大的統治力。這不僅讓總冠軍的懸念驟減，更在國際體育博彩市場掀起了巨浪。",
       "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-0930/1200/628",
       "imageAlt": "NBA總決賽：尼克領先，博彩市場如何反應？",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "wc2026-analysis-2026-06-07-0900",
-      "headline": "2026世界盃：深度博彩市場分析",
-      "category": "世界盃",
-      "emoji": "⚽",
-      "date": "2026-06-07",
-      "lead": "2026世界盃的腳步日益臨近，這將是歷史上規模最大的一屆賽事，48支球隊將在美國、加拿大和墨西哥三國上演精彩對決。在小組賽階段，博彩市場已經硝煙瀰漫，各路專家和",
-      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-0900/1200/628",
-      "imageAlt": "2026世界盃：深度博彩市場分析",
       "sportsCat": "world-cup"
     }
   ]
