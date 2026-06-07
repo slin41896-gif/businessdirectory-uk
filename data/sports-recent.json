@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-07-1600",
+      "headline": "2026世界盃：誰將捧起大力神盃？",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-07",
+      "lead": "2026世界盃的戰火已燃燒至小組賽階段，雖然今日暫無賽事，但場外的博弈早已進入白熱化。作為專精香港博彩市場的深度分析師，本文將為您帶來獨家視角，深入剖析各支隊伍",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1600/1200/628",
+      "imageAlt": "2026世界盃：誰將捧起大力神盃？",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "sports-intl-2026-06-07-1530",
       "headline": "尼克-500遙遙領先 2026 NBA總冠軍 FanDuel賠率分析",
       "category": "國際體育",
@@ -75,17 +86,6 @@
       "lead": "2026年的NBA總冠軍賽火熱開打，紐約尼克隊以驚人的勢頭，在總冠軍賽系列賽中取得2比0的領先，遙遙領先聖安東尼奧馬刺隊。這場備受矚目的對決，不僅吸引了全球籃球",
       "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-1230/1200/628",
       "imageAlt": "2026 NBA總冠軍賽：尼克 vs. 馬刺，博彩分析",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "wc2026-analysis-2026-06-07-1200",
-      "headline": "2026世界盃：亞洲球隊潛力與冷門預測",
-      "category": "世界盃",
-      "emoji": "⚽",
-      "date": "2026-06-07",
-      "lead": "2026世界盃的腳步日益臨近，作為歷史上規模最大的一屆賽事，本屆世界盃將有48支球隊參與，橫跨美國、加拿大和墨西哥。對於香港的博彩愛好者而言，這意味著更豐富的投",
-      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1200/1200/628",
-      "imageAlt": "2026世界盃：亞洲球隊潛力與冷門預測",
       "sportsCat": "world-cup"
     }
   ]
