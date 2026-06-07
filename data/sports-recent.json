@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-08-nba-robinson-foul-rescinded-referee-controversy",
+      "headline": "尼克Robinson犯規撤銷，裁判尺度成焦點",
+      "category": "體育資訊",
+      "sportsCat": "nba",
+      "date": "2026-06-08",
+      "lead": "NBA總冠軍賽再掀波瀾！尼克中鋒Robinson對Wembanyama的爭議性技術犯規被NBA官方撤銷，裁判尺度引發廣泛討論。",
+      "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
+    },
+    {
       "slug": "sports-intl-2026-06-07-2330",
       "headline": "2026 NBA總冠軍賽：國際體育博彩市場熱點分析",
       "category": "國際體育",
@@ -75,17 +85,6 @@
       "lead": "2026年NBA總冠軍賽進入白熱化階段，紐約尼克隊展現強勁實力，目前以2-0的大幅領先優勢，遙遙領先聖安東尼奧馬刺隊。根據權威博彩機構的數據顯示，尼克隊的總冠軍",
       "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-nba-knicks-spurs/1200/628",
       "imageAlt": "尼克領先2-0，NBA總冠軍 odds -500，國際體育博彩受矚目",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "wc2026-analysis-2026-06-07-2000",
-      "headline": "2026世界盃：博彩市場深度分析",
-      "category": "世界盃",
-      "emoji": "⚽",
-      "date": "2026-06-07",
-      "lead": "2026世界盃的腳步日益臨近，這將是史上規模最盛大的一屆賽事，擴軍至48支球隊，橫跨美國、加拿大及墨西哥。對於熱衷足球博彩的香港市場而言，這意味著前所未有的機遇",
-      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-2000/1200/628",
-      "imageAlt": "2026世界盃：博彩市場深度分析",
       "sportsCat": "world-cup"
     }
   ]
