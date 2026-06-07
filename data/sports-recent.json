@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-07-1700",
+      "headline": "2026世界盃：博彩市場動態與賽前預測",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-07",
+      "lead": "2026世界盃的腳步日益臨近，全球足球迷的目光早已聚焦於這場四年一度的體壇盛事。作為一個專精香港博彩市場的深度分析師，我將為您帶來最前沿、最獨到的賽事解讀。今日",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1700/1200/628",
+      "imageAlt": "2026世界盃：博彩市場動態與賽前預測",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "sports-intl-2026-06-07-1630",
       "headline": "2026 NBA總決賽：亞洲博彩市場焦點",
       "category": "國際體育",
@@ -75,17 +86,6 @@
       "lead": "2026年的NBA總決賽已進入白熱化階段，根據最新消息，紐約尼克隊以驚人的-500盤口成為奪冠最大熱門。在系列賽中以2-0領先對手聖安東尼奧馬刺隊，這讓他們在冠",
       "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-1330/1200/628",
       "imageAlt": "2026 NBA總決賽：尼克-500奪冠熱門",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "wc2026-analysis-2026-06-07-1300",
-      "headline": "2026世界盃：香港博彩市場深度分析",
-      "category": "世界盃",
-      "emoji": "⚽",
-      "date": "2026-06-07",
-      "lead": "2026世界盃的腳步日益臨近，作為全球最受矚目的足球盛事，其博彩市場的熱度早已不亞於賽場本身。在香港，足球博彩擁有深厚的根基和廣泛的受眾，本篇文章將結合最新的賽",
-      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1300/1200/628",
-      "imageAlt": "2026世界盃：香港博彩市場深度分析",
       "sportsCat": "world-cup"
     }
   ]
