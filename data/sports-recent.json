@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-07-0900",
+      "headline": "2026世界盃：深度博彩市場分析",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-07",
+      "lead": "2026世界盃的腳步日益臨近，這將是歷史上規模最大的一屆賽事，48支球隊將在美國、加拿大和墨西哥三國上演精彩對決。在小組賽階段，博彩市場已經硝煙瀰漫，各路專家和",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-0900/1200/628",
+      "imageAlt": "2026世界盃：深度博彩市場分析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "nba-finals-knicks-beat-spurs-2-0-june-7-2026",
       "headline": "紐約人險勝馬刺1分 總決賽場數領先2比0",
       "category": "體育資訊",
@@ -74,17 +85,6 @@
       "lead": "2026 FIFA世界盃的腳步日益臨近，全球足球迷的目光再次聚焦。作為香港博彩市場的深度分析師，本文將為您帶來賽前最權威、最貼近市場動態的深度分析。我們將從小組",
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-06-2100/1200/628",
       "imageAlt": "2026世界盃：博彩市場前瞻",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "sports-intl-2026-06-06-2030",
-      "headline": "2026 NBA總決賽：博彩市場熱點分析",
-      "category": "國際體育",
-      "emoji": "🏆",
-      "date": "2026-06-06",
-      "lead": "隨著2026年賽季進入尾聲，全球籃球迷的目光正聚焦於即將拉開序幕的NBA總決賽。這不僅是兩支頂尖球隊爭奪最高榮譽的舞台，更是國際體育博彩市場最受矚目的盛事之一。",
-      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-06-2030/1200/628",
-      "imageAlt": "2026 NBA總決賽：博彩市場熱點分析",
       "sportsCat": "world-cup"
     }
   ]
