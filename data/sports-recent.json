@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-07-2230",
+      "headline": "2026 NBA 總決賽：博彩市場深度剖析",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-07",
+      "lead": "2026 年的體育盛事即將引爆全球，其中，六月份的 NBA 總決賽無疑是籃球迷與博彩愛好者最為關注的焦點。作為國際體育博彩市場的資深分析師，我們將深入剖析這場籃",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-2230/1200/628",
+      "imageAlt": "2026 NBA 總決賽：博彩市場深度剖析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-07-2200",
       "headline": "2026世界盃：香港博彩市場深度剖析",
       "category": "世界盃",
@@ -75,17 +86,6 @@
       "lead": "2026世界盃，這場被譽為史上規模最大的足球盛事，正以其獨特的魅力吸引著全球目光。隨著小組賽的深入進行，香港博彩市場的動態亦日益活躍。作為專注於此領域的深度分析",
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-1900/1200/628",
       "imageAlt": "2026世界盃：博彩市場深度剖析",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "nba-finals-2026-betting-analysis",
-      "headline": "NBA總冠軍賽：2026年國際體育博彩熱門選項",
-      "category": "體育博彩",
-      "emoji": "🏀",
-      "date": "2026-06-07",
-      "lead": "2026年，體育盛事雲集，而NBA總冠軍賽無疑是全球籃球迷和國際體育博彩市場最為關注的焦點之一。隨著賽季的推進，各支球隊為了爭奪至高榮譽展開激烈角逐，這也為廣大",
-      "imageUrl": "https://picsum.photos/seed/nba-finals-2026-betting-analysis/1200/628",
-      "imageAlt": "NBA總冠軍賽：2026年國際體育博彩熱門選項",
       "sportsCat": "world-cup"
     }
   ]
