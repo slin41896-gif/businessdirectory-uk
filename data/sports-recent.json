@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-07-1030",
+      "headline": "2026 NBA總冠軍戰：尼克遙遙領先",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-07",
+      "lead": "2026年NBA總冠軍賽正如火如荼地展開，紐約尼克隊在系列賽中以2比0的絕對優勢領先，展現出問鼎總冠軍的強烈企圖心。根據最新的博彩數據顯示，尼克隊的奪冠賠率已大",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-1030/1200/628",
+      "imageAlt": "2026 NBA總冠軍戰：尼克遙遙領先",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-07-1000",
       "headline": "2026世界盃：奪冠熱門與冷門預測",
       "category": "世界盃",
@@ -74,17 +85,6 @@
       "lead": "2026年，全球體育迷的目光將再次聚焦在NBA總決賽的巔峰對決。作為國際體育博彩市場中最具話題性和影響力的賽事之一，NBA總決賽不僅是球隊榮譽的爭奪，更是博彩公",
       "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-06-2230/1200/628",
       "imageAlt": "2026 NBA總決賽：國際體育博彩深度分析",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "wc2026-analysis-2026-06-06-2200",
-      "headline": "2026世界盃：小組賽前瞻與博彩市場洞察",
-      "category": "世界盃",
-      "emoji": "⚽",
-      "date": "2026-06-06",
-      "lead": "2026世界盃的腳步越來越近，全球足球迷的目光早已聚焦於這場體壇盛事。作為香港博彩市場的深度分析師，我將為您帶來最精準的小組賽前瞻與投注策略。本次分析將結合最新",
-      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-06-2200/1200/628",
-      "imageAlt": "2026世界盃：小組賽前瞻與博彩市場洞察",
       "sportsCat": "world-cup"
     }
   ]
