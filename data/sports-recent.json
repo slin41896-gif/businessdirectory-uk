@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-08-0900",
+      "headline": "2026世界盃：香港博彩市場深度分析",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-08",
+      "lead": "2026世界盃的戰火即將點燃，全球足球迷的目光將再次聚焦於這場四年一度的體育盛事。作為亞洲區重要的博彩市場，香港的盤口分析和投注趨勢往往能反映出市場的真實預期。",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-0900/1200/628",
+      "imageAlt": "2026世界盃：香港博彩市場深度分析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "2026-06-08-nba-robinson-foul-rescinded-referee-controversy",
       "headline": "尼克Robinson犯規撤銷，裁判尺度成焦點",
       "category": "體育資訊",
@@ -74,17 +85,6 @@
       "lead": "2026世界盃，史上規模最盛大的一屆，正以前所未有的熱度席捲全球。隨著小組賽的深入，各支隊伍的表現也日益受到關注，特別是在香港這個充滿活力的博彩市場。本文將從深",
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-07-2100/1200/628",
       "imageAlt": "2026世界盃：專家博彩分析",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "sports-intl-2026-06-07-nba-knicks-spurs",
-      "headline": "尼克領先2-0，NBA總冠軍 odds -500，國際體育博彩受矚目",
-      "category": "國際體育",
-      "emoji": "🏆",
-      "date": "2026-06-07",
-      "lead": "2026年NBA總冠軍賽進入白熱化階段，紐約尼克隊展現強勁實力，目前以2-0的大幅領先優勢，遙遙領先聖安東尼奧馬刺隊。根據權威博彩機構的數據顯示，尼克隊的總冠軍",
-      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-nba-knicks-spurs/1200/628",
-      "imageAlt": "尼克領先2-0，NBA總冠軍 odds -500，國際體育博彩受矚目",
       "sportsCat": "world-cup"
     }
   ]
