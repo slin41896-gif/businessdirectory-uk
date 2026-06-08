@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-08-1530",
+      "headline": "2026世界盃：小組賽現況與奪冠熱門",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-08",
+      "lead": "2026世界盃，這將是歷史上規模最盛大的一屆賽事，首次擴軍至48支球隊，並橫跨美國、加拿大及墨西哥三個國家。隨著小組賽的逐步展開，各支球隊的表現成為全球足球迷關",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-1530/1200/628",
+      "imageAlt": "2026世界盃：小組賽現況與奪冠熱門",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "sports-intl-2026-06-08-1500",
       "headline": "2026 NBA總冠軍賽：群雄逐鹿，國際體育博彩市場風起雲湧",
       "category": "國際體育",
@@ -73,17 +84,6 @@
       "lead": "2026世界盃的腳步日益臨近，小組賽的賽況牽動著全球數十億球迷的心。本屆賽事規模空前，共有48支隊伍將在美國、加拿大及墨西哥三國展開較量，這無疑為比賽增添了更多",
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-1300/1200/628",
       "imageAlt": "2026世界盃：小組賽深度分析",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "sports-intl-2026-06-08-1230",
-      "headline": "2026 NBA總冠軍賽：尼克獨領風騷",
-      "category": "國際體育",
-      "emoji": "🏆",
-      "date": "2026-06-08",
-      "lead": "2026年的NBA總冠軍賽正如火如荼地展開，其中紐約尼克隊展現出驚人的統治力，以-450的賠率成為奪冠最大熱門，遠超對手聖安東尼奧馬刺隊的+350。在已經取得兩",
-      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-08-1230/1200/628",
-      "imageAlt": "2026 NBA總冠軍賽：尼克獨領風騷",
       "sportsCat": "world-cup"
     }
   ]
