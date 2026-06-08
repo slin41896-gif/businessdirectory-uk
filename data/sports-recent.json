@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-08-1200",
+      "headline": "2026世界盃：博彩市場深度剖析",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-08",
+      "lead": "2026世界盃小組賽正如火如荼地展開，雖然今日沒有特定賽事，但這正是我們深入剖析賽場動態、預測未來走向的最佳時機。作為專精香港博彩市場的深度分析師，我將為您帶來",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-1200/1200/628",
+      "imageAlt": "2026世界盃：博彩市場深度剖析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "sports-intl-2026-06-08-1130",
       "headline": "2026 NBA總決賽：國際體育博彩市場前瞻",
       "category": "國際體育",
@@ -75,17 +86,6 @@
       "lead": "NBA總冠軍賽再掀波瀾！尼克中鋒Robinson對Wembanyama的爭議性技術犯規被NBA官方撤銷，裁判尺度引發廣泛討論。",
       "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
-    },
-    {
-      "slug": "sports-intl-2026-06-07-2330",
-      "headline": "2026 NBA總冠軍賽：國際體育博彩市場熱點分析",
-      "category": "國際體育",
-      "emoji": "🏆",
-      "date": "2026-06-07",
-      "lead": "隨著2026年進入年中，體育博彩界的目光無不聚焦在即將到來的NBA總冠軍賽。這不僅是籃球界的最高殿堂，更是全球「國際體育博彩」市場中最受矚目的盛事之一。從美國本",
-      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-07-2330/1200/628",
-      "imageAlt": "2026 NBA總冠軍賽：國際體育博彩市場熱點分析",
-      "sportsCat": "world-cup"
     }
   ]
 }
