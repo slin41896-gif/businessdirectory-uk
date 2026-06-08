@@ -12,18 +12,6 @@
     "used_date": "2026-05-29"
   },
   {
-    "id": 2,
-    "niche": "main",
-    "keyword": "合法博彩平台",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "official license document with regulatory seal and legal framework symbols",
-    "status": "used",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字",
-    "slug": "hk-legal-gambling-platform-regulatory-guide",
-    "used_date": "2026-05-29"
-  },
-  {
     "id": 3,
     "niche": "main",
     "keyword": "持牌娛樂平台",
@@ -60,18 +48,6 @@
     "used_date": "2026-06-01"
   },
   {
-    "id": 6,
-    "niche": "main",
-    "keyword": "博彩平台推薦",
-    "category": "消費者工具",
-    "angle": "市場比較型",
-    "image_theme": "comparison chart with multiple platform logos rated by independent analysts",
-    "status": "used",
-    "writing_style": "市場研究語氣，含數據比較，客觀，1100字",
-    "slug": "hong-kong-betting-platform-recommendation-guide",
-    "used_date": "2026-06-02"
-  },
-  {
     "id": 7,
     "niche": "main",
     "keyword": "香港娛樂平台",
@@ -82,42 +58,6 @@
     "writing_style": "市場研究語氣，含數據比較，客觀，1100字",
     "slug": "hong-kong-entertainment-platform-comparison",
     "used_date": "2026-06-02"
-  },
-  {
-    "id": 8,
-    "niche": "main",
-    "keyword": "博彩平台比較",
-    "category": "消費者工具",
-    "angle": "技術評測型",
-    "image_theme": "side-by-side platform comparison table with analytical metrics and ratings",
-    "status": "used",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字",
-    "slug": "hong-kong-betting-platform-comparison",
-    "used_date": "2026-06-02"
-  },
-  {
-    "id": 9,
-    "niche": "main",
-    "keyword": "安全博彩平台",
-    "category": "平台監管",
-    "angle": "技術評測型",
-    "image_theme": "cybersecurity shield protecting online platform with encryption symbols and safety indicators",
-    "status": "used",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字",
-    "slug": "hong-kong-safe-betting-platform-tech-review",
-    "used_date": "2026-06-03"
-  },
-  {
-    "id": 10,
-    "niche": "main",
-    "keyword": "負責任博彩",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "responsible gambling awareness symbols with support resources and helpline imagery",
-    "status": "used",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字",
-    "slug": "hong-kong-responsible-gaming-policy",
-    "used_date": "2026-06-06"
   },
   {
     "id": 11,
@@ -132,26 +72,6 @@
     "used_date": "2026-06-08"
   },
   {
-    "id": 12,
-    "niche": "main",
-    "keyword": "加密貨幣博彩",
-    "category": "市場數據",
-    "angle": "行業分析型",
-    "image_theme": "cryptocurrency coins and blockchain technology integrated with digital gaming industry",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
-    "id": 13,
-    "niche": "main",
-    "keyword": "BTC 博彩平台",
-    "category": "市場數據",
-    "angle": "行業分析型",
-    "image_theme": "Bitcoin symbol integrated with online gaming platform analytics and market trend charts",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
     "id": 14,
     "niche": "main",
     "keyword": "USDT 娛樂平台",
@@ -162,42 +82,12 @@
     "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
   },
   {
-    "id": 15,
-    "niche": "main",
-    "keyword": "HKD 博彩平台",
-    "category": "HK本地",
-    "angle": "市場比較型",
-    "image_theme": "Hong Kong dollar currency symbol with local digital gaming market comparison data",
-    "status": "available",
-    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
-  },
-  {
     "id": 16,
     "niche": "main",
     "keyword": "KYC 驗證流程",
     "category": "平台監管",
     "angle": "監管說明型",
     "image_theme": "identity verification process flowchart with document scanning and compliance checkpoints",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 17,
-    "niche": "main",
-    "keyword": "Self-Exclusion 博彩",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "self-exclusion program infographic with support pathways and regulatory compliance indicators",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 18,
-    "niche": "main",
-    "keyword": "問題博彩支援",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "support services network diagram with counseling resources and helpline contact information",
     "status": "available",
     "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
   },
@@ -212,36 +102,6 @@
     "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
   },
   {
-    "id": 20,
-    "niche": "main",
-    "keyword": "博彩投訴機制",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "consumer complaint escalation flowchart with regulatory authority contact points and resolution timeline",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 21,
-    "niche": "main",
-    "keyword": "博彩市場規模",
-    "category": "市場數據",
-    "angle": "數據報告型",
-    "image_theme": "global gambling market size infographic with growth trajectory charts and revenue statistics",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 22,
-    "niche": "main",
-    "keyword": "亞洲博彩市場",
-    "category": "市場數據",
-    "angle": "行業分析型",
-    "image_theme": "Asia-Pacific gambling market map with regional revenue data and growth indicators",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
     "id": 23,
     "niche": "main",
     "keyword": "電競投注市場",
@@ -250,56 +110,6 @@
     "image_theme": "esports betting market growth chart with tournament statistics and player demographic data",
     "status": "available",
     "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
-    "id": 24,
-    "niche": "main",
-    "keyword": "加密博彩市場",
-    "category": "市場數據",
-    "angle": "數據報告型",
-    "image_theme": "crypto gambling market statistics dashboard with blockchain transaction volume and market share data",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 25,
-    "niche": "main",
-    "keyword": "香港合法博彩",
-    "category": "HK本地",
-    "angle": "監管說明型",
-    "image_theme": "Hong Kong legal gaming framework diagram with HKJC authorization and regulatory structure",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 26,
-    "niche": "main",
-    "keyword": "香港博彩法律",
-    "category": "HK本地",
-    "angle": "監管說明型",
-    "image_theme": "Hong Kong gambling ordinance legal documents with court and regulatory authority imagery",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 27,
-    "niche": "main",
-    "keyword": "香港負責任博彩",
-    "category": "HK本地",
-    "angle": "監管說明型",
-    "image_theme": "responsible gambling campaign materials in Hong Kong context with local support organization logos",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 28,
-    "niche": "main",
-    "keyword": "香港體育博彩",
-    "category": "HK本地",
-    "angle": "市場比較型",
-    "image_theme": "Hong Kong sports betting market overview with HKJC data and regional comparison statistics",
-    "status": "available",
-    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
   },
   {
     "id": 29,
@@ -312,16 +122,6 @@
     "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
   },
   {
-    "id": 30,
-    "niche": "main",
-    "keyword": "博彩 API 數據",
-    "category": "消費者工具",
-    "angle": "技術評測型",
-    "image_theme": "API data integration diagram with gambling data feeds, endpoints, and developer documentation",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
     "id": 31,
     "niche": "main",
     "keyword": "賠率比較工具",
@@ -330,86 +130,6 @@
     "image_theme": "odds comparison software interface with multiple bookmaker feeds and real-time data visualization",
     "status": "available",
     "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 32,
-    "niche": "main",
-    "keyword": "博彩數據分析",
-    "category": "市場數據",
-    "angle": "數據報告型",
-    "image_theme": "gambling data analytics dashboard with statistical models, trend lines, and predictive metrics",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 33,
-    "niche": "main",
-    "keyword": "24 小時客服博彩",
-    "category": "消費者工具",
-    "angle": "技術評測型",
-    "image_theme": "24-hour customer support center with live chat interface and response time metrics",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 34,
-    "niche": "main",
-    "keyword": "移動端博彩平台",
-    "category": "消費者工具",
-    "angle": "技術評測型",
-    "image_theme": "mobile gaming platform interface on smartphone and tablet with performance benchmark data",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 35,
-    "niche": "main",
-    "keyword": "繁體中文博彩平台",
-    "category": "HK本地",
-    "angle": "市場比較型",
-    "image_theme": "Traditional Chinese language gaming platform interface with localization features and regional market data",
-    "status": "available",
-    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
-  },
-  {
-    "id": 36,
-    "niche": "main",
-    "keyword": "最低存款博彩",
-    "category": "消費者工具",
-    "angle": "市場比較型",
-    "image_theme": "minimum deposit comparison chart across multiple platforms with accessibility metrics",
-    "status": "available",
-    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
-  },
-  {
-    "id": 37,
-    "niche": "main",
-    "keyword": "多幣種博彩平台",
-    "category": "跨類別",
-    "angle": "技術評測型",
-    "image_theme": "multi-currency payment system diagram with currency exchange rates and supported coin logos",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 38,
-    "niche": "main",
-    "keyword": "博彩平台評測",
-    "category": "消費者工具",
-    "angle": "技術評測型",
-    "image_theme": "independent platform review methodology chart with scoring criteria and audit process",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 39,
-    "niche": "main",
-    "keyword": "博彩優惠條款",
-    "category": "消費者工具",
-    "angle": "監管說明型",
-    "image_theme": "bonus terms and conditions fine print analysis with consumer protection highlights",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
   },
   {
     "id": 40,
@@ -422,16 +142,6 @@
     "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
   },
   {
-    "id": 41,
-    "niche": "main",
-    "keyword": "博彩帳號安全",
-    "category": "平台監管",
-    "angle": "技術評測型",
-    "image_theme": "account security framework diagram with two-factor authentication, encryption layers, and audit logs",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
     "id": 42,
     "niche": "main",
     "keyword": "提款速度測試",
@@ -440,46 +150,6 @@
     "image_theme": "withdrawal speed benchmark test results chart comparing processing times across payment methods",
     "status": "available",
     "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 43,
-    "niche": "main",
-    "keyword": "博彩行業報告",
-    "category": "市場數據",
-    "angle": "數據報告型",
-    "image_theme": "gambling industry annual report cover with global market statistics and sector performance data",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 44,
-    "niche": "main",
-    "keyword": "線上博彩監管",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "online gambling regulatory framework map with jurisdiction boundaries and licensing authority logos",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 45,
-    "niche": "main",
-    "keyword": "博彩廣告規範",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "gambling advertising standards document with regulatory guidelines and compliance checklist",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 46,
-    "niche": "main",
-    "keyword": "博彩反洗錢",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "anti-money laundering compliance framework diagram with transaction monitoring and reporting structure",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
   },
   {
     "id": 47,
@@ -542,82 +212,12 @@
     "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
   },
   {
-    "id": 53,
-    "niche": "main",
-    "keyword": "博彩平台牌照查詢",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "license verification database interface with regulatory authority lookup tools and verification steps",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 54,
-    "niche": "main",
-    "keyword": "博彩聯盟條款",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "affiliate program terms document with commission structure and compliance requirement highlights",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 55,
-    "niche": "main",
-    "keyword": "博彩平台 2FA",
-    "category": "平台監管",
-    "angle": "技術評測型",
-    "image_theme": "two-factor authentication setup interface with security audit comparison across major platforms",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 56,
-    "niche": "main",
-    "keyword": "博彩用戶數據保護",
-    "category": "平台監管",
-    "angle": "監管說明型",
-    "image_theme": "GDPR and data protection compliance framework for gambling platforms with privacy policy structure",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
     "id": 57,
     "niche": "main",
     "keyword": "Odds API 比較",
     "category": "消費者工具",
     "angle": "技術評測型",
     "image_theme": "odds API provider comparison chart with coverage, latency, pricing tiers, and data accuracy metrics",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 58,
-    "niche": "main",
-    "keyword": "博彩數據 Feed",
-    "category": "消費者工具",
-    "angle": "技術評測型",
-    "image_theme": "sports data feed architecture diagram with real-time streaming infrastructure and API endpoint visualization",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 59,
-    "niche": "main",
-    "keyword": "線上博彩趨勢",
-    "category": "市場數據",
-    "angle": "數據報告型",
-    "image_theme": "online gambling trend analysis dashboard with five-year growth projections and emerging market indicators",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 60,
-    "niche": "main",
-    "keyword": "電子錢包博彩平台",
-    "category": "消費者工具",
-    "angle": "技術評測型",
-    "image_theme": "e-wallet payment method comparison for gambling platforms with transaction speed and fee structure data",
     "status": "available",
     "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
   },
@@ -1528,16 +1128,6 @@
     "category": "消費者保護",
     "angle": "監管說明型",
     "image_theme": "Advertising regulation document for live casino with compliance checklist",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 152,
-    "niche": "live-casino",
-    "keyword": "未成年保護博彩",
-    "category": "消費者保護",
-    "angle": "監管說明型",
-    "image_theme": "Age verification system and minor protection policy in online gambling",
     "status": "available",
     "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
   },
@@ -2462,16 +2052,6 @@
     "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
   },
   {
-    "id": 245,
-    "niche": "slots",
-    "keyword": "問題博彩老虎機",
-    "category": "消費者研究",
-    "angle": "監管說明型",
-    "image_theme": "problem gambling awareness diagram, responsible gaming tools interface, help resources chart",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
     "id": 246,
     "niche": "slots",
     "keyword": "老虎機停損策略",
@@ -2622,16 +2202,6 @@
     "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
   },
   {
-    "id": 261,
-    "niche": "platform-review",
-    "keyword": "博彩平台評測",
-    "category": "條款分析",
-    "angle": "市場比較型",
-    "image_theme": "gambling platform review scorecard, rating comparison table, evaluation criteria chart",
-    "status": "available",
-    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
-  },
-  {
     "id": 262,
     "niche": "platform-review",
     "keyword": "MGA 牌照",
@@ -2732,26 +2302,6 @@
     "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
   },
   {
-    "id": 272,
-    "niche": "platform-review",
-    "keyword": "AML 博彩平台",
-    "category": "KYC合規",
-    "angle": "監管說明型",
-    "image_theme": "anti-money laundering gambling compliance framework, AML policy document, suspicious transaction report",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 273,
-    "niche": "platform-review",
-    "keyword": "博彩 KYC 自動化",
-    "category": "KYC合規",
-    "angle": "技術評測型",
-    "image_theme": "automated KYC verification system diagram, AI identity check interface, document scanning technology",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
     "id": 274,
     "niche": "platform-review",
     "keyword": "流水要求比較",
@@ -2760,16 +2310,6 @@
     "image_theme": "wagering requirement comparison table, playthrough multiplier chart, platform bonus terms data",
     "status": "available",
     "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
-  },
-  {
-    "id": 275,
-    "niche": "platform-review",
-    "keyword": "博彩灰色條款",
-    "category": "條款分析",
-    "angle": "行業分析型",
-    "image_theme": "ambiguous terms and conditions document, grey area clause analysis, consumer risk highlight",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
   },
   {
     "id": 276,
@@ -2892,16 +2432,6 @@
     "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
   },
   {
-    "id": 288,
-    "niche": "platform-review",
-    "keyword": "問題博彩資源",
-    "category": "消費者保護",
-    "angle": "監管說明型",
-    "image_theme": "problem gambling help resources page, support organization logos, helpline contact chart",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
     "id": 289,
     "niche": "platform-review",
     "keyword": "未成年保護措施",
@@ -2918,16 +2448,6 @@
     "category": "技術安全",
     "angle": "技術評測型",
     "image_theme": "TLS 1.3 encryption handshake diagram, SSL certificate comparison, secure connection protocol chart",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 291,
-    "niche": "platform-review",
-    "keyword": "2FA 博彩平台",
-    "category": "技術安全",
-    "angle": "技術評測型",
-    "image_theme": "two-factor authentication gambling platform interface, 2FA setup screen, authentication app diagram",
     "status": "available",
     "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
   },
@@ -2962,26 +2482,6 @@
     "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
   },
   {
-    "id": 295,
-    "niche": "platform-review",
-    "keyword": "博彩平台市場集中度",
-    "category": "牌照合規",
-    "angle": "行業分析型",
-    "image_theme": "gambling market concentration chart, operator market share data, industry consolidation trend",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
-    "id": 296,
-    "niche": "platform-review",
-    "keyword": "博彩平台倒閉案例",
-    "category": "消費者保護",
-    "angle": "數據報告型",
-    "image_theme": "gambling platform collapse case timeline, failed operator history chart, consumer loss statistics",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
     "id": 297,
     "niche": "platform-review",
     "keyword": "Entain GVC 888 架構",
@@ -3002,16 +2502,6 @@
     "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
   },
   {
-    "id": 299,
-    "niche": "platform-review",
-    "keyword": "Affiliate 博彩條款",
-    "category": "條款分析",
-    "angle": "行業分析型",
-    "image_theme": "affiliate marketing terms document, commission structure table, referral program conditions chart",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
     "id": 300,
     "niche": "platform-review",
     "keyword": "香港用戶合法平台",
@@ -3020,36 +2510,6 @@
     "image_theme": "Hong Kong gambling regulation map, legal platform options chart, offshore access legal framework",
     "status": "available",
     "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 301,
-    "niche": "platform-review",
-    "keyword": "香港信用卡博彩",
-    "category": "消費者保護",
-    "angle": "行業分析型",
-    "image_theme": "Hong Kong credit card gambling transaction diagram, payment method restriction chart, bank policy table",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
-    "id": 302,
-    "niche": "platform-review",
-    "keyword": "香港銀行轉帳博彩",
-    "category": "消費者保護",
-    "angle": "行業分析型",
-    "image_theme": "Hong Kong bank transfer gambling process diagram, FPS payment method chart, transaction restriction data",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
-    "id": 303,
-    "niche": "platform-review",
-    "keyword": "新加坡 vs 香港博彩監管",
-    "category": "牌照合規",
-    "angle": "市場比較型",
-    "image_theme": "Singapore vs Hong Kong gambling regulation comparison chart, legal framework side-by-side, regulatory map",
-    "status": "available",
-    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
   },
   {
     "id": 304,
@@ -3062,42 +2522,12 @@
     "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
   },
   {
-    "id": 305,
-    "niche": "platform-review",
-    "keyword": "博彩後台系統供應商",
-    "category": "技術安全",
-    "angle": "行業分析型",
-    "image_theme": "gambling backend system provider comparison, platform software architecture, B2B supplier chart",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
     "id": 306,
     "niche": "platform-review",
     "keyword": "RG 工具技術整合",
     "category": "技術安全",
     "angle": "技術評測型",
     "image_theme": "responsible gambling tool integration diagram, RG API connection, platform feature implementation chart",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 307,
-    "niche": "platform-review",
-    "keyword": "移動端博彩適配",
-    "category": "技術安全",
-    "angle": "技術評測型",
-    "image_theme": "mobile gambling platform adaptation comparison, responsive design test results, app vs browser performance",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 308,
-    "niche": "platform-review",
-    "keyword": "博彩 API 開放程度",
-    "category": "技術安全",
-    "angle": "技術評測型",
-    "image_theme": "gambling platform API documentation, openness rating chart, developer integration capability comparison",
     "status": "available",
     "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
   },
@@ -3110,16 +2540,6 @@
     "image_theme": "real-name verification platform comparison, identity authentication statistics, KYC strictness ranking",
     "status": "available",
     "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 310,
-    "niche": "platform-review",
-    "keyword": "ADR 爭議解決博彩",
-    "category": "消費者保護",
-    "angle": "監管說明型",
-    "image_theme": "alternative dispute resolution gambling process diagram, ADR body logos, complaint escalation flowchart",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
   },
   {
     "id": 311,
@@ -3552,16 +2972,6 @@
     "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
   },
   {
-    "id": 354,
-    "niche": "esports",
-    "keyword": "電競投注問題博彩",
-    "category": "監管合規",
-    "angle": "監管說明型",
-    "image_theme": "responsible gambling in esports awareness campaign with support resources",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
     "id": 355,
     "niche": "esports",
     "keyword": "電競賠率市場份額",
@@ -3622,16 +3032,6 @@
     "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
   },
   {
-    "id": 361,
-    "niche": "crypto-gambling",
-    "keyword": "比特幣博彩",
-    "category": "市場數據",
-    "angle": "行業分析型",
-    "image_theme": "Bitcoin gambling market overview with blockchain visualization and data charts",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
     "id": 362,
     "niche": "crypto-gambling",
     "keyword": "加密貨幣賭場",
@@ -3650,86 +3050,6 @@
     "image_theme": "provably fair algorithm cryptographic hash verification diagram",
     "status": "available",
     "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 364,
-    "niche": "crypto-gambling",
-    "keyword": "無 KYC 博彩",
-    "category": "監管框架",
-    "angle": "監管說明型",
-    "image_theme": "no-KYC gambling platform privacy and regulatory compliance visual",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 365,
-    "niche": "crypto-gambling",
-    "keyword": "BTC 博彩",
-    "category": "市場數據",
-    "angle": "數據報告型",
-    "image_theme": "BTC gambling market size and transaction volume statistics chart",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 366,
-    "niche": "crypto-gambling",
-    "keyword": "ETH 博彩",
-    "category": "市場數據",
-    "angle": "數據報告型",
-    "image_theme": "Ethereum gambling smart contract transaction data visualization",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 367,
-    "niche": "crypto-gambling",
-    "keyword": "USDT 博彩平台",
-    "category": "平台評測",
-    "angle": "市場比較型",
-    "image_theme": "USDT stablecoin gambling platform comparison with deposit speed data",
-    "status": "available",
-    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
-  },
-  {
-    "id": 368,
-    "niche": "crypto-gambling",
-    "keyword": "Monero 博彩",
-    "category": "技術研究",
-    "angle": "技術評測型",
-    "image_theme": "Monero privacy coin gambling anonymity technology diagram",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 369,
-    "niche": "crypto-gambling",
-    "keyword": "匿名博彩平台",
-    "category": "監管框架",
-    "angle": "監管說明型",
-    "image_theme": "anonymous gambling platform privacy framework regulatory overview",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 370,
-    "niche": "crypto-gambling",
-    "keyword": "DeFi 博彩",
-    "category": "技術研究",
-    "angle": "技術評測型",
-    "image_theme": "DeFi gambling protocol smart contract architecture diagram",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 371,
-    "niche": "crypto-gambling",
-    "keyword": "NFT 博彩",
-    "category": "技術研究",
-    "angle": "行業分析型",
-    "image_theme": "NFT gambling asset integration with blockchain game items",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
   },
   {
     "id": 372,
@@ -3762,16 +3082,6 @@
     "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
   },
   {
-    "id": 375,
-    "niche": "crypto-gambling",
-    "keyword": "SHA-256 博彩",
-    "category": "技術研究",
-    "angle": "技術評測型",
-    "image_theme": "SHA-256 cryptographic hash function gambling seed verification visual",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
     "id": 376,
     "niche": "crypto-gambling",
     "keyword": "Rug Pull 賭場",
@@ -3782,62 +3092,12 @@
     "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
   },
   {
-    "id": 377,
-    "niche": "crypto-gambling",
-    "keyword": "Gas Fee 博彩",
-    "category": "技術研究",
-    "angle": "數據報告型",
-    "image_theme": "Ethereum gas fee impact on gambling transaction cost data chart",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 378,
-    "niche": "crypto-gambling",
-    "keyword": "Lightning Network 博彩",
-    "category": "技術研究",
-    "angle": "技術評測型",
-    "image_theme": "Bitcoin Lightning Network instant payment gambling speed diagram",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 379,
-    "niche": "crypto-gambling",
-    "keyword": "Solana 博彩",
-    "category": "技術研究",
-    "angle": "技術評測型",
-    "image_theme": "Solana blockchain gambling platform high speed transaction visual",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 380,
-    "niche": "crypto-gambling",
-    "keyword": "Layer 2 博彩",
-    "category": "技術研究",
-    "angle": "技術評測型",
-    "image_theme": "Layer 2 scaling solution gambling cost reduction technical diagram",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
     "id": 381,
     "niche": "crypto-gambling",
     "keyword": "Rollbit 評測",
     "category": "平台評測",
     "angle": "技術評測型",
     "image_theme": "Rollbit crypto casino platform review interface and game statistics",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 382,
-    "niche": "crypto-gambling",
-    "keyword": "Stake 博彩評測",
-    "category": "平台評測",
-    "angle": "技術評測型",
-    "image_theme": "Stake.com crypto gambling platform independent review and data",
     "status": "available",
     "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
   },
@@ -3852,76 +3112,6 @@
     "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
   },
   {
-    "id": 384,
-    "niche": "crypto-gambling",
-    "keyword": "加密博彩 VIP",
-    "category": "市場數據",
-    "angle": "行業分析型",
-    "image_theme": "crypto gambling VIP program tier structure and rewards analysis",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
-    "id": 385,
-    "niche": "crypto-gambling",
-    "keyword": "加密博彩流水要求",
-    "category": "平台評測",
-    "angle": "市場比較型",
-    "image_theme": "crypto casino wagering requirement comparison table with percentages",
-    "status": "available",
-    "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
-  },
-  {
-    "id": 386,
-    "niche": "crypto-gambling",
-    "keyword": "加密博彩監管",
-    "category": "監管框架",
-    "angle": "監管說明型",
-    "image_theme": "crypto gambling regulatory landscape global jurisdiction map",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 387,
-    "niche": "crypto-gambling",
-    "keyword": "FATF 加密博彩",
-    "category": "監管框架",
-    "angle": "監管說明型",
-    "image_theme": "FATF Financial Action Task Force crypto gambling compliance framework",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 388,
-    "niche": "crypto-gambling",
-    "keyword": "香港加密博彩法律",
-    "category": "監管框架",
-    "angle": "監管說明型",
-    "image_theme": "Hong Kong cryptocurrency gambling legal framework document",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 389,
-    "niche": "crypto-gambling",
-    "keyword": "MiCA 加密博彩",
-    "category": "監管框架",
-    "angle": "監管說明型",
-    "image_theme": "EU MiCA regulation impact on crypto gambling industry diagram",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 390,
-    "niche": "crypto-gambling",
-    "keyword": "加密博彩稅務",
-    "category": "監管框架",
-    "angle": "監管說明型",
-    "image_theme": "crypto gambling tax reporting obligations jurisdiction comparison",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
     "id": 391,
     "niche": "crypto-gambling",
     "keyword": "Curaçao 加密牌照",
@@ -3930,36 +3120,6 @@
     "image_theme": "Curacao gambling license crypto casino regulatory certification",
     "status": "available",
     "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 392,
-    "niche": "crypto-gambling",
-    "keyword": "Chainalysis 博彩",
-    "category": "風險研究",
-    "angle": "數據報告型",
-    "image_theme": "Chainalysis blockchain analytics gambling transaction tracing report",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 393,
-    "niche": "crypto-gambling",
-    "keyword": "加密博彩匿名性",
-    "category": "風險研究",
-    "angle": "技術評測型",
-    "image_theme": "crypto gambling anonymity vs transparency technical analysis",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 394,
-    "niche": "crypto-gambling",
-    "keyword": "Zero-Knowledge Proof 博彩",
-    "category": "技術研究",
-    "angle": "技術評測型",
-    "image_theme": "zero-knowledge proof ZKP gambling fairness verification diagram",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
   },
   {
     "id": 395,
@@ -3992,26 +3152,6 @@
     "writing_style": "市場研究語氣，含數據比較，客觀，1100字"
   },
   {
-    "id": 398,
-    "niche": "crypto-gambling",
-    "keyword": "加密博彩詐騙",
-    "category": "風險研究",
-    "angle": "監管說明型",
-    "image_theme": "crypto gambling scam warning signs identification guide visual",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 399,
-    "niche": "crypto-gambling",
-    "keyword": "加密博彩問題博彩",
-    "category": "風險研究",
-    "angle": "監管說明型",
-    "image_theme": "problem gambling crypto context responsible gaming resources",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
     "id": 400,
     "niche": "crypto-gambling",
     "keyword": "香港 VASP 牌照",
@@ -4020,56 +3160,6 @@
     "image_theme": "Hong Kong VASP virtual asset service provider license framework",
     "status": "available",
     "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 401,
-    "niche": "crypto-gambling",
-    "keyword": "加密博彩 AML",
-    "category": "監管框架",
-    "angle": "監管說明型",
-    "image_theme": "crypto gambling anti-money laundering AML compliance framework diagram",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 402,
-    "niche": "crypto-gambling",
-    "keyword": "MetaMask 博彩",
-    "category": "平台評測",
-    "angle": "技術評測型",
-    "image_theme": "MetaMask wallet crypto gambling connection tutorial interface",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 403,
-    "niche": "crypto-gambling",
-    "keyword": "Etherscan 博彩查詢",
-    "category": "技術研究",
-    "angle": "技術評測型",
-    "image_theme": "Etherscan blockchain explorer gambling transaction verification",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 404,
-    "niche": "crypto-gambling",
-    "keyword": "冷錢包博彩資金",
-    "category": "風險研究",
-    "angle": "技術評測型",
-    "image_theme": "cold hardware wallet crypto gambling fund security management",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
-  },
-  {
-    "id": 405,
-    "niche": "crypto-gambling",
-    "keyword": "加密博彩手續費",
-    "category": "市場數據",
-    "angle": "數據報告型",
-    "image_theme": "crypto gambling transaction fee comparison across networks data chart",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
   },
   {
     "id": 406,
@@ -4090,36 +3180,6 @@
     "image_theme": "DeFi gambling total value locked TVL statistics and protocol ranking",
     "status": "available",
     "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 408,
-    "niche": "crypto-gambling",
-    "keyword": "加密博彩市場規模",
-    "category": "市場數據",
-    "angle": "數據報告型",
-    "image_theme": "crypto gambling global market size growth forecast chart",
-    "status": "available",
-    "writing_style": "數據報告語氣，數據驅動，含統計，1100字"
-  },
-  {
-    "id": 409,
-    "niche": "crypto-gambling",
-    "keyword": "中國禁令加密博彩",
-    "category": "監管框架",
-    "angle": "監管說明型",
-    "image_theme": "China crypto gambling ban regulatory enforcement and market impact",
-    "status": "available",
-    "writing_style": "監管說明語氣，引用官方資料，清晰，1000字"
-  },
-  {
-    "id": 410,
-    "niche": "crypto-gambling",
-    "keyword": "東南亞加密博彩",
-    "category": "市場數據",
-    "angle": "行業分析型",
-    "image_theme": "Southeast Asia crypto gambling market growth map and adoption data",
-    "status": "available",
-    "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
   },
   {
     "id": 411,
@@ -5620,40 +4680,6 @@
     "image_theme": "Hong Kong mind sports development overview showing chess, Go, and bridge participation statistics and organizational structure",
     "status": "available",
     "writing_style": "行業分析師語氣，引用市場數據，客觀，1000字"
-  },
-  {
-    "id": 561,
-    "niche": "main",
-    "keyword": "印度對阿富汗運動博彩賠率2026",
-    "category": "優惠資訊",
-    "angle": "板球賽事賠率分析及博彩平台迎新優惠",
-    "image_theme": "dark cricket sports betting neon 2026",
-    "writing_style": "中性語氣，直接說明型，1200字",
-    "status": "used",
-    "slug": "india-afghanistan-cricket-betting-odds-2026",
-    "used_date": "2026-06-08",
-    "trending": true,
-    "trending_date": "2026-06-06",
-    "trending_title": "ind vs afg",
-    "trending_source": "Google HK Trends",
-    "relevance_score": 88
-  },
-  {
-    "id": 562,
-    "niche": "main",
-    "keyword": "英格蘭對紐西蘭體育博彩賠率2026",
-    "category": "優惠資訊",
-    "angle": "英紐大戰實時賠率與投注優惠推介",
-    "image_theme": "dark stadium sports betting odds 2026",
-    "writing_style": "中性語氣，直接說明型，1200字",
-    "status": "used",
-    "slug": "england-vs-new-zealand-betting-odds-2026",
-    "used_date": "2026-06-07",
-    "trending": true,
-    "trending_date": "2026-06-07",
-    "trending_title": "英格蘭 對 紐西蘭",
-    "trending_source": "Google HK Trends",
-    "relevance_score": 88
   },
   {
     "id": 563,
