@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>好禮規劃計算器 | BDUK 工具中心</title>
+<meta name="description" content="輸入好禮金額與流水要求，即時計算每日目標流水及難度評估，助你聰明完成好禮要求。">
+<!-- GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z96N8HQGP4"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z96N8HQGP4');</script>
+<!-- GTM -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WM32S7LZ');</script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --cyan: #0891b2;
+  --cyan-dark: #0e7490;
+  --bg: #ffffff;
+  --bg-alt: #f0f9ff;
+  --bg-dark: #0c1a2e;
+  --bg-dark2: #0f2744;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --border: #bae6fd;
+}
+body { font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding-bottom: 80px; }
+.site-header { background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); border-bottom: 2px solid var(--cyan); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 10px; position: sticky; top: 0; z-index: 200; flex-wrap: wrap; }
+.site-logo img { display: block; }
+.header-nav-group { display: flex; gap: 6px; flex-wrap: wrap; }
+.header-nav { color: rgba(255,255,255,.75); text-decoration: none; padding: 7px 14px; border-radius: 20px; border: 1px solid rgba(255,255,255,.2); font-size: 13px; font-weight: 700; transition: opacity .2s; }
+.header-nav:hover { opacity: 1; color: #fff; }
+.header-nav-cyan { color: #67e8f9; border-color: rgba(8,145,178,.45); background: rgba(8,145,178,.18); }
+.btn-sm { background: var(--cyan); color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px; text-decoration: none; white-space: nowrap; }
+.tool-container { max-width: 600px; margin: 60px auto; padding: 0 20px; }
+.tool-title { font-size: 28px; font-weight: 800; color: var(--text); margin-bottom: 8px; }
+.tool-sub { color: var(--text-muted); margin-bottom: 32px; font-size: 15px; }
+.tool-card { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 20px; padding: 32px; margin-bottom: 24px; }
+.form-group { margin-bottom: 20px; }
+.form-label { display: block; font-weight: 700; margin-bottom: 6px; color: var(--text); font-size: 14px; }
+.form-label-sub { display: block; font-size: 12px; color: var(--text-muted); margin-bottom: 8px; font-weight: 400; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-input { width: 100%; padding: 12px 16px; border: 2px solid var(--border); border-radius: 10px; font-size: 18px; font-weight: 700; outline: none; transition: border-color .2s; background: #fff; }
+.form-input:focus { border-color: var(--cyan); }
+.input-prefix { position: relative; }
+.input-prefix .prefix { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-weight: 700; font-size: 16px; pointer-events: none; }
+.input-prefix .form-input { padding-left: 34px; }
+.input-suffix { position: relative; }
+.input-suffix .suffix { position: absolute; right: 14px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-weight: 700; font-size: 16px; pointer-events: none; }
+.calc-btn { width: 100%; background: var(--cyan); color: #fff; font-size: 16px; font-weight: 800; padding: 14px; border-radius: 10px; border: none; cursor: pointer; transition: background .2s; margin-top: 8px; }
+.calc-btn:hover { background: var(--cyan-dark); }
+.result-card { background: #fff; border: 2px solid var(--cyan); border-radius: 16px; padding: 28px; margin-top: 24px; }
+.result-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }
+.result-main-label { font-size: 14px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; }
+.result-main-value { font-size: 42px; font-weight: 900; color: var(--cyan); }
+.result-main-unit { font-size: 16px; color: var(--text-muted); margin-left: 4px; font-weight: 600; }
+.badge { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 20px; font-weight: 800; font-size: 15px; }
+.badge-green { background: #dcfce7; color: #16a34a; }
+.badge-yellow { background: #fef9c3; color: #ca8a04; }
+.badge-red { background: #fee2e2; color: #dc2626; }
+.result-breakdown { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+.breakdown-item { text-align: center; }
+.breakdown-label { font-size: 11px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; }
+.breakdown-value { font-size: 18px; font-weight: 800; color: var(--text); }
+.tip-box { background: #ecfdf5; border: 1px solid #86efac; border-radius: 12px; padding: 16px 20px; margin-top: 20px; font-size: 14px; color: #15803d; line-height: 1.7; }
+.tip-box strong { display: block; margin-bottom: 4px; }
+.cta-section { text-align: center; margin-top: 40px; padding: 32px; background: #0c1a2e; border-radius: 20px; color: #fff; }
+.cta-title { font-size: 20px; font-weight: 800; margin-bottom: 8px; }
+.cta-sub { color: rgba(255,255,255,.7); font-size: 14px; margin-bottom: 20px; }
+.btn-cta { display: inline-block; background: var(--cyan); color: #fff; font-size: 18px; font-weight: 800; padding: 16px 32px; border-radius: 12px; text-decoration: none; }
+.btn-cta:hover { background: var(--cyan-dark); }
+.section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--cyan); margin-bottom: 20px; }
+.popular-tag { background: #fef3c7; color: #d97706; font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 20px; margin-left: 10px; vertical-align: middle; }
+@media (max-width: 480px) {
+  .form-row { grid-template-columns: 1fr; }
+  .result-breakdown { grid-template-columns: 1fr; }
+  .result-main-value { font-size: 32px; }
+  .header-nav-group { display: none; }
+}
+</style>
+</head>
+<body>
+<!-- GTM noscript -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM32S7LZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header class="site-header">
+  <a href="/" class="site-logo"><img src="/LOGO.png" alt="BDUK" style="height:36px"></a>
+  <nav class="header-nav-group">
+    <a href="/blog.html" class="header-nav">攻略中心</a>
+    <a href="/blog.html?cat=入款攻略" class="header-nav">入款攻略</a>
+    <a href="/blog.html?cat=優惠資訊" class="header-nav">優惠資訊</a>
+    <a href="/tools/odds-converter.html" class="header-nav">工具中心</a>
+    <a href="/#faq" class="header-nav">常見問題</a>
+    <a href="/blog.html?cat=體育資訊" class="header-nav header-nav-cyan">體育新聞</a>
+  </nav>
+  <a href="https://lokguhk.com?p=998307" class="btn-sm" target="_blank">領取好禮 🎁</a>
+</header>
+
+<main class="tool-container">
+  <p class="section-label">工具中心</p>
+  <h1 class="tool-title">好禮規劃計算器 <span class="popular-tag">最受歡迎</span></h1>
+  <p class="tool-sub">輸入好禮條件，即時計算每日目標流水，聰明規劃完成進度</p>
+
+  <div class="tool-card">
+    <div class="form-group">
+      <label class="form-label">好禮金額</label>
+      <span class="form-label-sub">平台發放的好禮總額（HKD）</span>
+      <div class="input-prefix">
+        <span class="prefix">$</span>
+        <input type="number" id="bonus-amount" class="form-input" value="500" step="50" min="1">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">流水要求倍數</label>
+        <span class="form-label-sub">好禮條款規定的倍數</span>
+        <div class="input-suffix">
+          <span class="suffix">×</span>
+          <input type="number" id="wagering" class="form-input" value="20" step="1" min="1">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">計劃完成天數</label>
+        <span class="form-label-sub">好禮有效期或目標天數</span>
+        <div class="input-suffix">
+          <span class="suffix">天</span>
+          <input type="number" id="days" class="form-input" value="14" step="1" min="1">
+        </div>
+      </div>
+    </div>
+
+    <button class="calc-btn" onclick="calcBonus()">計算我的好禮計劃</button>
+
+    <div class="result-card" id="result-card">
+      <div class="result-header">
+        <div>
+          <div class="result-main-label">每日目標流水</div>
+          <div>
+            <span class="result-main-value" id="res-daily">$714</span>
+            <span class="result-main-unit">HKD</span>
+          </div>
+        </div>
+        <span class="badge badge-yellow" id="difficulty-badge">🟡 中等</span>
+      </div>
+
+      <div class="result-breakdown">
+        <div class="breakdown-item">
+          <div class="breakdown-label">總流水要求</div>
+          <div class="breakdown-value" id="res-total">$10,000</div>
+        </div>
+        <div class="breakdown-item">
+          <div class="breakdown-label">計劃天數</div>
+          <div class="breakdown-value" id="res-days">14 天</div>
+        </div>
+        <div class="breakdown-item">
+          <div class="breakdown-label">完成率追蹤</div>
+          <div class="breakdown-value">每日記錄</div>
+        </div>
+      </div>
+
+      <div class="tip-box" id="tip-box">
+        <strong>💡 攻略建議</strong>
+        每日分 2-3 場完成目標，避免單注過大，穩定進行流水最有效率。
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-section">
+    <div class="cta-title">現在就去領取好禮！</div>
+    <div class="cta-sub">BDUK 獨家新會員好禮，流水要求透明合理</div>
+    <a href="https://lokguhk.com?p=998307" class="btn-cta" target="_blank">🎁 立即領取新會員好禮</a>
+  </div>
+</main>
+
+<script>
+function fmt(n) {
+  return '$' + Math.round(n).toLocaleString();
+}
+
+function calcBonus() {
+  const bonus = parseFloat(document.getElementById('bonus-amount').value) || 0;
+  const wagering = parseFloat(document.getElementById('wagering').value) || 1;
+  const days = parseFloat(document.getElementById('days').value) || 1;
+
+  const totalWager = bonus * wagering;
+  const dailyTarget = totalWager / days;
+
+  // 更新顯示
+  document.getElementById('res-daily').textContent = fmt(dailyTarget);
+  document.getElementById('res-total').textContent = fmt(totalWager);
+  document.getElementById('res-days').textContent = Math.round(days) + ' 天';
+
+  // 難度評估
+  const badge = document.getElementById('difficulty-badge');
+  const tipBox = document.getElementById('tip-box');
+
+  if (dailyTarget < 500) {
+    badge.className = 'badge badge-green';
+    badge.textContent = '🟢 輕鬆';
+    tipBox.innerHTML = '<strong>💡 攻略建議</strong>每日流水目標輕鬆，建議分散時段進行，享受過程同時完成要求，一點壓力都沒有！';
+    tipBox.style.background = '#ecfdf5';
+    tipBox.style.borderColor = '#86efac';
+    tipBox.style.color = '#15803d';
+  } else if (dailyTarget <= 1500) {
+    badge.className = 'badge badge-yellow';
+    badge.textContent = '🟡 中等';
+    tipBox.innerHTML = '<strong>💡 攻略建議</strong>每日分 2-3 場完成目標，避免單注過大，穩定進行流水最有效率。建議設定每日提醒，確保不漏打。';
+    tipBox.style.background = '#fefce8';
+    tipBox.style.borderColor = '#fde047';
+    tipBox.style.color = '#854d0e';
+  } else {
+    badge.className = 'badge badge-red';
+    badge.textContent = '🔴 挑戰性';
+    tipBox.innerHTML = '<strong>💡 攻略建議</strong>每日流水目標較高，建議延長完成天數或選擇流水要求較低的好禮。量力而為，確保在預算範圍內娛樂。';
+    tipBox.style.background = '#fef2f2';
+    tipBox.style.borderColor = '#fca5a5';
+    tipBox.style.color = '#991b1b';
+  }
+}
+
+// 初始化
+calcBonus();
+</script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>體育指數換算 | BDUK 工具中心</title>
+<meta name="description" content="港式、歐式、美式體育指數即時互換計算器，助你快速比較各大博彩平台的賠率。">
+<!-- GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z96N8HQGP4"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z96N8HQGP4');</script>
+<!-- GTM -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WM32S7LZ');</script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --cyan: #0891b2;
+  --cyan-dark: #0e7490;
+  --bg: #ffffff;
+  --bg-alt: #f0f9ff;
+  --bg-dark: #0c1a2e;
+  --bg-dark2: #0f2744;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --border: #bae6fd;
+}
+body { font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding-bottom: 80px; }
+.site-header { background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); border-bottom: 2px solid var(--cyan); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 10px; position: sticky; top: 0; z-index: 200; flex-wrap: wrap; }
+.site-logo img { display: block; }
+.header-nav-group { display: flex; gap: 6px; flex-wrap: wrap; }
+.header-nav { color: rgba(255,255,255,.75); text-decoration: none; padding: 7px 14px; border-radius: 20px; border: 1px solid rgba(255,255,255,.2); font-size: 13px; font-weight: 700; transition: opacity .2s; }
+.header-nav:hover { opacity: 1; color: #fff; }
+.header-nav-cyan { color: #67e8f9; border-color: rgba(8,145,178,.45); background: rgba(8,145,178,.18); }
+.btn-sm { background: var(--cyan); color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px; text-decoration: none; white-space: nowrap; }
+.tool-container { max-width: 600px; margin: 60px auto; padding: 0 20px; }
+.tool-title { font-size: 28px; font-weight: 800; color: var(--text); margin-bottom: 8px; }
+.tool-sub { color: var(--text-muted); margin-bottom: 32px; font-size: 15px; }
+.tool-card { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 20px; padding: 32px; margin-bottom: 24px; }
+.form-group { margin-bottom: 20px; }
+.form-label { display: block; font-weight: 700; margin-bottom: 8px; color: var(--text); font-size: 14px; }
+.form-input { width: 100%; padding: 12px 16px; border: 2px solid var(--border); border-radius: 10px; font-size: 18px; font-weight: 700; outline: none; transition: border-color .2s; background: #fff; }
+.form-input:focus { border-color: var(--cyan); }
+.calc-btn { width: 100%; background: var(--cyan); color: #fff; font-size: 16px; font-weight: 800; padding: 14px; border-radius: 10px; border: none; cursor: pointer; transition: background .2s; margin-top: 8px; }
+.calc-btn:hover { background: var(--cyan-dark); }
+.tabs { display: flex; gap: 8px; margin-bottom: 24px; }
+.tab-btn { flex: 1; padding: 10px; border: 2px solid var(--border); background: #fff; border-radius: 10px; font-size: 14px; font-weight: 700; cursor: pointer; transition: all .2s; }
+.tab-btn.active { background: var(--cyan); color: #fff; border-color: var(--cyan); }
+.result-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-top: 24px; }
+.result-item { background: #fff; border: 2px solid var(--border); border-radius: 14px; padding: 16px 12px; text-align: center; }
+.result-item-label { font-size: 12px; color: var(--text-muted); font-weight: 600; margin-bottom: 6px; }
+.result-item-value { font-size: 22px; font-weight: 900; color: var(--cyan); }
+.result-item-sub { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+.prob-bar-wrap { margin-top: 24px; }
+.prob-bar-label { font-size: 13px; font-weight: 700; margin-bottom: 6px; display: flex; justify-content: space-between; }
+.prob-bar-track { background: #e0f2fe; border-radius: 10px; height: 10px; overflow: hidden; }
+.prob-bar-fill { background: var(--cyan); height: 100%; border-radius: 10px; transition: width .5s; }
+.cta-section { text-align: center; margin-top: 40px; padding: 32px; background: #0c1a2e; border-radius: 20px; color: #fff; }
+.cta-title { font-size: 20px; font-weight: 800; margin-bottom: 8px; }
+.cta-sub { color: rgba(255,255,255,.7); font-size: 14px; margin-bottom: 20px; }
+.btn-cta { display: inline-block; background: var(--cyan); color: #fff; font-size: 18px; font-weight: 800; padding: 16px 32px; border-radius: 12px; text-decoration: none; }
+.btn-cta:hover { background: var(--cyan-dark); }
+.section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--cyan); margin-bottom: 20px; }
+@media (max-width: 480px) {
+  .result-grid { grid-template-columns: 1fr; }
+  .header-nav-group { display: none; }
+}
+</style>
+</head>
+<body>
+<!-- GTM noscript -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM32S7LZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header class="site-header">
+  <a href="/" class="site-logo"><img src="/LOGO.png" alt="BDUK" style="height:36px"></a>
+  <nav class="header-nav-group">
+    <a href="/blog.html" class="header-nav">攻略中心</a>
+    <a href="/blog.html?cat=入款攻略" class="header-nav">入款攻略</a>
+    <a href="/blog.html?cat=優惠資訊" class="header-nav">優惠資訊</a>
+    <a href="/tools/odds-converter.html" class="header-nav">工具中心</a>
+    <a href="/#faq" class="header-nav">常見問題</a>
+    <a href="/blog.html?cat=體育資訊" class="header-nav header-nav-cyan">體育新聞</a>
+  </nav>
+  <a href="https://lokguhk.com?p=998307" class="btn-sm" target="_blank">領取好禮 🎁</a>
+</header>
+
+<main class="tool-container">
+  <p class="section-label">工具中心</p>
+  <h1 class="tool-title">體育指數換算</h1>
+  <p class="tool-sub">港式 · 歐洲 · 美式 指數即時互換，快速比對各平台賠率</p>
+
+  <div class="tool-card">
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('hk')">港式輸入</button>
+      <button class="tab-btn" onclick="switchTab('eu')">歐式輸入</button>
+      <button class="tab-btn" onclick="switchTab('us')">美式輸入</button>
+    </div>
+
+    <!-- 港式輸入 -->
+    <div id="tab-hk">
+      <div class="form-group">
+        <label class="form-label">港式指數（HK Odds）</label>
+        <input type="number" id="hk-input" class="form-input" value="1.80" step="0.01" min="0.01" placeholder="例：1.80">
+      </div>
+      <button class="calc-btn" onclick="convertFromHK()">立即換算</button>
+    </div>
+
+    <!-- 歐式輸入 -->
+    <div id="tab-eu" style="display:none">
+      <div class="form-group">
+        <label class="form-label">歐式指數（Decimal Odds）</label>
+        <input type="number" id="eu-input" class="form-input" value="2.80" step="0.01" min="1.01" placeholder="例：2.80">
+      </div>
+      <button class="calc-btn" onclick="convertFromEU()">立即換算</button>
+    </div>
+
+    <!-- 美式輸入 -->
+    <div id="tab-us" style="display:none">
+      <div class="form-group">
+        <label class="form-label">美式指數（American Odds）</label>
+        <input type="number" id="us-input" class="form-input" value="180" step="1" placeholder="例：+180 或 -150">
+      </div>
+      <button class="calc-btn" onclick="convertFromUS()">立即換算</button>
+    </div>
+
+    <!-- 結果 -->
+    <div class="result-grid">
+      <div class="result-item">
+        <div class="result-item-label">港式指數</div>
+        <div class="result-item-value" id="res-hk">1.80</div>
+        <div class="result-item-sub">HK Odds</div>
+      </div>
+      <div class="result-item">
+        <div class="result-item-label">歐式指數</div>
+        <div class="result-item-value" id="res-eu">2.80</div>
+        <div class="result-item-sub">Decimal</div>
+      </div>
+      <div class="result-item">
+        <div class="result-item-label">美式指數</div>
+        <div class="result-item-value" id="res-us">+180</div>
+        <div class="result-item-sub">American</div>
+      </div>
+    </div>
+
+    <div class="prob-bar-wrap">
+      <div class="prob-bar-label">
+        <span>隱含勝率</span>
+        <span id="res-prob">35.7%</span>
+      </div>
+      <div class="prob-bar-track">
+        <div class="prob-bar-fill" id="prob-bar" style="width:35.7%"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-section">
+    <div class="cta-title">找到好賠率？立即出擊！</div>
+    <div class="cta-sub">新會員獨家好禮，讓你本金更充裕</div>
+    <a href="https://lokguhk.com?p=998307" class="btn-cta" target="_blank">🎁 立即領取新會員好禮</a>
+  </div>
+</main>
+
+<script>
+let activeTab = 'hk';
+
+function switchTab(tab) {
+  document.getElementById('tab-hk').style.display = tab === 'hk' ? '' : 'none';
+  document.getElementById('tab-eu').style.display = tab === 'eu' ? '' : 'none';
+  document.getElementById('tab-us').style.display = tab === 'us' ? '' : 'none';
+  document.querySelectorAll('.tab-btn').forEach((btn, i) => {
+    btn.classList.toggle('active', ['hk','eu','us'][i] === tab);
+  });
+  activeTab = tab;
+}
+
+function updateResults(hk, eu, us, prob) {
+  document.getElementById('res-hk').textContent = hk.toFixed(2);
+  document.getElementById('res-eu').textContent = eu.toFixed(2);
+  document.getElementById('res-us').textContent = us >= 0 ? '+' + Math.round(us) : Math.round(us);
+  const pct = (prob * 100).toFixed(1) + '%';
+  document.getElementById('res-prob').textContent = pct;
+  document.getElementById('prob-bar').style.width = pct;
+}
+
+function convertFromHK() {
+  const hk = parseFloat(document.getElementById('hk-input').value);
+  if (isNaN(hk) || hk <= 0) return;
+  const eu = hk + 1;
+  const us = eu >= 2 ? (eu - 1) * 100 : -100 / (eu - 1);
+  const prob = 1 / eu;
+  updateResults(hk, eu, us, prob);
+}
+
+function convertFromEU() {
+  const eu = parseFloat(document.getElementById('eu-input').value);
+  if (isNaN(eu) || eu <= 1) return;
+  const hk = eu - 1;
+  const us = eu >= 2 ? (eu - 1) * 100 : -100 / (eu - 1);
+  const prob = 1 / eu;
+  updateResults(hk, eu, us, prob);
+}
+
+function convertFromUS() {
+  const us = parseFloat(document.getElementById('us-input').value);
+  if (isNaN(us)) return;
+  let eu;
+  if (us > 0) {
+    eu = us / 100 + 1;
+  } else {
+    eu = 100 / Math.abs(us) + 1;
+  }
+  const hk = eu - 1;
+  const prob = 1 / eu;
+  updateResults(hk, eu, us, prob);
+}
+
+// 初始化
+convertFromHK();
+</script>
+</body>
+</html>

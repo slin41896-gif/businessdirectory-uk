@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>娛樂預算規劃 | BDUK 工具中心</title>
+<meta name="description" content="輸入每月娛樂預算及每場金額，即時計算可玩次數及健康指數，負責任娛樂從規劃開始。">
+<!-- GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z96N8HQGP4"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z96N8HQGP4');</script>
+<!-- GTM -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WM32S7LZ');</script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --cyan: #0891b2;
+  --cyan-dark: #0e7490;
+  --bg: #ffffff;
+  --bg-alt: #f0f9ff;
+  --bg-dark: #0c1a2e;
+  --bg-dark2: #0f2744;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --border: #bae6fd;
+}
+body { font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding-bottom: 80px; }
+.site-header { background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%); border-bottom: 2px solid var(--cyan); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 10px; position: sticky; top: 0; z-index: 200; flex-wrap: wrap; }
+.site-logo img { display: block; }
+.header-nav-group { display: flex; gap: 6px; flex-wrap: wrap; }
+.header-nav { color: rgba(255,255,255,.75); text-decoration: none; padding: 7px 14px; border-radius: 20px; border: 1px solid rgba(255,255,255,.2); font-size: 13px; font-weight: 700; transition: opacity .2s; }
+.header-nav:hover { opacity: 1; color: #fff; }
+.header-nav-cyan { color: #67e8f9; border-color: rgba(8,145,178,.45); background: rgba(8,145,178,.18); }
+.btn-sm { background: var(--cyan); color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px; text-decoration: none; white-space: nowrap; }
+.tool-container { max-width: 600px; margin: 60px auto; padding: 0 20px; }
+.tool-title { font-size: 28px; font-weight: 800; color: var(--text); margin-bottom: 8px; }
+.tool-sub { color: var(--text-muted); margin-bottom: 32px; font-size: 15px; }
+.tool-card { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 20px; padding: 32px; margin-bottom: 24px; }
+.form-group { margin-bottom: 20px; }
+.form-label { display: block; font-weight: 700; margin-bottom: 6px; color: var(--text); font-size: 14px; }
+.form-label-sub { display: block; font-size: 12px; color: var(--text-muted); margin-bottom: 8px; font-weight: 400; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-input { width: 100%; padding: 12px 16px; border: 2px solid var(--border); border-radius: 10px; font-size: 18px; font-weight: 700; outline: none; transition: border-color .2s; background: #fff; }
+.form-input:focus { border-color: var(--cyan); }
+.input-prefix { position: relative; }
+.input-prefix .prefix { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-weight: 700; font-size: 16px; pointer-events: none; }
+.input-prefix .form-input { padding-left: 34px; }
+.calc-btn { width: 100%; background: var(--cyan); color: #fff; font-size: 16px; font-weight: 800; padding: 14px; border-radius: 10px; border: none; cursor: pointer; transition: background .2s; margin-top: 8px; }
+.calc-btn:hover { background: var(--cyan-dark); }
+.result-card { background: #fff; border: 2px solid var(--cyan); border-radius: 16px; padding: 28px; margin-top: 24px; }
+.result-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }
+.result-main-label { font-size: 14px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; }
+.result-main-value { font-size: 42px; font-weight: 900; color: var(--cyan); }
+.result-main-unit { font-size: 16px; color: var(--text-muted); margin-left: 4px; font-weight: 600; }
+.badge { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 20px; font-weight: 800; font-size: 15px; }
+.badge-green { background: #dcfce7; color: #16a34a; }
+.badge-yellow { background: #fef9c3; color: #ca8a04; }
+.badge-red { background: #fee2e2; color: #dc2626; }
+.stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+.stat-item { background: var(--bg-alt); border-radius: 10px; padding: 14px; text-align: center; }
+.stat-label { font-size: 11px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; }
+.stat-value { font-size: 20px; font-weight: 800; color: var(--text); }
+.progress-section { margin-top: 20px; }
+.progress-label { display: flex; justify-content: space-between; font-size: 13px; font-weight: 700; margin-bottom: 8px; }
+.progress-track { background: #e0f2fe; border-radius: 10px; height: 12px; overflow: hidden; }
+.progress-fill { height: 100%; border-radius: 10px; transition: width .5s, background .3s; }
+.progress-green { background: #22c55e; }
+.progress-yellow { background: #eab308; }
+.progress-red { background: #ef4444; }
+.tip-box { border-radius: 12px; padding: 16px 20px; margin-top: 20px; font-size: 14px; line-height: 1.7; }
+.tip-box strong { display: block; margin-bottom: 4px; }
+.weekly-breakdown { margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border); }
+.weekly-title { font-size: 13px; font-weight: 700; color: var(--text-muted); margin-bottom: 12px; }
+.weekly-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.week-item { background: var(--bg-alt); border-radius: 8px; padding: 10px; text-align: center; }
+.week-label { font-size: 11px; color: var(--text-muted); margin-bottom: 4px; }
+.week-value { font-size: 15px; font-weight: 800; color: var(--text); }
+.cta-section { text-align: center; margin-top: 40px; padding: 32px; background: #0c1a2e; border-radius: 20px; color: #fff; }
+.cta-title { font-size: 20px; font-weight: 800; margin-bottom: 8px; }
+.cta-sub { color: rgba(255,255,255,.7); font-size: 14px; margin-bottom: 20px; }
+.btn-cta { display: inline-block; background: var(--cyan); color: #fff; font-size: 18px; font-weight: 800; padding: 16px 32px; border-radius: 12px; text-decoration: none; }
+.btn-cta:hover { background: var(--cyan-dark); }
+.section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--cyan); margin-bottom: 20px; }
+.responsible-note { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px 20px; margin-bottom: 24px; font-size: 13px; color: var(--text-muted); display: flex; gap: 10px; align-items: flex-start; }
+.responsible-note .icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+@media (max-width: 480px) {
+  .form-row { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: 1fr; }
+  .weekly-grid { grid-template-columns: repeat(2, 1fr); }
+  .result-main-value { font-size: 32px; }
+  .header-nav-group { display: none; }
+}
+</style>
+</head>
+<body>
+<!-- GTM noscript -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM32S7LZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header class="site-header">
+  <a href="/" class="site-logo"><img src="/LOGO.png" alt="BDUK" style="height:36px"></a>
+  <nav class="header-nav-group">
+    <a href="/blog.html" class="header-nav">攻略中心</a>
+    <a href="/blog.html?cat=入款攻略" class="header-nav">入款攻略</a>
+    <a href="/blog.html?cat=優惠資訊" class="header-nav">優惠資訊</a>
+    <a href="/tools/odds-converter.html" class="header-nav">工具中心</a>
+    <a href="/#faq" class="header-nav">常見問題</a>
+    <a href="/blog.html?cat=體育資訊" class="header-nav header-nav-cyan">體育新聞</a>
+  </nav>
+  <a href="https://lokguhk.com?p=998307" class="btn-sm" target="_blank">領取好禮 🎁</a>
+</header>
+
+<main class="tool-container">
+  <p class="section-label">工具中心</p>
+  <h1 class="tool-title">娛樂預算規劃</h1>
+  <p class="tool-sub">設定每月預算上限，計算健康娛樂次數，量力而為享受樂趣</p>
+
+  <div class="responsible-note">
+    <span class="icon">ℹ️</span>
+    <span>此工具協助您制定負責任的娛樂計劃。建議娛樂預算不超過每月可支配收入的 5%，娛樂應以消遣為主。</span>
+  </div>
+
+  <div class="tool-card">
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">每月娛樂預算</label>
+        <span class="form-label-sub">每月固定用於娛樂的金額</span>
+        <div class="input-prefix">
+          <span class="prefix">$</span>
+          <input type="number" id="monthly-budget" class="form-input" value="2000" step="100" min="1">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">每場娛樂金額</label>
+        <span class="form-label-sub">每次參與的平均金額</span>
+        <div class="input-prefix">
+          <span class="prefix">$</span>
+          <input type="number" id="session-amount" class="form-input" value="200" step="50" min="1">
+        </div>
+      </div>
+    </div>
+
+    <button class="calc-btn" onclick="calcBudget()">計算娛樂計劃</button>
+
+    <div class="result-card" id="result-card">
+      <div class="result-header">
+        <div>
+          <div class="result-main-label">每月可娛樂次數</div>
+          <div>
+            <span class="result-main-value" id="res-sessions">10</span>
+            <span class="result-main-unit">次 / 月</span>
+          </div>
+        </div>
+        <span class="badge badge-green" id="health-badge">🟢 健康</span>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-label">每月預算</div>
+          <div class="stat-value" id="res-budget">$2,000</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">每場金額</div>
+          <div class="stat-value" id="res-session">$200</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">每週次數</div>
+          <div class="stat-value" id="res-weekly">2.5 次</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">佔預算比例</div>
+          <div class="stat-value" id="res-ratio">10%</div>
+        </div>
+      </div>
+
+      <div class="progress-section">
+        <div class="progress-label">
+          <span>每場佔月預算比例</span>
+          <span id="ratio-label">10%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill progress-green" id="progress-bar" style="width:10%"></div>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-muted);margin-top:4px;">
+          <span>0%</span>
+          <span>5% 安全線</span>
+          <span>15% 警戒線</span>
+          <span>20%+</span>
+        </div>
+      </div>
+
+      <div class="weekly-breakdown" id="weekly-breakdown">
+        <div class="weekly-title">每週安排建議</div>
+        <div class="weekly-grid" id="weekly-grid">
+          <!-- 動態生成 -->
+        </div>
+      </div>
+
+      <div class="tip-box" id="tip-box">
+        <strong>💡 規劃建議</strong>
+        每場金額佔月預算 10%，屬合理範圍。建議設定每場止損及止盈點，保持娛樂心態。
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-section">
+    <div class="cta-title">預算規劃好了？開始娛樂吧！</div>
+    <div class="cta-sub">領取新會員好禮，讓你的娛樂預算更值錢</div>
+    <a href="https://lokguhk.com?p=998307" class="btn-cta" target="_blank">🎁 立即領取新會員好禮</a>
+  </div>
+</main>
+
+<script>
+function fmt(n) {
+  return '$' + Math.round(n).toLocaleString();
+}
+
+function calcBudget() {
+  const budget = parseFloat(document.getElementById('monthly-budget').value) || 0;
+  const session = parseFloat(document.getElementById('session-amount').value) || 1;
+
+  const sessions = budget / session;
+  const weekly = sessions / 4.33;
+  const ratio = (session / budget) * 100;
+
+  // 更新主數字
+  document.getElementById('res-sessions').textContent = sessions >= 100 ? '100+' : sessions.toFixed(1).replace(/\.0$/, '');
+  document.getElementById('res-budget').textContent = fmt(budget);
+  document.getElementById('res-session').textContent = fmt(session);
+  document.getElementById('res-weekly').textContent = weekly.toFixed(1) + ' 次';
+  document.getElementById('res-ratio').textContent = ratio.toFixed(1) + '%';
+  document.getElementById('ratio-label').textContent = ratio.toFixed(1) + '%';
+
+  // 健康指數 & 進度條
+  const badge = document.getElementById('health-badge');
+  const bar = document.getElementById('progress-bar');
+  const tipBox = document.getElementById('tip-box');
+  const barWidth = Math.min(ratio, 25) / 25 * 100;
+
+  bar.style.width = barWidth + '%';
+
+  if (ratio < 5) {
+    badge.className = 'badge badge-green';
+    badge.textContent = '🟢 健康';
+    bar.className = 'progress-fill progress-green';
+    tipBox.style.cssText = 'background:#ecfdf5;border:1px solid #86efac;border-radius:12px;padding:16px 20px;margin-top:20px;font-size:14px;line-height:1.7;color:#15803d;';
+    tipBox.innerHTML = '<strong>💡 規劃建議</strong>每場金額佔月預算低於 5%，娛樂計劃非常健康！可以輕鬆享受，完全在安全範圍內。';
+  } else if (ratio <= 15) {
+    badge.className = 'badge badge-yellow';
+    badge.textContent = '🟡 留意';
+    bar.className = 'progress-fill progress-yellow';
+    tipBox.style.cssText = 'background:#fefce8;border:1px solid #fde047;border-radius:12px;padding:16px 20px;margin-top:20px;font-size:14px;line-height:1.7;color:#854d0e;';
+    tipBox.innerHTML = '<strong>💡 規劃建議</strong>每場金額佔月預算 ' + ratio.toFixed(1) + '%，屬合理範圍。建議設定每場止損點，保持娛樂心態，避免追回損失。';
+  } else {
+    badge.className = 'badge badge-red';
+    badge.textContent = '🔴 建議調整';
+    bar.className = 'progress-fill progress-red';
+    tipBox.style.cssText = 'background:#fef2f2;border:1px solid #fca5a5;border-radius:12px;padding:16px 20px;margin-top:20px;font-size:14px;line-height:1.7;color:#991b1b;';
+    tipBox.innerHTML = '<strong>💡 規劃建議</strong>每場金額偏高（佔月預算 ' + ratio.toFixed(1) + '%），建議降低每場金額或增加娛樂預算，保持在 15% 以內更為安全。';
+  }
+
+  // 每週安排建議
+  const weeklyGrid = document.getElementById('weekly-grid');
+  const sessionsPerWeek = weekly;
+  const weeks = [1, 2, 3, 4];
+  weeklyGrid.innerHTML = weeks.map(w => {
+    const remaining = Math.max(0, sessions - (w - 1) * sessionsPerWeek);
+    const thisWeek = Math.min(remaining, sessionsPerWeek);
+    return `<div class="week-item">
+      <div class="week-label">第 ${w} 週</div>
+      <div class="week-value">${thisWeek.toFixed(1).replace(/\.0$/, '')} 次</div>
+    </div>`;
+  }).join('');
+}
+
+// 初始化
+calcBudget();
+</script>
+</body>
+</html>
