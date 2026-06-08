@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-08-1330",
+      "headline": "2026世界盃：小組賽情勢與致勝關鍵",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-08",
+      "lead": "2026世界盃的腳步日益臨近，這將是歷史上規模最宏大的一屆賽事，48支球隊將在美國、加拿大和墨西哥三國的土地上展開激逐。儘管小組賽尚未進入白熱化階段，但各支球隊",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-1330/1200/628",
+      "imageAlt": "2026世界盃：小組賽情勢與致勝關鍵",
+      "sportsCat": "world-cup"
+    },
+    {
+      "slug": "2026-06-08-eriksen-collapses-again-on-field",
+      "headline": "艾歷臣場上再暈倒 隊醫：已恢復知覺",
+      "category": "體育資訊",
+      "sportsCat": "football",
+      "date": "2026-06-08",
+      "lead": "丹麥球星基斯甸·艾歷臣在比賽中再度暈倒，現場畫面觸目驚心。幸隊醫證實他已恢復知覺，但事件再次引發對球員健康的嚴峻關注。",
+      "imageUrl": "https://images.pexels.com/photos/29558662/pexels-photo-29558662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Youth soccer players and medical staff attend to an injury on the field in Hanoi, Vietnam."
+    },
+    {
       "slug": "2026-06-08-eriksen-collapses-again-on-field-medical-team-con",
       "headline": "艾歷臣再暈倒 隊醫：已恢復知覺",
       "category": "體育資訊",
@@ -63,39 +84,6 @@
       "lead": "2026世界盃的腳步已近，這將是史上規模最大的足球盛事，橫跨美國、加拿大和墨西哥。隨著賽事臨近，全球足球迷和博彩愛好者的目光再次聚焦。香港作為亞洲重要的博彩市場",
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-1100/1200/628",
       "imageAlt": "2026世界盃：香港博彩市場深度剖析",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "sports-intl-2026-06-08-1030",
-      "headline": "2026 NBA總決賽：亞洲博彩市場熱點分析",
-      "category": "國際體育",
-      "emoji": "🏆",
-      "date": "2026-06-08",
-      "lead": "2026年6月，全球體育迷的目光將再次聚焦於NBA總決賽的巔峰對決。對於亞洲的體育博彩市場而言，這不僅是一場籃球盛宴，更是充滿無限商機的博彩盛事。從新聞報導[1",
-      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-08-1030/1200/628",
-      "imageAlt": "2026 NBA總決賽：亞洲博彩市場熱點分析",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "wc2026-analysis-2026-06-08-1000",
-      "headline": "2026世界盃：賽前博彩市場分析",
-      "category": "世界盃",
-      "emoji": "⚽",
-      "date": "2026-06-08",
-      "lead": "2026世界盃的腳步日益臨近，這將是史上規模最盛大的一屆賽事，參賽隊伍擴展至48支，橫跨美國、加拿大和墨西哥。對於香港的足球博彩愛好者而言，這意味著更多投注機會",
-      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-1000/1200/628",
-      "imageAlt": "2026世界盃：賽前博彩市場分析",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "sports-intl-2026-06-08-0930",
-      "headline": "NBA總冠軍賽2026： Knicks 勢不可擋",
-      "category": "國際體育",
-      "emoji": "🏆",
-      "date": "2026-06-08",
-      "lead": "2026年NBA總冠軍賽的戰火正熾，紐約尼克隊展現出驚人的統治力，在系列賽中以2-0領先對手聖安東尼奧馬刺隊。目前，尼克隊的奪冠賠率已大幅躍升至-450，顯示出",
-      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-08-0930/1200/628",
-      "imageAlt": "NBA總冠軍賽2026： Knicks 勢不可擋",
       "sportsCat": "world-cup"
     }
   ]
