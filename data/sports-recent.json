@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-08-1700",
+      "headline": "NBA總冠軍賽：尼克聽牌，盤勢看俏！",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-08",
+      "lead": "2026年的NBA總冠軍賽進入白熱化階段，紐約尼克隊在主場連下兩城，以2-0的比分遙遙領先，將總冠軍懸念推向了高潮。這場史詩級的對決不僅吸引了全球籃球迷的目光，",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-08-1700/1200/628",
+      "imageAlt": "NBA總冠軍賽：尼克聽牌，盤勢看俏！",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-08-1630",
       "headline": "2026世界盃：小組賽激戰正酣，誰能問鼎？",
       "category": "世界盃",
@@ -76,16 +87,6 @@
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-1330/1200/628",
       "imageAlt": "2026世界盃：小組賽情勢與致勝關鍵",
       "sportsCat": "world-cup"
-    },
-    {
-      "slug": "2026-06-08-eriksen-collapses-again-on-field",
-      "headline": "艾歷臣場上再暈倒 隊醫：已恢復知覺",
-      "category": "體育資訊",
-      "sportsCat": "football",
-      "date": "2026-06-08",
-      "lead": "丹麥球星基斯甸·艾歷臣在比賽中再度暈倒，現場畫面觸目驚心。幸隊醫證實他已恢復知覺，但事件再次引發對球員健康的嚴峻關注。",
-      "imageUrl": "https://images.pexels.com/photos/29558662/pexels-photo-29558662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Youth soccer players and medical staff attend to an injury on the field in Hanoi, Vietnam."
     }
   ]
 }
