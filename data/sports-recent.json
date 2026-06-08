@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-08-1230",
+      "headline": "2026 NBA總冠軍賽：尼克獨領風騷",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-08",
+      "lead": "2026年的NBA總冠軍賽正如火如荼地展開，其中紐約尼克隊展現出驚人的統治力，以-450的賠率成為奪冠最大熱門，遠超對手聖安東尼奧馬刺隊的+350。在已經取得兩",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-08-1230/1200/628",
+      "imageAlt": "2026 NBA總冠軍賽：尼克獨領風騷",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-08-1200",
       "headline": "2026世界盃：博彩市場深度剖析",
       "category": "世界盃",
@@ -76,16 +87,6 @@
       "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-0900/1200/628",
       "imageAlt": "2026世界盃：香港博彩市場深度分析",
       "sportsCat": "world-cup"
-    },
-    {
-      "slug": "2026-06-08-nba-robinson-foul-rescinded-referee-controversy",
-      "headline": "尼克Robinson犯規撤銷，裁判尺度成焦點",
-      "category": "體育資訊",
-      "sportsCat": "nba",
-      "date": "2026-06-08",
-      "lead": "NBA總冠軍賽再掀波瀾！尼克中鋒Robinson對Wembanyama的爭議性技術犯規被NBA官方撤銷，裁判尺度引發廣泛討論。",
-      "imageUrl": "https://images.pexels.com/photos/31361153/pexels-photo-31361153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "A person ties their basketball shoe on a sunlit outdoor court beside an official game ball."
     }
   ]
 }
