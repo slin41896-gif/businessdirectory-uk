@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-08-eriksen-collapses-again-on-field-medical-team-con",
+      "headline": "艾歷臣再暈倒 隊醫：已恢復知覺",
+      "category": "體育資訊",
+      "sportsCat": "football",
+      "date": "2026-06-08",
+      "lead": "繼上次驚魂一幕後，丹麥足球名將艾歷臣在今日的比賽中再次發生暈倒，場面令人心驚。現場畫面捕捉到他倒地時雙手按住胸口，情況一度令人擔憂。幸而，隊醫團隊迅速介入，並證",
+      "imageUrl": "https://images.pexels.com/photos/29558662/pexels-photo-29558662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Youth soccer players and medical staff attend to an injury on the field in Hanoi, Vietnam."
+    },
+    {
       "slug": "wc2026-analysis-2026-06-08-1300",
       "headline": "2026世界盃：小組賽深度分析",
       "category": "世界盃",
