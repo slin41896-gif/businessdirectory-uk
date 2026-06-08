@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wc2026-analysis-2026-06-08-1300",
+      "headline": "2026世界盃：小組賽深度分析",
+      "category": "世界盃",
+      "emoji": "⚽",
+      "date": "2026-06-08",
+      "lead": "2026世界盃的腳步日益臨近，小組賽的賽況牽動著全球數十億球迷的心。本屆賽事規模空前，共有48支隊伍將在美國、加拿大及墨西哥三國展開較量，這無疑為比賽增添了更多",
+      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-1300/1200/628",
+      "imageAlt": "2026世界盃：小組賽深度分析",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "sports-intl-2026-06-08-1230",
       "headline": "2026 NBA總冠軍賽：尼克獨領風騷",
       "category": "國際體育",
@@ -75,17 +86,6 @@
       "lead": "2026年NBA總冠軍賽的戰火正熾，紐約尼克隊展現出驚人的統治力，在系列賽中以2-0領先對手聖安東尼奧馬刺隊。目前，尼克隊的奪冠賠率已大幅躍升至-450，顯示出",
       "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-08-0930/1200/628",
       "imageAlt": "NBA總冠軍賽2026： Knicks 勢不可擋",
-      "sportsCat": "world-cup"
-    },
-    {
-      "slug": "wc2026-analysis-2026-06-08-0900",
-      "headline": "2026世界盃：香港博彩市場深度分析",
-      "category": "世界盃",
-      "emoji": "⚽",
-      "date": "2026-06-08",
-      "lead": "2026世界盃的戰火即將點燃，全球足球迷的目光將再次聚焦於這場四年一度的體育盛事。作為亞洲區重要的博彩市場，香港的盤口分析和投注趨勢往往能反映出市場的真實預期。",
-      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-0900/1200/628",
-      "imageAlt": "2026世界盃：香港博彩市場深度分析",
       "sportsCat": "world-cup"
     }
   ]
