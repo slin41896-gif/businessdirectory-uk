@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sports-intl-2026-06-08-1600",
+      "headline": "2026體壇盛事預告：NBA賽季展望",
+      "category": "國際體育",
+      "emoji": "🏆",
+      "date": "2026-06-08",
+      "lead": "2026年，體育迷們將迎來一個充滿激動人心的賽季，其中NBA無疑是眾所矚目的焦點。隨著新賽季的臨近，各支球隊都在積極備戰，力求在激烈的競爭中脫穎而出。本文將深入",
+      "imageUrl": "https://picsum.photos/seed/sports-intl-2026-06-08-1600/1200/628",
+      "imageAlt": "2026體壇盛事預告：NBA賽季展望",
+      "sportsCat": "world-cup"
+    },
+    {
       "slug": "wc2026-analysis-2026-06-08-1530",
       "headline": "2026世界盃：小組賽現況與奪冠熱門",
       "category": "世界盃",
@@ -74,17 +85,6 @@
       "lead": "繼上次驚魂一幕後，丹麥足球名將艾歷臣在今日的比賽中再次發生暈倒，場面令人心驚。現場畫面捕捉到他倒地時雙手按住胸口，情況一度令人擔憂。幸而，隊醫團隊迅速介入，並證",
       "imageUrl": "https://images.pexels.com/photos/29558662/pexels-photo-29558662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "Youth soccer players and medical staff attend to an injury on the field in Hanoi, Vietnam."
-    },
-    {
-      "slug": "wc2026-analysis-2026-06-08-1300",
-      "headline": "2026世界盃：小組賽深度分析",
-      "category": "世界盃",
-      "emoji": "⚽",
-      "date": "2026-06-08",
-      "lead": "2026世界盃的腳步日益臨近，小組賽的賽況牽動著全球數十億球迷的心。本屆賽事規模空前，共有48支隊伍將在美國、加拿大及墨西哥三國展開較量，這無疑為比賽增添了更多",
-      "imageUrl": "https://picsum.photos/seed/wc2026-analysis-2026-06-08-1300/1200/628",
-      "imageAlt": "2026世界盃：小組賽深度分析",
-      "sportsCat": "world-cup"
     }
   ]
 }
