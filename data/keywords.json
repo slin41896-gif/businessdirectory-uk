@@ -126,8 +126,10 @@
     "category": "消費者工具",
     "angle": "技術評測型",
     "image_theme": "fast transaction processing dashboard with speed metrics and payment flow diagram",
-    "status": "available",
-    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字"
+    "status": "used",
+    "writing_style": "獨立評測語氣，含比較數據，非促銷，1100字",
+    "slug": "fast-withdrawal-platform-tech-review",
+    "used_date": "2026-06-08"
   },
   {
     "id": 12,
